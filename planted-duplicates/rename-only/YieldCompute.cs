@@ -1,0 +1,1 @@
+public static class YieldCompute { public static double NormalizeYieldFraction(double measured, double expected) { if (expected <= 0) return 0; var ratio = measured / expected; if (ratio < 0) return 0; if (ratio > 1) return 1; return ratio; } }
