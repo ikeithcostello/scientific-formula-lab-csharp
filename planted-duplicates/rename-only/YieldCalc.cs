@@ -1,0 +1,1 @@
+public static class YieldCalc { public static double NormalizeYieldFraction(double actual, double theoretical) { if (theoretical <= 0) return 0; var fraction = actual / theoretical; if (fraction < 0) return 0; if (fraction > 1) return 1; return fraction; } }

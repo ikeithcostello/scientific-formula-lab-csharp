@@ -1,0 +1,146 @@
+{
+  "schemaVersion": "1.0.0",
+  "labId": "scientific-formula-lab-planted-csharp",
+  "description": "Planted duplicate taxonomy for Scientific Formula Lab (csharp); isomorphic entry IDs",
+  "language": "csharp",
+  "entries": [
+    {
+      "id": "exact-clone-format-moles",
+      "classId": "exact_clone",
+      "memberLoci": [
+        {
+          "filePath": "exact-clone/MolesA.cs",
+          "methodName": "FormatMoles"
+        },
+        {
+          "filePath": "exact-clone/MolesB.cs",
+          "methodName": "FormatMoles"
+        }
+      ],
+      "expectedStrategy": "PICK_ONE_DELETE_REST",
+      "expectedCiaFileSet": [
+        "exact-clone/MolesA.cs",
+        "exact-clone/MolesB.cs"
+      ],
+      "expectedKeepFilePath": "exact-clone/MolesA.cs"
+    },
+    {
+      "id": "rename-only-yield-fraction",
+      "classId": "rename_only",
+      "memberLoci": [
+        {
+          "filePath": "rename-only/YieldCalc.cs",
+          "methodName": "NormalizeYieldFraction"
+        },
+        {
+          "filePath": "rename-only/YieldCompute.cs",
+          "methodName": "NormalizeYieldFraction"
+        }
+      ],
+      "expectedStrategy": "PICK_ONE_DELETE_REST",
+      "expectedCiaFileSet": [
+        "rename-only/YieldCalc.cs",
+        "rename-only/YieldCompute.cs"
+      ],
+      "expectedKeepFilePath": "rename-only/YieldCalc.cs"
+    },
+    {
+      "id": "near-miss-partial-pressure",
+      "classId": "near_miss",
+      "memberLoci": [
+        {
+          "filePath": "near-miss/PressureA.cs",
+          "methodName": "ComputePartialPressure"
+        },
+        {
+          "filePath": "near-miss/PressureB.cs",
+          "methodName": "ComputePartialPressure"
+        }
+      ],
+      "expectedStrategy": "MANUAL_REVIEW_REQUIRED",
+      "expectedCiaFileSet": [
+        "near-miss/PressureA.cs",
+        "near-miss/PressureB.cs"
+      ]
+    },
+    {
+      "id": "same-file-dual-kelvin",
+      "classId": "same_file",
+      "memberLoci": [
+        {
+          "filePath": "same-file/DualKelvin.cs",
+          "methodName": "FormatKelvin"
+        },
+        {
+          "filePath": "same-file/DualKelvin.cs",
+          "methodName": "FormatKelvinVerbose"
+        }
+      ],
+      "expectedStrategy": "PICK_ONE_DELETE_REST",
+      "expectedCiaFileSet": [
+        "same-file/DualKelvin.cs"
+      ],
+      "expectedKeepFilePath": "same-file/DualKelvin.cs"
+    },
+    {
+      "id": "parallel-stack-lab-report",
+      "classId": "parallel_stack",
+      "memberLoci": [
+        {
+          "filePath": "parallel-stack/legacy/Controller.cs",
+          "methodName": "HandleLabReport"
+        },
+        {
+          "filePath": "parallel-stack/v2/Controller.cs",
+          "methodName": "HandleLabReport"
+        }
+      ],
+      "expectedStrategy": "QUARANTINE_STACK",
+      "expectedCiaFileSet": [
+        "parallel-stack/legacy/Controller.cs",
+        "parallel-stack/legacy/Service.cs",
+        "parallel-stack/legacy/Util.cs",
+        "parallel-stack/v2/Controller.cs",
+        "parallel-stack/v2/Service.cs",
+        "parallel-stack/v2/Util.cs"
+      ]
+    },
+    {
+      "id": "complementary-false-verify-sample",
+      "classId": "complementary_false",
+      "memberLoci": [
+        {
+          "filePath": "complementary-false/chemistry/VerifySample.cs",
+          "methodName": "VerifySampleToken"
+        },
+        {
+          "filePath": "complementary-false/physics/VerifySample.cs",
+          "methodName": "VerifySampleToken"
+        }
+      ],
+      "expectedStrategy": "NO_CONSOLIDATE",
+      "expectedCiaFileSet": [
+        "complementary-false/chemistry/VerifySample.cs",
+        "complementary-false/physics/VerifySample.cs"
+      ]
+    },
+    {
+      "id": "generated-lab-run-client",
+      "classId": "generated",
+      "memberLoci": [
+        {
+          "filePath": "generated/LabRunClient.cs",
+          "methodName": "FetchLabRunPath"
+        },
+        {
+          "filePath": "generated/LabRunClient.cs",
+          "methodName": "FetchLabRunPathLegacy"
+        }
+      ],
+      "expectedStrategy": "MANUAL_REVIEW_REQUIRED",
+      "expectedCiaFileSet": [
+        "generated/LabRunClient.cs"
+      ]
+    }
+  ]
+}

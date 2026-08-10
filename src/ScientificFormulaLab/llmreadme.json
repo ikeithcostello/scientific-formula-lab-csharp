@@ -1,0 +1,1824 @@
+{
+  "$schema": "https://json.schemastore.org/llm-metadata-1.4.json",
+  "version": "2.3.0",
+  "generatedAt": "2026-08-05T04:16:36.438Z",
+  "grade": "analysis-grade",
+  "configuration": {
+    "detectPlaceholders": true,
+    "placeholderConfidence": 40,
+    "placeholderAnalysisLevel": "enhanced",
+    "detailLevel": "standard",
+    "includeComplexity": false,
+    "maxFiles": 2000
+  },
+  "verificationSummary": null,
+  "metadata": {
+    "directory": {
+      "name": "ScientificFormulaLab",
+      "path": "ScientificFormulaLab",
+      "purpose": "Enhanced directory analysis of ScientificFormulaLab",
+      "ownKeyElements": []
+    },
+    "subdirectories": [
+      {
+        "name": "Chemistry",
+        "relativePath": "Chemistry",
+        "purpose": "Enhanced directory analysis of Chemistry",
+        "sourcedPurposeFromChild": "Enhanced directory analysis of Chemistry",
+        "keyElementsFromChild": []
+      },
+      {
+        "name": "Math",
+        "relativePath": "Math",
+        "purpose": "Enhanced directory analysis of Math",
+        "sourcedPurposeFromChild": "Enhanced directory analysis of Math",
+        "keyElementsFromChild": []
+      },
+      {
+        "name": "Physics",
+        "relativePath": "Physics",
+        "purpose": "Enhanced directory analysis of Physics",
+        "sourcedPurposeFromChild": "Enhanced directory analysis of Physics",
+        "keyElementsFromChild": []
+      },
+      {
+        "name": "bin",
+        "relativePath": "bin",
+        "purpose": "Enhanced directory analysis of bin",
+        "sourcedPurposeFromChild": "Enhanced directory analysis of bin",
+        "keyElementsFromChild": []
+      },
+      {
+        "name": "obj",
+        "relativePath": "obj",
+        "purpose": "Enhanced directory analysis of obj",
+        "sourcedPurposeFromChild": "Enhanced directory analysis of obj",
+        "keyElementsFromChild": []
+      }
+    ],
+    "dependencyGraph": {
+      "edges": [
+        {
+          "from": "ScientificFormulaLab/CrossDomainLab.cs",
+          "to": "ScientificFormulaLab.Chemistry",
+          "type": "imports"
+        },
+        {
+          "from": "ScientificFormulaLab/CrossDomainLab.cs",
+          "to": "ScientificFormulaLab.LabMath",
+          "type": "imports"
+        },
+        {
+          "from": "ScientificFormulaLab/CrossDomainLab.cs",
+          "to": "ScientificFormulaLab.Physics",
+          "type": "imports"
+        },
+        {
+          "from": "ScientificFormulaLab/Program.cs",
+          "to": "ScientificFormulaLab",
+          "type": "imports"
+        },
+        {
+          "from": "ScientificFormulaLab/Program.cs",
+          "to": "ScientificFormulaLab.Chemistry",
+          "type": "imports"
+        }
+      ],
+      "circularDependencies": []
+    },
+    "files": [
+      {
+        "name": "CrossDomainLab.cs",
+        "path": "ScientificFormulaLab/CrossDomainLab.cs",
+        "filePath": "ScientificFormulaLab/CrossDomainLab.cs",
+        "filePurpose": "Provides Log, CrossDomainLab, RunMathSuite, RunPhysicsSuite… (8 exports)",
+        "languageDetail": "C#",
+        "lineCount": 303,
+        "contentHash": "015457c3db7423caa059a46e455520fa89e43136067421421af0405bf53da7ae",
+        "placeholderDetection": [
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/CrossDomainLab.cs",
+            "functionName": "CrossDomainLab",
+            "classification": "definite-placeholder",
+            "confidence": 100,
+            "isPlaceholder": true,
+            "reasons": [
+              "Contains explicit placeholder marker",
+              "Contains placeholder/stub/mock/dummy marker",
+              "Function takes no parameters",
+              "TODO function with unused imports suggests incomplete implementation"
+            ],
+            "location": {
+              "startLine": 21,
+              "endLine": 56
+            },
+            "detectionMethods": {
+              "explicitMarkers": 100,
+              "namingPatterns": 0,
+              "astAnalysis": 4,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "reasonSignals": [
+              {
+                "ruleId": "explicit-todo-fixme",
+                "score": 78,
+                "message": "Contains explicit placeholder marker",
+                "axis": "intent",
+                "tags": [
+                  "todo"
+                ]
+              },
+              {
+                "ruleId": "explicit-placeholder-stub-mock",
+                "score": 45,
+                "message": "Contains placeholder/stub/mock/dummy marker",
+                "axis": "intent",
+                "tags": [
+                  "intent"
+                ]
+              }
+            ],
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/CrossDomainLab.cs",
+            "functionName": "F",
+            "classification": "definite-legitimate",
+            "confidence": 18,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: lowComplexityProxy",
+              "Low cyclomatic complexity (1)",
+              "Very short function (1 lines)",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 76,
+              "endLine": 76
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 18,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/CrossDomainLab.cs",
+            "functionName": "Log",
+            "classification": "likely-legitimate",
+            "confidence": 22,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: lowComplexityProxy",
+              "Low cyclomatic complexity (1)",
+              "Very short function (1 lines)",
+              "Function takes no parameters",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 19,
+              "endLine": 19
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 22,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/CrossDomainLab.cs",
+            "functionName": "Out",
+            "classification": "definite-legitimate",
+            "confidence": 18,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: lowComplexityProxy",
+              "Low cyclomatic complexity (1)",
+              "Very short function (1 lines)",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 58,
+              "endLine": 58
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 18,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/CrossDomainLab.cs",
+            "functionName": "RunAll",
+            "classification": "definite-legitimate",
+            "confidence": 16,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: lowComplexityProxy",
+              "Low cyclomatic complexity (1)",
+              "Function takes no parameters",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 288,
+              "endLine": 301
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 16,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/CrossDomainLab.cs",
+            "functionName": "RunChemistrySuite",
+            "classification": "uncertain",
+            "confidence": 55,
+            "isPlaceholder": true,
+            "reasons": [
+              "Contains placeholder/stub/mock/dummy marker",
+              "polyglot-structural: lowComplexityProxy",
+              "Low cyclomatic complexity (1)",
+              "Function takes no parameters",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 182,
+              "endLine": 222
+            },
+            "detectionMethods": {
+              "explicitMarkers": 45,
+              "namingPatterns": 0,
+              "astAnalysis": 16,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "reasonSignals": [
+              {
+                "ruleId": "explicit-placeholder-stub-mock",
+                "score": 45,
+                "message": "Contains placeholder/stub/mock/dummy marker",
+                "axis": "intent",
+                "tags": [
+                  "intent"
+                ]
+              }
+            ],
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/CrossDomainLab.cs",
+            "functionName": "RunCrossDomainChecks",
+            "classification": "definite-legitimate",
+            "confidence": 16,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: lowComplexityProxy",
+              "Low cyclomatic complexity (1)",
+              "Function takes no parameters",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 224,
+              "endLine": 248
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 16,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/CrossDomainLab.cs",
+            "functionName": "RunMathSuite",
+            "classification": "definite-legitimate",
+            "confidence": 16,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: lowComplexityProxy",
+              "Low cyclomatic complexity (1)",
+              "Function takes no parameters",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 60,
+              "endLine": 125
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 16,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/CrossDomainLab.cs",
+            "functionName": "RunPhysicsSuite",
+            "classification": "definite-legitimate",
+            "confidence": 16,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: lowComplexityProxy",
+              "Low cyclomatic complexity (1)",
+              "Function takes no parameters",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 127,
+              "endLine": 180
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 16,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/CrossDomainLab.cs",
+            "functionName": "RunThermodynamicConsistency",
+            "classification": "definite-legitimate",
+            "confidence": 16,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: lowComplexityProxy",
+              "Low cyclomatic complexity (1)",
+              "Function takes no parameters",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 250,
+              "endLine": 286
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 16,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "findings": [
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/CrossDomainLab.cs",
+            "line": 19,
+            "endLine": 19,
+            "kind": "function",
+            "type": "explicit_marker",
+            "confidence": 22,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: lowComplexityProxy",
+              "Low cyclomatic complexity (1)",
+              "Very short function (1 lines)",
+              "Function takes no parameters",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "functionName": "Log",
+            "id": "_Users_keithcostello_Projects_cursorai_aitooling_dd-test-fixtures_scientific-formula-lab-csharp_src_ScientificFormulaLab_CrossDomainLab_cs:function:19:0"
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/CrossDomainLab.cs",
+            "line": 21,
+            "endLine": 56,
+            "kind": "function",
+            "type": "explicit_marker",
+            "confidence": 100,
+            "isPlaceholder": true,
+            "reasons": [
+              "Contains explicit placeholder marker",
+              "Contains placeholder/stub/mock/dummy marker",
+              "Function takes no parameters",
+              "TODO function with unused imports suggests incomplete implementation"
+            ],
+            "functionName": "CrossDomainLab",
+            "ruleId": "explicit-todo-fixme",
+            "id": "_Users_keithcostello_Projects_cursorai_aitooling_dd-test-fixtures_scientific-formula-lab-csharp_src_ScientificFormulaLab_CrossDomainLab_cs:function:21:1"
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/CrossDomainLab.cs",
+            "line": 34,
+            "kind": "comment",
+            "type": "fake_data_pattern",
+            "confidence": 85,
+            "isPlaceholder": true,
+            "subType": "stripe_test_key",
+            "snippet": "FIXTURE_PAYMENT_TOKEN_PLACEHOLDER_NOT_A_SECRET",
+            "ruleId": "Rule6",
+            "reasons": [
+              "Fake data pattern: stripe_test_key"
+            ],
+            "id": "_Users_keithcostello_Projects_cursorai_aitooling_dd-test-fixtures_scientific-formula-lab-csharp_src_ScientificFormulaLab_CrossDomainLab_cs:comment:34:2",
+            "parentFindingId": "_Users_keithcostello_Projects_cursorai_aitooling_dd-test-fixtures_scientific-formula-lab-csharp_src_ScientificFormulaLab_CrossDomainLab_cs:function:21:1"
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/CrossDomainLab.cs",
+            "line": 34,
+            "kind": "comment",
+            "type": "fake_data_pattern",
+            "confidence": 85,
+            "isPlaceholder": true,
+            "subType": "stripe_test_key",
+            "snippet": "FIXTURE_PAYMENT_TOKEN_PLACEHOLDER_NOT_A_SECRET",
+            "ruleId": "Rule6",
+            "reasons": [
+              "Fake data pattern: stripe_test_key"
+            ],
+            "id": "_Users_keithcostello_Projects_cursorai_aitooling_dd-test-fixtures_scientific-formula-lab-csharp_src_ScientificFormulaLab_CrossDomainLab_cs:comment:34:3",
+            "parentFindingId": "_Users_keithcostello_Projects_cursorai_aitooling_dd-test-fixtures_scientific-formula-lab-csharp_src_ScientificFormulaLab_CrossDomainLab_cs:function:21:1"
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/CrossDomainLab.cs",
+            "line": 34,
+            "kind": "comment",
+            "type": "fake_data_pattern",
+            "confidence": 85,
+            "isPlaceholder": true,
+            "subType": "stripe_test_key",
+            "snippet": "FIXTURE_PAYMENT_TOKEN_PLACEHOLDER_NOT_A_SECRET",
+            "ruleId": "Rule6",
+            "reasons": [
+              "Fake data pattern: stripe_test_key"
+            ],
+            "id": "_Users_keithcostello_Projects_cursorai_aitooling_dd-test-fixtures_scientific-formula-lab-csharp_src_ScientificFormulaLab_CrossDomainLab_cs:comment:34:4",
+            "parentFindingId": "_Users_keithcostello_Projects_cursorai_aitooling_dd-test-fixtures_scientific-formula-lab-csharp_src_ScientificFormulaLab_CrossDomainLab_cs:function:21:1"
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/CrossDomainLab.cs",
+            "line": 34,
+            "kind": "comment",
+            "type": "fake_data_pattern",
+            "confidence": 85,
+            "isPlaceholder": true,
+            "subType": "stripe_test_key",
+            "snippet": "FIXTURE_PAYMENT_TOKEN_PLACEHOLDER_NOT_A_SECRET",
+            "ruleId": "Rule6",
+            "reasons": [
+              "Fake data pattern: stripe_test_key"
+            ],
+            "id": "_Users_keithcostello_Projects_cursorai_aitooling_dd-test-fixtures_scientific-formula-lab-csharp_src_ScientificFormulaLab_CrossDomainLab_cs:comment:34:5",
+            "parentFindingId": "_Users_keithcostello_Projects_cursorai_aitooling_dd-test-fixtures_scientific-formula-lab-csharp_src_ScientificFormulaLab_CrossDomainLab_cs:function:21:1"
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/CrossDomainLab.cs",
+            "line": 34,
+            "kind": "comment",
+            "type": "fake_data_pattern",
+            "confidence": 85,
+            "isPlaceholder": true,
+            "subType": "stripe_test_key",
+            "snippet": "FIXTURE_PAYMENT_TOKEN_PLACEHOLDER_NOT_A_SECRET",
+            "ruleId": "Rule6",
+            "reasons": [
+              "Fake data pattern: stripe_test_key"
+            ],
+            "id": "_Users_keithcostello_Projects_cursorai_aitooling_dd-test-fixtures_scientific-formula-lab-csharp_src_ScientificFormulaLab_CrossDomainLab_cs:comment:34:6",
+            "parentFindingId": "_Users_keithcostello_Projects_cursorai_aitooling_dd-test-fixtures_scientific-formula-lab-csharp_src_ScientificFormulaLab_CrossDomainLab_cs:function:21:1"
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/CrossDomainLab.cs",
+            "line": 36,
+            "kind": "comment",
+            "type": "explicit_marker",
+            "confidence": 80,
+            "isPlaceholder": true,
+            "subType": "comment",
+            "snippet": "WIP",
+            "ruleId": "Rule1",
+            "reasons": [
+              "Comment/token placeholder: comment (WIP)"
+            ],
+            "id": "_Users_keithcostello_Projects_cursorai_aitooling_dd-test-fixtures_scientific-formula-lab-csharp_src_ScientificFormulaLab_CrossDomainLab_cs:comment:36:7",
+            "parentFindingId": "_Users_keithcostello_Projects_cursorai_aitooling_dd-test-fixtures_scientific-formula-lab-csharp_src_ScientificFormulaLab_CrossDomainLab_cs:function:21:1"
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/CrossDomainLab.cs",
+            "line": 44,
+            "kind": "comment",
+            "type": "explicit_marker",
+            "confidence": 80,
+            "isPlaceholder": true,
+            "subType": "comment",
+            "snippet": "TBD",
+            "ruleId": "Rule1",
+            "reasons": [
+              "Comment/token placeholder: comment (TBD)"
+            ],
+            "id": "_Users_keithcostello_Projects_cursorai_aitooling_dd-test-fixtures_scientific-formula-lab-csharp_src_ScientificFormulaLab_CrossDomainLab_cs:comment:44:8",
+            "parentFindingId": "_Users_keithcostello_Projects_cursorai_aitooling_dd-test-fixtures_scientific-formula-lab-csharp_src_ScientificFormulaLab_CrossDomainLab_cs:function:21:1"
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/CrossDomainLab.cs",
+            "line": 46,
+            "kind": "comment",
+            "type": "explicit_marker",
+            "confidence": 70,
+            "isPlaceholder": true,
+            "subType": "placeholder_text",
+            "snippet": "replace with",
+            "ruleId": "Rule1",
+            "reasons": [
+              "Comment/token placeholder: placeholder_text (replace with)"
+            ],
+            "id": "_Users_keithcostello_Projects_cursorai_aitooling_dd-test-fixtures_scientific-formula-lab-csharp_src_ScientificFormulaLab_CrossDomainLab_cs:comment:46:9",
+            "parentFindingId": "_Users_keithcostello_Projects_cursorai_aitooling_dd-test-fixtures_scientific-formula-lab-csharp_src_ScientificFormulaLab_CrossDomainLab_cs:function:21:1"
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/CrossDomainLab.cs",
+            "line": 51,
+            "kind": "comment",
+            "type": "explicit_marker",
+            "confidence": 80,
+            "isPlaceholder": true,
+            "subType": "comment",
+            "snippet": "FIXME",
+            "ruleId": "Rule1",
+            "reasons": [
+              "Comment/token placeholder: comment (FIXME)"
+            ],
+            "id": "_Users_keithcostello_Projects_cursorai_aitooling_dd-test-fixtures_scientific-formula-lab-csharp_src_ScientificFormulaLab_CrossDomainLab_cs:comment:51:10",
+            "parentFindingId": "_Users_keithcostello_Projects_cursorai_aitooling_dd-test-fixtures_scientific-formula-lab-csharp_src_ScientificFormulaLab_CrossDomainLab_cs:function:21:1"
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/CrossDomainLab.cs",
+            "line": 58,
+            "endLine": 58,
+            "kind": "function",
+            "type": "explicit_marker",
+            "confidence": 18,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: lowComplexityProxy",
+              "Low cyclomatic complexity (1)",
+              "Very short function (1 lines)",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "functionName": "Out",
+            "id": "_Users_keithcostello_Projects_cursorai_aitooling_dd-test-fixtures_scientific-formula-lab-csharp_src_ScientificFormulaLab_CrossDomainLab_cs:function:58:11"
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/CrossDomainLab.cs",
+            "line": 60,
+            "endLine": 125,
+            "kind": "function",
+            "type": "explicit_marker",
+            "confidence": 16,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: lowComplexityProxy",
+              "Low cyclomatic complexity (1)",
+              "Function takes no parameters",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "functionName": "RunMathSuite",
+            "id": "_Users_keithcostello_Projects_cursorai_aitooling_dd-test-fixtures_scientific-formula-lab-csharp_src_ScientificFormulaLab_CrossDomainLab_cs:function:60:12"
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/CrossDomainLab.cs",
+            "line": 76,
+            "endLine": 76,
+            "kind": "function",
+            "type": "explicit_marker",
+            "confidence": 18,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: lowComplexityProxy",
+              "Low cyclomatic complexity (1)",
+              "Very short function (1 lines)",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "functionName": "F",
+            "id": "_Users_keithcostello_Projects_cursorai_aitooling_dd-test-fixtures_scientific-formula-lab-csharp_src_ScientificFormulaLab_CrossDomainLab_cs:function:76:13"
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/CrossDomainLab.cs",
+            "line": 79,
+            "kind": "comment",
+            "type": "explicit_marker",
+            "confidence": 80,
+            "isPlaceholder": true,
+            "subType": "template_token",
+            "snippet": "{{-x^2}}",
+            "ruleId": "Rule1",
+            "reasons": [
+              "Comment/token placeholder: template_token ({{-x^2}})"
+            ],
+            "id": "_Users_keithcostello_Projects_cursorai_aitooling_dd-test-fixtures_scientific-formula-lab-csharp_src_ScientificFormulaLab_CrossDomainLab_cs:comment:79:14",
+            "parentFindingId": "_Users_keithcostello_Projects_cursorai_aitooling_dd-test-fixtures_scientific-formula-lab-csharp_src_ScientificFormulaLab_CrossDomainLab_cs:function:60:12"
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/CrossDomainLab.cs",
+            "line": 127,
+            "endLine": 180,
+            "kind": "function",
+            "type": "explicit_marker",
+            "confidence": 16,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: lowComplexityProxy",
+              "Low cyclomatic complexity (1)",
+              "Function takes no parameters",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "functionName": "RunPhysicsSuite",
+            "id": "_Users_keithcostello_Projects_cursorai_aitooling_dd-test-fixtures_scientific-formula-lab-csharp_src_ScientificFormulaLab_CrossDomainLab_cs:function:127:15"
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/CrossDomainLab.cs",
+            "line": 156,
+            "kind": "comment",
+            "type": "explicit_marker",
+            "confidence": 80,
+            "isPlaceholder": true,
+            "subType": "template_token",
+            "snippet": "{{1,2}}",
+            "ruleId": "Rule1",
+            "reasons": [
+              "Comment/token placeholder: template_token ({{1,2}})"
+            ],
+            "id": "_Users_keithcostello_Projects_cursorai_aitooling_dd-test-fixtures_scientific-formula-lab-csharp_src_ScientificFormulaLab_CrossDomainLab_cs:comment:156:16",
+            "parentFindingId": "_Users_keithcostello_Projects_cursorai_aitooling_dd-test-fixtures_scientific-formula-lab-csharp_src_ScientificFormulaLab_CrossDomainLab_cs:function:127:15"
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/CrossDomainLab.cs",
+            "line": 182,
+            "endLine": 222,
+            "kind": "function",
+            "type": "explicit_marker",
+            "confidence": 55,
+            "isPlaceholder": true,
+            "reasons": [
+              "Contains placeholder/stub/mock/dummy marker",
+              "polyglot-structural: lowComplexityProxy",
+              "Low cyclomatic complexity (1)",
+              "Function takes no parameters",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "functionName": "RunChemistrySuite",
+            "ruleId": "explicit-placeholder-stub-mock",
+            "id": "_Users_keithcostello_Projects_cursorai_aitooling_dd-test-fixtures_scientific-formula-lab-csharp_src_ScientificFormulaLab_CrossDomainLab_cs:function:182:17"
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/CrossDomainLab.cs",
+            "line": 224,
+            "endLine": 248,
+            "kind": "function",
+            "type": "explicit_marker",
+            "confidence": 16,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: lowComplexityProxy",
+              "Low cyclomatic complexity (1)",
+              "Function takes no parameters",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "functionName": "RunCrossDomainChecks",
+            "id": "_Users_keithcostello_Projects_cursorai_aitooling_dd-test-fixtures_scientific-formula-lab-csharp_src_ScientificFormulaLab_CrossDomainLab_cs:function:224:18"
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/CrossDomainLab.cs",
+            "line": 250,
+            "endLine": 286,
+            "kind": "function",
+            "type": "explicit_marker",
+            "confidence": 16,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: lowComplexityProxy",
+              "Low cyclomatic complexity (1)",
+              "Function takes no parameters",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "functionName": "RunThermodynamicConsistency",
+            "id": "_Users_keithcostello_Projects_cursorai_aitooling_dd-test-fixtures_scientific-formula-lab-csharp_src_ScientificFormulaLab_CrossDomainLab_cs:function:250:19"
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/CrossDomainLab.cs",
+            "line": 288,
+            "endLine": 301,
+            "kind": "function",
+            "type": "explicit_marker",
+            "confidence": 16,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: lowComplexityProxy",
+              "Low cyclomatic complexity (1)",
+              "Function takes no parameters",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "functionName": "RunAll",
+            "id": "_Users_keithcostello_Projects_cursorai_aitooling_dd-test-fixtures_scientific-formula-lab-csharp_src_ScientificFormulaLab_CrossDomainLab_cs:function:288:20"
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "Chemistry",
+            "sourceModule": "ScientificFormulaLab.Chemistry"
+          },
+          {
+            "name": "LabMath",
+            "sourceModule": "ScientificFormulaLab.LabMath"
+          },
+          {
+            "name": "Physics",
+            "sourceModule": "ScientificFormulaLab.Physics"
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "Log",
+            "type": "function"
+          },
+          {
+            "name": "CrossDomainLab",
+            "type": "function"
+          },
+          {
+            "name": "RunMathSuite",
+            "type": "function"
+          },
+          {
+            "name": "RunPhysicsSuite",
+            "type": "function"
+          },
+          {
+            "name": "RunChemistrySuite",
+            "type": "function"
+          },
+          {
+            "name": "RunCrossDomainChecks",
+            "type": "function"
+          },
+          {
+            "name": "RunThermodynamicConsistency",
+            "type": "function"
+          },
+          {
+            "name": "RunAll",
+            "type": "function"
+          }
+        ],
+        "functions": [
+          {
+            "name": "Log",
+            "signature": "public List<string> Log { get; } = new();",
+            "parameters": [],
+            "returnType": "void",
+            "isAsync": false,
+            "calls": [],
+            "startLine": 19,
+            "endLine": 19,
+            "structuralSignals": {
+              "emptyOrTrivialBody": false,
+              "constantOrIdentityReturn": false,
+              "stubThrowOrPanic": false,
+              "hasThrowStatement": false,
+              "paramsLikelyUnused": false,
+              "lowComplexityProxy": true,
+              "reasons": [
+                "polyglot-structural: lowComplexityProxy"
+              ]
+            },
+            "placeholderAnalysis": {
+              "classification": "likely-legitimate",
+              "confidence": 22,
+              "isPlaceholder": false,
+              "reasons": [
+                "polyglot-structural: lowComplexityProxy",
+                "Low cyclomatic complexity (1)",
+                "Very short function (1 lines)",
+                "Function takes no parameters",
+                "Safety cap applied: cheap heuristics only"
+              ],
+              "detectionMethods": {
+                "explicitMarkers": 0,
+                "namingPatterns": 0,
+                "astAnalysis": 22,
+                "commentAnalysis": 0,
+                "contextFilter": 0,
+                "unusedCodeAnalysis": 0,
+                "externalUnusedChecks": 0,
+                "enhancedContext": 0
+              }
+            }
+          },
+          {
+            "name": "CrossDomainLab",
+            "signature": "public CrossDomainLab()",
+            "parameters": [],
+            "returnType": "public",
+            "isAsync": false,
+            "calls": [],
+            "startLine": 21,
+            "endLine": 56,
+            "structuralSignals": {
+              "emptyOrTrivialBody": false,
+              "constantOrIdentityReturn": false,
+              "stubThrowOrPanic": false,
+              "hasThrowStatement": false,
+              "paramsLikelyUnused": false,
+              "lowComplexityProxy": false,
+              "reasons": []
+            },
+            "placeholderAnalysis": {
+              "classification": "definite-placeholder",
+              "confidence": 100,
+              "isPlaceholder": true,
+              "reasons": [
+                "Contains explicit placeholder marker",
+                "Contains placeholder/stub/mock/dummy marker",
+                "Function takes no parameters",
+                "TODO function with unused imports suggests incomplete implementation"
+              ],
+              "detectionMethods": {
+                "explicitMarkers": 100,
+                "namingPatterns": 0,
+                "astAnalysis": 4,
+                "commentAnalysis": 0,
+                "contextFilter": 0,
+                "unusedCodeAnalysis": 0,
+                "externalUnusedChecks": 0,
+                "enhancedContext": 0
+              }
+            }
+          },
+          {
+            "name": "Out",
+            "signature": "private void Out(string line) => Log.Add(line);",
+            "parameters": [
+              {
+                "name": "line",
+                "type": "string"
+              }
+            ],
+            "returnType": "void",
+            "isAsync": false,
+            "calls": [
+              "Log.Add"
+            ],
+            "startLine": 58,
+            "endLine": 58,
+            "structuralSignals": {
+              "emptyOrTrivialBody": false,
+              "constantOrIdentityReturn": false,
+              "stubThrowOrPanic": false,
+              "hasThrowStatement": false,
+              "paramsLikelyUnused": false,
+              "lowComplexityProxy": true,
+              "reasons": [
+                "polyglot-structural: lowComplexityProxy"
+              ]
+            },
+            "placeholderAnalysis": {
+              "classification": "definite-legitimate",
+              "confidence": 18,
+              "isPlaceholder": false,
+              "reasons": [
+                "polyglot-structural: lowComplexityProxy",
+                "Low cyclomatic complexity (1)",
+                "Very short function (1 lines)",
+                "Safety cap applied: cheap heuristics only"
+              ],
+              "detectionMethods": {
+                "explicitMarkers": 0,
+                "namingPatterns": 0,
+                "astAnalysis": 18,
+                "commentAnalysis": 0,
+                "contextFilter": 0,
+                "unusedCodeAnalysis": 0,
+                "externalUnusedChecks": 0,
+                "enhancedContext": 0
+              }
+            }
+          },
+          {
+            "name": "RunMathSuite",
+            "signature": "public ReportLine RunMathSuite()",
+            "parameters": [],
+            "returnType": "ReportLine",
+            "isAsync": false,
+            "calls": [
+              "DemoPolynomials.MakeDemoQuarticForRoots",
+              "_math.ScanRealRootsOnInterval",
+              "details.Add",
+              "string.Join",
+              "roots.Select",
+              "r.ToString",
+              "p.Evaluate",
+              "_math.RealRootsCubic",
+              "System.Math.Sqrt",
+              "expect.Sort",
+              "cR.Select",
+              "expect.Select",
+              "System.Math.Exp",
+              "_math.SimpsonDefinite",
+              "_math.Erf",
+              "_math.ClenshawChebyshevT",
+              "_math.Solve3x3",
+              "_math.RungeKutta4",
+              "_math.LogGamma",
+              "System.Math.Log",
+              "p0.Coefficients",
+              "p0.IntegrateFromZero",
+              "integ.Evaluate",
+              "p0.Add",
+              "pPlus.Evaluate",
+              "p0.Scale",
+              "p0.Scale(0.5).Evaluate",
+              "p0.Subtract",
+              "pLin.Evaluate",
+              "p0.DivideByLinearRoot",
+              "div1.Q.Evaluate",
+              "_math.Trapezoid",
+              "_math.NewtonRaphson",
+              "quadRoots.Select",
+              "Out"
+            ],
+            "startLine": 60,
+            "endLine": 125,
+            "structuralSignals": {
+              "emptyOrTrivialBody": false,
+              "constantOrIdentityReturn": false,
+              "stubThrowOrPanic": false,
+              "hasThrowStatement": false,
+              "paramsLikelyUnused": false,
+              "lowComplexityProxy": true,
+              "reasons": [
+                "polyglot-structural: lowComplexityProxy"
+              ]
+            },
+            "placeholderAnalysis": {
+              "classification": "definite-legitimate",
+              "confidence": 16,
+              "isPlaceholder": false,
+              "reasons": [
+                "polyglot-structural: lowComplexityProxy",
+                "Low cyclomatic complexity (1)",
+                "Function takes no parameters",
+                "Safety cap applied: cheap heuristics only"
+              ],
+              "detectionMethods": {
+                "explicitMarkers": 0,
+                "namingPatterns": 0,
+                "astAnalysis": 16,
+                "commentAnalysis": 0,
+                "contextFilter": 0,
+                "unusedCodeAnalysis": 0,
+                "externalUnusedChecks": 0,
+                "enhancedContext": 0
+              }
+            }
+          },
+          {
+            "name": "F",
+            "signature": "double F(double x) => (2 / System.Math.Sqrt(System.Math.PI)) * System.Math.Exp(-x * x);",
+            "parameters": [
+              {
+                "name": "x",
+                "type": "double"
+              }
+            ],
+            "returnType": "double",
+            "isAsync": false,
+            "calls": [
+              "System.Math.Sqrt",
+              "System.Math.Exp"
+            ],
+            "startLine": 76,
+            "endLine": 76,
+            "structuralSignals": {
+              "emptyOrTrivialBody": false,
+              "constantOrIdentityReturn": false,
+              "stubThrowOrPanic": false,
+              "hasThrowStatement": false,
+              "paramsLikelyUnused": false,
+              "lowComplexityProxy": true,
+              "reasons": [
+                "polyglot-structural: lowComplexityProxy"
+              ]
+            },
+            "placeholderAnalysis": {
+              "classification": "definite-legitimate",
+              "confidence": 18,
+              "isPlaceholder": false,
+              "reasons": [
+                "polyglot-structural: lowComplexityProxy",
+                "Low cyclomatic complexity (1)",
+                "Very short function (1 lines)",
+                "Safety cap applied: cheap heuristics only"
+              ],
+              "detectionMethods": {
+                "explicitMarkers": 0,
+                "namingPatterns": 0,
+                "astAnalysis": 18,
+                "commentAnalysis": 0,
+                "contextFilter": 0,
+                "unusedCodeAnalysis": 0,
+                "externalUnusedChecks": 0,
+                "enhancedContext": 0
+              }
+            }
+          },
+          {
+            "name": "RunPhysicsSuite",
+            "signature": "public ReportLine RunPhysicsSuite()",
+            "parameters": [],
+            "returnType": "ReportLine",
+            "isAsync": false,
+            "calls": [
+              "b.RangeOnLevel",
+              "details.Add",
+              "b.Apex",
+              "damp.Response",
+              "uck.Ac",
+              "uck.PeriodT",
+              "_physics.EscapeSpeedUniformG",
+              "_physics.Relativity.RelativisticExcessFraction",
+              "drag.Integrate",
+              "Vec2Ops.Mag",
+              "Vec2Ops.Add2",
+              "Vec2Ops.Scale2",
+              "ua.TimeToVerticalPlane",
+              "b.SampleTrajectory",
+              "System.Math.Sqrt",
+              "uck.SpecificAngularMomentum",
+              "uck.KeplerianConsistencyCheck",
+              "_physics.Relativity.Beta",
+              "_physics.Relativity.Gamma",
+              "_physics.Relativity.KineticEnergy",
+              "Out"
+            ],
+            "startLine": 127,
+            "endLine": 180,
+            "structuralSignals": {
+              "emptyOrTrivialBody": false,
+              "constantOrIdentityReturn": false,
+              "stubThrowOrPanic": false,
+              "hasThrowStatement": false,
+              "paramsLikelyUnused": false,
+              "lowComplexityProxy": true,
+              "reasons": [
+                "polyglot-structural: lowComplexityProxy"
+              ]
+            },
+            "placeholderAnalysis": {
+              "classification": "definite-legitimate",
+              "confidence": 16,
+              "isPlaceholder": false,
+              "reasons": [
+                "polyglot-structural: lowComplexityProxy",
+                "Low cyclomatic complexity (1)",
+                "Function takes no parameters",
+                "Safety cap applied: cheap heuristics only"
+              ],
+              "detectionMethods": {
+                "explicitMarkers": 0,
+                "namingPatterns": 0,
+                "astAnalysis": 16,
+                "commentAnalysis": 0,
+                "contextFilter": 0,
+                "unusedCodeAnalysis": 0,
+                "externalUnusedChecks": 0,
+                "enhancedContext": 0
+              }
+            }
+          },
+          {
+            "name": "RunChemistrySuite",
+            "signature": "public ReportLine RunChemistrySuite()",
+            "parameters": [],
+            "returnType": "ReportLine",
+            "isAsync": false,
+            "calls": [
+              "_chem.MolarMass",
+              "details.Add",
+              "_chem.Solution.WeakAcidHPlusApprox",
+              "_chem.Solution.PHFromH3OPlusMolarity",
+              "_chem.Gas.IdealMoles",
+              "_chem.Gas.VanDerWaalsPressure1mol",
+              "rx.LimitReactantMoles",
+              "_chem.Solution.MonoproticTitrationScalar",
+              "_chem.Solution.MolarityFromMolesMolarityDefinition",
+              "_chem.Solution.POHFromH3O",
+              "_chem.Gas.IdealPressure_Pa",
+              "Out"
+            ],
+            "startLine": 182,
+            "endLine": 222,
+            "structuralSignals": {
+              "emptyOrTrivialBody": false,
+              "constantOrIdentityReturn": false,
+              "stubThrowOrPanic": false,
+              "hasThrowStatement": false,
+              "paramsLikelyUnused": false,
+              "lowComplexityProxy": true,
+              "reasons": [
+                "polyglot-structural: lowComplexityProxy"
+              ]
+            },
+            "placeholderAnalysis": {
+              "classification": "uncertain",
+              "confidence": 55,
+              "isPlaceholder": true,
+              "reasons": [
+                "Contains placeholder/stub/mock/dummy marker",
+                "polyglot-structural: lowComplexityProxy",
+                "Low cyclomatic complexity (1)",
+                "Function takes no parameters",
+                "Safety cap applied: cheap heuristics only"
+              ],
+              "detectionMethods": {
+                "explicitMarkers": 45,
+                "namingPatterns": 0,
+                "astAnalysis": 16,
+                "commentAnalysis": 0,
+                "contextFilter": 0,
+                "unusedCodeAnalysis": 0,
+                "externalUnusedChecks": 0,
+                "enhancedContext": 0
+              }
+            }
+          },
+          {
+            "name": "RunCrossDomainChecks",
+            "signature": "public ReportLine RunCrossDomainChecks()",
+            "parameters": [],
+            "returnType": "ReportLine",
+            "isAsync": false,
+            "calls": [
+              "_physics.RmsSpeedFrom1DEquipartition",
+              "_chem.Gas.Rms1D",
+              "System.Math.Abs",
+              "details.Add",
+              "_math.SimpsonDefinite",
+              "polyx.Evaluate",
+              "_math.RealRootsCubic",
+              "Out"
+            ],
+            "startLine": 224,
+            "endLine": 248,
+            "structuralSignals": {
+              "emptyOrTrivialBody": false,
+              "constantOrIdentityReturn": false,
+              "stubThrowOrPanic": false,
+              "hasThrowStatement": false,
+              "paramsLikelyUnused": false,
+              "lowComplexityProxy": true,
+              "reasons": [
+                "polyglot-structural: lowComplexityProxy"
+              ]
+            },
+            "placeholderAnalysis": {
+              "classification": "definite-legitimate",
+              "confidence": 16,
+              "isPlaceholder": false,
+              "reasons": [
+                "polyglot-structural: lowComplexityProxy",
+                "Low cyclomatic complexity (1)",
+                "Function takes no parameters",
+                "Safety cap applied: cheap heuristics only"
+              ],
+              "detectionMethods": {
+                "explicitMarkers": 0,
+                "namingPatterns": 0,
+                "astAnalysis": 16,
+                "commentAnalysis": 0,
+                "contextFilter": 0,
+                "unusedCodeAnalysis": 0,
+                "externalUnusedChecks": 0,
+                "enhancedContext": 0
+              }
+            }
+          },
+          {
+            "name": "RunThermodynamicConsistency",
+            "signature": "public ReportLine RunThermodynamicConsistency()",
+            "parameters": [],
+            "returnType": "ReportLine",
+            "isAsync": false,
+            "calls": [
+              "_chem.Gas.IdealMoles",
+              "_chem.Gas.Rms1D",
+              "System.Math.Sqrt",
+              "details.Add",
+              "_math.SimpsonDefinite",
+              "System.Math.Exp",
+              "pQuad.Evaluate",
+              "new RealPolynomial([1, 0]).Multiply",
+              "pMul.Evaluate",
+              "Out"
+            ],
+            "startLine": 250,
+            "endLine": 286,
+            "structuralSignals": {
+              "emptyOrTrivialBody": false,
+              "constantOrIdentityReturn": false,
+              "stubThrowOrPanic": false,
+              "hasThrowStatement": false,
+              "paramsLikelyUnused": false,
+              "lowComplexityProxy": true,
+              "reasons": [
+                "polyglot-structural: lowComplexityProxy"
+              ]
+            },
+            "placeholderAnalysis": {
+              "classification": "definite-legitimate",
+              "confidence": 16,
+              "isPlaceholder": false,
+              "reasons": [
+                "polyglot-structural: lowComplexityProxy",
+                "Low cyclomatic complexity (1)",
+                "Function takes no parameters",
+                "Safety cap applied: cheap heuristics only"
+              ],
+              "detectionMethods": {
+                "explicitMarkers": 0,
+                "namingPatterns": 0,
+                "astAnalysis": 16,
+                "commentAnalysis": 0,
+                "contextFilter": 0,
+                "unusedCodeAnalysis": 0,
+                "externalUnusedChecks": 0,
+                "enhancedContext": 0
+              }
+            }
+          },
+          {
+            "name": "RunAll",
+            "signature": "public List<ReportLine> RunAll()",
+            "parameters": [],
+            "returnType": "List<ReportLine>",
+            "isAsync": false,
+            "calls": [
+              "Log.Clear",
+              "Out",
+              "DateTime.UtcNow.ToString"
+            ],
+            "startLine": 288,
+            "endLine": 301,
+            "structuralSignals": {
+              "emptyOrTrivialBody": false,
+              "constantOrIdentityReturn": false,
+              "stubThrowOrPanic": false,
+              "hasThrowStatement": false,
+              "paramsLikelyUnused": false,
+              "lowComplexityProxy": true,
+              "reasons": [
+                "polyglot-structural: lowComplexityProxy"
+              ]
+            },
+            "placeholderAnalysis": {
+              "classification": "definite-legitimate",
+              "confidence": 16,
+              "isPlaceholder": false,
+              "reasons": [
+                "polyglot-structural: lowComplexityProxy",
+                "Low cyclomatic complexity (1)",
+                "Function takes no parameters",
+                "Safety cap applied: cheap heuristics only"
+              ],
+              "detectionMethods": {
+                "explicitMarkers": 0,
+                "namingPatterns": 0,
+                "astAnalysis": 16,
+                "commentAnalysis": 0,
+                "contextFilter": 0,
+                "unusedCodeAnalysis": 0,
+                "externalUnusedChecks": 0,
+                "enhancedContext": 0
+              }
+            }
+          }
+        ],
+        "classes": [
+          {
+            "name": "CrossDomainLab",
+            "methods": [
+              {
+                "name": "Log",
+                "signature": "public List<string> Log { get; } = new();",
+                "parameters": [],
+                "returnType": "void",
+                "isAsync": false,
+                "isGenerator": false,
+                "calls": [],
+                "startLine": 19,
+                "endLine": 19,
+                "structuralSignals": {
+                  "emptyOrTrivialBody": false,
+                  "constantOrIdentityReturn": false,
+                  "stubThrowOrPanic": false,
+                  "hasThrowStatement": false,
+                  "paramsLikelyUnused": false,
+                  "lowComplexityProxy": true,
+                  "reasons": [
+                    "polyglot-structural: lowComplexityProxy"
+                  ]
+                }
+              },
+              {
+                "name": "CrossDomainLab",
+                "signature": "public CrossDomainLab()",
+                "parameters": [],
+                "returnType": "public",
+                "isAsync": false,
+                "isGenerator": false,
+                "calls": [],
+                "startLine": 21,
+                "endLine": 56,
+                "structuralSignals": {
+                  "emptyOrTrivialBody": false,
+                  "constantOrIdentityReturn": false,
+                  "stubThrowOrPanic": false,
+                  "hasThrowStatement": false,
+                  "paramsLikelyUnused": false,
+                  "lowComplexityProxy": false,
+                  "reasons": []
+                }
+              },
+              {
+                "name": "Out",
+                "signature": "private void Out(string line) => Log.Add(line);",
+                "parameters": [
+                  {
+                    "name": "line",
+                    "type": "string"
+                  }
+                ],
+                "returnType": "void",
+                "isAsync": false,
+                "isGenerator": false,
+                "calls": [
+                  "Log.Add"
+                ],
+                "startLine": 58,
+                "endLine": 58,
+                "structuralSignals": {
+                  "emptyOrTrivialBody": false,
+                  "constantOrIdentityReturn": false,
+                  "stubThrowOrPanic": false,
+                  "hasThrowStatement": false,
+                  "paramsLikelyUnused": false,
+                  "lowComplexityProxy": true,
+                  "reasons": [
+                    "polyglot-structural: lowComplexityProxy"
+                  ]
+                }
+              },
+              {
+                "name": "RunMathSuite",
+                "signature": "public ReportLine RunMathSuite()",
+                "parameters": [],
+                "returnType": "ReportLine",
+                "isAsync": false,
+                "isGenerator": false,
+                "calls": [
+                  "DemoPolynomials.MakeDemoQuarticForRoots",
+                  "_math.ScanRealRootsOnInterval",
+                  "details.Add",
+                  "string.Join",
+                  "roots.Select",
+                  "r.ToString",
+                  "p.Evaluate",
+                  "_math.RealRootsCubic",
+                  "System.Math.Sqrt",
+                  "expect.Sort",
+                  "cR.Select",
+                  "expect.Select",
+                  "System.Math.Exp",
+                  "_math.SimpsonDefinite",
+                  "_math.Erf",
+                  "_math.ClenshawChebyshevT",
+                  "_math.Solve3x3",
+                  "_math.RungeKutta4",
+                  "_math.LogGamma",
+                  "System.Math.Log",
+                  "p0.Coefficients",
+                  "p0.IntegrateFromZero",
+                  "integ.Evaluate",
+                  "p0.Add",
+                  "pPlus.Evaluate",
+                  "p0.Scale",
+                  "p0.Scale(0.5).Evaluate",
+                  "p0.Subtract",
+                  "pLin.Evaluate",
+                  "p0.DivideByLinearRoot",
+                  "div1.Q.Evaluate",
+                  "_math.Trapezoid",
+                  "_math.NewtonRaphson",
+                  "quadRoots.Select",
+                  "Out"
+                ],
+                "startLine": 60,
+                "endLine": 125,
+                "structuralSignals": {
+                  "emptyOrTrivialBody": false,
+                  "constantOrIdentityReturn": false,
+                  "stubThrowOrPanic": false,
+                  "hasThrowStatement": false,
+                  "paramsLikelyUnused": false,
+                  "lowComplexityProxy": true,
+                  "reasons": [
+                    "polyglot-structural: lowComplexityProxy"
+                  ]
+                }
+              },
+              {
+                "name": "RunPhysicsSuite",
+                "signature": "public ReportLine RunPhysicsSuite()",
+                "parameters": [],
+                "returnType": "ReportLine",
+                "isAsync": false,
+                "isGenerator": false,
+                "calls": [
+                  "b.RangeOnLevel",
+                  "details.Add",
+                  "b.Apex",
+                  "damp.Response",
+                  "uck.Ac",
+                  "uck.PeriodT",
+                  "_physics.EscapeSpeedUniformG",
+                  "_physics.Relativity.RelativisticExcessFraction",
+                  "drag.Integrate",
+                  "Vec2Ops.Mag",
+                  "Vec2Ops.Add2",
+                  "Vec2Ops.Scale2",
+                  "ua.TimeToVerticalPlane",
+                  "b.SampleTrajectory",
+                  "System.Math.Sqrt",
+                  "uck.SpecificAngularMomentum",
+                  "uck.KeplerianConsistencyCheck",
+                  "_physics.Relativity.Beta",
+                  "_physics.Relativity.Gamma",
+                  "_physics.Relativity.KineticEnergy",
+                  "Out"
+                ],
+                "startLine": 127,
+                "endLine": 180,
+                "structuralSignals": {
+                  "emptyOrTrivialBody": false,
+                  "constantOrIdentityReturn": false,
+                  "stubThrowOrPanic": false,
+                  "hasThrowStatement": false,
+                  "paramsLikelyUnused": false,
+                  "lowComplexityProxy": true,
+                  "reasons": [
+                    "polyglot-structural: lowComplexityProxy"
+                  ]
+                }
+              },
+              {
+                "name": "RunChemistrySuite",
+                "signature": "public ReportLine RunChemistrySuite()",
+                "parameters": [],
+                "returnType": "ReportLine",
+                "isAsync": false,
+                "isGenerator": false,
+                "calls": [
+                  "_chem.MolarMass",
+                  "details.Add",
+                  "_chem.Solution.WeakAcidHPlusApprox",
+                  "_chem.Solution.PHFromH3OPlusMolarity",
+                  "_chem.Gas.IdealMoles",
+                  "_chem.Gas.VanDerWaalsPressure1mol",
+                  "rx.LimitReactantMoles",
+                  "_chem.Solution.MonoproticTitrationScalar",
+                  "_chem.Solution.MolarityFromMolesMolarityDefinition",
+                  "_chem.Solution.POHFromH3O",
+                  "_chem.Gas.IdealPressure_Pa",
+                  "Out"
+                ],
+                "startLine": 182,
+                "endLine": 222,
+                "structuralSignals": {
+                  "emptyOrTrivialBody": false,
+                  "constantOrIdentityReturn": false,
+                  "stubThrowOrPanic": false,
+                  "hasThrowStatement": false,
+                  "paramsLikelyUnused": false,
+                  "lowComplexityProxy": true,
+                  "reasons": [
+                    "polyglot-structural: lowComplexityProxy"
+                  ]
+                }
+              },
+              {
+                "name": "RunCrossDomainChecks",
+                "signature": "public ReportLine RunCrossDomainChecks()",
+                "parameters": [],
+                "returnType": "ReportLine",
+                "isAsync": false,
+                "isGenerator": false,
+                "calls": [
+                  "_physics.RmsSpeedFrom1DEquipartition",
+                  "_chem.Gas.Rms1D",
+                  "System.Math.Abs",
+                  "details.Add",
+                  "_math.SimpsonDefinite",
+                  "polyx.Evaluate",
+                  "_math.RealRootsCubic",
+                  "Out"
+                ],
+                "startLine": 224,
+                "endLine": 248,
+                "structuralSignals": {
+                  "emptyOrTrivialBody": false,
+                  "constantOrIdentityReturn": false,
+                  "stubThrowOrPanic": false,
+                  "hasThrowStatement": false,
+                  "paramsLikelyUnused": false,
+                  "lowComplexityProxy": true,
+                  "reasons": [
+                    "polyglot-structural: lowComplexityProxy"
+                  ]
+                }
+              },
+              {
+                "name": "RunThermodynamicConsistency",
+                "signature": "public ReportLine RunThermodynamicConsistency()",
+                "parameters": [],
+                "returnType": "ReportLine",
+                "isAsync": false,
+                "isGenerator": false,
+                "calls": [
+                  "_chem.Gas.IdealMoles",
+                  "_chem.Gas.Rms1D",
+                  "System.Math.Sqrt",
+                  "details.Add",
+                  "_math.SimpsonDefinite",
+                  "System.Math.Exp",
+                  "pQuad.Evaluate",
+                  "new RealPolynomial([1, 0]).Multiply",
+                  "pMul.Evaluate",
+                  "Out"
+                ],
+                "startLine": 250,
+                "endLine": 286,
+                "structuralSignals": {
+                  "emptyOrTrivialBody": false,
+                  "constantOrIdentityReturn": false,
+                  "stubThrowOrPanic": false,
+                  "hasThrowStatement": false,
+                  "paramsLikelyUnused": false,
+                  "lowComplexityProxy": true,
+                  "reasons": [
+                    "polyglot-structural: lowComplexityProxy"
+                  ]
+                }
+              },
+              {
+                "name": "RunAll",
+                "signature": "public List<ReportLine> RunAll()",
+                "parameters": [],
+                "returnType": "List<ReportLine>",
+                "isAsync": false,
+                "isGenerator": false,
+                "calls": [
+                  "Log.Clear",
+                  "Out",
+                  "DateTime.UtcNow.ToString"
+                ],
+                "startLine": 288,
+                "endLine": 301,
+                "structuralSignals": {
+                  "emptyOrTrivialBody": false,
+                  "constantOrIdentityReturn": false,
+                  "stubThrowOrPanic": false,
+                  "hasThrowStatement": false,
+                  "paramsLikelyUnused": false,
+                  "lowComplexityProxy": true,
+                  "reasons": [
+                    "polyglot-structural: lowComplexityProxy"
+                  ]
+                }
+              }
+            ]
+          }
+        ],
+        "keyElementsInFile": [
+          {
+            "name": "Log",
+            "type": "function",
+            "signature": "public List<string> Log { get; } = new();"
+          },
+          {
+            "name": "CrossDomainLab",
+            "type": "function",
+            "signature": "public CrossDomainLab()"
+          },
+          {
+            "name": "Out",
+            "type": "function",
+            "signature": "private void Out(string line) => Log.Add(line);"
+          },
+          {
+            "name": "RunMathSuite",
+            "type": "function",
+            "signature": "public ReportLine RunMathSuite()"
+          },
+          {
+            "name": "F",
+            "type": "function",
+            "signature": "double F(double x) => (2 / System.Math.Sqrt(System.Math.PI)) * System.Math.Exp(-x * x);"
+          },
+          {
+            "name": "RunPhysicsSuite",
+            "type": "function",
+            "signature": "public ReportLine RunPhysicsSuite()"
+          },
+          {
+            "name": "RunChemistrySuite",
+            "type": "function",
+            "signature": "public ReportLine RunChemistrySuite()"
+          },
+          {
+            "name": "RunCrossDomainChecks",
+            "type": "function",
+            "signature": "public ReportLine RunCrossDomainChecks()"
+          },
+          {
+            "name": "RunThermodynamicConsistency",
+            "type": "function",
+            "signature": "public ReportLine RunThermodynamicConsistency()"
+          },
+          {
+            "name": "RunAll",
+            "type": "function",
+            "signature": "public List<ReportLine> RunAll()"
+          },
+          {
+            "name": "Kb",
+            "type": "const",
+            "signature": "const Kb"
+          },
+          {
+            "name": "_math",
+            "type": "const",
+            "signature": "const _math"
+          },
+          {
+            "name": "_physics",
+            "type": "const",
+            "signature": "const _physics"
+          },
+          {
+            "name": "_chem",
+            "type": "const",
+            "signature": "const _chem"
+          },
+          {
+            "name": "T",
+            "type": "const",
+            "signature": "const T"
+          },
+          {
+            "name": "MMolarKg",
+            "type": "const",
+            "signature": "const MMolarKg"
+          },
+          {
+            "name": "Iana",
+            "type": "const",
+            "signature": "const Iana"
+          },
+          {
+            "name": "P",
+            "type": "const",
+            "signature": "const P"
+          },
+          {
+            "name": "V",
+            "type": "const",
+            "signature": "const V"
+          }
+        ]
+      },
+      {
+        "name": "Program.cs",
+        "path": "ScientificFormulaLab/Program.cs",
+        "filePath": "ScientificFormulaLab/Program.cs",
+        "filePurpose": "C# implementation file",
+        "languageDetail": "C#",
+        "lineCount": 11,
+        "contentHash": "9c0cb8fe1d4be1df12b1ec117847f854b0fb18e94a53f30b0a96b7fe681c75b9",
+        "placeholderDetection": [],
+        "importedModules": [
+          {
+            "name": "ScientificFormulaLab",
+            "sourceModule": "ScientificFormulaLab"
+          },
+          {
+            "name": "Chemistry",
+            "sourceModule": "ScientificFormulaLab.Chemistry"
+          }
+        ],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": []
+      }
+    ]
+  }
+}

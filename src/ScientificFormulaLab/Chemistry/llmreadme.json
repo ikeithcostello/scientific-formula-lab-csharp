@@ -1,0 +1,4074 @@
+{
+  "$schema": "https://json.schemastore.org/llm-metadata-1.4.json",
+  "version": "2.3.0",
+  "generatedAt": "2026-08-05T04:16:26.311Z",
+  "grade": "analysis-grade",
+  "configuration": {
+    "detectPlaceholders": true,
+    "placeholderConfidence": 40,
+    "placeholderAnalysisLevel": "enhanced",
+    "detailLevel": "standard",
+    "includeComplexity": false,
+    "maxFiles": 2000
+  },
+  "verificationSummary": null,
+  "metadata": {
+    "directory": {
+      "name": "Chemistry",
+      "path": "ScientificFormulaLab/Chemistry",
+      "purpose": "Enhanced directory analysis of Chemistry",
+      "ownKeyElements": []
+    },
+    "subdirectories": [],
+    "dependencyGraph": {
+      "edges": [],
+      "circularDependencies": []
+    },
+    "files": [
+      {
+        "name": "ChemistryStoichiometryEngine.cs",
+        "path": "ScientificFormulaLab/Chemistry/ChemistryStoichiometryEngine.cs",
+        "filePath": "ScientificFormulaLab/Chemistry/ChemistryStoichiometryEngine.cs",
+        "filePurpose": "Provides PeriodicTable, AtomicData, MolarMassSymbol, MolecularFormulaParser… (28 exports)",
+        "languageDetail": "C#",
+        "lineCount": 333,
+        "contentHash": "d225ebc338791d0cef116084c5ad0519983c0bbde3c5f4d4b3a6757498f7e078",
+        "placeholderDetection": [
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Chemistry/ChemistryStoichiometryEngine.cs",
+            "functionName": "AtomicData",
+            "classification": "likely-legitimate",
+            "confidence": 22,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: lowComplexityProxy",
+              "Low cyclomatic complexity (1)",
+              "Very short function (1 lines)",
+              "Function takes no parameters",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 54,
+              "endLine": 54
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 22,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Chemistry/ChemistryStoichiometryEngine.cs",
+            "functionName": "ChemistryStoichiometryEngine",
+            "classification": "definite-legitimate",
+            "confidence": 12,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: lowComplexityProxy",
+              "Low cyclomatic complexity (1)",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 315,
+              "endLine": 321
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 12,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Chemistry/ChemistryStoichiometryEngine.cs",
+            "functionName": "Gas",
+            "classification": "likely-legitimate",
+            "confidence": 22,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: lowComplexityProxy",
+              "Low cyclomatic complexity (1)",
+              "Very short function (1 lines)",
+              "Function takes no parameters",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 312,
+              "endLine": 312
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 22,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Chemistry/ChemistryStoichiometryEngine.cs",
+            "functionName": "GasLawEngine",
+            "classification": "definite-legitimate",
+            "confidence": 18,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: lowComplexityProxy",
+              "Low cyclomatic complexity (1)",
+              "Very short function (1 lines)",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 216,
+              "endLine": 216
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 18,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Chemistry/ChemistryStoichiometryEngine.cs",
+            "functionName": "IdealMoles",
+            "classification": "definite-legitimate",
+            "confidence": 2,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: hasThrowStatement",
+              "Contains throw statement",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 218,
+              "endLine": 223
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 2,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Chemistry/ChemistryStoichiometryEngine.cs",
+            "functionName": "IdealPressure_Pa",
+            "classification": "definite-legitimate",
+            "confidence": 2,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: hasThrowStatement",
+              "Contains throw statement",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 225,
+              "endLine": 230
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 2,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Chemistry/ChemistryStoichiometryEngine.cs",
+            "functionName": "LimitReactantMoles",
+            "classification": "definite-legitimate",
+            "confidence": 2,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: hasThrowStatement",
+              "Contains throw statement",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 283,
+              "endLine": 304
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 2,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Chemistry/ChemistryStoichiometryEngine.cs",
+            "functionName": "MergeBags",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 145,
+              "endLine": 149
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Chemistry/ChemistryStoichiometryEngine.cs",
+            "functionName": "MolarityFromMolesMolarityDefinition",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: hasThrowStatement",
+              "Contains throw statement",
+              "Simple arithmetic helper",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 166,
+              "endLine": 171
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 2,
+              "commentAnalysis": 0,
+              "contextFilter": -15,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Chemistry/ChemistryStoichiometryEngine.cs",
+            "functionName": "MolarMass",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Intentionally unused parameter/variable (prefixed with _)",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 323,
+              "endLine": 331
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": -25,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Chemistry/ChemistryStoichiometryEngine.cs",
+            "functionName": "MolarMassFromAtomBag",
+            "classification": "definite-legitimate",
+            "confidence": 12,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: lowComplexityProxy",
+              "Low cyclomatic complexity (1)",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 158,
+              "endLine": 164
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 12,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Chemistry/ChemistryStoichiometryEngine.cs",
+            "functionName": "MolarMassSymbol",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: hasThrowStatement",
+              "Contains throw statement",
+              "Intentionally unused parameter/variable (prefixed with _)",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 56,
+              "endLine": 61
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 2,
+              "commentAnalysis": 0,
+              "contextFilter": -25,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Chemistry/ChemistryStoichiometryEngine.cs",
+            "functionName": "MolecularFormulaParser",
+            "classification": "definite-legitimate",
+            "confidence": 18,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: lowComplexityProxy",
+              "Low cyclomatic complexity (1)",
+              "Very short function (1 lines)",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 68,
+              "endLine": 68
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 18,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Chemistry/ChemistryStoichiometryEngine.cs",
+            "functionName": "MonoproticTitrationScalar",
+            "classification": "definite-legitimate",
+            "confidence": 2,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: hasThrowStatement",
+              "Contains throw statement",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 173,
+              "endLine": 178
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 2,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Chemistry/ChemistryStoichiometryEngine.cs",
+            "functionName": "Parse",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: hasThrowStatement",
+              "Contains throw statement",
+              "Intentionally unused parameter/variable (prefixed with _)",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 70,
+              "endLine": 143
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 2,
+              "commentAnalysis": 0,
+              "contextFilter": -25,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Chemistry/ChemistryStoichiometryEngine.cs",
+            "functionName": "ParseInner",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: hasThrowStatement",
+              "Function takes no parameters",
+              "Contains throw statement",
+              "Moderate context score",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 114,
+              "endLine": 137
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 6,
+              "commentAnalysis": 0,
+              "contextFilter": -15,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Chemistry/ChemistryStoichiometryEngine.cs",
+            "functionName": "Parser",
+            "classification": "likely-legitimate",
+            "confidence": 22,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: lowComplexityProxy",
+              "Low cyclomatic complexity (1)",
+              "Very short function (1 lines)",
+              "Function takes no parameters",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 310,
+              "endLine": 310
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 22,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Chemistry/ChemistryStoichiometryEngine.cs",
+            "functionName": "PeriodicTable",
+            "classification": "likely-legitimate",
+            "confidence": 22,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: lowComplexityProxy",
+              "Low cyclomatic complexity (1)",
+              "Very short function (1 lines)",
+              "Function takes no parameters",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 18,
+              "endLine": 18
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 22,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Chemistry/ChemistryStoichiometryEngine.cs",
+            "functionName": "PHFromH3OPlusMolarity",
+            "classification": "definite-legitimate",
+            "confidence": 2,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: hasThrowStatement",
+              "Contains throw statement",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 180,
+              "endLine": 185
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 2,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Chemistry/ChemistryStoichiometryEngine.cs",
+            "functionName": "POHFromH3O",
+            "classification": "definite-legitimate",
+            "confidence": 2,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: hasThrowStatement",
+              "Contains throw statement",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 187,
+              "endLine": 196
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 2,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Chemistry/ChemistryStoichiometryEngine.cs",
+            "functionName": "ProductCoeffs",
+            "classification": "likely-legitimate",
+            "confidence": 22,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: lowComplexityProxy",
+              "Low cyclomatic complexity (1)",
+              "Very short function (1 lines)",
+              "Function takes no parameters",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 268,
+              "endLine": 268
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 22,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Chemistry/ChemistryStoichiometryEngine.cs",
+            "functionName": "R",
+            "classification": "likely-legitimate",
+            "confidence": 22,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: lowComplexityProxy",
+              "Low cyclomatic complexity (1)",
+              "Very short function (1 lines)",
+              "Function takes no parameters",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 214,
+              "endLine": 214
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 22,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Chemistry/ChemistryStoichiometryEngine.cs",
+            "functionName": "ReactantCoeffs",
+            "classification": "likely-legitimate",
+            "confidence": 22,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: lowComplexityProxy",
+              "Low cyclomatic complexity (1)",
+              "Very short function (1 lines)",
+              "Function takes no parameters",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 267,
+              "endLine": 267
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 22,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Chemistry/ChemistryStoichiometryEngine.cs",
+            "functionName": "ReadEl",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: hasThrowStatement",
+              "Function takes no parameters",
+              "Contains throw statement",
+              "Intentionally unused parameter/variable (prefixed with _)",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 96,
+              "endLine": 112
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 6,
+              "commentAnalysis": 0,
+              "contextFilter": -25,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Chemistry/ChemistryStoichiometryEngine.cs",
+            "functionName": "ReadInt",
+            "classification": "definite-legitimate",
+            "confidence": 6,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: hasThrowStatement",
+              "Function takes no parameters",
+              "Contains throw statement",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 78,
+              "endLine": 94
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 6,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Chemistry/ChemistryStoichiometryEngine.cs",
+            "functionName": "Rms1D",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: hasThrowStatement",
+              "Contains throw statement",
+              "Returns computed value from external calls or processing",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 239,
+              "endLine": 244
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 2,
+              "commentAnalysis": 0,
+              "contextFilter": -12,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Chemistry/ChemistryStoichiometryEngine.cs",
+            "functionName": "Seed",
+            "classification": "definite-legitimate",
+            "confidence": 16,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: lowComplexityProxy",
+              "Low cyclomatic complexity (1)",
+              "Function takes no parameters",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 20,
+              "endLine": 52
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 16,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Chemistry/ChemistryStoichiometryEngine.cs",
+            "functionName": "Solution",
+            "classification": "likely-legitimate",
+            "confidence": 22,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: lowComplexityProxy",
+              "Low cyclomatic complexity (1)",
+              "Very short function (1 lines)",
+              "Function takes no parameters",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 311,
+              "endLine": 311
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 22,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Chemistry/ChemistryStoichiometryEngine.cs",
+            "functionName": "SolutionStoichiometry",
+            "classification": "definite-legitimate",
+            "confidence": 18,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: lowComplexityProxy",
+              "Low cyclomatic complexity (1)",
+              "Very short function (1 lines)",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 156,
+              "endLine": 156
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 18,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Chemistry/ChemistryStoichiometryEngine.cs",
+            "functionName": "StoichiometricReaction",
+            "classification": "definite-legitimate",
+            "confidence": 6,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: hasThrowStatement",
+              "Function takes no parameters",
+              "Contains throw statement",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 270,
+              "endLine": 281
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 6,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Chemistry/ChemistryStoichiometryEngine.cs",
+            "functionName": "Table",
+            "classification": "likely-legitimate",
+            "confidence": 22,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: lowComplexityProxy",
+              "Low cyclomatic complexity (1)",
+              "Very short function (1 lines)",
+              "Function takes no parameters",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 309,
+              "endLine": 309
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 22,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Chemistry/ChemistryStoichiometryEngine.cs",
+            "functionName": "VanDerWaalsPressure1mol",
+            "classification": "definite-legitimate",
+            "confidence": 2,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: hasThrowStatement",
+              "Contains throw statement",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 232,
+              "endLine": 237
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 2,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Chemistry/ChemistryStoichiometryEngine.cs",
+            "functionName": "VendorCylinderReceiptStub",
+            "classification": "uncertain",
+            "confidence": 55,
+            "isPlaceholder": true,
+            "reasons": [
+              "Contains placeholder/stub/mock/dummy marker",
+              "Function name suggests placeholder (mock/stub)",
+              "polyglot-structural: lowComplexityProxy",
+              "Low cyclomatic complexity (1)",
+              "Very short function (1 lines)",
+              "Function takes no parameters",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 262,
+              "endLine": 262
+            },
+            "detectionMethods": {
+              "explicitMarkers": 76,
+              "namingPatterns": 0,
+              "astAnalysis": 22,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "reasonSignals": [
+              {
+                "ruleId": "explicit-placeholder-stub-mock",
+                "score": 45,
+                "message": "Contains placeholder/stub/mock/dummy marker",
+                "axis": "intent",
+                "tags": [
+                  "intent"
+                ]
+              },
+              {
+                "ruleId": "naming-mock-stub",
+                "score": 31,
+                "message": "Function name suggests placeholder (mock/stub)",
+                "axis": "structure",
+                "tags": [
+                  "naming"
+                ]
+              }
+            ],
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Chemistry/ChemistryStoichiometryEngine.cs",
+            "functionName": "WeakAcidHPlusApprox",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: hasThrowStatement",
+              "Contains throw statement",
+              "Returns computed value from external calls or processing",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 198,
+              "endLine": 209
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 2,
+              "commentAnalysis": 0,
+              "contextFilter": -12,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "findings": [
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Chemistry/ChemistryStoichiometryEngine.cs",
+            "line": 18,
+            "endLine": 18,
+            "kind": "function",
+            "type": "explicit_marker",
+            "confidence": 22,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: lowComplexityProxy",
+              "Low cyclomatic complexity (1)",
+              "Very short function (1 lines)",
+              "Function takes no parameters",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "functionName": "PeriodicTable",
+            "id": "_Users_keithcostello_Projects_cursorai_aitooling_dd-test-fixtures_scientific-formula-lab-csharp_src_ScientificFormulaLab_Chemistry_ChemistryStoichiometryEngine_cs:function:18:0"
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Chemistry/ChemistryStoichiometryEngine.cs",
+            "line": 20,
+            "endLine": 52,
+            "kind": "function",
+            "type": "explicit_marker",
+            "confidence": 16,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: lowComplexityProxy",
+              "Low cyclomatic complexity (1)",
+              "Function takes no parameters",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "functionName": "Seed",
+            "id": "_Users_keithcostello_Projects_cursorai_aitooling_dd-test-fixtures_scientific-formula-lab-csharp_src_ScientificFormulaLab_Chemistry_ChemistryStoichiometryEngine_cs:function:20:1"
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Chemistry/ChemistryStoichiometryEngine.cs",
+            "line": 54,
+            "endLine": 54,
+            "kind": "function",
+            "type": "explicit_marker",
+            "confidence": 22,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: lowComplexityProxy",
+              "Low cyclomatic complexity (1)",
+              "Very short function (1 lines)",
+              "Function takes no parameters",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "functionName": "AtomicData",
+            "id": "_Users_keithcostello_Projects_cursorai_aitooling_dd-test-fixtures_scientific-formula-lab-csharp_src_ScientificFormulaLab_Chemistry_ChemistryStoichiometryEngine_cs:function:54:2"
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Chemistry/ChemistryStoichiometryEngine.cs",
+            "line": 56,
+            "endLine": 61,
+            "kind": "function",
+            "type": "explicit_marker",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: hasThrowStatement",
+              "Contains throw statement",
+              "Intentionally unused parameter/variable (prefixed with _)",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "functionName": "MolarMassSymbol",
+            "id": "_Users_keithcostello_Projects_cursorai_aitooling_dd-test-fixtures_scientific-formula-lab-csharp_src_ScientificFormulaLab_Chemistry_ChemistryStoichiometryEngine_cs:function:56:3"
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Chemistry/ChemistryStoichiometryEngine.cs",
+            "line": 68,
+            "endLine": 68,
+            "kind": "function",
+            "type": "explicit_marker",
+            "confidence": 18,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: lowComplexityProxy",
+              "Low cyclomatic complexity (1)",
+              "Very short function (1 lines)",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "functionName": "MolecularFormulaParser",
+            "id": "_Users_keithcostello_Projects_cursorai_aitooling_dd-test-fixtures_scientific-formula-lab-csharp_src_ScientificFormulaLab_Chemistry_ChemistryStoichiometryEngine_cs:function:68:4"
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Chemistry/ChemistryStoichiometryEngine.cs",
+            "line": 70,
+            "endLine": 143,
+            "kind": "function",
+            "type": "explicit_marker",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: hasThrowStatement",
+              "Contains throw statement",
+              "Intentionally unused parameter/variable (prefixed with _)",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "functionName": "Parse",
+            "id": "_Users_keithcostello_Projects_cursorai_aitooling_dd-test-fixtures_scientific-formula-lab-csharp_src_ScientificFormulaLab_Chemistry_ChemistryStoichiometryEngine_cs:function:70:5"
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Chemistry/ChemistryStoichiometryEngine.cs",
+            "line": 78,
+            "endLine": 94,
+            "kind": "function",
+            "type": "explicit_marker",
+            "confidence": 6,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: hasThrowStatement",
+              "Function takes no parameters",
+              "Contains throw statement",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "functionName": "ReadInt",
+            "id": "_Users_keithcostello_Projects_cursorai_aitooling_dd-test-fixtures_scientific-formula-lab-csharp_src_ScientificFormulaLab_Chemistry_ChemistryStoichiometryEngine_cs:function:78:6"
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Chemistry/ChemistryStoichiometryEngine.cs",
+            "line": 96,
+            "endLine": 112,
+            "kind": "function",
+            "type": "explicit_marker",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: hasThrowStatement",
+              "Function takes no parameters",
+              "Contains throw statement",
+              "Intentionally unused parameter/variable (prefixed with _)",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "functionName": "ReadEl",
+            "id": "_Users_keithcostello_Projects_cursorai_aitooling_dd-test-fixtures_scientific-formula-lab-csharp_src_ScientificFormulaLab_Chemistry_ChemistryStoichiometryEngine_cs:function:96:7"
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Chemistry/ChemistryStoichiometryEngine.cs",
+            "line": 114,
+            "endLine": 137,
+            "kind": "function",
+            "type": "explicit_marker",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: hasThrowStatement",
+              "Function takes no parameters",
+              "Contains throw statement",
+              "Moderate context score",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "functionName": "ParseInner",
+            "id": "_Users_keithcostello_Projects_cursorai_aitooling_dd-test-fixtures_scientific-formula-lab-csharp_src_ScientificFormulaLab_Chemistry_ChemistryStoichiometryEngine_cs:function:114:8"
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Chemistry/ChemistryStoichiometryEngine.cs",
+            "line": 145,
+            "endLine": 149,
+            "kind": "function",
+            "type": "explicit_marker",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "functionName": "MergeBags",
+            "id": "_Users_keithcostello_Projects_cursorai_aitooling_dd-test-fixtures_scientific-formula-lab-csharp_src_ScientificFormulaLab_Chemistry_ChemistryStoichiometryEngine_cs:function:145:9"
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Chemistry/ChemistryStoichiometryEngine.cs",
+            "line": 156,
+            "endLine": 156,
+            "kind": "function",
+            "type": "explicit_marker",
+            "confidence": 18,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: lowComplexityProxy",
+              "Low cyclomatic complexity (1)",
+              "Very short function (1 lines)",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "functionName": "SolutionStoichiometry",
+            "id": "_Users_keithcostello_Projects_cursorai_aitooling_dd-test-fixtures_scientific-formula-lab-csharp_src_ScientificFormulaLab_Chemistry_ChemistryStoichiometryEngine_cs:function:156:10"
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Chemistry/ChemistryStoichiometryEngine.cs",
+            "line": 158,
+            "endLine": 164,
+            "kind": "function",
+            "type": "explicit_marker",
+            "confidence": 12,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: lowComplexityProxy",
+              "Low cyclomatic complexity (1)",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "functionName": "MolarMassFromAtomBag",
+            "id": "_Users_keithcostello_Projects_cursorai_aitooling_dd-test-fixtures_scientific-formula-lab-csharp_src_ScientificFormulaLab_Chemistry_ChemistryStoichiometryEngine_cs:function:158:11"
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Chemistry/ChemistryStoichiometryEngine.cs",
+            "line": 166,
+            "endLine": 171,
+            "kind": "function",
+            "type": "explicit_marker",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: hasThrowStatement",
+              "Contains throw statement",
+              "Simple arithmetic helper",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "functionName": "MolarityFromMolesMolarityDefinition",
+            "id": "_Users_keithcostello_Projects_cursorai_aitooling_dd-test-fixtures_scientific-formula-lab-csharp_src_ScientificFormulaLab_Chemistry_ChemistryStoichiometryEngine_cs:function:166:12"
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Chemistry/ChemistryStoichiometryEngine.cs",
+            "line": 173,
+            "endLine": 178,
+            "kind": "function",
+            "type": "explicit_marker",
+            "confidence": 2,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: hasThrowStatement",
+              "Contains throw statement",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "functionName": "MonoproticTitrationScalar",
+            "id": "_Users_keithcostello_Projects_cursorai_aitooling_dd-test-fixtures_scientific-formula-lab-csharp_src_ScientificFormulaLab_Chemistry_ChemistryStoichiometryEngine_cs:function:173:13"
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Chemistry/ChemistryStoichiometryEngine.cs",
+            "line": 180,
+            "endLine": 185,
+            "kind": "function",
+            "type": "explicit_marker",
+            "confidence": 2,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: hasThrowStatement",
+              "Contains throw statement",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "functionName": "PHFromH3OPlusMolarity",
+            "id": "_Users_keithcostello_Projects_cursorai_aitooling_dd-test-fixtures_scientific-formula-lab-csharp_src_ScientificFormulaLab_Chemistry_ChemistryStoichiometryEngine_cs:function:180:14"
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Chemistry/ChemistryStoichiometryEngine.cs",
+            "line": 187,
+            "endLine": 196,
+            "kind": "function",
+            "type": "explicit_marker",
+            "confidence": 2,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: hasThrowStatement",
+              "Contains throw statement",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "functionName": "POHFromH3O",
+            "id": "_Users_keithcostello_Projects_cursorai_aitooling_dd-test-fixtures_scientific-formula-lab-csharp_src_ScientificFormulaLab_Chemistry_ChemistryStoichiometryEngine_cs:function:187:15"
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Chemistry/ChemistryStoichiometryEngine.cs",
+            "line": 198,
+            "endLine": 209,
+            "kind": "function",
+            "type": "explicit_marker",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: hasThrowStatement",
+              "Contains throw statement",
+              "Returns computed value from external calls or processing",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "functionName": "WeakAcidHPlusApprox",
+            "id": "_Users_keithcostello_Projects_cursorai_aitooling_dd-test-fixtures_scientific-formula-lab-csharp_src_ScientificFormulaLab_Chemistry_ChemistryStoichiometryEngine_cs:function:198:16"
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Chemistry/ChemistryStoichiometryEngine.cs",
+            "line": 214,
+            "endLine": 214,
+            "kind": "function",
+            "type": "explicit_marker",
+            "confidence": 22,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: lowComplexityProxy",
+              "Low cyclomatic complexity (1)",
+              "Very short function (1 lines)",
+              "Function takes no parameters",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "functionName": "R",
+            "id": "_Users_keithcostello_Projects_cursorai_aitooling_dd-test-fixtures_scientific-formula-lab-csharp_src_ScientificFormulaLab_Chemistry_ChemistryStoichiometryEngine_cs:function:214:17"
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Chemistry/ChemistryStoichiometryEngine.cs",
+            "line": 216,
+            "endLine": 216,
+            "kind": "function",
+            "type": "explicit_marker",
+            "confidence": 18,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: lowComplexityProxy",
+              "Low cyclomatic complexity (1)",
+              "Very short function (1 lines)",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "functionName": "GasLawEngine",
+            "id": "_Users_keithcostello_Projects_cursorai_aitooling_dd-test-fixtures_scientific-formula-lab-csharp_src_ScientificFormulaLab_Chemistry_ChemistryStoichiometryEngine_cs:function:216:18"
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Chemistry/ChemistryStoichiometryEngine.cs",
+            "line": 218,
+            "endLine": 223,
+            "kind": "function",
+            "type": "explicit_marker",
+            "confidence": 2,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: hasThrowStatement",
+              "Contains throw statement",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "functionName": "IdealMoles",
+            "id": "_Users_keithcostello_Projects_cursorai_aitooling_dd-test-fixtures_scientific-formula-lab-csharp_src_ScientificFormulaLab_Chemistry_ChemistryStoichiometryEngine_cs:function:218:19"
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Chemistry/ChemistryStoichiometryEngine.cs",
+            "line": 225,
+            "endLine": 230,
+            "kind": "function",
+            "type": "explicit_marker",
+            "confidence": 2,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: hasThrowStatement",
+              "Contains throw statement",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "functionName": "IdealPressure_Pa",
+            "id": "_Users_keithcostello_Projects_cursorai_aitooling_dd-test-fixtures_scientific-formula-lab-csharp_src_ScientificFormulaLab_Chemistry_ChemistryStoichiometryEngine_cs:function:225:20"
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Chemistry/ChemistryStoichiometryEngine.cs",
+            "line": 232,
+            "endLine": 237,
+            "kind": "function",
+            "type": "explicit_marker",
+            "confidence": 2,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: hasThrowStatement",
+              "Contains throw statement",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "functionName": "VanDerWaalsPressure1mol",
+            "id": "_Users_keithcostello_Projects_cursorai_aitooling_dd-test-fixtures_scientific-formula-lab-csharp_src_ScientificFormulaLab_Chemistry_ChemistryStoichiometryEngine_cs:function:232:21"
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Chemistry/ChemistryStoichiometryEngine.cs",
+            "line": 239,
+            "endLine": 244,
+            "kind": "function",
+            "type": "explicit_marker",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: hasThrowStatement",
+              "Contains throw statement",
+              "Returns computed value from external calls or processing",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "functionName": "Rms1D",
+            "id": "_Users_keithcostello_Projects_cursorai_aitooling_dd-test-fixtures_scientific-formula-lab-csharp_src_ScientificFormulaLab_Chemistry_ChemistryStoichiometryEngine_cs:function:239:22"
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Chemistry/ChemistryStoichiometryEngine.cs",
+            "line": 252,
+            "kind": "variable",
+            "type": "naming",
+            "confidence": 65,
+            "isPlaceholder": true,
+            "identifier": "VendorCylinderReceiptStub",
+            "ruleId": "Rule3",
+            "reasons": [
+              "Variable/field name suggests placeholder: VendorCylinderReceiptStub"
+            ],
+            "id": "_Users_keithcostello_Projects_cursorai_aitooling_dd-test-fixtures_scientific-formula-lab-csharp_src_ScientificFormulaLab_Chemistry_ChemistryStoichiometryEngine_cs:variable:252:23"
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Chemistry/ChemistryStoichiometryEngine.cs",
+            "line": 258,
+            "kind": "comment",
+            "type": "fake_data_pattern",
+            "confidence": 70,
+            "isPlaceholder": true,
+            "subType": "placeholder_text",
+            "snippet": "REPLACE_ME",
+            "ruleId": "Rule6",
+            "reasons": [
+              "Fake data pattern: placeholder_text"
+            ],
+            "id": "_Users_keithcostello_Projects_cursorai_aitooling_dd-test-fixtures_scientific-formula-lab-csharp_src_ScientificFormulaLab_Chemistry_ChemistryStoichiometryEngine_cs:comment:258:24"
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Chemistry/ChemistryStoichiometryEngine.cs",
+            "line": 258,
+            "kind": "comment",
+            "type": "fake_data_pattern",
+            "confidence": 70,
+            "isPlaceholder": true,
+            "subType": "placeholder_text",
+            "snippet": "REPLACE_ME",
+            "ruleId": "Rule6",
+            "reasons": [
+              "Fake data pattern: placeholder_text"
+            ],
+            "id": "_Users_keithcostello_Projects_cursorai_aitooling_dd-test-fixtures_scientific-formula-lab-csharp_src_ScientificFormulaLab_Chemistry_ChemistryStoichiometryEngine_cs:comment:258:25"
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Chemistry/ChemistryStoichiometryEngine.cs",
+            "line": 258,
+            "kind": "comment",
+            "type": "fake_data_pattern",
+            "confidence": 70,
+            "isPlaceholder": true,
+            "subType": "placeholder_text",
+            "snippet": "REPLACE_ME",
+            "ruleId": "Rule6",
+            "reasons": [
+              "Fake data pattern: placeholder_text"
+            ],
+            "id": "_Users_keithcostello_Projects_cursorai_aitooling_dd-test-fixtures_scientific-formula-lab-csharp_src_ScientificFormulaLab_Chemistry_ChemistryStoichiometryEngine_cs:comment:258:26"
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Chemistry/ChemistryStoichiometryEngine.cs",
+            "line": 258,
+            "kind": "comment",
+            "type": "fake_data_pattern",
+            "confidence": 70,
+            "isPlaceholder": true,
+            "subType": "placeholder_text",
+            "snippet": "REPLACE_ME",
+            "ruleId": "Rule6",
+            "reasons": [
+              "Fake data pattern: placeholder_text"
+            ],
+            "id": "_Users_keithcostello_Projects_cursorai_aitooling_dd-test-fixtures_scientific-formula-lab-csharp_src_ScientificFormulaLab_Chemistry_ChemistryStoichiometryEngine_cs:comment:258:27"
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Chemistry/ChemistryStoichiometryEngine.cs",
+            "line": 258,
+            "kind": "comment",
+            "type": "fake_data_pattern",
+            "confidence": 70,
+            "isPlaceholder": true,
+            "subType": "placeholder_text",
+            "snippet": "REPLACE_ME",
+            "ruleId": "Rule6",
+            "reasons": [
+              "Fake data pattern: placeholder_text"
+            ],
+            "id": "_Users_keithcostello_Projects_cursorai_aitooling_dd-test-fixtures_scientific-formula-lab-csharp_src_ScientificFormulaLab_Chemistry_ChemistryStoichiometryEngine_cs:comment:258:28"
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Chemistry/ChemistryStoichiometryEngine.cs",
+            "line": 262,
+            "endLine": 262,
+            "kind": "function",
+            "type": "explicit_marker",
+            "confidence": 55,
+            "isPlaceholder": true,
+            "reasons": [
+              "Contains placeholder/stub/mock/dummy marker Function name suggests placeholder (mock/stub) polyglot-structural: lowComplexityProxy Low cyclomatic complexity (1) Very short function (1 lines) Function "
+            ],
+            "functionName": "VendorCylinderReceiptStub",
+            "ruleId": "explicit-placeholder-stub-mock",
+            "id": "_Users_keithcostello_Projects_cursorai_aitooling_dd-test-fixtures_scientific-formula-lab-csharp_src_ScientificFormulaLab_Chemistry_ChemistryStoichiometryEngine_cs:function:262:29"
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Chemistry/ChemistryStoichiometryEngine.cs",
+            "line": 262,
+            "kind": "variable",
+            "type": "naming",
+            "confidence": 65,
+            "isPlaceholder": true,
+            "identifier": "VendorCylinderReceiptStub",
+            "ruleId": "Rule3",
+            "reasons": [
+              "Variable/field name suggests placeholder: VendorCylinderReceiptStub"
+            ],
+            "id": "_Users_keithcostello_Projects_cursorai_aitooling_dd-test-fixtures_scientific-formula-lab-csharp_src_ScientificFormulaLab_Chemistry_ChemistryStoichiometryEngine_cs:variable:262:30",
+            "parentFindingId": "_Users_keithcostello_Projects_cursorai_aitooling_dd-test-fixtures_scientific-formula-lab-csharp_src_ScientificFormulaLab_Chemistry_ChemistryStoichiometryEngine_cs:function:262:29"
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Chemistry/ChemistryStoichiometryEngine.cs",
+            "line": 267,
+            "endLine": 267,
+            "kind": "function",
+            "type": "explicit_marker",
+            "confidence": 22,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: lowComplexityProxy",
+              "Low cyclomatic complexity (1)",
+              "Very short function (1 lines)",
+              "Function takes no parameters",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "functionName": "ReactantCoeffs",
+            "id": "_Users_keithcostello_Projects_cursorai_aitooling_dd-test-fixtures_scientific-formula-lab-csharp_src_ScientificFormulaLab_Chemistry_ChemistryStoichiometryEngine_cs:function:267:31"
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Chemistry/ChemistryStoichiometryEngine.cs",
+            "line": 268,
+            "endLine": 268,
+            "kind": "function",
+            "type": "explicit_marker",
+            "confidence": 22,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: lowComplexityProxy",
+              "Low cyclomatic complexity (1)",
+              "Very short function (1 lines)",
+              "Function takes no parameters",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "functionName": "ProductCoeffs",
+            "id": "_Users_keithcostello_Projects_cursorai_aitooling_dd-test-fixtures_scientific-formula-lab-csharp_src_ScientificFormulaLab_Chemistry_ChemistryStoichiometryEngine_cs:function:268:32"
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Chemistry/ChemistryStoichiometryEngine.cs",
+            "line": 270,
+            "endLine": 281,
+            "kind": "function",
+            "type": "explicit_marker",
+            "confidence": 6,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: hasThrowStatement",
+              "Function takes no parameters",
+              "Contains throw statement",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "functionName": "StoichiometricReaction",
+            "id": "_Users_keithcostello_Projects_cursorai_aitooling_dd-test-fixtures_scientific-formula-lab-csharp_src_ScientificFormulaLab_Chemistry_ChemistryStoichiometryEngine_cs:function:270:33"
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Chemistry/ChemistryStoichiometryEngine.cs",
+            "line": 283,
+            "endLine": 304,
+            "kind": "function",
+            "type": "explicit_marker",
+            "confidence": 2,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: hasThrowStatement",
+              "Contains throw statement",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "functionName": "LimitReactantMoles",
+            "id": "_Users_keithcostello_Projects_cursorai_aitooling_dd-test-fixtures_scientific-formula-lab-csharp_src_ScientificFormulaLab_Chemistry_ChemistryStoichiometryEngine_cs:function:283:34"
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Chemistry/ChemistryStoichiometryEngine.cs",
+            "line": 309,
+            "endLine": 309,
+            "kind": "function",
+            "type": "explicit_marker",
+            "confidence": 22,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: lowComplexityProxy",
+              "Low cyclomatic complexity (1)",
+              "Very short function (1 lines)",
+              "Function takes no parameters",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "functionName": "Table",
+            "id": "_Users_keithcostello_Projects_cursorai_aitooling_dd-test-fixtures_scientific-formula-lab-csharp_src_ScientificFormulaLab_Chemistry_ChemistryStoichiometryEngine_cs:function:309:35"
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Chemistry/ChemistryStoichiometryEngine.cs",
+            "line": 310,
+            "endLine": 310,
+            "kind": "function",
+            "type": "explicit_marker",
+            "confidence": 22,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: lowComplexityProxy",
+              "Low cyclomatic complexity (1)",
+              "Very short function (1 lines)",
+              "Function takes no parameters",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "functionName": "Parser",
+            "id": "_Users_keithcostello_Projects_cursorai_aitooling_dd-test-fixtures_scientific-formula-lab-csharp_src_ScientificFormulaLab_Chemistry_ChemistryStoichiometryEngine_cs:function:310:36"
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Chemistry/ChemistryStoichiometryEngine.cs",
+            "line": 311,
+            "endLine": 311,
+            "kind": "function",
+            "type": "explicit_marker",
+            "confidence": 22,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: lowComplexityProxy",
+              "Low cyclomatic complexity (1)",
+              "Very short function (1 lines)",
+              "Function takes no parameters",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "functionName": "Solution",
+            "id": "_Users_keithcostello_Projects_cursorai_aitooling_dd-test-fixtures_scientific-formula-lab-csharp_src_ScientificFormulaLab_Chemistry_ChemistryStoichiometryEngine_cs:function:311:37"
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Chemistry/ChemistryStoichiometryEngine.cs",
+            "line": 312,
+            "endLine": 312,
+            "kind": "function",
+            "type": "explicit_marker",
+            "confidence": 22,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: lowComplexityProxy",
+              "Low cyclomatic complexity (1)",
+              "Very short function (1 lines)",
+              "Function takes no parameters",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "functionName": "Gas",
+            "id": "_Users_keithcostello_Projects_cursorai_aitooling_dd-test-fixtures_scientific-formula-lab-csharp_src_ScientificFormulaLab_Chemistry_ChemistryStoichiometryEngine_cs:function:312:38"
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Chemistry/ChemistryStoichiometryEngine.cs",
+            "line": 315,
+            "endLine": 321,
+            "kind": "function",
+            "type": "explicit_marker",
+            "confidence": 12,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: lowComplexityProxy",
+              "Low cyclomatic complexity (1)",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "functionName": "ChemistryStoichiometryEngine",
+            "id": "_Users_keithcostello_Projects_cursorai_aitooling_dd-test-fixtures_scientific-formula-lab-csharp_src_ScientificFormulaLab_Chemistry_ChemistryStoichiometryEngine_cs:function:315:39"
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Chemistry/ChemistryStoichiometryEngine.cs",
+            "line": 323,
+            "endLine": 331,
+            "kind": "function",
+            "type": "explicit_marker",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Intentionally unused parameter/variable (prefixed with _)",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "functionName": "MolarMass",
+            "id": "_Users_keithcostello_Projects_cursorai_aitooling_dd-test-fixtures_scientific-formula-lab-csharp_src_ScientificFormulaLab_Chemistry_ChemistryStoichiometryEngine_cs:function:323:40"
+          }
+        ],
+        "importedModules": [],
+        "exportedElements": [
+          {
+            "name": "PeriodicTable",
+            "type": "function"
+          },
+          {
+            "name": "AtomicData",
+            "type": "function"
+          },
+          {
+            "name": "MolarMassSymbol",
+            "type": "function"
+          },
+          {
+            "name": "MolecularFormulaParser",
+            "type": "function"
+          },
+          {
+            "name": "Parse",
+            "type": "function"
+          },
+          {
+            "name": "SolutionStoichiometry",
+            "type": "function"
+          },
+          {
+            "name": "MolarMassFromAtomBag",
+            "type": "function"
+          },
+          {
+            "name": "MolarityFromMolesMolarityDefinition",
+            "type": "function"
+          },
+          {
+            "name": "MonoproticTitrationScalar",
+            "type": "function"
+          },
+          {
+            "name": "PHFromH3OPlusMolarity",
+            "type": "function"
+          },
+          {
+            "name": "POHFromH3O",
+            "type": "function"
+          },
+          {
+            "name": "WeakAcidHPlusApprox",
+            "type": "function"
+          },
+          {
+            "name": "R",
+            "type": "function"
+          },
+          {
+            "name": "GasLawEngine",
+            "type": "function"
+          },
+          {
+            "name": "IdealMoles",
+            "type": "function"
+          },
+          {
+            "name": "IdealPressure_Pa",
+            "type": "function"
+          },
+          {
+            "name": "VanDerWaalsPressure1mol",
+            "type": "function"
+          },
+          {
+            "name": "Rms1D",
+            "type": "function"
+          },
+          {
+            "name": "ReactantCoeffs",
+            "type": "function"
+          },
+          {
+            "name": "ProductCoeffs",
+            "type": "function"
+          },
+          {
+            "name": "StoichiometricReaction",
+            "type": "function"
+          },
+          {
+            "name": "LimitReactantMoles",
+            "type": "function"
+          },
+          {
+            "name": "Table",
+            "type": "function"
+          },
+          {
+            "name": "Parser",
+            "type": "function"
+          },
+          {
+            "name": "Solution",
+            "type": "function"
+          },
+          {
+            "name": "Gas",
+            "type": "function"
+          },
+          {
+            "name": "ChemistryStoichiometryEngine",
+            "type": "function"
+          },
+          {
+            "name": "MolarMass",
+            "type": "function"
+          }
+        ],
+        "functions": [
+          {
+            "name": "PeriodicTable",
+            "signature": "public PeriodicTable() => Seed();",
+            "parameters": [],
+            "returnType": "public",
+            "isAsync": false,
+            "calls": [
+              "Seed"
+            ],
+            "startLine": 18,
+            "endLine": 18,
+            "structuralSignals": {
+              "emptyOrTrivialBody": false,
+              "constantOrIdentityReturn": false,
+              "stubThrowOrPanic": false,
+              "hasThrowStatement": false,
+              "paramsLikelyUnused": false,
+              "lowComplexityProxy": true,
+              "reasons": [
+                "polyglot-structural: lowComplexityProxy"
+              ]
+            },
+            "placeholderAnalysis": {
+              "classification": "likely-legitimate",
+              "confidence": 22,
+              "isPlaceholder": false,
+              "reasons": [
+                "polyglot-structural: lowComplexityProxy",
+                "Low cyclomatic complexity (1)",
+                "Very short function (1 lines)",
+                "Function takes no parameters",
+                "Safety cap applied: cheap heuristics only"
+              ],
+              "detectionMethods": {
+                "explicitMarkers": 0,
+                "namingPatterns": 0,
+                "astAnalysis": 22,
+                "commentAnalysis": 0,
+                "contextFilter": 0,
+                "unusedCodeAnalysis": 0,
+                "externalUnusedChecks": 0,
+                "enhancedContext": 0
+              }
+            }
+          },
+          {
+            "name": "Seed",
+            "signature": "private void Seed()",
+            "parameters": [],
+            "returnType": "void",
+            "isAsync": false,
+            "calls": [],
+            "startLine": 20,
+            "endLine": 52,
+            "structuralSignals": {
+              "emptyOrTrivialBody": false,
+              "constantOrIdentityReturn": false,
+              "stubThrowOrPanic": false,
+              "hasThrowStatement": false,
+              "paramsLikelyUnused": false,
+              "lowComplexityProxy": true,
+              "reasons": [
+                "polyglot-structural: lowComplexityProxy"
+              ]
+            },
+            "placeholderAnalysis": {
+              "classification": "definite-legitimate",
+              "confidence": 16,
+              "isPlaceholder": false,
+              "reasons": [
+                "polyglot-structural: lowComplexityProxy",
+                "Low cyclomatic complexity (1)",
+                "Function takes no parameters",
+                "Safety cap applied: cheap heuristics only"
+              ],
+              "detectionMethods": {
+                "explicitMarkers": 0,
+                "namingPatterns": 0,
+                "astAnalysis": 16,
+                "commentAnalysis": 0,
+                "contextFilter": 0,
+                "unusedCodeAnalysis": 0,
+                "externalUnusedChecks": 0,
+                "enhancedContext": 0
+              }
+            }
+          },
+          {
+            "name": "AtomicData",
+            "signature": "public IReadOnlyDictionary<string, ElementData> AtomicData => _m;",
+            "parameters": [],
+            "returnType": "void",
+            "isAsync": false,
+            "calls": [],
+            "startLine": 54,
+            "endLine": 54,
+            "structuralSignals": {
+              "emptyOrTrivialBody": false,
+              "constantOrIdentityReturn": false,
+              "stubThrowOrPanic": false,
+              "hasThrowStatement": false,
+              "paramsLikelyUnused": false,
+              "lowComplexityProxy": true,
+              "reasons": [
+                "polyglot-structural: lowComplexityProxy"
+              ]
+            },
+            "placeholderAnalysis": {
+              "classification": "likely-legitimate",
+              "confidence": 22,
+              "isPlaceholder": false,
+              "reasons": [
+                "polyglot-structural: lowComplexityProxy",
+                "Low cyclomatic complexity (1)",
+                "Very short function (1 lines)",
+                "Function takes no parameters",
+                "Safety cap applied: cheap heuristics only"
+              ],
+              "detectionMethods": {
+                "explicitMarkers": 0,
+                "namingPatterns": 0,
+                "astAnalysis": 22,
+                "commentAnalysis": 0,
+                "contextFilter": 0,
+                "unusedCodeAnalysis": 0,
+                "externalUnusedChecks": 0,
+                "enhancedContext": 0
+              }
+            }
+          },
+          {
+            "name": "MolarMassSymbol",
+            "signature": "public double MolarMassSymbol(string sym)",
+            "parameters": [
+              {
+                "name": "sym",
+                "type": "string"
+              }
+            ],
+            "returnType": "double",
+            "isAsync": false,
+            "calls": [
+              "_m.TryGetValue"
+            ],
+            "startLine": 56,
+            "endLine": 61,
+            "structuralSignals": {
+              "emptyOrTrivialBody": false,
+              "constantOrIdentityReturn": false,
+              "stubThrowOrPanic": false,
+              "hasThrowStatement": true,
+              "paramsLikelyUnused": false,
+              "lowComplexityProxy": false,
+              "reasons": [
+                "polyglot-structural: hasThrowStatement"
+              ]
+            },
+            "placeholderAnalysis": {
+              "classification": "definite-legitimate",
+              "confidence": 0,
+              "isPlaceholder": false,
+              "reasons": [
+                "polyglot-structural: hasThrowStatement",
+                "Contains throw statement",
+                "Intentionally unused parameter/variable (prefixed with _)",
+                "Safety cap applied: cheap heuristics only"
+              ],
+              "detectionMethods": {
+                "explicitMarkers": 0,
+                "namingPatterns": 0,
+                "astAnalysis": 2,
+                "commentAnalysis": 0,
+                "contextFilter": -25,
+                "unusedCodeAnalysis": 0,
+                "externalUnusedChecks": 0,
+                "enhancedContext": 0
+              }
+            }
+          },
+          {
+            "name": "MolecularFormulaParser",
+            "signature": "public MolecularFormulaParser(PeriodicTable table) => _table = table;",
+            "parameters": [
+              {
+                "name": "table",
+                "type": "PeriodicTable"
+              }
+            ],
+            "returnType": "public",
+            "isAsync": false,
+            "calls": [],
+            "startLine": 68,
+            "endLine": 68,
+            "structuralSignals": {
+              "emptyOrTrivialBody": false,
+              "constantOrIdentityReturn": false,
+              "stubThrowOrPanic": false,
+              "hasThrowStatement": false,
+              "paramsLikelyUnused": false,
+              "lowComplexityProxy": true,
+              "reasons": [
+                "polyglot-structural: lowComplexityProxy"
+              ]
+            },
+            "placeholderAnalysis": {
+              "classification": "definite-legitimate",
+              "confidence": 18,
+              "isPlaceholder": false,
+              "reasons": [
+                "polyglot-structural: lowComplexityProxy",
+                "Low cyclomatic complexity (1)",
+                "Very short function (1 lines)",
+                "Safety cap applied: cheap heuristics only"
+              ],
+              "detectionMethods": {
+                "explicitMarkers": 0,
+                "namingPatterns": 0,
+                "astAnalysis": 18,
+                "commentAnalysis": 0,
+                "contextFilter": 0,
+                "unusedCodeAnalysis": 0,
+                "externalUnusedChecks": 0,
+                "enhancedContext": 0
+              }
+            }
+          },
+          {
+            "name": "Parse",
+            "signature": "public Dictionary<string, double> Parse(string formula)",
+            "parameters": [
+              {
+                "name": "formula",
+                "type": "string"
+              }
+            ],
+            "returnType": "Dictionary<string, double>",
+            "isAsync": false,
+            "calls": [
+              "string.Concat",
+              "formula.Where",
+              "char.IsWhiteSpace",
+              "s0[pos].ToString",
+              "_table.AtomicData.ContainsKey",
+              "ParseInner",
+              "ReadInt",
+              "MergeBags",
+              "ReadEl",
+              "output.TryGetValue"
+            ],
+            "startLine": 70,
+            "endLine": 143,
+            "structuralSignals": {
+              "emptyOrTrivialBody": false,
+              "constantOrIdentityReturn": false,
+              "stubThrowOrPanic": false,
+              "hasThrowStatement": true,
+              "paramsLikelyUnused": false,
+              "lowComplexityProxy": false,
+              "reasons": [
+                "polyglot-structural: hasThrowStatement"
+              ]
+            },
+            "placeholderAnalysis": {
+              "classification": "definite-legitimate",
+              "confidence": 0,
+              "isPlaceholder": false,
+              "reasons": [
+                "polyglot-structural: hasThrowStatement",
+                "Contains throw statement",
+                "Intentionally unused parameter/variable (prefixed with _)",
+                "Safety cap applied: cheap heuristics only"
+              ],
+              "detectionMethods": {
+                "explicitMarkers": 0,
+                "namingPatterns": 0,
+                "astAnalysis": 2,
+                "commentAnalysis": 0,
+                "contextFilter": -25,
+                "unusedCodeAnalysis": 0,
+                "externalUnusedChecks": 0,
+                "enhancedContext": 0
+              }
+            }
+          },
+          {
+            "name": "ReadInt",
+            "signature": "int ReadInt()",
+            "parameters": [],
+            "returnType": "int",
+            "isAsync": false,
+            "calls": [],
+            "startLine": 78,
+            "endLine": 94,
+            "structuralSignals": {
+              "emptyOrTrivialBody": false,
+              "constantOrIdentityReturn": false,
+              "stubThrowOrPanic": false,
+              "hasThrowStatement": true,
+              "paramsLikelyUnused": false,
+              "lowComplexityProxy": false,
+              "reasons": [
+                "polyglot-structural: hasThrowStatement"
+              ]
+            },
+            "placeholderAnalysis": {
+              "classification": "definite-legitimate",
+              "confidence": 6,
+              "isPlaceholder": false,
+              "reasons": [
+                "polyglot-structural: hasThrowStatement",
+                "Function takes no parameters",
+                "Contains throw statement",
+                "Safety cap applied: cheap heuristics only"
+              ],
+              "detectionMethods": {
+                "explicitMarkers": 0,
+                "namingPatterns": 0,
+                "astAnalysis": 6,
+                "commentAnalysis": 0,
+                "contextFilter": 0,
+                "unusedCodeAnalysis": 0,
+                "externalUnusedChecks": 0,
+                "enhancedContext": 0
+              }
+            }
+          },
+          {
+            "name": "ReadEl",
+            "signature": "string ReadEl()",
+            "parameters": [],
+            "returnType": "string",
+            "isAsync": false,
+            "calls": [
+              "s0[pos].ToString",
+              "_table.AtomicData.ContainsKey"
+            ],
+            "startLine": 96,
+            "endLine": 112,
+            "structuralSignals": {
+              "emptyOrTrivialBody": false,
+              "constantOrIdentityReturn": false,
+              "stubThrowOrPanic": false,
+              "hasThrowStatement": true,
+              "paramsLikelyUnused": false,
+              "lowComplexityProxy": false,
+              "reasons": [
+                "polyglot-structural: hasThrowStatement"
+              ]
+            },
+            "placeholderAnalysis": {
+              "classification": "definite-legitimate",
+              "confidence": 0,
+              "isPlaceholder": false,
+              "reasons": [
+                "polyglot-structural: hasThrowStatement",
+                "Function takes no parameters",
+                "Contains throw statement",
+                "Intentionally unused parameter/variable (prefixed with _)",
+                "Safety cap applied: cheap heuristics only"
+              ],
+              "detectionMethods": {
+                "explicitMarkers": 0,
+                "namingPatterns": 0,
+                "astAnalysis": 6,
+                "commentAnalysis": 0,
+                "contextFilter": -25,
+                "unusedCodeAnalysis": 0,
+                "externalUnusedChecks": 0,
+                "enhancedContext": 0
+              }
+            }
+          },
+          {
+            "name": "ParseInner",
+            "signature": "Dictionary<string, double> ParseInner()",
+            "parameters": [],
+            "returnType": "Dictionary<string, double>",
+            "isAsync": false,
+            "calls": [
+              "ParseInner",
+              "ReadInt",
+              "MergeBags",
+              "ReadEl",
+              "output.TryGetValue"
+            ],
+            "startLine": 114,
+            "endLine": 137,
+            "structuralSignals": {
+              "emptyOrTrivialBody": false,
+              "constantOrIdentityReturn": false,
+              "stubThrowOrPanic": false,
+              "hasThrowStatement": true,
+              "paramsLikelyUnused": false,
+              "lowComplexityProxy": false,
+              "reasons": [
+                "polyglot-structural: hasThrowStatement"
+              ]
+            },
+            "placeholderAnalysis": {
+              "classification": "definite-legitimate",
+              "confidence": 0,
+              "isPlaceholder": false,
+              "reasons": [
+                "polyglot-structural: hasThrowStatement",
+                "Function takes no parameters",
+                "Contains throw statement",
+                "Moderate context score",
+                "Safety cap applied: cheap heuristics only"
+              ],
+              "detectionMethods": {
+                "explicitMarkers": 0,
+                "namingPatterns": 0,
+                "astAnalysis": 6,
+                "commentAnalysis": 0,
+                "contextFilter": -15,
+                "unusedCodeAnalysis": 0,
+                "externalUnusedChecks": 0,
+                "enhancedContext": 0
+              }
+            }
+          },
+          {
+            "name": "MergeBags",
+            "signature": "private static void MergeBags(Dictionary<string, double> into, Dictionary<string, double> from, double scale)",
+            "parameters": [
+              {
+                "name": "into",
+                "type": "Dictionary<string, double>"
+              },
+              {
+                "name": "from",
+                "type": "Dictionary<string, double>"
+              },
+              {
+                "name": "scale",
+                "type": "double"
+              }
+            ],
+            "returnType": "void",
+            "isAsync": false,
+            "calls": [
+              "into.TryGetValue"
+            ],
+            "startLine": 145,
+            "endLine": 149,
+            "structuralSignals": {
+              "emptyOrTrivialBody": false,
+              "constantOrIdentityReturn": false,
+              "stubThrowOrPanic": false,
+              "hasThrowStatement": false,
+              "paramsLikelyUnused": false,
+              "lowComplexityProxy": false,
+              "reasons": []
+            },
+            "placeholderAnalysis": {
+              "classification": "definite-legitimate",
+              "confidence": 0,
+              "isPlaceholder": false,
+              "reasons": [
+                "Safety cap applied: cheap heuristics only"
+              ],
+              "detectionMethods": {
+                "explicitMarkers": 0,
+                "namingPatterns": 0,
+                "astAnalysis": 0,
+                "commentAnalysis": 0,
+                "contextFilter": 0,
+                "unusedCodeAnalysis": 0,
+                "externalUnusedChecks": 0,
+                "enhancedContext": 0
+              }
+            }
+          },
+          {
+            "name": "SolutionStoichiometry",
+            "signature": "public SolutionStoichiometry(PeriodicTable table) => _table = table;",
+            "parameters": [
+              {
+                "name": "table",
+                "type": "PeriodicTable"
+              }
+            ],
+            "returnType": "public",
+            "isAsync": false,
+            "calls": [],
+            "startLine": 156,
+            "endLine": 156,
+            "structuralSignals": {
+              "emptyOrTrivialBody": false,
+              "constantOrIdentityReturn": false,
+              "stubThrowOrPanic": false,
+              "hasThrowStatement": false,
+              "paramsLikelyUnused": false,
+              "lowComplexityProxy": true,
+              "reasons": [
+                "polyglot-structural: lowComplexityProxy"
+              ]
+            },
+            "placeholderAnalysis": {
+              "classification": "definite-legitimate",
+              "confidence": 18,
+              "isPlaceholder": false,
+              "reasons": [
+                "polyglot-structural: lowComplexityProxy",
+                "Low cyclomatic complexity (1)",
+                "Very short function (1 lines)",
+                "Safety cap applied: cheap heuristics only"
+              ],
+              "detectionMethods": {
+                "explicitMarkers": 0,
+                "namingPatterns": 0,
+                "astAnalysis": 18,
+                "commentAnalysis": 0,
+                "contextFilter": 0,
+                "unusedCodeAnalysis": 0,
+                "externalUnusedChecks": 0,
+                "enhancedContext": 0
+              }
+            }
+          },
+          {
+            "name": "MolarMassFromAtomBag",
+            "signature": "public double MolarMassFromAtomBag(Dictionary<string, double> bag)",
+            "parameters": [
+              {
+                "name": "bag",
+                "type": "Dictionary<string, double>"
+              }
+            ],
+            "returnType": "double",
+            "isAsync": false,
+            "calls": [
+              "_table.MolarMassSymbol"
+            ],
+            "startLine": 158,
+            "endLine": 164,
+            "structuralSignals": {
+              "emptyOrTrivialBody": false,
+              "constantOrIdentityReturn": false,
+              "stubThrowOrPanic": false,
+              "hasThrowStatement": false,
+              "paramsLikelyUnused": false,
+              "lowComplexityProxy": true,
+              "reasons": [
+                "polyglot-structural: lowComplexityProxy"
+              ]
+            },
+            "placeholderAnalysis": {
+              "classification": "definite-legitimate",
+              "confidence": 12,
+              "isPlaceholder": false,
+              "reasons": [
+                "polyglot-structural: lowComplexityProxy",
+                "Low cyclomatic complexity (1)",
+                "Safety cap applied: cheap heuristics only"
+              ],
+              "detectionMethods": {
+                "explicitMarkers": 0,
+                "namingPatterns": 0,
+                "astAnalysis": 12,
+                "commentAnalysis": 0,
+                "contextFilter": 0,
+                "unusedCodeAnalysis": 0,
+                "externalUnusedChecks": 0,
+                "enhancedContext": 0
+              }
+            }
+          },
+          {
+            "name": "MolarityFromMolesMolarityDefinition",
+            "signature": "public double MolarityFromMolesMolarityDefinition(double moles, double vLiters)",
+            "parameters": [
+              {
+                "name": "moles",
+                "type": "double"
+              },
+              {
+                "name": "vLiters",
+                "type": "double"
+              }
+            ],
+            "returnType": "double",
+            "isAsync": false,
+            "calls": [],
+            "startLine": 166,
+            "endLine": 171,
+            "structuralSignals": {
+              "emptyOrTrivialBody": false,
+              "constantOrIdentityReturn": false,
+              "stubThrowOrPanic": false,
+              "hasThrowStatement": true,
+              "paramsLikelyUnused": false,
+              "lowComplexityProxy": false,
+              "reasons": [
+                "polyglot-structural: hasThrowStatement"
+              ]
+            },
+            "placeholderAnalysis": {
+              "classification": "definite-legitimate",
+              "confidence": 0,
+              "isPlaceholder": false,
+              "reasons": [
+                "polyglot-structural: hasThrowStatement",
+                "Contains throw statement",
+                "Simple arithmetic helper",
+                "Safety cap applied: cheap heuristics only"
+              ],
+              "detectionMethods": {
+                "explicitMarkers": 0,
+                "namingPatterns": 0,
+                "astAnalysis": 2,
+                "commentAnalysis": 0,
+                "contextFilter": -15,
+                "unusedCodeAnalysis": 0,
+                "externalUnusedChecks": 0,
+                "enhancedContext": 0
+              }
+            }
+          },
+          {
+            "name": "MonoproticTitrationScalar",
+            "signature": "public double MonoproticTitrationScalar(double molarityA, double volA_L, double molarityB)",
+            "parameters": [
+              {
+                "name": "molarityA",
+                "type": "double"
+              },
+              {
+                "name": "volA_L",
+                "type": "double"
+              },
+              {
+                "name": "molarityB",
+                "type": "double"
+              }
+            ],
+            "returnType": "double",
+            "isAsync": false,
+            "calls": [],
+            "startLine": 173,
+            "endLine": 178,
+            "structuralSignals": {
+              "emptyOrTrivialBody": false,
+              "constantOrIdentityReturn": false,
+              "stubThrowOrPanic": false,
+              "hasThrowStatement": true,
+              "paramsLikelyUnused": false,
+              "lowComplexityProxy": false,
+              "reasons": [
+                "polyglot-structural: hasThrowStatement"
+              ]
+            },
+            "placeholderAnalysis": {
+              "classification": "definite-legitimate",
+              "confidence": 2,
+              "isPlaceholder": false,
+              "reasons": [
+                "polyglot-structural: hasThrowStatement",
+                "Contains throw statement",
+                "Safety cap applied: cheap heuristics only"
+              ],
+              "detectionMethods": {
+                "explicitMarkers": 0,
+                "namingPatterns": 0,
+                "astAnalysis": 2,
+                "commentAnalysis": 0,
+                "contextFilter": 0,
+                "unusedCodeAnalysis": 0,
+                "externalUnusedChecks": 0,
+                "enhancedContext": 0
+              }
+            }
+          },
+          {
+            "name": "PHFromH3OPlusMolarity",
+            "signature": "public double PHFromH3OPlusMolarity(double cH3O)",
+            "parameters": [
+              {
+                "name": "cH3O",
+                "type": "double"
+              }
+            ],
+            "returnType": "double",
+            "isAsync": false,
+            "calls": [
+              "System.Math.Log10"
+            ],
+            "startLine": 180,
+            "endLine": 185,
+            "structuralSignals": {
+              "emptyOrTrivialBody": false,
+              "constantOrIdentityReturn": false,
+              "stubThrowOrPanic": false,
+              "hasThrowStatement": true,
+              "paramsLikelyUnused": false,
+              "lowComplexityProxy": false,
+              "reasons": [
+                "polyglot-structural: hasThrowStatement"
+              ]
+            },
+            "placeholderAnalysis": {
+              "classification": "definite-legitimate",
+              "confidence": 2,
+              "isPlaceholder": false,
+              "reasons": [
+                "polyglot-structural: hasThrowStatement",
+                "Contains throw statement",
+                "Safety cap applied: cheap heuristics only"
+              ],
+              "detectionMethods": {
+                "explicitMarkers": 0,
+                "namingPatterns": 0,
+                "astAnalysis": 2,
+                "commentAnalysis": 0,
+                "contextFilter": 0,
+                "unusedCodeAnalysis": 0,
+                "externalUnusedChecks": 0,
+                "enhancedContext": 0
+              }
+            }
+          },
+          {
+            "name": "POHFromH3O",
+            "signature": "public double POHFromH3O(double cH3O, double kW = 1e-14, double tempC = 25)",
+            "parameters": [
+              {
+                "name": "cH3O",
+                "type": "double"
+              },
+              {
+                "name": "kW",
+                "type": "double"
+              },
+              {
+                "name": "tempC",
+                "type": "double"
+              }
+            ],
+            "returnType": "double",
+            "isAsync": false,
+            "calls": [
+              "System.Math.Log10"
+            ],
+            "startLine": 187,
+            "endLine": 196,
+            "structuralSignals": {
+              "emptyOrTrivialBody": false,
+              "constantOrIdentityReturn": false,
+              "stubThrowOrPanic": false,
+              "hasThrowStatement": true,
+              "paramsLikelyUnused": false,
+              "lowComplexityProxy": false,
+              "reasons": [
+                "polyglot-structural: hasThrowStatement"
+              ]
+            },
+            "placeholderAnalysis": {
+              "classification": "definite-legitimate",
+              "confidence": 2,
+              "isPlaceholder": false,
+              "reasons": [
+                "polyglot-structural: hasThrowStatement",
+                "Contains throw statement",
+                "Safety cap applied: cheap heuristics only"
+              ],
+              "detectionMethods": {
+                "explicitMarkers": 0,
+                "namingPatterns": 0,
+                "astAnalysis": 2,
+                "commentAnalysis": 0,
+                "contextFilter": 0,
+                "unusedCodeAnalysis": 0,
+                "externalUnusedChecks": 0,
+                "enhancedContext": 0
+              }
+            }
+          },
+          {
+            "name": "WeakAcidHPlusApprox",
+            "signature": "public double WeakAcidHPlusApprox(double Ca, double Ka)",
+            "parameters": [
+              {
+                "name": "Ca",
+                "type": "double"
+              },
+              {
+                "name": "Ka",
+                "type": "double"
+              }
+            ],
+            "returnType": "double",
+            "isAsync": false,
+            "calls": [
+              "System.Math.Sqrt",
+              "System.Math.Max"
+            ],
+            "startLine": 198,
+            "endLine": 209,
+            "structuralSignals": {
+              "emptyOrTrivialBody": false,
+              "constantOrIdentityReturn": false,
+              "stubThrowOrPanic": false,
+              "hasThrowStatement": true,
+              "paramsLikelyUnused": false,
+              "lowComplexityProxy": false,
+              "reasons": [
+                "polyglot-structural: hasThrowStatement"
+              ]
+            },
+            "placeholderAnalysis": {
+              "classification": "definite-legitimate",
+              "confidence": 0,
+              "isPlaceholder": false,
+              "reasons": [
+                "polyglot-structural: hasThrowStatement",
+                "Contains throw statement",
+                "Returns computed value from external calls or processing",
+                "Safety cap applied: cheap heuristics only"
+              ],
+              "detectionMethods": {
+                "explicitMarkers": 0,
+                "namingPatterns": 0,
+                "astAnalysis": 2,
+                "commentAnalysis": 0,
+                "contextFilter": -12,
+                "unusedCodeAnalysis": 0,
+                "externalUnusedChecks": 0,
+                "enhancedContext": 0
+              }
+            }
+          },
+          {
+            "name": "R",
+            "signature": "public double R { get; }",
+            "parameters": [],
+            "returnType": "void",
+            "isAsync": false,
+            "calls": [],
+            "startLine": 214,
+            "endLine": 214,
+            "structuralSignals": {
+              "emptyOrTrivialBody": false,
+              "constantOrIdentityReturn": false,
+              "stubThrowOrPanic": false,
+              "hasThrowStatement": false,
+              "paramsLikelyUnused": false,
+              "lowComplexityProxy": true,
+              "reasons": [
+                "polyglot-structural: lowComplexityProxy"
+              ]
+            },
+            "placeholderAnalysis": {
+              "classification": "likely-legitimate",
+              "confidence": 22,
+              "isPlaceholder": false,
+              "reasons": [
+                "polyglot-structural: lowComplexityProxy",
+                "Low cyclomatic complexity (1)",
+                "Very short function (1 lines)",
+                "Function takes no parameters",
+                "Safety cap applied: cheap heuristics only"
+              ],
+              "detectionMethods": {
+                "explicitMarkers": 0,
+                "namingPatterns": 0,
+                "astAnalysis": 22,
+                "commentAnalysis": 0,
+                "contextFilter": 0,
+                "unusedCodeAnalysis": 0,
+                "externalUnusedChecks": 0,
+                "enhancedContext": 0
+              }
+            }
+          },
+          {
+            "name": "GasLawEngine",
+            "signature": "public GasLawEngine(double? r = null) => R = r ?? ChemistryConstants.RGas;",
+            "parameters": [
+              {
+                "name": "r",
+                "type": "double?"
+              }
+            ],
+            "returnType": "public",
+            "isAsync": false,
+            "calls": [],
+            "startLine": 216,
+            "endLine": 216,
+            "structuralSignals": {
+              "emptyOrTrivialBody": false,
+              "constantOrIdentityReturn": false,
+              "stubThrowOrPanic": false,
+              "hasThrowStatement": false,
+              "paramsLikelyUnused": false,
+              "lowComplexityProxy": true,
+              "reasons": [
+                "polyglot-structural: lowComplexityProxy"
+              ]
+            },
+            "placeholderAnalysis": {
+              "classification": "definite-legitimate",
+              "confidence": 18,
+              "isPlaceholder": false,
+              "reasons": [
+                "polyglot-structural: lowComplexityProxy",
+                "Low cyclomatic complexity (1)",
+                "Very short function (1 lines)",
+                "Safety cap applied: cheap heuristics only"
+              ],
+              "detectionMethods": {
+                "explicitMarkers": 0,
+                "namingPatterns": 0,
+                "astAnalysis": 18,
+                "commentAnalysis": 0,
+                "contextFilter": 0,
+                "unusedCodeAnalysis": 0,
+                "externalUnusedChecks": 0,
+                "enhancedContext": 0
+              }
+            }
+          },
+          {
+            "name": "IdealMoles",
+            "signature": "public double IdealMoles(double P_Pa, double V_m3, double T_K)",
+            "parameters": [
+              {
+                "name": "P_Pa",
+                "type": "double"
+              },
+              {
+                "name": "V_m3",
+                "type": "double"
+              },
+              {
+                "name": "T_K",
+                "type": "double"
+              }
+            ],
+            "returnType": "double",
+            "isAsync": false,
+            "calls": [],
+            "startLine": 218,
+            "endLine": 223,
+            "structuralSignals": {
+              "emptyOrTrivialBody": false,
+              "constantOrIdentityReturn": false,
+              "stubThrowOrPanic": false,
+              "hasThrowStatement": true,
+              "paramsLikelyUnused": false,
+              "lowComplexityProxy": false,
+              "reasons": [
+                "polyglot-structural: hasThrowStatement"
+              ]
+            },
+            "placeholderAnalysis": {
+              "classification": "definite-legitimate",
+              "confidence": 2,
+              "isPlaceholder": false,
+              "reasons": [
+                "polyglot-structural: hasThrowStatement",
+                "Contains throw statement",
+                "Safety cap applied: cheap heuristics only"
+              ],
+              "detectionMethods": {
+                "explicitMarkers": 0,
+                "namingPatterns": 0,
+                "astAnalysis": 2,
+                "commentAnalysis": 0,
+                "contextFilter": 0,
+                "unusedCodeAnalysis": 0,
+                "externalUnusedChecks": 0,
+                "enhancedContext": 0
+              }
+            }
+          }
+        ],
+        "classes": [
+          {
+            "name": "ChemistryConstants",
+            "methods": []
+          },
+          {
+            "name": "PeriodicTable",
+            "methods": [
+              {
+                "name": "PeriodicTable",
+                "signature": "public PeriodicTable() => Seed();",
+                "parameters": [],
+                "returnType": "public",
+                "isAsync": false,
+                "isGenerator": false,
+                "calls": [
+                  "Seed"
+                ],
+                "startLine": 18,
+                "endLine": 18,
+                "structuralSignals": {
+                  "emptyOrTrivialBody": false,
+                  "constantOrIdentityReturn": false,
+                  "stubThrowOrPanic": false,
+                  "hasThrowStatement": false,
+                  "paramsLikelyUnused": false,
+                  "lowComplexityProxy": true,
+                  "reasons": [
+                    "polyglot-structural: lowComplexityProxy"
+                  ]
+                }
+              },
+              {
+                "name": "Seed",
+                "signature": "private void Seed()",
+                "parameters": [],
+                "returnType": "void",
+                "isAsync": false,
+                "isGenerator": false,
+                "calls": [],
+                "startLine": 20,
+                "endLine": 52,
+                "structuralSignals": {
+                  "emptyOrTrivialBody": false,
+                  "constantOrIdentityReturn": false,
+                  "stubThrowOrPanic": false,
+                  "hasThrowStatement": false,
+                  "paramsLikelyUnused": false,
+                  "lowComplexityProxy": true,
+                  "reasons": [
+                    "polyglot-structural: lowComplexityProxy"
+                  ]
+                }
+              },
+              {
+                "name": "AtomicData",
+                "signature": "public IReadOnlyDictionary<string, ElementData> AtomicData => _m;",
+                "parameters": [],
+                "returnType": "void",
+                "isAsync": false,
+                "isGenerator": false,
+                "calls": [],
+                "startLine": 54,
+                "endLine": 54,
+                "structuralSignals": {
+                  "emptyOrTrivialBody": false,
+                  "constantOrIdentityReturn": false,
+                  "stubThrowOrPanic": false,
+                  "hasThrowStatement": false,
+                  "paramsLikelyUnused": false,
+                  "lowComplexityProxy": true,
+                  "reasons": [
+                    "polyglot-structural: lowComplexityProxy"
+                  ]
+                }
+              },
+              {
+                "name": "MolarMassSymbol",
+                "signature": "public double MolarMassSymbol(string sym)",
+                "parameters": [
+                  {
+                    "name": "sym",
+                    "type": "string"
+                  }
+                ],
+                "returnType": "double",
+                "isAsync": false,
+                "isGenerator": false,
+                "calls": [
+                  "_m.TryGetValue"
+                ],
+                "startLine": 56,
+                "endLine": 61,
+                "structuralSignals": {
+                  "emptyOrTrivialBody": false,
+                  "constantOrIdentityReturn": false,
+                  "stubThrowOrPanic": false,
+                  "hasThrowStatement": true,
+                  "paramsLikelyUnused": false,
+                  "lowComplexityProxy": false,
+                  "reasons": [
+                    "polyglot-structural: hasThrowStatement"
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "name": "MolecularFormulaParser",
+            "methods": [
+              {
+                "name": "MolecularFormulaParser",
+                "signature": "public MolecularFormulaParser(PeriodicTable table) => _table = table;",
+                "parameters": [
+                  {
+                    "name": "table",
+                    "type": "PeriodicTable"
+                  }
+                ],
+                "returnType": "public",
+                "isAsync": false,
+                "isGenerator": false,
+                "calls": [],
+                "startLine": 68,
+                "endLine": 68,
+                "structuralSignals": {
+                  "emptyOrTrivialBody": false,
+                  "constantOrIdentityReturn": false,
+                  "stubThrowOrPanic": false,
+                  "hasThrowStatement": false,
+                  "paramsLikelyUnused": false,
+                  "lowComplexityProxy": true,
+                  "reasons": [
+                    "polyglot-structural: lowComplexityProxy"
+                  ]
+                }
+              },
+              {
+                "name": "Parse",
+                "signature": "public Dictionary<string, double> Parse(string formula)",
+                "parameters": [
+                  {
+                    "name": "formula",
+                    "type": "string"
+                  }
+                ],
+                "returnType": "Dictionary<string, double>",
+                "isAsync": false,
+                "isGenerator": false,
+                "calls": [
+                  "string.Concat",
+                  "formula.Where",
+                  "char.IsWhiteSpace",
+                  "s0[pos].ToString",
+                  "_table.AtomicData.ContainsKey",
+                  "ParseInner",
+                  "ReadInt",
+                  "MergeBags",
+                  "ReadEl",
+                  "output.TryGetValue"
+                ],
+                "startLine": 70,
+                "endLine": 143,
+                "structuralSignals": {
+                  "emptyOrTrivialBody": false,
+                  "constantOrIdentityReturn": false,
+                  "stubThrowOrPanic": false,
+                  "hasThrowStatement": true,
+                  "paramsLikelyUnused": false,
+                  "lowComplexityProxy": false,
+                  "reasons": [
+                    "polyglot-structural: hasThrowStatement"
+                  ]
+                }
+              },
+              {
+                "name": "MergeBags",
+                "signature": "private static void MergeBags(Dictionary<string, double> into, Dictionary<string, double> from, double scale)",
+                "parameters": [
+                  {
+                    "name": "into",
+                    "type": "Dictionary<string, double>"
+                  },
+                  {
+                    "name": "from",
+                    "type": "Dictionary<string, double>"
+                  },
+                  {
+                    "name": "scale",
+                    "type": "double"
+                  }
+                ],
+                "returnType": "void",
+                "isAsync": false,
+                "isGenerator": false,
+                "calls": [
+                  "into.TryGetValue"
+                ],
+                "startLine": 145,
+                "endLine": 149,
+                "structuralSignals": {
+                  "emptyOrTrivialBody": false,
+                  "constantOrIdentityReturn": false,
+                  "stubThrowOrPanic": false,
+                  "hasThrowStatement": false,
+                  "paramsLikelyUnused": false,
+                  "lowComplexityProxy": false,
+                  "reasons": []
+                }
+              }
+            ]
+          },
+          {
+            "name": "SolutionStoichiometry",
+            "methods": [
+              {
+                "name": "SolutionStoichiometry",
+                "signature": "public SolutionStoichiometry(PeriodicTable table) => _table = table;",
+                "parameters": [
+                  {
+                    "name": "table",
+                    "type": "PeriodicTable"
+                  }
+                ],
+                "returnType": "public",
+                "isAsync": false,
+                "isGenerator": false,
+                "calls": [],
+                "startLine": 156,
+                "endLine": 156,
+                "structuralSignals": {
+                  "emptyOrTrivialBody": false,
+                  "constantOrIdentityReturn": false,
+                  "stubThrowOrPanic": false,
+                  "hasThrowStatement": false,
+                  "paramsLikelyUnused": false,
+                  "lowComplexityProxy": true,
+                  "reasons": [
+                    "polyglot-structural: lowComplexityProxy"
+                  ]
+                }
+              },
+              {
+                "name": "MolarMassFromAtomBag",
+                "signature": "public double MolarMassFromAtomBag(Dictionary<string, double> bag)",
+                "parameters": [
+                  {
+                    "name": "bag",
+                    "type": "Dictionary<string, double>"
+                  }
+                ],
+                "returnType": "double",
+                "isAsync": false,
+                "isGenerator": false,
+                "calls": [
+                  "_table.MolarMassSymbol"
+                ],
+                "startLine": 158,
+                "endLine": 164,
+                "structuralSignals": {
+                  "emptyOrTrivialBody": false,
+                  "constantOrIdentityReturn": false,
+                  "stubThrowOrPanic": false,
+                  "hasThrowStatement": false,
+                  "paramsLikelyUnused": false,
+                  "lowComplexityProxy": true,
+                  "reasons": [
+                    "polyglot-structural: lowComplexityProxy"
+                  ]
+                }
+              },
+              {
+                "name": "MolarityFromMolesMolarityDefinition",
+                "signature": "public double MolarityFromMolesMolarityDefinition(double moles, double vLiters)",
+                "parameters": [
+                  {
+                    "name": "moles",
+                    "type": "double"
+                  },
+                  {
+                    "name": "vLiters",
+                    "type": "double"
+                  }
+                ],
+                "returnType": "double",
+                "isAsync": false,
+                "isGenerator": false,
+                "calls": [],
+                "startLine": 166,
+                "endLine": 171,
+                "structuralSignals": {
+                  "emptyOrTrivialBody": false,
+                  "constantOrIdentityReturn": false,
+                  "stubThrowOrPanic": false,
+                  "hasThrowStatement": true,
+                  "paramsLikelyUnused": false,
+                  "lowComplexityProxy": false,
+                  "reasons": [
+                    "polyglot-structural: hasThrowStatement"
+                  ]
+                }
+              },
+              {
+                "name": "MonoproticTitrationScalar",
+                "signature": "public double MonoproticTitrationScalar(double molarityA, double volA_L, double molarityB)",
+                "parameters": [
+                  {
+                    "name": "molarityA",
+                    "type": "double"
+                  },
+                  {
+                    "name": "volA_L",
+                    "type": "double"
+                  },
+                  {
+                    "name": "molarityB",
+                    "type": "double"
+                  }
+                ],
+                "returnType": "double",
+                "isAsync": false,
+                "isGenerator": false,
+                "calls": [],
+                "startLine": 173,
+                "endLine": 178,
+                "structuralSignals": {
+                  "emptyOrTrivialBody": false,
+                  "constantOrIdentityReturn": false,
+                  "stubThrowOrPanic": false,
+                  "hasThrowStatement": true,
+                  "paramsLikelyUnused": false,
+                  "lowComplexityProxy": false,
+                  "reasons": [
+                    "polyglot-structural: hasThrowStatement"
+                  ]
+                }
+              },
+              {
+                "name": "PHFromH3OPlusMolarity",
+                "signature": "public double PHFromH3OPlusMolarity(double cH3O)",
+                "parameters": [
+                  {
+                    "name": "cH3O",
+                    "type": "double"
+                  }
+                ],
+                "returnType": "double",
+                "isAsync": false,
+                "isGenerator": false,
+                "calls": [
+                  "System.Math.Log10"
+                ],
+                "startLine": 180,
+                "endLine": 185,
+                "structuralSignals": {
+                  "emptyOrTrivialBody": false,
+                  "constantOrIdentityReturn": false,
+                  "stubThrowOrPanic": false,
+                  "hasThrowStatement": true,
+                  "paramsLikelyUnused": false,
+                  "lowComplexityProxy": false,
+                  "reasons": [
+                    "polyglot-structural: hasThrowStatement"
+                  ]
+                }
+              },
+              {
+                "name": "POHFromH3O",
+                "signature": "public double POHFromH3O(double cH3O, double kW = 1e-14, double tempC = 25)",
+                "parameters": [
+                  {
+                    "name": "cH3O",
+                    "type": "double"
+                  },
+                  {
+                    "name": "kW",
+                    "type": "double"
+                  },
+                  {
+                    "name": "tempC",
+                    "type": "double"
+                  }
+                ],
+                "returnType": "double",
+                "isAsync": false,
+                "isGenerator": false,
+                "calls": [
+                  "System.Math.Log10"
+                ],
+                "startLine": 187,
+                "endLine": 196,
+                "structuralSignals": {
+                  "emptyOrTrivialBody": false,
+                  "constantOrIdentityReturn": false,
+                  "stubThrowOrPanic": false,
+                  "hasThrowStatement": true,
+                  "paramsLikelyUnused": false,
+                  "lowComplexityProxy": false,
+                  "reasons": [
+                    "polyglot-structural: hasThrowStatement"
+                  ]
+                }
+              },
+              {
+                "name": "WeakAcidHPlusApprox",
+                "signature": "public double WeakAcidHPlusApprox(double Ca, double Ka)",
+                "parameters": [
+                  {
+                    "name": "Ca",
+                    "type": "double"
+                  },
+                  {
+                    "name": "Ka",
+                    "type": "double"
+                  }
+                ],
+                "returnType": "double",
+                "isAsync": false,
+                "isGenerator": false,
+                "calls": [
+                  "System.Math.Sqrt",
+                  "System.Math.Max"
+                ],
+                "startLine": 198,
+                "endLine": 209,
+                "structuralSignals": {
+                  "emptyOrTrivialBody": false,
+                  "constantOrIdentityReturn": false,
+                  "stubThrowOrPanic": false,
+                  "hasThrowStatement": true,
+                  "paramsLikelyUnused": false,
+                  "lowComplexityProxy": false,
+                  "reasons": [
+                    "polyglot-structural: hasThrowStatement"
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "name": "GasLawEngine",
+            "methods": [
+              {
+                "name": "R",
+                "signature": "public double R { get; }",
+                "parameters": [],
+                "returnType": "void",
+                "isAsync": false,
+                "isGenerator": false,
+                "calls": [],
+                "startLine": 214,
+                "endLine": 214,
+                "structuralSignals": {
+                  "emptyOrTrivialBody": false,
+                  "constantOrIdentityReturn": false,
+                  "stubThrowOrPanic": false,
+                  "hasThrowStatement": false,
+                  "paramsLikelyUnused": false,
+                  "lowComplexityProxy": true,
+                  "reasons": [
+                    "polyglot-structural: lowComplexityProxy"
+                  ]
+                }
+              },
+              {
+                "name": "GasLawEngine",
+                "signature": "public GasLawEngine(double? r = null) => R = r ?? ChemistryConstants.RGas;",
+                "parameters": [
+                  {
+                    "name": "r",
+                    "type": "double?"
+                  }
+                ],
+                "returnType": "public",
+                "isAsync": false,
+                "isGenerator": false,
+                "calls": [],
+                "startLine": 216,
+                "endLine": 216,
+                "structuralSignals": {
+                  "emptyOrTrivialBody": false,
+                  "constantOrIdentityReturn": false,
+                  "stubThrowOrPanic": false,
+                  "hasThrowStatement": false,
+                  "paramsLikelyUnused": false,
+                  "lowComplexityProxy": true,
+                  "reasons": [
+                    "polyglot-structural: lowComplexityProxy"
+                  ]
+                }
+              },
+              {
+                "name": "IdealMoles",
+                "signature": "public double IdealMoles(double P_Pa, double V_m3, double T_K)",
+                "parameters": [
+                  {
+                    "name": "P_Pa",
+                    "type": "double"
+                  },
+                  {
+                    "name": "V_m3",
+                    "type": "double"
+                  },
+                  {
+                    "name": "T_K",
+                    "type": "double"
+                  }
+                ],
+                "returnType": "double",
+                "isAsync": false,
+                "isGenerator": false,
+                "calls": [],
+                "startLine": 218,
+                "endLine": 223,
+                "structuralSignals": {
+                  "emptyOrTrivialBody": false,
+                  "constantOrIdentityReturn": false,
+                  "stubThrowOrPanic": false,
+                  "hasThrowStatement": true,
+                  "paramsLikelyUnused": false,
+                  "lowComplexityProxy": false,
+                  "reasons": [
+                    "polyglot-structural: hasThrowStatement"
+                  ]
+                }
+              },
+              {
+                "name": "IdealPressure_Pa",
+                "signature": "public double IdealPressure_Pa(double n, double V_m3, double T_K)",
+                "parameters": [
+                  {
+                    "name": "n",
+                    "type": "double"
+                  },
+                  {
+                    "name": "V_m3",
+                    "type": "double"
+                  },
+                  {
+                    "name": "T_K",
+                    "type": "double"
+                  }
+                ],
+                "returnType": "double",
+                "isAsync": false,
+                "isGenerator": false,
+                "calls": [],
+                "startLine": 225,
+                "endLine": 230,
+                "structuralSignals": {
+                  "emptyOrTrivialBody": false,
+                  "constantOrIdentityReturn": false,
+                  "stubThrowOrPanic": false,
+                  "hasThrowStatement": true,
+                  "paramsLikelyUnused": false,
+                  "lowComplexityProxy": false,
+                  "reasons": [
+                    "polyglot-structural: hasThrowStatement"
+                  ]
+                }
+              },
+              {
+                "name": "VanDerWaalsPressure1mol",
+                "signature": "public double VanDerWaalsPressure1mol(double Pa_a, double b_m3, double V_m3, double T_K)",
+                "parameters": [
+                  {
+                    "name": "Pa_a",
+                    "type": "double"
+                  },
+                  {
+                    "name": "b_m3",
+                    "type": "double"
+                  },
+                  {
+                    "name": "V_m3",
+                    "type": "double"
+                  },
+                  {
+                    "name": "T_K",
+                    "type": "double"
+                  }
+                ],
+                "returnType": "double",
+                "isAsync": false,
+                "isGenerator": false,
+                "calls": [],
+                "startLine": 232,
+                "endLine": 237,
+                "structuralSignals": {
+                  "emptyOrTrivialBody": false,
+                  "constantOrIdentityReturn": false,
+                  "stubThrowOrPanic": false,
+                  "hasThrowStatement": true,
+                  "paramsLikelyUnused": false,
+                  "lowComplexityProxy": false,
+                  "reasons": [
+                    "polyglot-structural: hasThrowStatement"
+                  ]
+                }
+              },
+              {
+                "name": "Rms1D",
+                "signature": "public double Rms1D(double molarMass_kg_mol, double T_K)",
+                "parameters": [
+                  {
+                    "name": "molarMass_kg_mol",
+                    "type": "double"
+                  },
+                  {
+                    "name": "T_K",
+                    "type": "double"
+                  }
+                ],
+                "returnType": "double",
+                "isAsync": false,
+                "isGenerator": false,
+                "calls": [
+                  "System.Math.Sqrt"
+                ],
+                "startLine": 239,
+                "endLine": 244,
+                "structuralSignals": {
+                  "emptyOrTrivialBody": false,
+                  "constantOrIdentityReturn": false,
+                  "stubThrowOrPanic": false,
+                  "hasThrowStatement": true,
+                  "paramsLikelyUnused": false,
+                  "lowComplexityProxy": false,
+                  "reasons": [
+                    "polyglot-structural: hasThrowStatement"
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "name": "VendorCylinderReceiptStub",
+            "methods": [
+              {
+                "name": "VendorCylinderReceiptStub",
+                "signature": "static VendorCylinderReceiptStub() => _ = Stub;",
+                "parameters": [],
+                "returnType": "static",
+                "isAsync": false,
+                "isGenerator": false,
+                "calls": [],
+                "startLine": 262,
+                "endLine": 262,
+                "structuralSignals": {
+                  "emptyOrTrivialBody": false,
+                  "constantOrIdentityReturn": false,
+                  "stubThrowOrPanic": false,
+                  "hasThrowStatement": false,
+                  "paramsLikelyUnused": false,
+                  "lowComplexityProxy": true,
+                  "reasons": [
+                    "polyglot-structural: lowComplexityProxy"
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "name": "StoichiometricReaction",
+            "methods": [
+              {
+                "name": "ReactantCoeffs",
+                "signature": "public IReadOnlyList<(string Name, double Nu)> ReactantCoeffs { get; }",
+                "parameters": [],
+                "returnType": "void",
+                "isAsync": false,
+                "isGenerator": false,
+                "calls": [],
+                "startLine": 267,
+                "endLine": 267,
+                "structuralSignals": {
+                  "emptyOrTrivialBody": false,
+                  "constantOrIdentityReturn": false,
+                  "stubThrowOrPanic": false,
+                  "hasThrowStatement": false,
+                  "paramsLikelyUnused": false,
+                  "lowComplexityProxy": true,
+                  "reasons": [
+                    "polyglot-structural: lowComplexityProxy"
+                  ]
+                }
+              },
+              {
+                "name": "ProductCoeffs",
+                "signature": "public IReadOnlyList<(string Name, double Nu)> ProductCoeffs { get; }",
+                "parameters": [],
+                "returnType": "void",
+                "isAsync": false,
+                "isGenerator": false,
+                "calls": [],
+                "startLine": 268,
+                "endLine": 268,
+                "structuralSignals": {
+                  "emptyOrTrivialBody": false,
+                  "constantOrIdentityReturn": false,
+                  "stubThrowOrPanic": false,
+                  "hasThrowStatement": false,
+                  "paramsLikelyUnused": false,
+                  "lowComplexityProxy": true,
+                  "reasons": [
+                    "polyglot-structural: lowComplexityProxy"
+                  ]
+                }
+              },
+              {
+                "name": "StoichiometricReaction",
+                "signature": "public StoichiometricReaction(",
+                "parameters": [],
+                "returnType": "public",
+                "isAsync": false,
+                "isGenerator": false,
+                "calls": [],
+                "startLine": 270,
+                "endLine": 281,
+                "structuralSignals": {
+                  "emptyOrTrivialBody": false,
+                  "constantOrIdentityReturn": false,
+                  "stubThrowOrPanic": false,
+                  "hasThrowStatement": true,
+                  "paramsLikelyUnused": false,
+                  "lowComplexityProxy": false,
+                  "reasons": [
+                    "polyglot-structural: hasThrowStatement"
+                  ]
+                }
+              },
+              {
+                "name": "LimitReactantMoles",
+                "signature": "public (string Limiting, double Scale) LimitReactantMoles(IReadOnlyDictionary<string, double> available)",
+                "parameters": [
+                  {
+                    "name": "available",
+                    "type": "IReadOnlyDictionary<string, double>"
+                  }
+                ],
+                "returnType": "void",
+                "isAsync": false,
+                "isGenerator": false,
+                "calls": [
+                  "available.TryGetValue",
+                  "double.IsFinite"
+                ],
+                "startLine": 283,
+                "endLine": 304,
+                "structuralSignals": {
+                  "emptyOrTrivialBody": false,
+                  "constantOrIdentityReturn": false,
+                  "stubThrowOrPanic": false,
+                  "hasThrowStatement": true,
+                  "paramsLikelyUnused": false,
+                  "lowComplexityProxy": false,
+                  "reasons": [
+                    "polyglot-structural: hasThrowStatement"
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "name": "ChemistryStoichiometryEngine",
+            "methods": [
+              {
+                "name": "Table",
+                "signature": "public PeriodicTable Table { get; }",
+                "parameters": [],
+                "returnType": "void",
+                "isAsync": false,
+                "isGenerator": false,
+                "calls": [],
+                "startLine": 309,
+                "endLine": 309,
+                "structuralSignals": {
+                  "emptyOrTrivialBody": false,
+                  "constantOrIdentityReturn": false,
+                  "stubThrowOrPanic": false,
+                  "hasThrowStatement": false,
+                  "paramsLikelyUnused": false,
+                  "lowComplexityProxy": true,
+                  "reasons": [
+                    "polyglot-structural: lowComplexityProxy"
+                  ]
+                }
+              },
+              {
+                "name": "Parser",
+                "signature": "public MolecularFormulaParser Parser { get; }",
+                "parameters": [],
+                "returnType": "void",
+                "isAsync": false,
+                "isGenerator": false,
+                "calls": [],
+                "startLine": 310,
+                "endLine": 310,
+                "structuralSignals": {
+                  "emptyOrTrivialBody": false,
+                  "constantOrIdentityReturn": false,
+                  "stubThrowOrPanic": false,
+                  "hasThrowStatement": false,
+                  "paramsLikelyUnused": false,
+                  "lowComplexityProxy": true,
+                  "reasons": [
+                    "polyglot-structural: lowComplexityProxy"
+                  ]
+                }
+              },
+              {
+                "name": "Solution",
+                "signature": "public SolutionStoichiometry Solution { get; }",
+                "parameters": [],
+                "returnType": "void",
+                "isAsync": false,
+                "isGenerator": false,
+                "calls": [],
+                "startLine": 311,
+                "endLine": 311,
+                "structuralSignals": {
+                  "emptyOrTrivialBody": false,
+                  "constantOrIdentityReturn": false,
+                  "stubThrowOrPanic": false,
+                  "hasThrowStatement": false,
+                  "paramsLikelyUnused": false,
+                  "lowComplexityProxy": true,
+                  "reasons": [
+                    "polyglot-structural: lowComplexityProxy"
+                  ]
+                }
+              },
+              {
+                "name": "Gas",
+                "signature": "public GasLawEngine Gas { get; }",
+                "parameters": [],
+                "returnType": "void",
+                "isAsync": false,
+                "isGenerator": false,
+                "calls": [],
+                "startLine": 312,
+                "endLine": 312,
+                "structuralSignals": {
+                  "emptyOrTrivialBody": false,
+                  "constantOrIdentityReturn": false,
+                  "stubThrowOrPanic": false,
+                  "hasThrowStatement": false,
+                  "paramsLikelyUnused": false,
+                  "lowComplexityProxy": true,
+                  "reasons": [
+                    "polyglot-structural: lowComplexityProxy"
+                  ]
+                }
+              },
+              {
+                "name": "ChemistryStoichiometryEngine",
+                "signature": "public ChemistryStoichiometryEngine(double? R = null)",
+                "parameters": [
+                  {
+                    "name": "R",
+                    "type": "double?"
+                  }
+                ],
+                "returnType": "public",
+                "isAsync": false,
+                "isGenerator": false,
+                "calls": [],
+                "startLine": 315,
+                "endLine": 321,
+                "structuralSignals": {
+                  "emptyOrTrivialBody": false,
+                  "constantOrIdentityReturn": false,
+                  "stubThrowOrPanic": false,
+                  "hasThrowStatement": false,
+                  "paramsLikelyUnused": false,
+                  "lowComplexityProxy": true,
+                  "reasons": [
+                    "polyglot-structural: lowComplexityProxy"
+                  ]
+                }
+              },
+              {
+                "name": "MolarMass",
+                "signature": "public double MolarMass(string formula)",
+                "parameters": [
+                  {
+                    "name": "formula",
+                    "type": "string"
+                  }
+                ],
+                "returnType": "double",
+                "isAsync": false,
+                "isGenerator": false,
+                "calls": [
+                  "_molarMassCache.TryGetValue",
+                  "Parser.Parse",
+                  "Solution.MolarMassFromAtomBag"
+                ],
+                "startLine": 323,
+                "endLine": 331,
+                "structuralSignals": {
+                  "emptyOrTrivialBody": false,
+                  "constantOrIdentityReturn": false,
+                  "stubThrowOrPanic": false,
+                  "hasThrowStatement": false,
+                  "paramsLikelyUnused": false,
+                  "lowComplexityProxy": false,
+                  "reasons": []
+                }
+              }
+            ]
+          }
+        ],
+        "keyElementsInFile": [
+          {
+            "name": "PeriodicTable",
+            "type": "function",
+            "signature": "public PeriodicTable() => Seed();"
+          },
+          {
+            "name": "Seed",
+            "type": "function",
+            "signature": "private void Seed()"
+          },
+          {
+            "name": "AtomicData",
+            "type": "function",
+            "signature": "public IReadOnlyDictionary<string, ElementData> AtomicData => _m;"
+          },
+          {
+            "name": "MolarMassSymbol",
+            "type": "function",
+            "signature": "public double MolarMassSymbol(string sym)"
+          },
+          {
+            "name": "MolecularFormulaParser",
+            "type": "function",
+            "signature": "public MolecularFormulaParser(PeriodicTable table) => _table = table;"
+          },
+          {
+            "name": "Parse",
+            "type": "function",
+            "signature": "public Dictionary<string, double> Parse(string formula)"
+          },
+          {
+            "name": "ReadInt",
+            "type": "function",
+            "signature": "int ReadInt()"
+          },
+          {
+            "name": "ReadEl",
+            "type": "function",
+            "signature": "string ReadEl()"
+          },
+          {
+            "name": "ParseInner",
+            "type": "function",
+            "signature": "Dictionary<string, double> ParseInner()"
+          },
+          {
+            "name": "MergeBags",
+            "type": "function",
+            "signature": "private static void MergeBags(Dictionary<string, double> into, Dictionary<string, double> from, double scale)"
+          },
+          {
+            "name": "SolutionStoichiometry",
+            "type": "function",
+            "signature": "public SolutionStoichiometry(PeriodicTable table) => _table = table;"
+          },
+          {
+            "name": "MolarMassFromAtomBag",
+            "type": "function",
+            "signature": "public double MolarMassFromAtomBag(Dictionary<string, double> bag)"
+          },
+          {
+            "name": "MolarityFromMolesMolarityDefinition",
+            "type": "function",
+            "signature": "public double MolarityFromMolesMolarityDefinition(double moles, double vLiters)"
+          },
+          {
+            "name": "MonoproticTitrationScalar",
+            "type": "function",
+            "signature": "public double MonoproticTitrationScalar(double molarityA, double volA_L, double molarityB)"
+          },
+          {
+            "name": "PHFromH3OPlusMolarity",
+            "type": "function",
+            "signature": "public double PHFromH3OPlusMolarity(double cH3O)"
+          },
+          {
+            "name": "POHFromH3O",
+            "type": "function",
+            "signature": "public double POHFromH3O(double cH3O, double kW = 1e-14, double tempC = 25)"
+          },
+          {
+            "name": "WeakAcidHPlusApprox",
+            "type": "function",
+            "signature": "public double WeakAcidHPlusApprox(double Ca, double Ka)"
+          },
+          {
+            "name": "R",
+            "type": "function",
+            "signature": "public double R { get; }"
+          },
+          {
+            "name": "GasLawEngine",
+            "type": "function",
+            "signature": "public GasLawEngine(double? r = null) => R = r ?? ChemistryConstants.RGas;"
+          },
+          {
+            "name": "IdealMoles",
+            "type": "function",
+            "signature": "public double IdealMoles(double P_Pa, double V_m3, double T_K)"
+          },
+          {
+            "name": "IdealPressure_Pa",
+            "type": "function",
+            "signature": "public double IdealPressure_Pa(double n, double V_m3, double T_K)"
+          },
+          {
+            "name": "VanDerWaalsPressure1mol",
+            "type": "function",
+            "signature": "public double VanDerWaalsPressure1mol(double Pa_a, double b_m3, double V_m3, double T_K)"
+          },
+          {
+            "name": "Rms1D",
+            "type": "function",
+            "signature": "public double Rms1D(double molarMass_kg_mol, double T_K)"
+          },
+          {
+            "name": "VendorCylinderReceiptStub",
+            "type": "function",
+            "signature": "static VendorCylinderReceiptStub() => _ = Stub;"
+          },
+          {
+            "name": "ReactantCoeffs",
+            "type": "function",
+            "signature": "public IReadOnlyList<(string Name, double Nu)> ReactantCoeffs { get; }"
+          },
+          {
+            "name": "ProductCoeffs",
+            "type": "function",
+            "signature": "public IReadOnlyList<(string Name, double Nu)> ProductCoeffs { get; }"
+          },
+          {
+            "name": "StoichiometricReaction",
+            "type": "function",
+            "signature": "public StoichiometricReaction("
+          },
+          {
+            "name": "LimitReactantMoles",
+            "type": "function",
+            "signature": "public (string Limiting, double Scale) LimitReactantMoles(IReadOnlyDictionary<string, double> available)"
+          },
+          {
+            "name": "Table",
+            "type": "function",
+            "signature": "public PeriodicTable Table { get; }"
+          },
+          {
+            "name": "Parser",
+            "type": "function",
+            "signature": "public MolecularFormulaParser Parser { get; }"
+          },
+          {
+            "name": "Solution",
+            "type": "function",
+            "signature": "public SolutionStoichiometry Solution { get; }"
+          },
+          {
+            "name": "Gas",
+            "type": "function",
+            "signature": "public GasLawEngine Gas { get; }"
+          },
+          {
+            "name": "ChemistryStoichiometryEngine",
+            "type": "function",
+            "signature": "public ChemistryStoichiometryEngine(double? R = null)"
+          },
+          {
+            "name": "MolarMass",
+            "type": "function",
+            "signature": "public double MolarMass(string formula)"
+          },
+          {
+            "name": "ChemistryConstants",
+            "type": "class",
+            "signature": "class ChemistryConstants"
+          },
+          {
+            "name": "RGas",
+            "type": "const",
+            "signature": "const RGas"
+          },
+          {
+            "name": "Avo",
+            "type": "const",
+            "signature": "const Avo"
+          },
+          {
+            "name": "_m",
+            "type": "const",
+            "signature": "const _m"
+          },
+          {
+            "name": "_table",
+            "type": "const",
+            "signature": "const _table"
+          },
+          {
+            "name": "Stub",
+            "type": "const",
+            "signature": "const Stub"
+          },
+          {
+            "name": "_molarMassCache",
+            "type": "const",
+            "signature": "const _molarMassCache"
+          }
+        ]
+      }
+    ]
+  }
+}

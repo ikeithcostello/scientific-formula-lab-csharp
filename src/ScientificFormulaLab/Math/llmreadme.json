@@ -1,0 +1,3991 @@
+{
+  "$schema": "https://json.schemastore.org/llm-metadata-1.4.json",
+  "version": "2.3.0",
+  "generatedAt": "2026-08-05T04:16:29.780Z",
+  "grade": "analysis-grade",
+  "configuration": {
+    "detectPlaceholders": true,
+    "placeholderConfidence": 40,
+    "placeholderAnalysisLevel": "enhanced",
+    "detailLevel": "standard",
+    "includeComplexity": false,
+    "maxFiles": 2000
+  },
+  "verificationSummary": null,
+  "metadata": {
+    "directory": {
+      "name": "Math",
+      "path": "ScientificFormulaLab/Math",
+      "purpose": "Enhanced directory analysis of Math",
+      "ownKeyElements": []
+    },
+    "subdirectories": [],
+    "dependencyGraph": {
+      "edges": [],
+      "circularDependencies": []
+    },
+    "files": [
+      {
+        "name": "ScientificMathEngine.cs",
+        "path": "ScientificFormulaLab/Math/ScientificMathEngine.cs",
+        "filePath": "ScientificFormulaLab/Math/ScientificMathEngine.cs",
+        "filePurpose": "Provides NearlyZero, RealPolynomial, Degree, Coefficients… (26 exports)",
+        "languageDetail": "C#",
+        "lineCount": 527,
+        "contentHash": "d5a7d25382d4e0fe2317e4aab52db37b83658742909dba695ce37c350475590d",
+        "placeholderDetection": [
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Math/ScientificMathEngine.cs",
+            "functionName": "Add",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 127,
+              "endLine": 140
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Math/ScientificMathEngine.cs",
+            "functionName": "ArchivedBenchmarkProvenance",
+            "classification": "likely-legitimate",
+            "confidence": 22,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: lowComplexityProxy",
+              "Low cyclomatic complexity (1)",
+              "Very short function (4 lines)",
+              "Function takes no parameters",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 54,
+              "endLine": 57
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 22,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Math/ScientificMathEngine.cs",
+            "functionName": "Bisection",
+            "classification": "definite-legitimate",
+            "confidence": 2,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: hasThrowStatement",
+              "Contains throw statement",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 215,
+              "endLine": 235
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 2,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Math/ScientificMathEngine.cs",
+            "functionName": "CardanoDepressed",
+            "classification": "definite-legitimate",
+            "confidence": 2,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: hasThrowStatement",
+              "polyglot-structural: mapLikeFor",
+              "Contains throw statement",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 288,
+              "endLine": 338
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 2,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Math/ScientificMathEngine.cs",
+            "functionName": "ClenshawChebyshevT",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: mapLikeFor",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 410,
+              "endLine": 426
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Math/ScientificMathEngine.cs",
+            "functionName": "Coefficients",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: lowComplexityProxy",
+              "Low cyclomatic complexity (1)",
+              "Function takes no parameters",
+              "Intentionally unused parameter/variable (prefixed with _)",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 76,
+              "endLine": 81
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 16,
+              "commentAnalysis": 0,
+              "contextFilter": -25,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Math/ScientificMathEngine.cs",
+            "functionName": "Degree",
+            "classification": "likely-legitimate",
+            "confidence": 22,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: lowComplexityProxy",
+              "Low cyclomatic complexity (1)",
+              "Very short function (1 lines)",
+              "Function takes no parameters",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 74,
+              "endLine": 74
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 22,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Math/ScientificMathEngine.cs",
+            "functionName": "Derivative",
+            "classification": "definite-legitimate",
+            "confidence": 4,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: mapLikeFor",
+              "Function takes no parameters",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 102,
+              "endLine": 111
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 4,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Math/ScientificMathEngine.cs",
+            "functionName": "DivideByLinearRoot",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: mapLikeFor",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 165,
+              "endLine": 176
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Math/ScientificMathEngine.cs",
+            "functionName": "Eps",
+            "classification": "likely-legitimate",
+            "confidence": 22,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: lowComplexityProxy",
+              "Low cyclomatic complexity (1)",
+              "Very short function (1 lines)",
+              "Function takes no parameters",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 193,
+              "endLine": 193
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 22,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Math/ScientificMathEngine.cs",
+            "functionName": "Erf",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Simple arithmetic helper",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 395,
+              "endLine": 408
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": -15,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Math/ScientificMathEngine.cs",
+            "functionName": "Evaluate",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: mapLikeFor",
+              "polyglot-structural: lowComplexityProxy",
+              "Low cyclomatic complexity (1)",
+              "Intentionally unused parameter/variable (prefixed with _)",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 94,
+              "endLine": 100
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 12,
+              "commentAnalysis": 0,
+              "contextFilter": -25,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Math/ScientificMathEngine.cs",
+            "functionName": "F",
+            "classification": "definite-legitimate",
+            "confidence": 18,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: lowComplexityProxy",
+              "Low cyclomatic complexity (1)",
+              "Very short function (1 lines)",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 359,
+              "endLine": 359
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 18,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Math/ScientificMathEngine.cs",
+            "functionName": "G",
+            "classification": "definite-legitimate",
+            "confidence": 18,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: lowComplexityProxy",
+              "Low cyclomatic complexity (1)",
+              "Very short function (1 lines)",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 361,
+              "endLine": 361
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 18,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Math/ScientificMathEngine.cs",
+            "functionName": "IntegrateFromZero",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: mapLikeFor",
+              "polyglot-structural: lowComplexityProxy",
+              "Low cyclomatic complexity (1)",
+              "Function takes no parameters",
+              "Intentionally unused parameter/variable (prefixed with _)",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 114,
+              "endLine": 125
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 16,
+              "commentAnalysis": 0,
+              "contextFilter": -25,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Math/ScientificMathEngine.cs",
+            "functionName": "LogGamma",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: hasThrowStatement",
+              "polyglot-structural: mapLikeFor",
+              "Contains throw statement",
+              "Moderate context score; Returns computed value from external calls or processing",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 495,
+              "endLine": 518
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 2,
+              "commentAnalysis": 0,
+              "contextFilter": -27,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Math/ScientificMathEngine.cs",
+            "functionName": "MakeDemoQuarticForRoots",
+            "classification": "likely-legitimate",
+            "confidence": 22,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: lowComplexityProxy",
+              "Low cyclomatic complexity (1)",
+              "Very short function (2 lines)",
+              "Function takes no parameters",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 524,
+              "endLine": 525
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 22,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Math/ScientificMathEngine.cs",
+            "functionName": "MaxBisect",
+            "classification": "likely-legitimate",
+            "confidence": 22,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: lowComplexityProxy",
+              "Low cyclomatic complexity (1)",
+              "Very short function (1 lines)",
+              "Function takes no parameters",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 195,
+              "endLine": 195
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 22,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Math/ScientificMathEngine.cs",
+            "functionName": "MergeClose",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 340,
+              "endLine": 353
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Math/ScientificMathEngine.cs",
+            "functionName": "Multiply",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: mapLikeFor",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 144,
+              "endLine": 155
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Math/ScientificMathEngine.cs",
+            "functionName": "NearlyZero",
+            "classification": "definite-legitimate",
+            "confidence": 18,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: lowComplexityProxy",
+              "Low cyclomatic complexity (1)",
+              "Very short function (2 lines)",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 15,
+              "endLine": 16
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 18,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Math/ScientificMathEngine.cs",
+            "functionName": "NewtonRaphson",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 237,
+              "endLine": 254
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Math/ScientificMathEngine.cs",
+            "functionName": "RealPolynomial",
+            "classification": "definite-legitimate",
+            "confidence": 2,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: hasThrowStatement",
+              "Contains throw statement",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 67,
+              "endLine": 72
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 2,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Math/ScientificMathEngine.cs",
+            "functionName": "RealRootsCubic",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Returns computed value from external calls or processing",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 256,
+              "endLine": 286
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": -12,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Math/ScientificMathEngine.cs",
+            "functionName": "RungeKutta4",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 479,
+              "endLine": 493
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Math/ScientificMathEngine.cs",
+            "functionName": "Scale",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: mapLikeFor",
+              "polyglot-structural: lowComplexityProxy",
+              "Low cyclomatic complexity (1)",
+              "Intentionally unused parameter/variable (prefixed with _)",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 157,
+              "endLine": 163
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 12,
+              "commentAnalysis": 0,
+              "contextFilter": -25,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Math/ScientificMathEngine.cs",
+            "functionName": "ScanRealRootsOnInterval",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Returns computed value from external calls or processing",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 355,
+              "endLine": 393
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": -12,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Math/ScientificMathEngine.cs",
+            "functionName": "ScientificMathEngine",
+            "classification": "definite-legitimate",
+            "confidence": 12,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: lowComplexityProxy",
+              "Low cyclomatic complexity (1)",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 187,
+              "endLine": 191
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 12,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Math/ScientificMathEngine.cs",
+            "functionName": "SimpsonDefinite",
+            "classification": "definite-legitimate",
+            "confidence": 2,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: hasThrowStatement",
+              "polyglot-structural: mapLikeFor",
+              "Contains throw statement",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 197,
+              "endLine": 213
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 2,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Math/ScientificMathEngine.cs",
+            "functionName": "Solve3x3",
+            "classification": "definite-legitimate",
+            "confidence": 2,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: hasThrowStatement",
+              "polyglot-structural: mapLikeFor",
+              "Contains throw statement",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 441,
+              "endLine": 477
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 2,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Math/ScientificMathEngine.cs",
+            "functionName": "Subtract",
+            "classification": "definite-legitimate",
+            "confidence": 18,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: lowComplexityProxy",
+              "Low cyclomatic complexity (1)",
+              "Very short function (1 lines)",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 142,
+              "endLine": 142
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 18,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Math/ScientificMathEngine.cs",
+            "functionName": "Trapezoid",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: hasThrowStatement",
+              "polyglot-structural: mapLikeFor",
+              "Contains throw statement",
+              "Simple arithmetic helper",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 428,
+              "endLine": 439
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 2,
+              "commentAnalysis": 0,
+              "contextFilter": -15,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Math/ScientificMathEngine.cs",
+            "functionName": "Trim",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: mapLikeFor",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 83,
+              "endLine": 92
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "findings": [
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Math/ScientificMathEngine.cs",
+            "line": 15,
+            "endLine": 16,
+            "kind": "function",
+            "type": "explicit_marker",
+            "confidence": 18,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: lowComplexityProxy",
+              "Low cyclomatic complexity (1)",
+              "Very short function (2 lines)",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "functionName": "NearlyZero",
+            "id": "_Users_keithcostello_Projects_cursorai_aitooling_dd-test-fixtures_scientific-formula-lab-csharp_src_ScientificFormulaLab_Math_ScientificMathEngine_cs:function:15:0"
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Math/ScientificMathEngine.cs",
+            "line": 30,
+            "kind": "comment",
+            "type": "explicit_marker",
+            "confidence": 80,
+            "isPlaceholder": true,
+            "subType": "comment",
+            "snippet": "tbd",
+            "ruleId": "Rule1",
+            "reasons": [
+              "Comment/token placeholder: comment (tbd)"
+            ],
+            "id": "_Users_keithcostello_Projects_cursorai_aitooling_dd-test-fixtures_scientific-formula-lab-csharp_src_ScientificFormulaLab_Math_ScientificMathEngine_cs:comment:30:1"
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Math/ScientificMathEngine.cs",
+            "line": 31,
+            "kind": "comment",
+            "type": "explicit_marker",
+            "confidence": 80,
+            "isPlaceholder": true,
+            "subType": "comment",
+            "snippet": "WIP",
+            "ruleId": "Rule1",
+            "reasons": [
+              "Comment/token placeholder: comment (WIP)"
+            ],
+            "id": "_Users_keithcostello_Projects_cursorai_aitooling_dd-test-fixtures_scientific-formula-lab-csharp_src_ScientificFormulaLab_Math_ScientificMathEngine_cs:comment:31:2"
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Math/ScientificMathEngine.cs",
+            "line": 39,
+            "kind": "comment",
+            "type": "explicit_marker",
+            "confidence": 80,
+            "isPlaceholder": true,
+            "subType": "comment",
+            "snippet": "TBD",
+            "ruleId": "Rule1",
+            "reasons": [
+              "Comment/token placeholder: comment (TBD)"
+            ],
+            "id": "_Users_keithcostello_Projects_cursorai_aitooling_dd-test-fixtures_scientific-formula-lab-csharp_src_ScientificFormulaLab_Math_ScientificMathEngine_cs:comment:39:3"
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Math/ScientificMathEngine.cs",
+            "line": 39,
+            "kind": "comment",
+            "type": "explicit_marker",
+            "confidence": 70,
+            "isPlaceholder": true,
+            "subType": "placeholder_text",
+            "snippet": "replace with",
+            "ruleId": "Rule1",
+            "reasons": [
+              "Comment/token placeholder: placeholder_text (replace with)"
+            ],
+            "id": "_Users_keithcostello_Projects_cursorai_aitooling_dd-test-fixtures_scientific-formula-lab-csharp_src_ScientificFormulaLab_Math_ScientificMathEngine_cs:comment:39:4"
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Math/ScientificMathEngine.cs",
+            "line": 41,
+            "kind": "comment",
+            "type": "explicit_marker",
+            "confidence": 80,
+            "isPlaceholder": true,
+            "subType": "comment",
+            "snippet": "TODO",
+            "ruleId": "Rule1",
+            "reasons": [
+              "Comment/token placeholder: comment (TODO)"
+            ],
+            "id": "_Users_keithcostello_Projects_cursorai_aitooling_dd-test-fixtures_scientific-formula-lab-csharp_src_ScientificFormulaLab_Math_ScientificMathEngine_cs:comment:41:5"
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Math/ScientificMathEngine.cs",
+            "line": 54,
+            "endLine": 57,
+            "kind": "function",
+            "type": "explicit_marker",
+            "confidence": 22,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: lowComplexityProxy",
+              "Low cyclomatic complexity (1)",
+              "Very short function (4 lines)",
+              "Function takes no parameters",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "functionName": "ArchivedBenchmarkProvenance",
+            "id": "_Users_keithcostello_Projects_cursorai_aitooling_dd-test-fixtures_scientific-formula-lab-csharp_src_ScientificFormulaLab_Math_ScientificMathEngine_cs:function:54:6"
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Math/ScientificMathEngine.cs",
+            "line": 67,
+            "endLine": 72,
+            "kind": "function",
+            "type": "explicit_marker",
+            "confidence": 2,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: hasThrowStatement",
+              "Contains throw statement",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "functionName": "RealPolynomial",
+            "id": "_Users_keithcostello_Projects_cursorai_aitooling_dd-test-fixtures_scientific-formula-lab-csharp_src_ScientificFormulaLab_Math_ScientificMathEngine_cs:function:67:7"
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Math/ScientificMathEngine.cs",
+            "line": 74,
+            "endLine": 74,
+            "kind": "function",
+            "type": "explicit_marker",
+            "confidence": 22,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: lowComplexityProxy",
+              "Low cyclomatic complexity (1)",
+              "Very short function (1 lines)",
+              "Function takes no parameters",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "functionName": "Degree",
+            "id": "_Users_keithcostello_Projects_cursorai_aitooling_dd-test-fixtures_scientific-formula-lab-csharp_src_ScientificFormulaLab_Math_ScientificMathEngine_cs:function:74:8"
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Math/ScientificMathEngine.cs",
+            "line": 76,
+            "endLine": 81,
+            "kind": "function",
+            "type": "explicit_marker",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: lowComplexityProxy",
+              "Low cyclomatic complexity (1)",
+              "Function takes no parameters",
+              "Intentionally unused parameter/variable (prefixed with _)",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "functionName": "Coefficients",
+            "id": "_Users_keithcostello_Projects_cursorai_aitooling_dd-test-fixtures_scientific-formula-lab-csharp_src_ScientificFormulaLab_Math_ScientificMathEngine_cs:function:76:9"
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Math/ScientificMathEngine.cs",
+            "line": 83,
+            "endLine": 92,
+            "kind": "function",
+            "type": "explicit_marker",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: mapLikeFor",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "functionName": "Trim",
+            "id": "_Users_keithcostello_Projects_cursorai_aitooling_dd-test-fixtures_scientific-formula-lab-csharp_src_ScientificFormulaLab_Math_ScientificMathEngine_cs:function:83:10"
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Math/ScientificMathEngine.cs",
+            "line": 94,
+            "endLine": 100,
+            "kind": "function",
+            "type": "explicit_marker",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: mapLikeFor polyglot-structural: lowComplexityProxy Low cyclomatic complexity (1) Intentionally unused parameter/variable (prefixed with _) Safety cap applied: cheap heuristics onl"
+            ],
+            "functionName": "Evaluate",
+            "id": "_Users_keithcostello_Projects_cursorai_aitooling_dd-test-fixtures_scientific-formula-lab-csharp_src_ScientificFormulaLab_Math_ScientificMathEngine_cs:function:94:11"
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Math/ScientificMathEngine.cs",
+            "line": 102,
+            "endLine": 111,
+            "kind": "function",
+            "type": "explicit_marker",
+            "confidence": 4,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: mapLikeFor",
+              "Function takes no parameters",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "functionName": "Derivative",
+            "id": "_Users_keithcostello_Projects_cursorai_aitooling_dd-test-fixtures_scientific-formula-lab-csharp_src_ScientificFormulaLab_Math_ScientificMathEngine_cs:function:102:12"
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Math/ScientificMathEngine.cs",
+            "line": 114,
+            "endLine": 125,
+            "kind": "function",
+            "type": "explicit_marker",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: mapLikeFor polyglot-structural: lowComplexityProxy Low cyclomatic complexity (1) Function takes no parameters Intentionally unused parameter/variable (prefixed with _) Safety cap "
+            ],
+            "functionName": "IntegrateFromZero",
+            "id": "_Users_keithcostello_Projects_cursorai_aitooling_dd-test-fixtures_scientific-formula-lab-csharp_src_ScientificFormulaLab_Math_ScientificMathEngine_cs:function:114:13"
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Math/ScientificMathEngine.cs",
+            "line": 127,
+            "endLine": 140,
+            "kind": "function",
+            "type": "explicit_marker",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "functionName": "Add",
+            "id": "_Users_keithcostello_Projects_cursorai_aitooling_dd-test-fixtures_scientific-formula-lab-csharp_src_ScientificFormulaLab_Math_ScientificMathEngine_cs:function:127:14"
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Math/ScientificMathEngine.cs",
+            "line": 142,
+            "endLine": 142,
+            "kind": "function",
+            "type": "explicit_marker",
+            "confidence": 18,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: lowComplexityProxy",
+              "Low cyclomatic complexity (1)",
+              "Very short function (1 lines)",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "functionName": "Subtract",
+            "id": "_Users_keithcostello_Projects_cursorai_aitooling_dd-test-fixtures_scientific-formula-lab-csharp_src_ScientificFormulaLab_Math_ScientificMathEngine_cs:function:142:15"
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Math/ScientificMathEngine.cs",
+            "line": 144,
+            "endLine": 155,
+            "kind": "function",
+            "type": "explicit_marker",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: mapLikeFor",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "functionName": "Multiply",
+            "id": "_Users_keithcostello_Projects_cursorai_aitooling_dd-test-fixtures_scientific-formula-lab-csharp_src_ScientificFormulaLab_Math_ScientificMathEngine_cs:function:144:16"
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Math/ScientificMathEngine.cs",
+            "line": 157,
+            "endLine": 163,
+            "kind": "function",
+            "type": "explicit_marker",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: mapLikeFor polyglot-structural: lowComplexityProxy Low cyclomatic complexity (1) Intentionally unused parameter/variable (prefixed with _) Safety cap applied: cheap heuristics onl"
+            ],
+            "functionName": "Scale",
+            "id": "_Users_keithcostello_Projects_cursorai_aitooling_dd-test-fixtures_scientific-formula-lab-csharp_src_ScientificFormulaLab_Math_ScientificMathEngine_cs:function:157:17"
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Math/ScientificMathEngine.cs",
+            "line": 165,
+            "endLine": 176,
+            "kind": "function",
+            "type": "explicit_marker",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: mapLikeFor",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "functionName": "DivideByLinearRoot",
+            "id": "_Users_keithcostello_Projects_cursorai_aitooling_dd-test-fixtures_scientific-formula-lab-csharp_src_ScientificFormulaLab_Math_ScientificMathEngine_cs:function:165:18"
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Math/ScientificMathEngine.cs",
+            "line": 187,
+            "endLine": 191,
+            "kind": "function",
+            "type": "explicit_marker",
+            "confidence": 12,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: lowComplexityProxy",
+              "Low cyclomatic complexity (1)",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "functionName": "ScientificMathEngine",
+            "id": "_Users_keithcostello_Projects_cursorai_aitooling_dd-test-fixtures_scientific-formula-lab-csharp_src_ScientificFormulaLab_Math_ScientificMathEngine_cs:function:187:19"
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Math/ScientificMathEngine.cs",
+            "line": 193,
+            "endLine": 193,
+            "kind": "function",
+            "type": "explicit_marker",
+            "confidence": 22,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: lowComplexityProxy",
+              "Low cyclomatic complexity (1)",
+              "Very short function (1 lines)",
+              "Function takes no parameters",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "functionName": "Eps",
+            "id": "_Users_keithcostello_Projects_cursorai_aitooling_dd-test-fixtures_scientific-formula-lab-csharp_src_ScientificFormulaLab_Math_ScientificMathEngine_cs:function:193:20"
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Math/ScientificMathEngine.cs",
+            "line": 195,
+            "endLine": 195,
+            "kind": "function",
+            "type": "explicit_marker",
+            "confidence": 22,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: lowComplexityProxy",
+              "Low cyclomatic complexity (1)",
+              "Very short function (1 lines)",
+              "Function takes no parameters",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "functionName": "MaxBisect",
+            "id": "_Users_keithcostello_Projects_cursorai_aitooling_dd-test-fixtures_scientific-formula-lab-csharp_src_ScientificFormulaLab_Math_ScientificMathEngine_cs:function:195:21"
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Math/ScientificMathEngine.cs",
+            "line": 197,
+            "endLine": 213,
+            "kind": "function",
+            "type": "explicit_marker",
+            "confidence": 2,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: hasThrowStatement",
+              "polyglot-structural: mapLikeFor",
+              "Contains throw statement",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "functionName": "SimpsonDefinite",
+            "id": "_Users_keithcostello_Projects_cursorai_aitooling_dd-test-fixtures_scientific-formula-lab-csharp_src_ScientificFormulaLab_Math_ScientificMathEngine_cs:function:197:22"
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Math/ScientificMathEngine.cs",
+            "line": 215,
+            "endLine": 235,
+            "kind": "function",
+            "type": "explicit_marker",
+            "confidence": 2,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: hasThrowStatement",
+              "Contains throw statement",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "functionName": "Bisection",
+            "id": "_Users_keithcostello_Projects_cursorai_aitooling_dd-test-fixtures_scientific-formula-lab-csharp_src_ScientificFormulaLab_Math_ScientificMathEngine_cs:function:215:23"
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Math/ScientificMathEngine.cs",
+            "line": 237,
+            "endLine": 254,
+            "kind": "function",
+            "type": "explicit_marker",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "functionName": "NewtonRaphson",
+            "id": "_Users_keithcostello_Projects_cursorai_aitooling_dd-test-fixtures_scientific-formula-lab-csharp_src_ScientificFormulaLab_Math_ScientificMathEngine_cs:function:237:24"
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Math/ScientificMathEngine.cs",
+            "line": 256,
+            "endLine": 286,
+            "kind": "function",
+            "type": "explicit_marker",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Returns computed value from external calls or processing",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "functionName": "RealRootsCubic",
+            "id": "_Users_keithcostello_Projects_cursorai_aitooling_dd-test-fixtures_scientific-formula-lab-csharp_src_ScientificFormulaLab_Math_ScientificMathEngine_cs:function:256:25"
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Math/ScientificMathEngine.cs",
+            "line": 288,
+            "endLine": 338,
+            "kind": "function",
+            "type": "explicit_marker",
+            "confidence": 2,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: hasThrowStatement",
+              "polyglot-structural: mapLikeFor",
+              "Contains throw statement",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "functionName": "CardanoDepressed",
+            "id": "_Users_keithcostello_Projects_cursorai_aitooling_dd-test-fixtures_scientific-formula-lab-csharp_src_ScientificFormulaLab_Math_ScientificMathEngine_cs:function:288:26"
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Math/ScientificMathEngine.cs",
+            "line": 340,
+            "endLine": 353,
+            "kind": "function",
+            "type": "explicit_marker",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "functionName": "MergeClose",
+            "id": "_Users_keithcostello_Projects_cursorai_aitooling_dd-test-fixtures_scientific-formula-lab-csharp_src_ScientificFormulaLab_Math_ScientificMathEngine_cs:function:340:27"
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Math/ScientificMathEngine.cs",
+            "line": 355,
+            "endLine": 393,
+            "kind": "function",
+            "type": "explicit_marker",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Returns computed value from external calls or processing",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "functionName": "ScanRealRootsOnInterval",
+            "id": "_Users_keithcostello_Projects_cursorai_aitooling_dd-test-fixtures_scientific-formula-lab-csharp_src_ScientificFormulaLab_Math_ScientificMathEngine_cs:function:355:28"
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Math/ScientificMathEngine.cs",
+            "line": 359,
+            "endLine": 359,
+            "kind": "function",
+            "type": "explicit_marker",
+            "confidence": 18,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: lowComplexityProxy",
+              "Low cyclomatic complexity (1)",
+              "Very short function (1 lines)",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "functionName": "F",
+            "id": "_Users_keithcostello_Projects_cursorai_aitooling_dd-test-fixtures_scientific-formula-lab-csharp_src_ScientificFormulaLab_Math_ScientificMathEngine_cs:function:359:29"
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Math/ScientificMathEngine.cs",
+            "line": 361,
+            "endLine": 361,
+            "kind": "function",
+            "type": "explicit_marker",
+            "confidence": 18,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: lowComplexityProxy",
+              "Low cyclomatic complexity (1)",
+              "Very short function (1 lines)",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "functionName": "G",
+            "id": "_Users_keithcostello_Projects_cursorai_aitooling_dd-test-fixtures_scientific-formula-lab-csharp_src_ScientificFormulaLab_Math_ScientificMathEngine_cs:function:361:30"
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Math/ScientificMathEngine.cs",
+            "line": 395,
+            "endLine": 408,
+            "kind": "function",
+            "type": "explicit_marker",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Simple arithmetic helper",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "functionName": "Erf",
+            "id": "_Users_keithcostello_Projects_cursorai_aitooling_dd-test-fixtures_scientific-formula-lab-csharp_src_ScientificFormulaLab_Math_ScientificMathEngine_cs:function:395:31"
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Math/ScientificMathEngine.cs",
+            "line": 410,
+            "endLine": 426,
+            "kind": "function",
+            "type": "explicit_marker",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: mapLikeFor",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "functionName": "ClenshawChebyshevT",
+            "id": "_Users_keithcostello_Projects_cursorai_aitooling_dd-test-fixtures_scientific-formula-lab-csharp_src_ScientificFormulaLab_Math_ScientificMathEngine_cs:function:410:32"
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Math/ScientificMathEngine.cs",
+            "line": 428,
+            "endLine": 439,
+            "kind": "function",
+            "type": "explicit_marker",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: hasThrowStatement",
+              "polyglot-structural: mapLikeFor",
+              "Contains throw statement",
+              "Simple arithmetic helper",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "functionName": "Trapezoid",
+            "id": "_Users_keithcostello_Projects_cursorai_aitooling_dd-test-fixtures_scientific-formula-lab-csharp_src_ScientificFormulaLab_Math_ScientificMathEngine_cs:function:428:33"
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Math/ScientificMathEngine.cs",
+            "line": 441,
+            "endLine": 477,
+            "kind": "function",
+            "type": "explicit_marker",
+            "confidence": 2,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: hasThrowStatement",
+              "polyglot-structural: mapLikeFor",
+              "Contains throw statement",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "functionName": "Solve3x3",
+            "id": "_Users_keithcostello_Projects_cursorai_aitooling_dd-test-fixtures_scientific-formula-lab-csharp_src_ScientificFormulaLab_Math_ScientificMathEngine_cs:function:441:34"
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Math/ScientificMathEngine.cs",
+            "line": 479,
+            "endLine": 493,
+            "kind": "function",
+            "type": "explicit_marker",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "functionName": "RungeKutta4",
+            "id": "_Users_keithcostello_Projects_cursorai_aitooling_dd-test-fixtures_scientific-formula-lab-csharp_src_ScientificFormulaLab_Math_ScientificMathEngine_cs:function:479:35"
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Math/ScientificMathEngine.cs",
+            "line": 495,
+            "endLine": 518,
+            "kind": "function",
+            "type": "explicit_marker",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: hasThrowStatement polyglot-structural: mapLikeFor Contains throw statement Moderate context score; Returns computed value from external calls or processing Safety cap applied: che"
+            ],
+            "functionName": "LogGamma",
+            "id": "_Users_keithcostello_Projects_cursorai_aitooling_dd-test-fixtures_scientific-formula-lab-csharp_src_ScientificFormulaLab_Math_ScientificMathEngine_cs:function:495:36"
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Math/ScientificMathEngine.cs",
+            "line": 524,
+            "endLine": 525,
+            "kind": "function",
+            "type": "explicit_marker",
+            "confidence": 22,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: lowComplexityProxy",
+              "Low cyclomatic complexity (1)",
+              "Very short function (2 lines)",
+              "Function takes no parameters",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "functionName": "MakeDemoQuarticForRoots",
+            "id": "_Users_keithcostello_Projects_cursorai_aitooling_dd-test-fixtures_scientific-formula-lab-csharp_src_ScientificFormulaLab_Math_ScientificMathEngine_cs:function:524:37"
+          }
+        ],
+        "importedModules": [],
+        "exportedElements": [
+          {
+            "name": "NearlyZero",
+            "type": "function"
+          },
+          {
+            "name": "RealPolynomial",
+            "type": "function"
+          },
+          {
+            "name": "Degree",
+            "type": "function"
+          },
+          {
+            "name": "Coefficients",
+            "type": "function"
+          },
+          {
+            "name": "Evaluate",
+            "type": "function"
+          },
+          {
+            "name": "Derivative",
+            "type": "function"
+          },
+          {
+            "name": "IntegrateFromZero",
+            "type": "function"
+          },
+          {
+            "name": "Add",
+            "type": "function"
+          },
+          {
+            "name": "Subtract",
+            "type": "function"
+          },
+          {
+            "name": "Multiply",
+            "type": "function"
+          },
+          {
+            "name": "Scale",
+            "type": "function"
+          },
+          {
+            "name": "DivideByLinearRoot",
+            "type": "function"
+          },
+          {
+            "name": "ScientificMathEngine",
+            "type": "function"
+          },
+          {
+            "name": "Eps",
+            "type": "function"
+          },
+          {
+            "name": "SimpsonDefinite",
+            "type": "function"
+          },
+          {
+            "name": "Bisection",
+            "type": "function"
+          },
+          {
+            "name": "NewtonRaphson",
+            "type": "function"
+          },
+          {
+            "name": "RealRootsCubic",
+            "type": "function"
+          },
+          {
+            "name": "ScanRealRootsOnInterval",
+            "type": "function"
+          },
+          {
+            "name": "Erf",
+            "type": "function"
+          },
+          {
+            "name": "ClenshawChebyshevT",
+            "type": "function"
+          },
+          {
+            "name": "Trapezoid",
+            "type": "function"
+          },
+          {
+            "name": "Solve3x3",
+            "type": "function"
+          },
+          {
+            "name": "RungeKutta4",
+            "type": "function"
+          },
+          {
+            "name": "LogGamma",
+            "type": "function"
+          },
+          {
+            "name": "MakeDemoQuarticForRoots",
+            "type": "function"
+          }
+        ],
+        "functions": [
+          {
+            "name": "NearlyZero",
+            "signature": "public static bool NearlyZero(double x, double eps = MathConstants.DefaultEps) =>",
+            "parameters": [
+              {
+                "name": "x",
+                "type": "double"
+              },
+              {
+                "name": "eps",
+                "type": "double"
+              }
+            ],
+            "returnType": "bool",
+            "isAsync": false,
+            "calls": [
+              "System.Math.Abs"
+            ],
+            "startLine": 15,
+            "endLine": 16,
+            "structuralSignals": {
+              "emptyOrTrivialBody": false,
+              "constantOrIdentityReturn": false,
+              "stubThrowOrPanic": false,
+              "hasThrowStatement": false,
+              "paramsLikelyUnused": false,
+              "lowComplexityProxy": true,
+              "reasons": [
+                "polyglot-structural: lowComplexityProxy"
+              ]
+            },
+            "placeholderAnalysis": {
+              "classification": "definite-legitimate",
+              "confidence": 18,
+              "isPlaceholder": false,
+              "reasons": [
+                "polyglot-structural: lowComplexityProxy",
+                "Low cyclomatic complexity (1)",
+                "Very short function (2 lines)",
+                "Safety cap applied: cheap heuristics only"
+              ],
+              "detectionMethods": {
+                "explicitMarkers": 0,
+                "namingPatterns": 0,
+                "astAnalysis": 18,
+                "commentAnalysis": 0,
+                "contextFilter": 0,
+                "unusedCodeAnalysis": 0,
+                "externalUnusedChecks": 0,
+                "enhancedContext": 0
+              }
+            }
+          },
+          {
+            "name": "ArchivedBenchmarkProvenance",
+            "signature": "static ArchivedBenchmarkProvenance()",
+            "parameters": [],
+            "returnType": "static",
+            "isAsync": false,
+            "calls": [],
+            "startLine": 54,
+            "endLine": 57,
+            "structuralSignals": {
+              "emptyOrTrivialBody": false,
+              "constantOrIdentityReturn": false,
+              "stubThrowOrPanic": false,
+              "hasThrowStatement": false,
+              "paramsLikelyUnused": false,
+              "lowComplexityProxy": true,
+              "reasons": [
+                "polyglot-structural: lowComplexityProxy"
+              ]
+            },
+            "placeholderAnalysis": {
+              "classification": "likely-legitimate",
+              "confidence": 22,
+              "isPlaceholder": false,
+              "reasons": [
+                "polyglot-structural: lowComplexityProxy",
+                "Low cyclomatic complexity (1)",
+                "Very short function (4 lines)",
+                "Function takes no parameters",
+                "Safety cap applied: cheap heuristics only"
+              ],
+              "detectionMethods": {
+                "explicitMarkers": 0,
+                "namingPatterns": 0,
+                "astAnalysis": 22,
+                "commentAnalysis": 0,
+                "contextFilter": 0,
+                "unusedCodeAnalysis": 0,
+                "externalUnusedChecks": 0,
+                "enhancedContext": 0
+              }
+            }
+          },
+          {
+            "name": "RealPolynomial",
+            "signature": "public RealPolynomial(IReadOnlyList<double> coeffsDescending)",
+            "parameters": [
+              {
+                "name": "coeffsDescending",
+                "type": "IReadOnlyList<double>"
+              }
+            ],
+            "returnType": "public",
+            "isAsync": false,
+            "calls": [
+              "Trim"
+            ],
+            "startLine": 67,
+            "endLine": 72,
+            "structuralSignals": {
+              "emptyOrTrivialBody": false,
+              "constantOrIdentityReturn": false,
+              "stubThrowOrPanic": false,
+              "hasThrowStatement": true,
+              "paramsLikelyUnused": false,
+              "lowComplexityProxy": false,
+              "reasons": [
+                "polyglot-structural: hasThrowStatement"
+              ]
+            },
+            "placeholderAnalysis": {
+              "classification": "definite-legitimate",
+              "confidence": 2,
+              "isPlaceholder": false,
+              "reasons": [
+                "polyglot-structural: hasThrowStatement",
+                "Contains throw statement",
+                "Safety cap applied: cheap heuristics only"
+              ],
+              "detectionMethods": {
+                "explicitMarkers": 0,
+                "namingPatterns": 0,
+                "astAnalysis": 2,
+                "commentAnalysis": 0,
+                "contextFilter": 0,
+                "unusedCodeAnalysis": 0,
+                "externalUnusedChecks": 0,
+                "enhancedContext": 0
+              }
+            }
+          },
+          {
+            "name": "Degree",
+            "signature": "public int Degree => _a.Length - 1;",
+            "parameters": [],
+            "returnType": "void",
+            "isAsync": false,
+            "calls": [],
+            "startLine": 74,
+            "endLine": 74,
+            "structuralSignals": {
+              "emptyOrTrivialBody": false,
+              "constantOrIdentityReturn": false,
+              "stubThrowOrPanic": false,
+              "hasThrowStatement": false,
+              "paramsLikelyUnused": false,
+              "lowComplexityProxy": true,
+              "reasons": [
+                "polyglot-structural: lowComplexityProxy"
+              ]
+            },
+            "placeholderAnalysis": {
+              "classification": "likely-legitimate",
+              "confidence": 22,
+              "isPlaceholder": false,
+              "reasons": [
+                "polyglot-structural: lowComplexityProxy",
+                "Low cyclomatic complexity (1)",
+                "Very short function (1 lines)",
+                "Function takes no parameters",
+                "Safety cap applied: cheap heuristics only"
+              ],
+              "detectionMethods": {
+                "explicitMarkers": 0,
+                "namingPatterns": 0,
+                "astAnalysis": 22,
+                "commentAnalysis": 0,
+                "contextFilter": 0,
+                "unusedCodeAnalysis": 0,
+                "externalUnusedChecks": 0,
+                "enhancedContext": 0
+              }
+            }
+          },
+          {
+            "name": "Coefficients",
+            "signature": "public double[] Coefficients()",
+            "parameters": [],
+            "returnType": "double[]",
+            "isAsync": false,
+            "calls": [
+              "Array.Copy"
+            ],
+            "startLine": 76,
+            "endLine": 81,
+            "structuralSignals": {
+              "emptyOrTrivialBody": false,
+              "constantOrIdentityReturn": false,
+              "stubThrowOrPanic": false,
+              "hasThrowStatement": false,
+              "paramsLikelyUnused": false,
+              "lowComplexityProxy": true,
+              "reasons": [
+                "polyglot-structural: lowComplexityProxy"
+              ]
+            },
+            "placeholderAnalysis": {
+              "classification": "definite-legitimate",
+              "confidence": 0,
+              "isPlaceholder": false,
+              "reasons": [
+                "polyglot-structural: lowComplexityProxy",
+                "Low cyclomatic complexity (1)",
+                "Function takes no parameters",
+                "Intentionally unused parameter/variable (prefixed with _)",
+                "Safety cap applied: cheap heuristics only"
+              ],
+              "detectionMethods": {
+                "explicitMarkers": 0,
+                "namingPatterns": 0,
+                "astAnalysis": 16,
+                "commentAnalysis": 0,
+                "contextFilter": -25,
+                "unusedCodeAnalysis": 0,
+                "externalUnusedChecks": 0,
+                "enhancedContext": 0
+              }
+            }
+          },
+          {
+            "name": "Trim",
+            "signature": "private static double[] Trim(IReadOnlyList<double> c)",
+            "parameters": [
+              {
+                "name": "c",
+                "type": "IReadOnlyList<double>"
+              }
+            ],
+            "returnType": "double[]",
+            "isAsync": false,
+            "calls": [
+              "MathHelpers.NearlyZero"
+            ],
+            "startLine": 83,
+            "endLine": 92,
+            "structuralSignals": {
+              "emptyOrTrivialBody": false,
+              "constantOrIdentityReturn": false,
+              "stubThrowOrPanic": false,
+              "hasThrowStatement": false,
+              "paramsLikelyUnused": false,
+              "lowComplexityProxy": false,
+              "reasons": [
+                "polyglot-structural: mapLikeFor"
+              ]
+            },
+            "placeholderAnalysis": {
+              "classification": "definite-legitimate",
+              "confidence": 0,
+              "isPlaceholder": false,
+              "reasons": [
+                "polyglot-structural: mapLikeFor",
+                "Safety cap applied: cheap heuristics only"
+              ],
+              "detectionMethods": {
+                "explicitMarkers": 0,
+                "namingPatterns": 0,
+                "astAnalysis": 0,
+                "commentAnalysis": 0,
+                "contextFilter": 0,
+                "unusedCodeAnalysis": 0,
+                "externalUnusedChecks": 0,
+                "enhancedContext": 0
+              }
+            }
+          },
+          {
+            "name": "Evaluate",
+            "signature": "public double Evaluate(double x)",
+            "parameters": [
+              {
+                "name": "x",
+                "type": "double"
+              }
+            ],
+            "returnType": "double",
+            "isAsync": false,
+            "calls": [],
+            "startLine": 94,
+            "endLine": 100,
+            "structuralSignals": {
+              "emptyOrTrivialBody": false,
+              "constantOrIdentityReturn": false,
+              "stubThrowOrPanic": false,
+              "hasThrowStatement": false,
+              "paramsLikelyUnused": false,
+              "lowComplexityProxy": true,
+              "reasons": [
+                "polyglot-structural: mapLikeFor",
+                "polyglot-structural: lowComplexityProxy"
+              ]
+            },
+            "placeholderAnalysis": {
+              "classification": "definite-legitimate",
+              "confidence": 0,
+              "isPlaceholder": false,
+              "reasons": [
+                "polyglot-structural: mapLikeFor",
+                "polyglot-structural: lowComplexityProxy",
+                "Low cyclomatic complexity (1)",
+                "Intentionally unused parameter/variable (prefixed with _)",
+                "Safety cap applied: cheap heuristics only"
+              ],
+              "detectionMethods": {
+                "explicitMarkers": 0,
+                "namingPatterns": 0,
+                "astAnalysis": 12,
+                "commentAnalysis": 0,
+                "contextFilter": -25,
+                "unusedCodeAnalysis": 0,
+                "externalUnusedChecks": 0,
+                "enhancedContext": 0
+              }
+            }
+          },
+          {
+            "name": "Derivative",
+            "signature": "public RealPolynomial Derivative()",
+            "parameters": [],
+            "returnType": "RealPolynomial",
+            "isAsync": false,
+            "calls": [],
+            "startLine": 102,
+            "endLine": 111,
+            "structuralSignals": {
+              "emptyOrTrivialBody": false,
+              "constantOrIdentityReturn": false,
+              "stubThrowOrPanic": false,
+              "hasThrowStatement": false,
+              "paramsLikelyUnused": false,
+              "lowComplexityProxy": false,
+              "reasons": [
+                "polyglot-structural: mapLikeFor"
+              ]
+            },
+            "placeholderAnalysis": {
+              "classification": "definite-legitimate",
+              "confidence": 4,
+              "isPlaceholder": false,
+              "reasons": [
+                "polyglot-structural: mapLikeFor",
+                "Function takes no parameters",
+                "Safety cap applied: cheap heuristics only"
+              ],
+              "detectionMethods": {
+                "explicitMarkers": 0,
+                "namingPatterns": 0,
+                "astAnalysis": 4,
+                "commentAnalysis": 0,
+                "contextFilter": 0,
+                "unusedCodeAnalysis": 0,
+                "externalUnusedChecks": 0,
+                "enhancedContext": 0
+              }
+            }
+          },
+          {
+            "name": "IntegrateFromZero",
+            "signature": "public RealPolynomial IntegrateFromZero()",
+            "parameters": [],
+            "returnType": "RealPolynomial",
+            "isAsync": false,
+            "calls": [
+              "c.Add"
+            ],
+            "startLine": 114,
+            "endLine": 125,
+            "structuralSignals": {
+              "emptyOrTrivialBody": false,
+              "constantOrIdentityReturn": false,
+              "stubThrowOrPanic": false,
+              "hasThrowStatement": false,
+              "paramsLikelyUnused": false,
+              "lowComplexityProxy": true,
+              "reasons": [
+                "polyglot-structural: mapLikeFor",
+                "polyglot-structural: lowComplexityProxy"
+              ]
+            },
+            "placeholderAnalysis": {
+              "classification": "definite-legitimate",
+              "confidence": 0,
+              "isPlaceholder": false,
+              "reasons": [
+                "polyglot-structural: mapLikeFor",
+                "polyglot-structural: lowComplexityProxy",
+                "Low cyclomatic complexity (1)",
+                "Function takes no parameters",
+                "Intentionally unused parameter/variable (prefixed with _)",
+                "Safety cap applied: cheap heuristics only"
+              ],
+              "detectionMethods": {
+                "explicitMarkers": 0,
+                "namingPatterns": 0,
+                "astAnalysis": 16,
+                "commentAnalysis": 0,
+                "contextFilter": -25,
+                "unusedCodeAnalysis": 0,
+                "externalUnusedChecks": 0,
+                "enhancedContext": 0
+              }
+            }
+          },
+          {
+            "name": "Add",
+            "signature": "public RealPolynomial Add(RealPolynomial q)",
+            "parameters": [
+              {
+                "name": "q",
+                "type": "RealPolynomial"
+              }
+            ],
+            "returnType": "RealPolynomial",
+            "isAsync": false,
+            "calls": [
+              "System.Math.Max",
+              "outList.Insert"
+            ],
+            "startLine": 127,
+            "endLine": 140,
+            "structuralSignals": {
+              "emptyOrTrivialBody": false,
+              "constantOrIdentityReturn": false,
+              "stubThrowOrPanic": false,
+              "hasThrowStatement": false,
+              "paramsLikelyUnused": false,
+              "lowComplexityProxy": false,
+              "reasons": []
+            },
+            "placeholderAnalysis": {
+              "classification": "definite-legitimate",
+              "confidence": 0,
+              "isPlaceholder": false,
+              "reasons": [
+                "Safety cap applied: cheap heuristics only"
+              ],
+              "detectionMethods": {
+                "explicitMarkers": 0,
+                "namingPatterns": 0,
+                "astAnalysis": 0,
+                "commentAnalysis": 0,
+                "contextFilter": 0,
+                "unusedCodeAnalysis": 0,
+                "externalUnusedChecks": 0,
+                "enhancedContext": 0
+              }
+            }
+          },
+          {
+            "name": "Subtract",
+            "signature": "public RealPolynomial Subtract(RealPolynomial q) => Add(q.Scale(-1));",
+            "parameters": [
+              {
+                "name": "q",
+                "type": "RealPolynomial"
+              }
+            ],
+            "returnType": "RealPolynomial",
+            "isAsync": false,
+            "calls": [
+              "Add",
+              "q.Scale"
+            ],
+            "startLine": 142,
+            "endLine": 142,
+            "structuralSignals": {
+              "emptyOrTrivialBody": false,
+              "constantOrIdentityReturn": false,
+              "stubThrowOrPanic": false,
+              "hasThrowStatement": false,
+              "paramsLikelyUnused": false,
+              "lowComplexityProxy": true,
+              "reasons": [
+                "polyglot-structural: lowComplexityProxy"
+              ]
+            },
+            "placeholderAnalysis": {
+              "classification": "definite-legitimate",
+              "confidence": 18,
+              "isPlaceholder": false,
+              "reasons": [
+                "polyglot-structural: lowComplexityProxy",
+                "Low cyclomatic complexity (1)",
+                "Very short function (1 lines)",
+                "Safety cap applied: cheap heuristics only"
+              ],
+              "detectionMethods": {
+                "explicitMarkers": 0,
+                "namingPatterns": 0,
+                "astAnalysis": 18,
+                "commentAnalysis": 0,
+                "contextFilter": 0,
+                "unusedCodeAnalysis": 0,
+                "externalUnusedChecks": 0,
+                "enhancedContext": 0
+              }
+            }
+          },
+          {
+            "name": "Multiply",
+            "signature": "public RealPolynomial Multiply(RealPolynomial q)",
+            "parameters": [
+              {
+                "name": "q",
+                "type": "RealPolynomial"
+              }
+            ],
+            "returnType": "RealPolynomial",
+            "isAsync": false,
+            "calls": [],
+            "startLine": 144,
+            "endLine": 155,
+            "structuralSignals": {
+              "emptyOrTrivialBody": false,
+              "constantOrIdentityReturn": false,
+              "stubThrowOrPanic": false,
+              "hasThrowStatement": false,
+              "paramsLikelyUnused": false,
+              "lowComplexityProxy": false,
+              "reasons": [
+                "polyglot-structural: mapLikeFor"
+              ]
+            },
+            "placeholderAnalysis": {
+              "classification": "definite-legitimate",
+              "confidence": 0,
+              "isPlaceholder": false,
+              "reasons": [
+                "polyglot-structural: mapLikeFor",
+                "Safety cap applied: cheap heuristics only"
+              ],
+              "detectionMethods": {
+                "explicitMarkers": 0,
+                "namingPatterns": 0,
+                "astAnalysis": 0,
+                "commentAnalysis": 0,
+                "contextFilter": 0,
+                "unusedCodeAnalysis": 0,
+                "externalUnusedChecks": 0,
+                "enhancedContext": 0
+              }
+            }
+          },
+          {
+            "name": "Scale",
+            "signature": "public RealPolynomial Scale(double factor)",
+            "parameters": [
+              {
+                "name": "factor",
+                "type": "double"
+              }
+            ],
+            "returnType": "RealPolynomial",
+            "isAsync": false,
+            "calls": [],
+            "startLine": 157,
+            "endLine": 163,
+            "structuralSignals": {
+              "emptyOrTrivialBody": false,
+              "constantOrIdentityReturn": false,
+              "stubThrowOrPanic": false,
+              "hasThrowStatement": false,
+              "paramsLikelyUnused": false,
+              "lowComplexityProxy": true,
+              "reasons": [
+                "polyglot-structural: mapLikeFor",
+                "polyglot-structural: lowComplexityProxy"
+              ]
+            },
+            "placeholderAnalysis": {
+              "classification": "definite-legitimate",
+              "confidence": 0,
+              "isPlaceholder": false,
+              "reasons": [
+                "polyglot-structural: mapLikeFor",
+                "polyglot-structural: lowComplexityProxy",
+                "Low cyclomatic complexity (1)",
+                "Intentionally unused parameter/variable (prefixed with _)",
+                "Safety cap applied: cheap heuristics only"
+              ],
+              "detectionMethods": {
+                "explicitMarkers": 0,
+                "namingPatterns": 0,
+                "astAnalysis": 12,
+                "commentAnalysis": 0,
+                "contextFilter": -25,
+                "unusedCodeAnalysis": 0,
+                "externalUnusedChecks": 0,
+                "enhancedContext": 0
+              }
+            }
+          },
+          {
+            "name": "DivideByLinearRoot",
+            "signature": "public (RealPolynomial Q, double Remainder) DivideByLinearRoot(double r)",
+            "parameters": [
+              {
+                "name": "r",
+                "type": "double"
+              }
+            ],
+            "returnType": "void",
+            "isAsync": false,
+            "calls": [],
+            "startLine": 165,
+            "endLine": 176,
+            "structuralSignals": {
+              "emptyOrTrivialBody": false,
+              "constantOrIdentityReturn": false,
+              "stubThrowOrPanic": false,
+              "hasThrowStatement": false,
+              "paramsLikelyUnused": false,
+              "lowComplexityProxy": false,
+              "reasons": [
+                "polyglot-structural: mapLikeFor"
+              ]
+            },
+            "placeholderAnalysis": {
+              "classification": "definite-legitimate",
+              "confidence": 0,
+              "isPlaceholder": false,
+              "reasons": [
+                "polyglot-structural: mapLikeFor",
+                "Safety cap applied: cheap heuristics only"
+              ],
+              "detectionMethods": {
+                "explicitMarkers": 0,
+                "namingPatterns": 0,
+                "astAnalysis": 0,
+                "commentAnalysis": 0,
+                "contextFilter": 0,
+                "unusedCodeAnalysis": 0,
+                "externalUnusedChecks": 0,
+                "enhancedContext": 0
+              }
+            }
+          },
+          {
+            "name": "ScientificMathEngine",
+            "signature": "public ScientificMathEngine(double? eps = null, int? maxBisectSteps = null)",
+            "parameters": [
+              {
+                "name": "eps",
+                "type": "double?"
+              },
+              {
+                "name": "maxBisectSteps",
+                "type": "int?"
+              }
+            ],
+            "returnType": "public",
+            "isAsync": false,
+            "calls": [],
+            "startLine": 187,
+            "endLine": 191,
+            "structuralSignals": {
+              "emptyOrTrivialBody": false,
+              "constantOrIdentityReturn": false,
+              "stubThrowOrPanic": false,
+              "hasThrowStatement": false,
+              "paramsLikelyUnused": false,
+              "lowComplexityProxy": true,
+              "reasons": [
+                "polyglot-structural: lowComplexityProxy"
+              ]
+            },
+            "placeholderAnalysis": {
+              "classification": "definite-legitimate",
+              "confidence": 12,
+              "isPlaceholder": false,
+              "reasons": [
+                "polyglot-structural: lowComplexityProxy",
+                "Low cyclomatic complexity (1)",
+                "Safety cap applied: cheap heuristics only"
+              ],
+              "detectionMethods": {
+                "explicitMarkers": 0,
+                "namingPatterns": 0,
+                "astAnalysis": 12,
+                "commentAnalysis": 0,
+                "contextFilter": 0,
+                "unusedCodeAnalysis": 0,
+                "externalUnusedChecks": 0,
+                "enhancedContext": 0
+              }
+            }
+          },
+          {
+            "name": "Eps",
+            "signature": "public double Eps => _eps ?? MathConstants.DefaultEps;",
+            "parameters": [],
+            "returnType": "void",
+            "isAsync": false,
+            "calls": [],
+            "startLine": 193,
+            "endLine": 193,
+            "structuralSignals": {
+              "emptyOrTrivialBody": false,
+              "constantOrIdentityReturn": false,
+              "stubThrowOrPanic": false,
+              "hasThrowStatement": false,
+              "paramsLikelyUnused": false,
+              "lowComplexityProxy": true,
+              "reasons": [
+                "polyglot-structural: lowComplexityProxy"
+              ]
+            },
+            "placeholderAnalysis": {
+              "classification": "likely-legitimate",
+              "confidence": 22,
+              "isPlaceholder": false,
+              "reasons": [
+                "polyglot-structural: lowComplexityProxy",
+                "Low cyclomatic complexity (1)",
+                "Very short function (1 lines)",
+                "Function takes no parameters",
+                "Safety cap applied: cheap heuristics only"
+              ],
+              "detectionMethods": {
+                "explicitMarkers": 0,
+                "namingPatterns": 0,
+                "astAnalysis": 22,
+                "commentAnalysis": 0,
+                "contextFilter": 0,
+                "unusedCodeAnalysis": 0,
+                "externalUnusedChecks": 0,
+                "enhancedContext": 0
+              }
+            }
+          },
+          {
+            "name": "MaxBisect",
+            "signature": "private int MaxBisect() => _maxBisectSteps ?? 200;",
+            "parameters": [],
+            "returnType": "int",
+            "isAsync": false,
+            "calls": [],
+            "startLine": 195,
+            "endLine": 195,
+            "structuralSignals": {
+              "emptyOrTrivialBody": false,
+              "constantOrIdentityReturn": false,
+              "stubThrowOrPanic": false,
+              "hasThrowStatement": false,
+              "paramsLikelyUnused": false,
+              "lowComplexityProxy": true,
+              "reasons": [
+                "polyglot-structural: lowComplexityProxy"
+              ]
+            },
+            "placeholderAnalysis": {
+              "classification": "likely-legitimate",
+              "confidence": 22,
+              "isPlaceholder": false,
+              "reasons": [
+                "polyglot-structural: lowComplexityProxy",
+                "Low cyclomatic complexity (1)",
+                "Very short function (1 lines)",
+                "Function takes no parameters",
+                "Safety cap applied: cheap heuristics only"
+              ],
+              "detectionMethods": {
+                "explicitMarkers": 0,
+                "namingPatterns": 0,
+                "astAnalysis": 22,
+                "commentAnalysis": 0,
+                "contextFilter": 0,
+                "unusedCodeAnalysis": 0,
+                "externalUnusedChecks": 0,
+                "enhancedContext": 0
+              }
+            }
+          },
+          {
+            "name": "SimpsonDefinite",
+            "signature": "public double SimpsonDefinite(Func<double, double> f, double a, double b, int panelCountEven)",
+            "parameters": [
+              {
+                "name": "f",
+                "type": "Func<double, double>"
+              },
+              {
+                "name": "a",
+                "type": "double"
+              },
+              {
+                "name": "b",
+                "type": "double"
+              },
+              {
+                "name": "panelCountEven",
+                "type": "int"
+              }
+            ],
+            "returnType": "double",
+            "isAsync": false,
+            "calls": [
+              "f"
+            ],
+            "startLine": 197,
+            "endLine": 213,
+            "structuralSignals": {
+              "emptyOrTrivialBody": false,
+              "constantOrIdentityReturn": false,
+              "stubThrowOrPanic": false,
+              "hasThrowStatement": true,
+              "paramsLikelyUnused": false,
+              "lowComplexityProxy": false,
+              "reasons": [
+                "polyglot-structural: hasThrowStatement",
+                "polyglot-structural: mapLikeFor"
+              ]
+            },
+            "placeholderAnalysis": {
+              "classification": "definite-legitimate",
+              "confidence": 2,
+              "isPlaceholder": false,
+              "reasons": [
+                "polyglot-structural: hasThrowStatement",
+                "polyglot-structural: mapLikeFor",
+                "Contains throw statement",
+                "Safety cap applied: cheap heuristics only"
+              ],
+              "detectionMethods": {
+                "explicitMarkers": 0,
+                "namingPatterns": 0,
+                "astAnalysis": 2,
+                "commentAnalysis": 0,
+                "contextFilter": 0,
+                "unusedCodeAnalysis": 0,
+                "externalUnusedChecks": 0,
+                "enhancedContext": 0
+              }
+            }
+          },
+          {
+            "name": "Bisection",
+            "signature": "public double Bisection(Func<double, double> f, double lo, double hi)",
+            "parameters": [
+              {
+                "name": "f",
+                "type": "Func<double, double>"
+              },
+              {
+                "name": "lo",
+                "type": "double"
+              },
+              {
+                "name": "hi",
+                "type": "double"
+              }
+            ],
+            "returnType": "double",
+            "isAsync": false,
+            "calls": [
+              "f",
+              "MaxBisect",
+              "MathHelpers.NearlyZero"
+            ],
+            "startLine": 215,
+            "endLine": 235,
+            "structuralSignals": {
+              "emptyOrTrivialBody": false,
+              "constantOrIdentityReturn": false,
+              "stubThrowOrPanic": false,
+              "hasThrowStatement": true,
+              "paramsLikelyUnused": false,
+              "lowComplexityProxy": false,
+              "reasons": [
+                "polyglot-structural: hasThrowStatement"
+              ]
+            },
+            "placeholderAnalysis": {
+              "classification": "definite-legitimate",
+              "confidence": 2,
+              "isPlaceholder": false,
+              "reasons": [
+                "polyglot-structural: hasThrowStatement",
+                "Contains throw statement",
+                "Safety cap applied: cheap heuristics only"
+              ],
+              "detectionMethods": {
+                "explicitMarkers": 0,
+                "namingPatterns": 0,
+                "astAnalysis": 2,
+                "commentAnalysis": 0,
+                "contextFilter": 0,
+                "unusedCodeAnalysis": 0,
+                "externalUnusedChecks": 0,
+                "enhancedContext": 0
+              }
+            }
+          },
+          {
+            "name": "NewtonRaphson",
+            "signature": "public double NewtonRaphson(Func<double, double> f, Func<double, double> df, double guess)",
+            "parameters": [
+              {
+                "name": "f",
+                "type": "Func<double, double>"
+              },
+              {
+                "name": "df",
+                "type": "Func<double, double>"
+              },
+              {
+                "name": "guess",
+                "type": "double"
+              }
+            ],
+            "returnType": "double",
+            "isAsync": false,
+            "calls": [
+              "f",
+              "MathHelpers.NearlyZero",
+              "df",
+              "System.Math.Abs"
+            ],
+            "startLine": 237,
+            "endLine": 254,
+            "structuralSignals": {
+              "emptyOrTrivialBody": false,
+              "constantOrIdentityReturn": false,
+              "stubThrowOrPanic": false,
+              "hasThrowStatement": false,
+              "paramsLikelyUnused": false,
+              "lowComplexityProxy": false,
+              "reasons": []
+            },
+            "placeholderAnalysis": {
+              "classification": "definite-legitimate",
+              "confidence": 0,
+              "isPlaceholder": false,
+              "reasons": [
+                "Safety cap applied: cheap heuristics only"
+              ],
+              "detectionMethods": {
+                "explicitMarkers": 0,
+                "namingPatterns": 0,
+                "astAnalysis": 0,
+                "commentAnalysis": 0,
+                "contextFilter": 0,
+                "unusedCodeAnalysis": 0,
+                "externalUnusedChecks": 0,
+                "enhancedContext": 0
+              }
+            }
+          }
+        ],
+        "classes": [
+          {
+            "name": "MathConstants",
+            "methods": []
+          },
+          {
+            "name": "MathHelpers",
+            "methods": [
+              {
+                "name": "NearlyZero",
+                "signature": "public static bool NearlyZero(double x, double eps = MathConstants.DefaultEps) =>",
+                "parameters": [
+                  {
+                    "name": "x",
+                    "type": "double"
+                  },
+                  {
+                    "name": "eps",
+                    "type": "double"
+                  }
+                ],
+                "returnType": "bool",
+                "isAsync": false,
+                "isGenerator": false,
+                "calls": [
+                  "System.Math.Abs"
+                ],
+                "startLine": 15,
+                "endLine": 16,
+                "structuralSignals": {
+                  "emptyOrTrivialBody": false,
+                  "constantOrIdentityReturn": false,
+                  "stubThrowOrPanic": false,
+                  "hasThrowStatement": false,
+                  "paramsLikelyUnused": false,
+                  "lowComplexityProxy": true,
+                  "reasons": [
+                    "polyglot-structural: lowComplexityProxy"
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "name": "ArchivedBenchmarkProvenance",
+            "methods": [
+              {
+                "name": "ArchivedBenchmarkProvenance",
+                "signature": "static ArchivedBenchmarkProvenance()",
+                "parameters": [],
+                "returnType": "static",
+                "isAsync": false,
+                "isGenerator": false,
+                "calls": [],
+                "startLine": 54,
+                "endLine": 57,
+                "structuralSignals": {
+                  "emptyOrTrivialBody": false,
+                  "constantOrIdentityReturn": false,
+                  "stubThrowOrPanic": false,
+                  "hasThrowStatement": false,
+                  "paramsLikelyUnused": false,
+                  "lowComplexityProxy": true,
+                  "reasons": [
+                    "polyglot-structural: lowComplexityProxy"
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "name": "RealPolynomial",
+            "methods": [
+              {
+                "name": "RealPolynomial",
+                "signature": "public RealPolynomial(IReadOnlyList<double> coeffsDescending)",
+                "parameters": [
+                  {
+                    "name": "coeffsDescending",
+                    "type": "IReadOnlyList<double>"
+                  }
+                ],
+                "returnType": "public",
+                "isAsync": false,
+                "isGenerator": false,
+                "calls": [
+                  "Trim"
+                ],
+                "startLine": 67,
+                "endLine": 72,
+                "structuralSignals": {
+                  "emptyOrTrivialBody": false,
+                  "constantOrIdentityReturn": false,
+                  "stubThrowOrPanic": false,
+                  "hasThrowStatement": true,
+                  "paramsLikelyUnused": false,
+                  "lowComplexityProxy": false,
+                  "reasons": [
+                    "polyglot-structural: hasThrowStatement"
+                  ]
+                }
+              },
+              {
+                "name": "Degree",
+                "signature": "public int Degree => _a.Length - 1;",
+                "parameters": [],
+                "returnType": "void",
+                "isAsync": false,
+                "isGenerator": false,
+                "calls": [],
+                "startLine": 74,
+                "endLine": 74,
+                "structuralSignals": {
+                  "emptyOrTrivialBody": false,
+                  "constantOrIdentityReturn": false,
+                  "stubThrowOrPanic": false,
+                  "hasThrowStatement": false,
+                  "paramsLikelyUnused": false,
+                  "lowComplexityProxy": true,
+                  "reasons": [
+                    "polyglot-structural: lowComplexityProxy"
+                  ]
+                }
+              },
+              {
+                "name": "Coefficients",
+                "signature": "public double[] Coefficients()",
+                "parameters": [],
+                "returnType": "double[]",
+                "isAsync": false,
+                "isGenerator": false,
+                "calls": [
+                  "Array.Copy"
+                ],
+                "startLine": 76,
+                "endLine": 81,
+                "structuralSignals": {
+                  "emptyOrTrivialBody": false,
+                  "constantOrIdentityReturn": false,
+                  "stubThrowOrPanic": false,
+                  "hasThrowStatement": false,
+                  "paramsLikelyUnused": false,
+                  "lowComplexityProxy": true,
+                  "reasons": [
+                    "polyglot-structural: lowComplexityProxy"
+                  ]
+                }
+              },
+              {
+                "name": "Trim",
+                "signature": "private static double[] Trim(IReadOnlyList<double> c)",
+                "parameters": [
+                  {
+                    "name": "c",
+                    "type": "IReadOnlyList<double>"
+                  }
+                ],
+                "returnType": "double[]",
+                "isAsync": false,
+                "isGenerator": false,
+                "calls": [
+                  "MathHelpers.NearlyZero"
+                ],
+                "startLine": 83,
+                "endLine": 92,
+                "structuralSignals": {
+                  "emptyOrTrivialBody": false,
+                  "constantOrIdentityReturn": false,
+                  "stubThrowOrPanic": false,
+                  "hasThrowStatement": false,
+                  "paramsLikelyUnused": false,
+                  "lowComplexityProxy": false,
+                  "reasons": [
+                    "polyglot-structural: mapLikeFor"
+                  ]
+                }
+              },
+              {
+                "name": "Evaluate",
+                "signature": "public double Evaluate(double x)",
+                "parameters": [
+                  {
+                    "name": "x",
+                    "type": "double"
+                  }
+                ],
+                "returnType": "double",
+                "isAsync": false,
+                "isGenerator": false,
+                "calls": [],
+                "startLine": 94,
+                "endLine": 100,
+                "structuralSignals": {
+                  "emptyOrTrivialBody": false,
+                  "constantOrIdentityReturn": false,
+                  "stubThrowOrPanic": false,
+                  "hasThrowStatement": false,
+                  "paramsLikelyUnused": false,
+                  "lowComplexityProxy": true,
+                  "reasons": [
+                    "polyglot-structural: mapLikeFor",
+                    "polyglot-structural: lowComplexityProxy"
+                  ]
+                }
+              },
+              {
+                "name": "Derivative",
+                "signature": "public RealPolynomial Derivative()",
+                "parameters": [],
+                "returnType": "RealPolynomial",
+                "isAsync": false,
+                "isGenerator": false,
+                "calls": [],
+                "startLine": 102,
+                "endLine": 111,
+                "structuralSignals": {
+                  "emptyOrTrivialBody": false,
+                  "constantOrIdentityReturn": false,
+                  "stubThrowOrPanic": false,
+                  "hasThrowStatement": false,
+                  "paramsLikelyUnused": false,
+                  "lowComplexityProxy": false,
+                  "reasons": [
+                    "polyglot-structural: mapLikeFor"
+                  ]
+                }
+              },
+              {
+                "name": "IntegrateFromZero",
+                "signature": "public RealPolynomial IntegrateFromZero()",
+                "parameters": [],
+                "returnType": "RealPolynomial",
+                "isAsync": false,
+                "isGenerator": false,
+                "calls": [
+                  "c.Add"
+                ],
+                "startLine": 114,
+                "endLine": 125,
+                "structuralSignals": {
+                  "emptyOrTrivialBody": false,
+                  "constantOrIdentityReturn": false,
+                  "stubThrowOrPanic": false,
+                  "hasThrowStatement": false,
+                  "paramsLikelyUnused": false,
+                  "lowComplexityProxy": true,
+                  "reasons": [
+                    "polyglot-structural: mapLikeFor",
+                    "polyglot-structural: lowComplexityProxy"
+                  ]
+                }
+              },
+              {
+                "name": "Add",
+                "signature": "public RealPolynomial Add(RealPolynomial q)",
+                "parameters": [
+                  {
+                    "name": "q",
+                    "type": "RealPolynomial"
+                  }
+                ],
+                "returnType": "RealPolynomial",
+                "isAsync": false,
+                "isGenerator": false,
+                "calls": [
+                  "System.Math.Max",
+                  "outList.Insert"
+                ],
+                "startLine": 127,
+                "endLine": 140,
+                "structuralSignals": {
+                  "emptyOrTrivialBody": false,
+                  "constantOrIdentityReturn": false,
+                  "stubThrowOrPanic": false,
+                  "hasThrowStatement": false,
+                  "paramsLikelyUnused": false,
+                  "lowComplexityProxy": false,
+                  "reasons": []
+                }
+              },
+              {
+                "name": "Subtract",
+                "signature": "public RealPolynomial Subtract(RealPolynomial q) => Add(q.Scale(-1));",
+                "parameters": [
+                  {
+                    "name": "q",
+                    "type": "RealPolynomial"
+                  }
+                ],
+                "returnType": "RealPolynomial",
+                "isAsync": false,
+                "isGenerator": false,
+                "calls": [
+                  "Add",
+                  "q.Scale"
+                ],
+                "startLine": 142,
+                "endLine": 142,
+                "structuralSignals": {
+                  "emptyOrTrivialBody": false,
+                  "constantOrIdentityReturn": false,
+                  "stubThrowOrPanic": false,
+                  "hasThrowStatement": false,
+                  "paramsLikelyUnused": false,
+                  "lowComplexityProxy": true,
+                  "reasons": [
+                    "polyglot-structural: lowComplexityProxy"
+                  ]
+                }
+              },
+              {
+                "name": "Multiply",
+                "signature": "public RealPolynomial Multiply(RealPolynomial q)",
+                "parameters": [
+                  {
+                    "name": "q",
+                    "type": "RealPolynomial"
+                  }
+                ],
+                "returnType": "RealPolynomial",
+                "isAsync": false,
+                "isGenerator": false,
+                "calls": [],
+                "startLine": 144,
+                "endLine": 155,
+                "structuralSignals": {
+                  "emptyOrTrivialBody": false,
+                  "constantOrIdentityReturn": false,
+                  "stubThrowOrPanic": false,
+                  "hasThrowStatement": false,
+                  "paramsLikelyUnused": false,
+                  "lowComplexityProxy": false,
+                  "reasons": [
+                    "polyglot-structural: mapLikeFor"
+                  ]
+                }
+              },
+              {
+                "name": "Scale",
+                "signature": "public RealPolynomial Scale(double factor)",
+                "parameters": [
+                  {
+                    "name": "factor",
+                    "type": "double"
+                  }
+                ],
+                "returnType": "RealPolynomial",
+                "isAsync": false,
+                "isGenerator": false,
+                "calls": [],
+                "startLine": 157,
+                "endLine": 163,
+                "structuralSignals": {
+                  "emptyOrTrivialBody": false,
+                  "constantOrIdentityReturn": false,
+                  "stubThrowOrPanic": false,
+                  "hasThrowStatement": false,
+                  "paramsLikelyUnused": false,
+                  "lowComplexityProxy": true,
+                  "reasons": [
+                    "polyglot-structural: mapLikeFor",
+                    "polyglot-structural: lowComplexityProxy"
+                  ]
+                }
+              },
+              {
+                "name": "DivideByLinearRoot",
+                "signature": "public (RealPolynomial Q, double Remainder) DivideByLinearRoot(double r)",
+                "parameters": [
+                  {
+                    "name": "r",
+                    "type": "double"
+                  }
+                ],
+                "returnType": "void",
+                "isAsync": false,
+                "isGenerator": false,
+                "calls": [],
+                "startLine": 165,
+                "endLine": 176,
+                "structuralSignals": {
+                  "emptyOrTrivialBody": false,
+                  "constantOrIdentityReturn": false,
+                  "stubThrowOrPanic": false,
+                  "hasThrowStatement": false,
+                  "paramsLikelyUnused": false,
+                  "lowComplexityProxy": false,
+                  "reasons": [
+                    "polyglot-structural: mapLikeFor"
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "name": "ScientificMathEngine",
+            "methods": [
+              {
+                "name": "ScientificMathEngine",
+                "signature": "public ScientificMathEngine(double? eps = null, int? maxBisectSteps = null)",
+                "parameters": [
+                  {
+                    "name": "eps",
+                    "type": "double?"
+                  },
+                  {
+                    "name": "maxBisectSteps",
+                    "type": "int?"
+                  }
+                ],
+                "returnType": "public",
+                "isAsync": false,
+                "isGenerator": false,
+                "calls": [],
+                "startLine": 187,
+                "endLine": 191,
+                "structuralSignals": {
+                  "emptyOrTrivialBody": false,
+                  "constantOrIdentityReturn": false,
+                  "stubThrowOrPanic": false,
+                  "hasThrowStatement": false,
+                  "paramsLikelyUnused": false,
+                  "lowComplexityProxy": true,
+                  "reasons": [
+                    "polyglot-structural: lowComplexityProxy"
+                  ]
+                }
+              },
+              {
+                "name": "Eps",
+                "signature": "public double Eps => _eps ?? MathConstants.DefaultEps;",
+                "parameters": [],
+                "returnType": "void",
+                "isAsync": false,
+                "isGenerator": false,
+                "calls": [],
+                "startLine": 193,
+                "endLine": 193,
+                "structuralSignals": {
+                  "emptyOrTrivialBody": false,
+                  "constantOrIdentityReturn": false,
+                  "stubThrowOrPanic": false,
+                  "hasThrowStatement": false,
+                  "paramsLikelyUnused": false,
+                  "lowComplexityProxy": true,
+                  "reasons": [
+                    "polyglot-structural: lowComplexityProxy"
+                  ]
+                }
+              },
+              {
+                "name": "MaxBisect",
+                "signature": "private int MaxBisect() => _maxBisectSteps ?? 200;",
+                "parameters": [],
+                "returnType": "int",
+                "isAsync": false,
+                "isGenerator": false,
+                "calls": [],
+                "startLine": 195,
+                "endLine": 195,
+                "structuralSignals": {
+                  "emptyOrTrivialBody": false,
+                  "constantOrIdentityReturn": false,
+                  "stubThrowOrPanic": false,
+                  "hasThrowStatement": false,
+                  "paramsLikelyUnused": false,
+                  "lowComplexityProxy": true,
+                  "reasons": [
+                    "polyglot-structural: lowComplexityProxy"
+                  ]
+                }
+              },
+              {
+                "name": "SimpsonDefinite",
+                "signature": "public double SimpsonDefinite(Func<double, double> f, double a, double b, int panelCountEven)",
+                "parameters": [
+                  {
+                    "name": "f",
+                    "type": "Func<double, double>"
+                  },
+                  {
+                    "name": "a",
+                    "type": "double"
+                  },
+                  {
+                    "name": "b",
+                    "type": "double"
+                  },
+                  {
+                    "name": "panelCountEven",
+                    "type": "int"
+                  }
+                ],
+                "returnType": "double",
+                "isAsync": false,
+                "isGenerator": false,
+                "calls": [
+                  "f"
+                ],
+                "startLine": 197,
+                "endLine": 213,
+                "structuralSignals": {
+                  "emptyOrTrivialBody": false,
+                  "constantOrIdentityReturn": false,
+                  "stubThrowOrPanic": false,
+                  "hasThrowStatement": true,
+                  "paramsLikelyUnused": false,
+                  "lowComplexityProxy": false,
+                  "reasons": [
+                    "polyglot-structural: hasThrowStatement",
+                    "polyglot-structural: mapLikeFor"
+                  ]
+                }
+              },
+              {
+                "name": "Bisection",
+                "signature": "public double Bisection(Func<double, double> f, double lo, double hi)",
+                "parameters": [
+                  {
+                    "name": "f",
+                    "type": "Func<double, double>"
+                  },
+                  {
+                    "name": "lo",
+                    "type": "double"
+                  },
+                  {
+                    "name": "hi",
+                    "type": "double"
+                  }
+                ],
+                "returnType": "double",
+                "isAsync": false,
+                "isGenerator": false,
+                "calls": [
+                  "f",
+                  "MaxBisect",
+                  "MathHelpers.NearlyZero"
+                ],
+                "startLine": 215,
+                "endLine": 235,
+                "structuralSignals": {
+                  "emptyOrTrivialBody": false,
+                  "constantOrIdentityReturn": false,
+                  "stubThrowOrPanic": false,
+                  "hasThrowStatement": true,
+                  "paramsLikelyUnused": false,
+                  "lowComplexityProxy": false,
+                  "reasons": [
+                    "polyglot-structural: hasThrowStatement"
+                  ]
+                }
+              },
+              {
+                "name": "NewtonRaphson",
+                "signature": "public double NewtonRaphson(Func<double, double> f, Func<double, double> df, double guess)",
+                "parameters": [
+                  {
+                    "name": "f",
+                    "type": "Func<double, double>"
+                  },
+                  {
+                    "name": "df",
+                    "type": "Func<double, double>"
+                  },
+                  {
+                    "name": "guess",
+                    "type": "double"
+                  }
+                ],
+                "returnType": "double",
+                "isAsync": false,
+                "isGenerator": false,
+                "calls": [
+                  "f",
+                  "MathHelpers.NearlyZero",
+                  "df",
+                  "System.Math.Abs"
+                ],
+                "startLine": 237,
+                "endLine": 254,
+                "structuralSignals": {
+                  "emptyOrTrivialBody": false,
+                  "constantOrIdentityReturn": false,
+                  "stubThrowOrPanic": false,
+                  "hasThrowStatement": false,
+                  "paramsLikelyUnused": false,
+                  "lowComplexityProxy": false,
+                  "reasons": []
+                }
+              },
+              {
+                "name": "RealRootsCubic",
+                "signature": "public List<double> RealRootsCubic(double c3, double c2, double c1, double c0)",
+                "parameters": [
+                  {
+                    "name": "c3",
+                    "type": "double"
+                  },
+                  {
+                    "name": "c2",
+                    "type": "double"
+                  },
+                  {
+                    "name": "c1",
+                    "type": "double"
+                  },
+                  {
+                    "name": "c0",
+                    "type": "double"
+                  }
+                ],
+                "returnType": "List<double>",
+                "isAsync": false,
+                "isGenerator": false,
+                "calls": [
+                  "MathHelpers.NearlyZero",
+                  "System.Math.Sqrt",
+                  "rootsQ.Sort",
+                  "CardanoDepressed",
+                  "outSet.Select",
+                  "outSet.Select(t => t - a / 3).ToList",
+                  "roots.Sort",
+                  "MergeClose"
+                ],
+                "startLine": 256,
+                "endLine": 286,
+                "structuralSignals": {
+                  "emptyOrTrivialBody": false,
+                  "constantOrIdentityReturn": false,
+                  "stubThrowOrPanic": false,
+                  "hasThrowStatement": false,
+                  "paramsLikelyUnused": false,
+                  "lowComplexityProxy": false,
+                  "reasons": []
+                }
+              },
+              {
+                "name": "CardanoDepressed",
+                "signature": "private void CardanoDepressed(double p, double q, HashSet<double> outSet)",
+                "parameters": [
+                  {
+                    "name": "p",
+                    "type": "double"
+                  },
+                  {
+                    "name": "q",
+                    "type": "double"
+                  },
+                  {
+                    "name": "outSet",
+                    "type": "HashSet<double>"
+                  }
+                ],
+                "returnType": "void",
+                "isAsync": false,
+                "isGenerator": false,
+                "calls": [
+                  "MathHelpers.NearlyZero",
+                  "outSet.Add",
+                  "System.Math.Cbrt",
+                  "System.Math.Sqrt",
+                  "System.Math.Max",
+                  "System.Math.Min",
+                  "System.Math.Acos",
+                  "System.Math.Cos"
+                ],
+                "startLine": 288,
+                "endLine": 338,
+                "structuralSignals": {
+                  "emptyOrTrivialBody": false,
+                  "constantOrIdentityReturn": false,
+                  "stubThrowOrPanic": false,
+                  "hasThrowStatement": true,
+                  "paramsLikelyUnused": false,
+                  "lowComplexityProxy": false,
+                  "reasons": [
+                    "polyglot-structural: hasThrowStatement",
+                    "polyglot-structural: mapLikeFor"
+                  ]
+                }
+              },
+              {
+                "name": "MergeClose",
+                "signature": "private static List<double> MergeClose(List<double> r, double tol)",
+                "parameters": [
+                  {
+                    "name": "r",
+                    "type": "List<double>"
+                  },
+                  {
+                    "name": "tol",
+                    "type": "double"
+                  }
+                ],
+                "returnType": "List<double>",
+                "isAsync": false,
+                "isGenerator": false,
+                "calls": [
+                  "System.Math.Abs",
+                  "o.Add"
+                ],
+                "startLine": 340,
+                "endLine": 353,
+                "structuralSignals": {
+                  "emptyOrTrivialBody": false,
+                  "constantOrIdentityReturn": false,
+                  "stubThrowOrPanic": false,
+                  "hasThrowStatement": false,
+                  "paramsLikelyUnused": false,
+                  "lowComplexityProxy": false,
+                  "reasons": []
+                }
+              },
+              {
+                "name": "ScanRealRootsOnInterval",
+                "signature": "public List<double> ScanRealRootsOnInterval(RealPolynomial p, double a, double b, double sampleStep)",
+                "parameters": [
+                  {
+                    "name": "p",
+                    "type": "RealPolynomial"
+                  },
+                  {
+                    "name": "a",
+                    "type": "double"
+                  },
+                  {
+                    "name": "b",
+                    "type": "double"
+                  },
+                  {
+                    "name": "sampleStep",
+                    "type": "double"
+                  }
+                ],
+                "returnType": "List<double>",
+                "isAsync": false,
+                "isGenerator": false,
+                "calls": [
+                  "p.Evaluate",
+                  "p.Derivative",
+                  "d.Evaluate",
+                  "System.Math.Min",
+                  "F",
+                  "MathHelpers.NearlyZero",
+                  "System.Math.Abs",
+                  "roots.Add",
+                  "Bisection",
+                  "NewtonRaphson",
+                  "roots.Sort",
+                  "MergeClose"
+                ],
+                "startLine": 355,
+                "endLine": 393,
+                "structuralSignals": {
+                  "emptyOrTrivialBody": false,
+                  "constantOrIdentityReturn": false,
+                  "stubThrowOrPanic": false,
+                  "hasThrowStatement": false,
+                  "paramsLikelyUnused": false,
+                  "lowComplexityProxy": false,
+                  "reasons": []
+                }
+              },
+              {
+                "name": "Erf",
+                "signature": "public double Erf(double x)",
+                "parameters": [
+                  {
+                    "name": "x",
+                    "type": "double"
+                  }
+                ],
+                "returnType": "double",
+                "isAsync": false,
+                "isGenerator": false,
+                "calls": [
+                  "System.Math.Abs",
+                  "System.Math.Exp"
+                ],
+                "startLine": 395,
+                "endLine": 408,
+                "structuralSignals": {
+                  "emptyOrTrivialBody": false,
+                  "constantOrIdentityReturn": false,
+                  "stubThrowOrPanic": false,
+                  "hasThrowStatement": false,
+                  "paramsLikelyUnused": false,
+                  "lowComplexityProxy": false,
+                  "reasons": []
+                }
+              },
+              {
+                "name": "ClenshawChebyshevT",
+                "signature": "public double ClenshawChebyshevT(IReadOnlyList<double> coeffsT, double x)",
+                "parameters": [
+                  {
+                    "name": "coeffsT",
+                    "type": "IReadOnlyList<double>"
+                  },
+                  {
+                    "name": "x",
+                    "type": "double"
+                  }
+                ],
+                "returnType": "double",
+                "isAsync": false,
+                "isGenerator": false,
+                "calls": [],
+                "startLine": 410,
+                "endLine": 426,
+                "structuralSignals": {
+                  "emptyOrTrivialBody": false,
+                  "constantOrIdentityReturn": false,
+                  "stubThrowOrPanic": false,
+                  "hasThrowStatement": false,
+                  "paramsLikelyUnused": false,
+                  "lowComplexityProxy": false,
+                  "reasons": [
+                    "polyglot-structural: mapLikeFor"
+                  ]
+                }
+              },
+              {
+                "name": "Trapezoid",
+                "signature": "public double Trapezoid(Func<double, double> f, double a, double b, int n)",
+                "parameters": [
+                  {
+                    "name": "f",
+                    "type": "Func<double, double>"
+                  },
+                  {
+                    "name": "a",
+                    "type": "double"
+                  },
+                  {
+                    "name": "b",
+                    "type": "double"
+                  },
+                  {
+                    "name": "n",
+                    "type": "int"
+                  }
+                ],
+                "returnType": "double",
+                "isAsync": false,
+                "isGenerator": false,
+                "calls": [
+                  "f"
+                ],
+                "startLine": 428,
+                "endLine": 439,
+                "structuralSignals": {
+                  "emptyOrTrivialBody": false,
+                  "constantOrIdentityReturn": false,
+                  "stubThrowOrPanic": false,
+                  "hasThrowStatement": true,
+                  "paramsLikelyUnused": false,
+                  "lowComplexityProxy": false,
+                  "reasons": [
+                    "polyglot-structural: hasThrowStatement",
+                    "polyglot-structural: mapLikeFor"
+                  ]
+                }
+              },
+              {
+                "name": "Solve3x3",
+                "signature": "public (double X0, double X1, double X2) Solve3x3(double[][] A, (double, double, double) bvec)",
+                "parameters": [
+                  {
+                    "name": "A",
+                    "type": "double[][]"
+                  },
+                  {
+                    "name": "bvec",
+                    "type": "(double, double, double)"
+                  }
+                ],
+                "returnType": "void",
+                "isAsync": false,
+                "isGenerator": false,
+                "calls": [
+                  "A.Any",
+                  "A.Select",
+                  "r.Clone",
+                  "A.Select(r => (double[])r.Clone()).ToArray",
+                  "System.Math.Abs",
+                  "MathHelpers.NearlyZero"
+                ],
+                "startLine": 441,
+                "endLine": 477,
+                "structuralSignals": {
+                  "emptyOrTrivialBody": false,
+                  "constantOrIdentityReturn": false,
+                  "stubThrowOrPanic": false,
+                  "hasThrowStatement": true,
+                  "paramsLikelyUnused": false,
+                  "lowComplexityProxy": false,
+                  "reasons": [
+                    "polyglot-structural: hasThrowStatement",
+                    "polyglot-structural: mapLikeFor"
+                  ]
+                }
+              },
+              {
+                "name": "RungeKutta4",
+                "signature": "public (double T, double Y) RungeKutta4(Func<double, double, double> f, double t0, double y0, double h, int steps)",
+                "parameters": [
+                  {
+                    "name": "f",
+                    "type": "Func<double, double, double>"
+                  },
+                  {
+                    "name": "t0",
+                    "type": "double"
+                  },
+                  {
+                    "name": "y0",
+                    "type": "double"
+                  },
+                  {
+                    "name": "h",
+                    "type": "double"
+                  },
+                  {
+                    "name": "steps",
+                    "type": "int"
+                  }
+                ],
+                "returnType": "void",
+                "isAsync": false,
+                "isGenerator": false,
+                "calls": [
+                  "f"
+                ],
+                "startLine": 479,
+                "endLine": 493,
+                "structuralSignals": {
+                  "emptyOrTrivialBody": false,
+                  "constantOrIdentityReturn": false,
+                  "stubThrowOrPanic": false,
+                  "hasThrowStatement": false,
+                  "paramsLikelyUnused": false,
+                  "lowComplexityProxy": false,
+                  "reasons": []
+                }
+              },
+              {
+                "name": "LogGamma",
+                "signature": "public double LogGamma(double z)",
+                "parameters": [
+                  {
+                    "name": "z",
+                    "type": "double"
+                  }
+                ],
+                "returnType": "double",
+                "isAsync": false,
+                "isGenerator": false,
+                "calls": [
+                  "System.Math.Log",
+                  "System.Math.Sin",
+                  "LogGamma"
+                ],
+                "startLine": 495,
+                "endLine": 518,
+                "structuralSignals": {
+                  "emptyOrTrivialBody": false,
+                  "constantOrIdentityReturn": false,
+                  "stubThrowOrPanic": false,
+                  "hasThrowStatement": true,
+                  "paramsLikelyUnused": false,
+                  "lowComplexityProxy": false,
+                  "reasons": [
+                    "polyglot-structural: hasThrowStatement",
+                    "polyglot-structural: mapLikeFor"
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "name": "DemoPolynomials",
+            "methods": [
+              {
+                "name": "MakeDemoQuarticForRoots",
+                "signature": "public static RealPolynomial MakeDemoQuarticForRoots() =>",
+                "parameters": [],
+                "returnType": "RealPolynomial",
+                "isAsync": false,
+                "isGenerator": false,
+                "calls": [],
+                "startLine": 524,
+                "endLine": 525,
+                "structuralSignals": {
+                  "emptyOrTrivialBody": false,
+                  "constantOrIdentityReturn": false,
+                  "stubThrowOrPanic": false,
+                  "hasThrowStatement": false,
+                  "paramsLikelyUnused": false,
+                  "lowComplexityProxy": true,
+                  "reasons": [
+                    "polyglot-structural: lowComplexityProxy"
+                  ]
+                }
+              }
+            ]
+          }
+        ],
+        "keyElementsInFile": [
+          {
+            "name": "NearlyZero",
+            "type": "function",
+            "signature": "public static bool NearlyZero(double x, double eps = MathConstants.DefaultEps) =>"
+          },
+          {
+            "name": "ArchivedBenchmarkProvenance",
+            "type": "function",
+            "signature": "static ArchivedBenchmarkProvenance()"
+          },
+          {
+            "name": "RealPolynomial",
+            "type": "function",
+            "signature": "public RealPolynomial(IReadOnlyList<double> coeffsDescending)"
+          },
+          {
+            "name": "Degree",
+            "type": "function",
+            "signature": "public int Degree => _a.Length - 1;"
+          },
+          {
+            "name": "Coefficients",
+            "type": "function",
+            "signature": "public double[] Coefficients()"
+          },
+          {
+            "name": "Trim",
+            "type": "function",
+            "signature": "private static double[] Trim(IReadOnlyList<double> c)"
+          },
+          {
+            "name": "Evaluate",
+            "type": "function",
+            "signature": "public double Evaluate(double x)"
+          },
+          {
+            "name": "Derivative",
+            "type": "function",
+            "signature": "public RealPolynomial Derivative()"
+          },
+          {
+            "name": "IntegrateFromZero",
+            "type": "function",
+            "signature": "public RealPolynomial IntegrateFromZero()"
+          },
+          {
+            "name": "Add",
+            "type": "function",
+            "signature": "public RealPolynomial Add(RealPolynomial q)"
+          },
+          {
+            "name": "Subtract",
+            "type": "function",
+            "signature": "public RealPolynomial Subtract(RealPolynomial q) => Add(q.Scale(-1));"
+          },
+          {
+            "name": "Multiply",
+            "type": "function",
+            "signature": "public RealPolynomial Multiply(RealPolynomial q)"
+          },
+          {
+            "name": "Scale",
+            "type": "function",
+            "signature": "public RealPolynomial Scale(double factor)"
+          },
+          {
+            "name": "DivideByLinearRoot",
+            "type": "function",
+            "signature": "public (RealPolynomial Q, double Remainder) DivideByLinearRoot(double r)"
+          },
+          {
+            "name": "ScientificMathEngine",
+            "type": "function",
+            "signature": "public ScientificMathEngine(double? eps = null, int? maxBisectSteps = null)"
+          },
+          {
+            "name": "Eps",
+            "type": "function",
+            "signature": "public double Eps => _eps ?? MathConstants.DefaultEps;"
+          },
+          {
+            "name": "MaxBisect",
+            "type": "function",
+            "signature": "private int MaxBisect() => _maxBisectSteps ?? 200;"
+          },
+          {
+            "name": "SimpsonDefinite",
+            "type": "function",
+            "signature": "public double SimpsonDefinite(Func<double, double> f, double a, double b, int panelCountEven)"
+          },
+          {
+            "name": "Bisection",
+            "type": "function",
+            "signature": "public double Bisection(Func<double, double> f, double lo, double hi)"
+          },
+          {
+            "name": "NewtonRaphson",
+            "type": "function",
+            "signature": "public double NewtonRaphson(Func<double, double> f, Func<double, double> df, double guess)"
+          },
+          {
+            "name": "RealRootsCubic",
+            "type": "function",
+            "signature": "public List<double> RealRootsCubic(double c3, double c2, double c1, double c0)"
+          },
+          {
+            "name": "CardanoDepressed",
+            "type": "function",
+            "signature": "private void CardanoDepressed(double p, double q, HashSet<double> outSet)"
+          },
+          {
+            "name": "MergeClose",
+            "type": "function",
+            "signature": "private static List<double> MergeClose(List<double> r, double tol)"
+          },
+          {
+            "name": "ScanRealRootsOnInterval",
+            "type": "function",
+            "signature": "public List<double> ScanRealRootsOnInterval(RealPolynomial p, double a, double b, double sampleStep)"
+          },
+          {
+            "name": "F",
+            "type": "function",
+            "signature": "double F(double x) => p.Evaluate(x);"
+          },
+          {
+            "name": "G",
+            "type": "function",
+            "signature": "double G(double x) => d.Evaluate(x);"
+          },
+          {
+            "name": "Erf",
+            "type": "function",
+            "signature": "public double Erf(double x)"
+          },
+          {
+            "name": "ClenshawChebyshevT",
+            "type": "function",
+            "signature": "public double ClenshawChebyshevT(IReadOnlyList<double> coeffsT, double x)"
+          },
+          {
+            "name": "Trapezoid",
+            "type": "function",
+            "signature": "public double Trapezoid(Func<double, double> f, double a, double b, int n)"
+          },
+          {
+            "name": "Solve3x3",
+            "type": "function",
+            "signature": "public (double X0, double X1, double X2) Solve3x3(double[][] A, (double, double, double) bvec)"
+          },
+          {
+            "name": "RungeKutta4",
+            "type": "function",
+            "signature": "public (double T, double Y) RungeKutta4(Func<double, double, double> f, double t0, double y0, double h, int steps)"
+          },
+          {
+            "name": "LogGamma",
+            "type": "function",
+            "signature": "public double LogGamma(double z)"
+          },
+          {
+            "name": "MakeDemoQuarticForRoots",
+            "type": "function",
+            "signature": "public static RealPolynomial MakeDemoQuarticForRoots() =>"
+          },
+          {
+            "name": "MathConstants",
+            "type": "class",
+            "signature": "class MathConstants"
+          },
+          {
+            "name": "MathHelpers",
+            "type": "class",
+            "signature": "class MathHelpers"
+          },
+          {
+            "name": "DemoPolynomials",
+            "type": "class",
+            "signature": "class DemoPolynomials"
+          },
+          {
+            "name": "DefaultEps",
+            "type": "const",
+            "signature": "const DefaultEps"
+          },
+          {
+            "name": "MaxNewton",
+            "type": "const",
+            "signature": "const MaxNewton"
+          },
+          {
+            "name": "_a",
+            "type": "const",
+            "signature": "const _a"
+          }
+        ]
+      }
+    ]
+  }
+}

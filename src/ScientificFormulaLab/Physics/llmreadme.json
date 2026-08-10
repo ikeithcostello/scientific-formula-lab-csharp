@@ -1,0 +1,4754 @@
+{
+  "$schema": "https://json.schemastore.org/llm-metadata-1.4.json",
+  "version": "2.3.0",
+  "generatedAt": "2026-08-05T04:16:34.252Z",
+  "grade": "analysis-grade",
+  "configuration": {
+    "detectPlaceholders": true,
+    "placeholderConfidence": 40,
+    "placeholderAnalysisLevel": "enhanced",
+    "detailLevel": "standard",
+    "includeComplexity": false,
+    "maxFiles": 2000
+  },
+  "verificationSummary": null,
+  "metadata": {
+    "directory": {
+      "name": "Physics",
+      "path": "ScientificFormulaLab/Physics",
+      "purpose": "Enhanced directory analysis of Physics",
+      "ownKeyElements": []
+    },
+    "subdirectories": [],
+    "dependencyGraph": {
+      "edges": [],
+      "circularDependencies": []
+    },
+    "files": [
+      {
+        "name": "AnalyticalPhysicsEngine.cs",
+        "path": "ScientificFormulaLab/Physics/AnalyticalPhysicsEngine.cs",
+        "filePath": "ScientificFormulaLab/Physics/AnalyticalPhysicsEngine.cs",
+        "filePurpose": "Provides Mag, Add2, Scale2, UniformAcceleration2D… (41 exports)",
+        "languageDetail": "C#",
+        "lineCount": 336,
+        "contentHash": "624aa5804b4b9fcade5c69c03dfdbaf1e7adf7c5f5589e7ee66c7a64732217fb",
+        "placeholderDetection": [
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Physics/AnalyticalPhysicsEngine.cs",
+            "functionName": "Ac",
+            "classification": "definite-legitimate",
+            "confidence": 2,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: hasThrowStatement",
+              "Contains throw statement",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 199,
+              "endLine": 204
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 2,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Physics/AnalyticalPhysicsEngine.cs",
+            "functionName": "Acceleration",
+            "classification": "likely-legitimate",
+            "confidence": 22,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: lowComplexityProxy",
+              "Low cyclomatic complexity (1)",
+              "Very short function (1 lines)",
+              "Function takes no parameters",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 26,
+              "endLine": 26
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 22,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Physics/AnalyticalPhysicsEngine.cs",
+            "functionName": "Add2",
+            "classification": "definite-legitimate",
+            "confidence": 18,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: lowComplexityProxy",
+              "Low cyclomatic complexity (1)",
+              "Very short function (1 lines)",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 16,
+              "endLine": 16
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 18,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Physics/AnalyticalPhysicsEngine.cs",
+            "functionName": "AnalyticalPhysicsEngine",
+            "classification": "definite-legitimate",
+            "confidence": 12,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: lowComplexityProxy",
+              "Low cyclomatic complexity (1)",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 299,
+              "endLine": 306
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 12,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Physics/AnalyticalPhysicsEngine.cs",
+            "functionName": "Apex",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: lowComplexityProxy",
+              "Low cyclomatic complexity (1)",
+              "Intentionally unused parameter/variable (prefixed with _)",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 88,
+              "endLine": 94
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 12,
+              "commentAnalysis": 0,
+              "contextFilter": -25,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Physics/AnalyticalPhysicsEngine.cs",
+            "functionName": "Beta",
+            "classification": "definite-legitimate",
+            "confidence": 18,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: lowComplexityProxy",
+              "Low cyclomatic complexity (1)",
+              "Very short function (1 lines)",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 263,
+              "endLine": 263
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 18,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Physics/AnalyticalPhysicsEngine.cs",
+            "functionName": "C",
+            "classification": "likely-legitimate",
+            "confidence": 22,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: lowComplexityProxy",
+              "Low cyclomatic complexity (1)",
+              "Very short function (1 lines)",
+              "Function takes no parameters",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 115,
+              "endLine": 115
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 22,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Physics/AnalyticalPhysicsEngine.cs",
+            "functionName": "CLight",
+            "classification": "likely-legitimate",
+            "confidence": 22,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: lowComplexityProxy",
+              "Low cyclomatic complexity (1)",
+              "Very short function (1 lines)",
+              "Function takes no parameters",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 259,
+              "endLine": 259
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 22,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Physics/AnalyticalPhysicsEngine.cs",
+            "functionName": "DampedHarmonic1D",
+            "classification": "definite-legitimate",
+            "confidence": 2,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: hasThrowStatement",
+              "Contains throw statement",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 118,
+              "endLine": 125
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 2,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Physics/AnalyticalPhysicsEngine.cs",
+            "functionName": "DampingRatioZeta",
+            "classification": "definite-legitimate",
+            "confidence": 4,
+            "isPlaceholder": false,
+            "reasons": [
+              "Function takes no parameters",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 129,
+              "endLine": 137
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 4,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Physics/AnalyticalPhysicsEngine.cs",
+            "functionName": "EarthG",
+            "classification": "likely-legitimate",
+            "confidence": 22,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: lowComplexityProxy",
+              "Low cyclomatic complexity (1)",
+              "Very short function (1 lines)",
+              "Function takes no parameters",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 297,
+              "endLine": 297
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 22,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Physics/AnalyticalPhysicsEngine.cs",
+            "functionName": "EscapeSpeedUniformG",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: hasThrowStatement",
+              "Contains throw statement",
+              "Returns computed value from external calls or processing",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 308,
+              "endLine": 313
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 2,
+              "commentAnalysis": 0,
+              "contextFilter": -12,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Physics/AnalyticalPhysicsEngine.cs",
+            "functionName": "Gamma",
+            "classification": "definite-legitimate",
+            "confidence": 2,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: hasThrowStatement",
+              "Contains throw statement",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 265,
+              "endLine": 271
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 2,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Physics/AnalyticalPhysicsEngine.cs",
+            "functionName": "Integrate",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: hasThrowStatement",
+              "Contains throw statement",
+              "Intentionally unused parameter/variable (prefixed with _)",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 234,
+              "endLine": 254
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 2,
+              "commentAnalysis": 0,
+              "contextFilter": -25,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Physics/AnalyticalPhysicsEngine.cs",
+            "functionName": "IsaStandardDryAirDensityAtAltitude",
+            "classification": "definite-legitimate",
+            "confidence": 12,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: lowComplexityProxy",
+              "Low cyclomatic complexity (1)",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 330,
+              "endLine": 334
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 12,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Physics/AnalyticalPhysicsEngine.cs",
+            "functionName": "K",
+            "classification": "likely-legitimate",
+            "confidence": 22,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: lowComplexityProxy",
+              "Low cyclomatic complexity (1)",
+              "Very short function (1 lines)",
+              "Function takes no parameters",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 116,
+              "endLine": 116
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 22,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Physics/AnalyticalPhysicsEngine.cs",
+            "functionName": "KeplerianConsistencyCheck",
+            "classification": "definite-legitimate",
+            "confidence": 18,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: lowComplexityProxy",
+              "Low cyclomatic complexity (1)",
+              "Very short function (2 lines)",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 215,
+              "endLine": 216
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 18,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Physics/AnalyticalPhysicsEngine.cs",
+            "functionName": "KineticEnergy",
+            "classification": "definite-legitimate",
+            "confidence": 2,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: hasThrowStatement",
+              "Contains throw statement",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 273,
+              "endLine": 279
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 2,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Physics/AnalyticalPhysicsEngine.cs",
+            "functionName": "LinearDragProjectile2D",
+            "classification": "definite-legitimate",
+            "confidence": 2,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: hasThrowStatement",
+              "Contains throw statement",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 225,
+              "endLine": 232
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 2,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Physics/AnalyticalPhysicsEngine.cs",
+            "functionName": "M",
+            "classification": "likely-legitimate",
+            "confidence": 22,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: lowComplexityProxy",
+              "Low cyclomatic complexity (1)",
+              "Very short function (1 lines)",
+              "Function takes no parameters",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 114,
+              "endLine": 114
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 22,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Physics/AnalyticalPhysicsEngine.cs",
+            "functionName": "Mag",
+            "classification": "definite-legitimate",
+            "confidence": 18,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: lowComplexityProxy",
+              "Low cyclomatic complexity (1)",
+              "Very short function (1 lines)",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 15,
+              "endLine": 15
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 18,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Physics/AnalyticalPhysicsEngine.cs",
+            "functionName": "NaturalOmega0",
+            "classification": "likely-legitimate",
+            "confidence": 34,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: lowComplexityProxy",
+              "Low cyclomatic complexity (1)",
+              "Very short function (1 lines)",
+              "[FALLBACK] 1 unused parameter(s)",
+              "Note: Using custom analysis - TS/ESLint would be more accurate"
+            ],
+            "location": {
+              "startLine": 127,
+              "endLine": 127
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 18,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 8,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": [
+                {
+                  "name": "M",
+                  "parameterIndex": 0,
+                  "line": 127,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "IMPORTANT",
+                    "score": 7,
+                    "reason": "Parameter \"M\" is never referenced in the function body"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Physics/AnalyticalPhysicsEngine.cs",
+            "functionName": "ParabolicBallistics",
+            "classification": "definite-legitimate",
+            "confidence": 18,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: lowComplexityProxy",
+              "Low cyclomatic complexity (1)",
+              "Very short function (1 lines)",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 65,
+              "endLine": 65
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 18,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Physics/AnalyticalPhysicsEngine.cs",
+            "functionName": "PeriodT",
+            "classification": "definite-legitimate",
+            "confidence": 2,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: hasThrowStatement",
+              "Contains throw statement",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 206,
+              "endLine": 211
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 2,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Physics/AnalyticalPhysicsEngine.cs",
+            "functionName": "Position",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: lowComplexityProxy",
+              "Low cyclomatic complexity (1)",
+              "Very short function (2 lines)",
+              "Intentionally unused parameter/variable (prefixed with _)",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 28,
+              "endLine": 29
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 18,
+              "commentAnalysis": 0,
+              "contextFilter": -25,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Physics/AnalyticalPhysicsEngine.cs",
+            "functionName": "QualityFactorQ",
+            "classification": "definite-legitimate",
+            "confidence": 4,
+            "isPlaceholder": false,
+            "reasons": [
+              "Function takes no parameters",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 139,
+              "endLine": 148
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 4,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Physics/AnalyticalPhysicsEngine.cs",
+            "functionName": "RangeOnLevel",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: hasThrowStatement",
+              "Contains throw statement",
+              "Simple arithmetic helper",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 67,
+              "endLine": 86
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 2,
+              "commentAnalysis": 0,
+              "contextFilter": -15,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Physics/AnalyticalPhysicsEngine.cs",
+            "functionName": "RelativisticExcessFraction",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 281,
+              "endLine": 288
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Physics/AnalyticalPhysicsEngine.cs",
+            "functionName": "Relativity",
+            "classification": "likely-legitimate",
+            "confidence": 22,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: lowComplexityProxy",
+              "Low cyclomatic complexity (1)",
+              "Very short function (1 lines)",
+              "Function takes no parameters",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 296,
+              "endLine": 296
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 22,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Physics/AnalyticalPhysicsEngine.cs",
+            "functionName": "Response",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 150,
+              "endLine": 194
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Physics/AnalyticalPhysicsEngine.cs",
+            "functionName": "RmsSpeedFrom1DEquipartition",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: hasThrowStatement",
+              "Contains throw statement",
+              "Returns computed value from external calls or processing",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 315,
+              "endLine": 320
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 2,
+              "commentAnalysis": 0,
+              "contextFilter": -12,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Physics/AnalyticalPhysicsEngine.cs",
+            "functionName": "SampleTrajectory",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: mapLikeFor",
+              "polyglot-structural: lowComplexityProxy",
+              "Low cyclomatic complexity (1)",
+              "Intentionally unused parameter/variable (prefixed with _)",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 96,
+              "endLine": 109
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 12,
+              "commentAnalysis": 0,
+              "contextFilter": -25,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Physics/AnalyticalPhysicsEngine.cs",
+            "functionName": "Scale2",
+            "classification": "definite-legitimate",
+            "confidence": 18,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: lowComplexityProxy",
+              "Low cyclomatic complexity (1)",
+              "Very short function (1 lines)",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 17,
+              "endLine": 17
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 18,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Physics/AnalyticalPhysicsEngine.cs",
+            "functionName": "SpecialRelativisticKinematics",
+            "classification": "definite-legitimate",
+            "confidence": 18,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: lowComplexityProxy",
+              "Low cyclomatic complexity (1)",
+              "Very short function (1 lines)",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 261,
+              "endLine": 261
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 18,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Physics/AnalyticalPhysicsEngine.cs",
+            "functionName": "SpecificAngularMomentum",
+            "classification": "definite-legitimate",
+            "confidence": 18,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: lowComplexityProxy",
+              "Low cyclomatic complexity (1)",
+              "Very short function (1 lines)",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 213,
+              "endLine": 213
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 18,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Physics/AnalyticalPhysicsEngine.cs",
+            "functionName": "TimeToVerticalPlane",
+            "classification": "definite-legitimate",
+            "confidence": 2,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: hasThrowStatement",
+              "Contains throw statement",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 33,
+              "endLine": 58
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 2,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Physics/AnalyticalPhysicsEngine.cs",
+            "functionName": "UniformAccel",
+            "classification": "likely-legitimate",
+            "confidence": 22,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: lowComplexityProxy",
+              "Low cyclomatic complexity (1)",
+              "Very short function (1 lines)",
+              "Function takes no parameters",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 293,
+              "endLine": 293
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 22,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Physics/AnalyticalPhysicsEngine.cs",
+            "functionName": "UniformAcceleration2D",
+            "classification": "definite-legitimate",
+            "confidence": 18,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: lowComplexityProxy",
+              "Low cyclomatic complexity (1)",
+              "Very short function (1 lines)",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 24,
+              "endLine": 24
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 18,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Physics/AnalyticalPhysicsEngine.cs",
+            "functionName": "UniformCircle",
+            "classification": "likely-legitimate",
+            "confidence": 22,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: lowComplexityProxy",
+              "Low cyclomatic complexity (1)",
+              "Very short function (1 lines)",
+              "Function takes no parameters",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 295,
+              "endLine": 295
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 22,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Physics/AnalyticalPhysicsEngine.cs",
+            "functionName": "VacuumBallistics",
+            "classification": "likely-legitimate",
+            "confidence": 22,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: lowComplexityProxy",
+              "Low cyclomatic complexity (1)",
+              "Very short function (1 lines)",
+              "Function takes no parameters",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 294,
+              "endLine": 294
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 22,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Physics/AnalyticalPhysicsEngine.cs",
+            "functionName": "Velocity",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: lowComplexityProxy",
+              "Low cyclomatic complexity (1)",
+              "Very short function (1 lines)",
+              "Intentionally unused parameter/variable (prefixed with _)",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 31,
+              "endLine": 31
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 18,
+              "commentAnalysis": 0,
+              "contextFilter": -25,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "findings": [
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Physics/AnalyticalPhysicsEngine.cs",
+            "line": 15,
+            "endLine": 15,
+            "kind": "function",
+            "type": "explicit_marker",
+            "confidence": 18,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: lowComplexityProxy",
+              "Low cyclomatic complexity (1)",
+              "Very short function (1 lines)",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "functionName": "Mag",
+            "id": "_Users_keithcostello_Projects_cursorai_aitooling_dd-test-fixtures_scientific-formula-lab-csharp_src_ScientificFormulaLab_Physics_AnalyticalPhysicsEngine_cs:function:15:0"
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Physics/AnalyticalPhysicsEngine.cs",
+            "line": 16,
+            "endLine": 16,
+            "kind": "function",
+            "type": "explicit_marker",
+            "confidence": 18,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: lowComplexityProxy",
+              "Low cyclomatic complexity (1)",
+              "Very short function (1 lines)",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "functionName": "Add2",
+            "id": "_Users_keithcostello_Projects_cursorai_aitooling_dd-test-fixtures_scientific-formula-lab-csharp_src_ScientificFormulaLab_Physics_AnalyticalPhysicsEngine_cs:function:16:1"
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Physics/AnalyticalPhysicsEngine.cs",
+            "line": 17,
+            "endLine": 17,
+            "kind": "function",
+            "type": "explicit_marker",
+            "confidence": 18,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: lowComplexityProxy",
+              "Low cyclomatic complexity (1)",
+              "Very short function (1 lines)",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "functionName": "Scale2",
+            "id": "_Users_keithcostello_Projects_cursorai_aitooling_dd-test-fixtures_scientific-formula-lab-csharp_src_ScientificFormulaLab_Physics_AnalyticalPhysicsEngine_cs:function:17:2"
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Physics/AnalyticalPhysicsEngine.cs",
+            "line": 24,
+            "endLine": 24,
+            "kind": "function",
+            "type": "explicit_marker",
+            "confidence": 18,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: lowComplexityProxy",
+              "Low cyclomatic complexity (1)",
+              "Very short function (1 lines)",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "functionName": "UniformAcceleration2D",
+            "id": "_Users_keithcostello_Projects_cursorai_aitooling_dd-test-fixtures_scientific-formula-lab-csharp_src_ScientificFormulaLab_Physics_AnalyticalPhysicsEngine_cs:function:24:3"
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Physics/AnalyticalPhysicsEngine.cs",
+            "line": 26,
+            "endLine": 26,
+            "kind": "function",
+            "type": "explicit_marker",
+            "confidence": 22,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: lowComplexityProxy",
+              "Low cyclomatic complexity (1)",
+              "Very short function (1 lines)",
+              "Function takes no parameters",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "functionName": "Acceleration",
+            "id": "_Users_keithcostello_Projects_cursorai_aitooling_dd-test-fixtures_scientific-formula-lab-csharp_src_ScientificFormulaLab_Physics_AnalyticalPhysicsEngine_cs:function:26:4"
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Physics/AnalyticalPhysicsEngine.cs",
+            "line": 28,
+            "endLine": 29,
+            "kind": "function",
+            "type": "explicit_marker",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: lowComplexityProxy",
+              "Low cyclomatic complexity (1)",
+              "Very short function (2 lines)",
+              "Intentionally unused parameter/variable (prefixed with _)",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "functionName": "Position",
+            "id": "_Users_keithcostello_Projects_cursorai_aitooling_dd-test-fixtures_scientific-formula-lab-csharp_src_ScientificFormulaLab_Physics_AnalyticalPhysicsEngine_cs:function:28:5"
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Physics/AnalyticalPhysicsEngine.cs",
+            "line": 31,
+            "endLine": 31,
+            "kind": "function",
+            "type": "explicit_marker",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: lowComplexityProxy",
+              "Low cyclomatic complexity (1)",
+              "Very short function (1 lines)",
+              "Intentionally unused parameter/variable (prefixed with _)",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "functionName": "Velocity",
+            "id": "_Users_keithcostello_Projects_cursorai_aitooling_dd-test-fixtures_scientific-formula-lab-csharp_src_ScientificFormulaLab_Physics_AnalyticalPhysicsEngine_cs:function:31:6"
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Physics/AnalyticalPhysicsEngine.cs",
+            "line": 33,
+            "endLine": 58,
+            "kind": "function",
+            "type": "explicit_marker",
+            "confidence": 2,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: hasThrowStatement",
+              "Contains throw statement",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "functionName": "TimeToVerticalPlane",
+            "id": "_Users_keithcostello_Projects_cursorai_aitooling_dd-test-fixtures_scientific-formula-lab-csharp_src_ScientificFormulaLab_Physics_AnalyticalPhysicsEngine_cs:function:33:7"
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Physics/AnalyticalPhysicsEngine.cs",
+            "line": 65,
+            "endLine": 65,
+            "kind": "function",
+            "type": "explicit_marker",
+            "confidence": 18,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: lowComplexityProxy",
+              "Low cyclomatic complexity (1)",
+              "Very short function (1 lines)",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "functionName": "ParabolicBallistics",
+            "id": "_Users_keithcostello_Projects_cursorai_aitooling_dd-test-fixtures_scientific-formula-lab-csharp_src_ScientificFormulaLab_Physics_AnalyticalPhysicsEngine_cs:function:65:8"
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Physics/AnalyticalPhysicsEngine.cs",
+            "line": 67,
+            "endLine": 86,
+            "kind": "function",
+            "type": "explicit_marker",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: hasThrowStatement",
+              "Contains throw statement",
+              "Simple arithmetic helper",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "functionName": "RangeOnLevel",
+            "id": "_Users_keithcostello_Projects_cursorai_aitooling_dd-test-fixtures_scientific-formula-lab-csharp_src_ScientificFormulaLab_Physics_AnalyticalPhysicsEngine_cs:function:67:9"
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Physics/AnalyticalPhysicsEngine.cs",
+            "line": 88,
+            "endLine": 94,
+            "kind": "function",
+            "type": "explicit_marker",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: lowComplexityProxy",
+              "Low cyclomatic complexity (1)",
+              "Intentionally unused parameter/variable (prefixed with _)",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "functionName": "Apex",
+            "id": "_Users_keithcostello_Projects_cursorai_aitooling_dd-test-fixtures_scientific-formula-lab-csharp_src_ScientificFormulaLab_Physics_AnalyticalPhysicsEngine_cs:function:88:10"
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Physics/AnalyticalPhysicsEngine.cs",
+            "line": 96,
+            "endLine": 109,
+            "kind": "function",
+            "type": "explicit_marker",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: mapLikeFor polyglot-structural: lowComplexityProxy Low cyclomatic complexity (1) Intentionally unused parameter/variable (prefixed with _) Safety cap applied: cheap heuristics onl"
+            ],
+            "functionName": "SampleTrajectory",
+            "id": "_Users_keithcostello_Projects_cursorai_aitooling_dd-test-fixtures_scientific-formula-lab-csharp_src_ScientificFormulaLab_Physics_AnalyticalPhysicsEngine_cs:function:96:11"
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Physics/AnalyticalPhysicsEngine.cs",
+            "line": 114,
+            "endLine": 114,
+            "kind": "function",
+            "type": "explicit_marker",
+            "confidence": 22,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: lowComplexityProxy",
+              "Low cyclomatic complexity (1)",
+              "Very short function (1 lines)",
+              "Function takes no parameters",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "functionName": "M",
+            "id": "_Users_keithcostello_Projects_cursorai_aitooling_dd-test-fixtures_scientific-formula-lab-csharp_src_ScientificFormulaLab_Physics_AnalyticalPhysicsEngine_cs:function:114:12"
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Physics/AnalyticalPhysicsEngine.cs",
+            "line": 115,
+            "endLine": 115,
+            "kind": "function",
+            "type": "explicit_marker",
+            "confidence": 22,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: lowComplexityProxy",
+              "Low cyclomatic complexity (1)",
+              "Very short function (1 lines)",
+              "Function takes no parameters",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "functionName": "C",
+            "id": "_Users_keithcostello_Projects_cursorai_aitooling_dd-test-fixtures_scientific-formula-lab-csharp_src_ScientificFormulaLab_Physics_AnalyticalPhysicsEngine_cs:function:115:13"
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Physics/AnalyticalPhysicsEngine.cs",
+            "line": 116,
+            "endLine": 116,
+            "kind": "function",
+            "type": "explicit_marker",
+            "confidence": 22,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: lowComplexityProxy",
+              "Low cyclomatic complexity (1)",
+              "Very short function (1 lines)",
+              "Function takes no parameters",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "functionName": "K",
+            "id": "_Users_keithcostello_Projects_cursorai_aitooling_dd-test-fixtures_scientific-formula-lab-csharp_src_ScientificFormulaLab_Physics_AnalyticalPhysicsEngine_cs:function:116:14"
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Physics/AnalyticalPhysicsEngine.cs",
+            "line": 118,
+            "endLine": 125,
+            "kind": "function",
+            "type": "explicit_marker",
+            "confidence": 2,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: hasThrowStatement",
+              "Contains throw statement",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "functionName": "DampedHarmonic1D",
+            "id": "_Users_keithcostello_Projects_cursorai_aitooling_dd-test-fixtures_scientific-formula-lab-csharp_src_ScientificFormulaLab_Physics_AnalyticalPhysicsEngine_cs:function:118:15"
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Physics/AnalyticalPhysicsEngine.cs",
+            "line": 127,
+            "endLine": 127,
+            "kind": "function",
+            "type": "explicit_marker",
+            "confidence": 34,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: lowComplexityProxy",
+              "Low cyclomatic complexity (1)",
+              "Very short function (1 lines)",
+              "[FALLBACK] 1 unused parameter(s)",
+              "Note: Using custom analysis - TS/ESLint would be more accurate"
+            ],
+            "functionName": "NaturalOmega0",
+            "id": "_Users_keithcostello_Projects_cursorai_aitooling_dd-test-fixtures_scientific-formula-lab-csharp_src_ScientificFormulaLab_Physics_AnalyticalPhysicsEngine_cs:function:127:16"
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Physics/AnalyticalPhysicsEngine.cs",
+            "line": 129,
+            "endLine": 137,
+            "kind": "function",
+            "type": "explicit_marker",
+            "confidence": 4,
+            "isPlaceholder": false,
+            "reasons": [
+              "Function takes no parameters",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "functionName": "DampingRatioZeta",
+            "id": "_Users_keithcostello_Projects_cursorai_aitooling_dd-test-fixtures_scientific-formula-lab-csharp_src_ScientificFormulaLab_Physics_AnalyticalPhysicsEngine_cs:function:129:17"
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Physics/AnalyticalPhysicsEngine.cs",
+            "line": 139,
+            "endLine": 148,
+            "kind": "function",
+            "type": "explicit_marker",
+            "confidence": 4,
+            "isPlaceholder": false,
+            "reasons": [
+              "Function takes no parameters",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "functionName": "QualityFactorQ",
+            "id": "_Users_keithcostello_Projects_cursorai_aitooling_dd-test-fixtures_scientific-formula-lab-csharp_src_ScientificFormulaLab_Physics_AnalyticalPhysicsEngine_cs:function:139:18"
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Physics/AnalyticalPhysicsEngine.cs",
+            "line": 150,
+            "endLine": 194,
+            "kind": "function",
+            "type": "explicit_marker",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "functionName": "Response",
+            "id": "_Users_keithcostello_Projects_cursorai_aitooling_dd-test-fixtures_scientific-formula-lab-csharp_src_ScientificFormulaLab_Physics_AnalyticalPhysicsEngine_cs:function:150:19"
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Physics/AnalyticalPhysicsEngine.cs",
+            "line": 199,
+            "endLine": 204,
+            "kind": "function",
+            "type": "explicit_marker",
+            "confidence": 2,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: hasThrowStatement",
+              "Contains throw statement",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "functionName": "Ac",
+            "id": "_Users_keithcostello_Projects_cursorai_aitooling_dd-test-fixtures_scientific-formula-lab-csharp_src_ScientificFormulaLab_Physics_AnalyticalPhysicsEngine_cs:function:199:20"
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Physics/AnalyticalPhysicsEngine.cs",
+            "line": 206,
+            "endLine": 211,
+            "kind": "function",
+            "type": "explicit_marker",
+            "confidence": 2,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: hasThrowStatement",
+              "Contains throw statement",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "functionName": "PeriodT",
+            "id": "_Users_keithcostello_Projects_cursorai_aitooling_dd-test-fixtures_scientific-formula-lab-csharp_src_ScientificFormulaLab_Physics_AnalyticalPhysicsEngine_cs:function:206:21"
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Physics/AnalyticalPhysicsEngine.cs",
+            "line": 213,
+            "endLine": 213,
+            "kind": "function",
+            "type": "explicit_marker",
+            "confidence": 18,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: lowComplexityProxy",
+              "Low cyclomatic complexity (1)",
+              "Very short function (1 lines)",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "functionName": "SpecificAngularMomentum",
+            "id": "_Users_keithcostello_Projects_cursorai_aitooling_dd-test-fixtures_scientific-formula-lab-csharp_src_ScientificFormulaLab_Physics_AnalyticalPhysicsEngine_cs:function:213:22"
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Physics/AnalyticalPhysicsEngine.cs",
+            "line": 215,
+            "endLine": 216,
+            "kind": "function",
+            "type": "explicit_marker",
+            "confidence": 18,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: lowComplexityProxy",
+              "Low cyclomatic complexity (1)",
+              "Very short function (2 lines)",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "functionName": "KeplerianConsistencyCheck",
+            "id": "_Users_keithcostello_Projects_cursorai_aitooling_dd-test-fixtures_scientific-formula-lab-csharp_src_ScientificFormulaLab_Physics_AnalyticalPhysicsEngine_cs:function:215:23"
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Physics/AnalyticalPhysicsEngine.cs",
+            "line": 225,
+            "endLine": 232,
+            "kind": "function",
+            "type": "explicit_marker",
+            "confidence": 2,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: hasThrowStatement",
+              "Contains throw statement",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "functionName": "LinearDragProjectile2D",
+            "id": "_Users_keithcostello_Projects_cursorai_aitooling_dd-test-fixtures_scientific-formula-lab-csharp_src_ScientificFormulaLab_Physics_AnalyticalPhysicsEngine_cs:function:225:24"
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Physics/AnalyticalPhysicsEngine.cs",
+            "line": 234,
+            "endLine": 254,
+            "kind": "function",
+            "type": "explicit_marker",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: hasThrowStatement",
+              "Contains throw statement",
+              "Intentionally unused parameter/variable (prefixed with _)",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "functionName": "Integrate",
+            "id": "_Users_keithcostello_Projects_cursorai_aitooling_dd-test-fixtures_scientific-formula-lab-csharp_src_ScientificFormulaLab_Physics_AnalyticalPhysicsEngine_cs:function:234:25"
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Physics/AnalyticalPhysicsEngine.cs",
+            "line": 259,
+            "endLine": 259,
+            "kind": "function",
+            "type": "explicit_marker",
+            "confidence": 22,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: lowComplexityProxy",
+              "Low cyclomatic complexity (1)",
+              "Very short function (1 lines)",
+              "Function takes no parameters",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "functionName": "CLight",
+            "id": "_Users_keithcostello_Projects_cursorai_aitooling_dd-test-fixtures_scientific-formula-lab-csharp_src_ScientificFormulaLab_Physics_AnalyticalPhysicsEngine_cs:function:259:26"
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Physics/AnalyticalPhysicsEngine.cs",
+            "line": 261,
+            "endLine": 261,
+            "kind": "function",
+            "type": "explicit_marker",
+            "confidence": 18,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: lowComplexityProxy",
+              "Low cyclomatic complexity (1)",
+              "Very short function (1 lines)",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "functionName": "SpecialRelativisticKinematics",
+            "id": "_Users_keithcostello_Projects_cursorai_aitooling_dd-test-fixtures_scientific-formula-lab-csharp_src_ScientificFormulaLab_Physics_AnalyticalPhysicsEngine_cs:function:261:27"
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Physics/AnalyticalPhysicsEngine.cs",
+            "line": 263,
+            "endLine": 263,
+            "kind": "function",
+            "type": "explicit_marker",
+            "confidence": 18,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: lowComplexityProxy",
+              "Low cyclomatic complexity (1)",
+              "Very short function (1 lines)",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "functionName": "Beta",
+            "id": "_Users_keithcostello_Projects_cursorai_aitooling_dd-test-fixtures_scientific-formula-lab-csharp_src_ScientificFormulaLab_Physics_AnalyticalPhysicsEngine_cs:function:263:28"
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Physics/AnalyticalPhysicsEngine.cs",
+            "line": 265,
+            "endLine": 271,
+            "kind": "function",
+            "type": "explicit_marker",
+            "confidence": 2,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: hasThrowStatement",
+              "Contains throw statement",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "functionName": "Gamma",
+            "id": "_Users_keithcostello_Projects_cursorai_aitooling_dd-test-fixtures_scientific-formula-lab-csharp_src_ScientificFormulaLab_Physics_AnalyticalPhysicsEngine_cs:function:265:29"
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Physics/AnalyticalPhysicsEngine.cs",
+            "line": 273,
+            "endLine": 279,
+            "kind": "function",
+            "type": "explicit_marker",
+            "confidence": 2,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: hasThrowStatement",
+              "Contains throw statement",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "functionName": "KineticEnergy",
+            "id": "_Users_keithcostello_Projects_cursorai_aitooling_dd-test-fixtures_scientific-formula-lab-csharp_src_ScientificFormulaLab_Physics_AnalyticalPhysicsEngine_cs:function:273:30"
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Physics/AnalyticalPhysicsEngine.cs",
+            "line": 281,
+            "endLine": 288,
+            "kind": "function",
+            "type": "explicit_marker",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "functionName": "RelativisticExcessFraction",
+            "id": "_Users_keithcostello_Projects_cursorai_aitooling_dd-test-fixtures_scientific-formula-lab-csharp_src_ScientificFormulaLab_Physics_AnalyticalPhysicsEngine_cs:function:281:31"
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Physics/AnalyticalPhysicsEngine.cs",
+            "line": 293,
+            "endLine": 293,
+            "kind": "function",
+            "type": "explicit_marker",
+            "confidence": 22,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: lowComplexityProxy",
+              "Low cyclomatic complexity (1)",
+              "Very short function (1 lines)",
+              "Function takes no parameters",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "functionName": "UniformAccel",
+            "id": "_Users_keithcostello_Projects_cursorai_aitooling_dd-test-fixtures_scientific-formula-lab-csharp_src_ScientificFormulaLab_Physics_AnalyticalPhysicsEngine_cs:function:293:32"
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Physics/AnalyticalPhysicsEngine.cs",
+            "line": 294,
+            "endLine": 294,
+            "kind": "function",
+            "type": "explicit_marker",
+            "confidence": 22,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: lowComplexityProxy",
+              "Low cyclomatic complexity (1)",
+              "Very short function (1 lines)",
+              "Function takes no parameters",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "functionName": "VacuumBallistics",
+            "id": "_Users_keithcostello_Projects_cursorai_aitooling_dd-test-fixtures_scientific-formula-lab-csharp_src_ScientificFormulaLab_Physics_AnalyticalPhysicsEngine_cs:function:294:33"
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Physics/AnalyticalPhysicsEngine.cs",
+            "line": 295,
+            "endLine": 295,
+            "kind": "function",
+            "type": "explicit_marker",
+            "confidence": 22,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: lowComplexityProxy",
+              "Low cyclomatic complexity (1)",
+              "Very short function (1 lines)",
+              "Function takes no parameters",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "functionName": "UniformCircle",
+            "id": "_Users_keithcostello_Projects_cursorai_aitooling_dd-test-fixtures_scientific-formula-lab-csharp_src_ScientificFormulaLab_Physics_AnalyticalPhysicsEngine_cs:function:295:34"
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Physics/AnalyticalPhysicsEngine.cs",
+            "line": 296,
+            "endLine": 296,
+            "kind": "function",
+            "type": "explicit_marker",
+            "confidence": 22,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: lowComplexityProxy",
+              "Low cyclomatic complexity (1)",
+              "Very short function (1 lines)",
+              "Function takes no parameters",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "functionName": "Relativity",
+            "id": "_Users_keithcostello_Projects_cursorai_aitooling_dd-test-fixtures_scientific-formula-lab-csharp_src_ScientificFormulaLab_Physics_AnalyticalPhysicsEngine_cs:function:296:35"
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Physics/AnalyticalPhysicsEngine.cs",
+            "line": 297,
+            "endLine": 297,
+            "kind": "function",
+            "type": "explicit_marker",
+            "confidence": 22,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: lowComplexityProxy",
+              "Low cyclomatic complexity (1)",
+              "Very short function (1 lines)",
+              "Function takes no parameters",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "functionName": "EarthG",
+            "id": "_Users_keithcostello_Projects_cursorai_aitooling_dd-test-fixtures_scientific-formula-lab-csharp_src_ScientificFormulaLab_Physics_AnalyticalPhysicsEngine_cs:function:297:36"
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Physics/AnalyticalPhysicsEngine.cs",
+            "line": 299,
+            "endLine": 306,
+            "kind": "function",
+            "type": "explicit_marker",
+            "confidence": 12,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: lowComplexityProxy",
+              "Low cyclomatic complexity (1)",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "functionName": "AnalyticalPhysicsEngine",
+            "id": "_Users_keithcostello_Projects_cursorai_aitooling_dd-test-fixtures_scientific-formula-lab-csharp_src_ScientificFormulaLab_Physics_AnalyticalPhysicsEngine_cs:function:299:37"
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Physics/AnalyticalPhysicsEngine.cs",
+            "line": 308,
+            "endLine": 313,
+            "kind": "function",
+            "type": "explicit_marker",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: hasThrowStatement",
+              "Contains throw statement",
+              "Returns computed value from external calls or processing",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "functionName": "EscapeSpeedUniformG",
+            "id": "_Users_keithcostello_Projects_cursorai_aitooling_dd-test-fixtures_scientific-formula-lab-csharp_src_ScientificFormulaLab_Physics_AnalyticalPhysicsEngine_cs:function:308:38"
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Physics/AnalyticalPhysicsEngine.cs",
+            "line": 315,
+            "endLine": 320,
+            "kind": "function",
+            "type": "explicit_marker",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: hasThrowStatement",
+              "Contains throw statement",
+              "Returns computed value from external calls or processing",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "functionName": "RmsSpeedFrom1DEquipartition",
+            "id": "_Users_keithcostello_Projects_cursorai_aitooling_dd-test-fixtures_scientific-formula-lab-csharp_src_ScientificFormulaLab_Physics_AnalyticalPhysicsEngine_cs:function:315:39"
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/src/ScientificFormulaLab/Physics/AnalyticalPhysicsEngine.cs",
+            "line": 330,
+            "endLine": 334,
+            "kind": "function",
+            "type": "explicit_marker",
+            "confidence": 12,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: lowComplexityProxy",
+              "Low cyclomatic complexity (1)",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "functionName": "IsaStandardDryAirDensityAtAltitude",
+            "id": "_Users_keithcostello_Projects_cursorai_aitooling_dd-test-fixtures_scientific-formula-lab-csharp_src_ScientificFormulaLab_Physics_AnalyticalPhysicsEngine_cs:function:330:40"
+          }
+        ],
+        "importedModules": [],
+        "exportedElements": [
+          {
+            "name": "Mag",
+            "type": "function"
+          },
+          {
+            "name": "Add2",
+            "type": "function"
+          },
+          {
+            "name": "Scale2",
+            "type": "function"
+          },
+          {
+            "name": "UniformAcceleration2D",
+            "type": "function"
+          },
+          {
+            "name": "Acceleration",
+            "type": "function"
+          },
+          {
+            "name": "Position",
+            "type": "function"
+          },
+          {
+            "name": "Velocity",
+            "type": "function"
+          },
+          {
+            "name": "TimeToVerticalPlane",
+            "type": "function"
+          },
+          {
+            "name": "ParabolicBallistics",
+            "type": "function"
+          },
+          {
+            "name": "RangeOnLevel",
+            "type": "function"
+          },
+          {
+            "name": "Apex",
+            "type": "function"
+          },
+          {
+            "name": "SampleTrajectory",
+            "type": "function"
+          },
+          {
+            "name": "M",
+            "type": "function"
+          },
+          {
+            "name": "C",
+            "type": "function"
+          },
+          {
+            "name": "K",
+            "type": "function"
+          },
+          {
+            "name": "DampedHarmonic1D",
+            "type": "function"
+          },
+          {
+            "name": "NaturalOmega0",
+            "type": "function"
+          },
+          {
+            "name": "DampingRatioZeta",
+            "type": "function"
+          },
+          {
+            "name": "QualityFactorQ",
+            "type": "function"
+          },
+          {
+            "name": "Response",
+            "type": "function"
+          },
+          {
+            "name": "Ac",
+            "type": "function"
+          },
+          {
+            "name": "PeriodT",
+            "type": "function"
+          },
+          {
+            "name": "SpecificAngularMomentum",
+            "type": "function"
+          },
+          {
+            "name": "KeplerianConsistencyCheck",
+            "type": "function"
+          },
+          {
+            "name": "LinearDragProjectile2D",
+            "type": "function"
+          },
+          {
+            "name": "Integrate",
+            "type": "function"
+          },
+          {
+            "name": "CLight",
+            "type": "function"
+          },
+          {
+            "name": "SpecialRelativisticKinematics",
+            "type": "function"
+          },
+          {
+            "name": "Beta",
+            "type": "function"
+          },
+          {
+            "name": "Gamma",
+            "type": "function"
+          }
+        ],
+        "functions": [
+          {
+            "name": "Mag",
+            "signature": "public static double Mag(Vec2 v) => System.Math.Sqrt(v.X * v.X + v.Y * v.Y);",
+            "parameters": [
+              {
+                "name": "v",
+                "type": "Vec2"
+              }
+            ],
+            "returnType": "double",
+            "isAsync": false,
+            "calls": [
+              "System.Math.Sqrt"
+            ],
+            "startLine": 15,
+            "endLine": 15,
+            "structuralSignals": {
+              "emptyOrTrivialBody": false,
+              "constantOrIdentityReturn": false,
+              "stubThrowOrPanic": false,
+              "hasThrowStatement": false,
+              "paramsLikelyUnused": false,
+              "lowComplexityProxy": true,
+              "reasons": [
+                "polyglot-structural: lowComplexityProxy"
+              ]
+            },
+            "placeholderAnalysis": {
+              "classification": "definite-legitimate",
+              "confidence": 18,
+              "isPlaceholder": false,
+              "reasons": [
+                "polyglot-structural: lowComplexityProxy",
+                "Low cyclomatic complexity (1)",
+                "Very short function (1 lines)",
+                "Safety cap applied: cheap heuristics only"
+              ],
+              "detectionMethods": {
+                "explicitMarkers": 0,
+                "namingPatterns": 0,
+                "astAnalysis": 18,
+                "commentAnalysis": 0,
+                "contextFilter": 0,
+                "unusedCodeAnalysis": 0,
+                "externalUnusedChecks": 0,
+                "enhancedContext": 0
+              }
+            }
+          },
+          {
+            "name": "Add2",
+            "signature": "public static Vec2 Add2(Vec2 a, Vec2 b) => new(a.X + b.X, a.Y + b.Y);",
+            "parameters": [
+              {
+                "name": "a",
+                "type": "Vec2"
+              },
+              {
+                "name": "b",
+                "type": "Vec2"
+              }
+            ],
+            "returnType": "Vec2",
+            "isAsync": false,
+            "calls": [],
+            "startLine": 16,
+            "endLine": 16,
+            "structuralSignals": {
+              "emptyOrTrivialBody": false,
+              "constantOrIdentityReturn": false,
+              "stubThrowOrPanic": false,
+              "hasThrowStatement": false,
+              "paramsLikelyUnused": false,
+              "lowComplexityProxy": true,
+              "reasons": [
+                "polyglot-structural: lowComplexityProxy"
+              ]
+            },
+            "placeholderAnalysis": {
+              "classification": "definite-legitimate",
+              "confidence": 18,
+              "isPlaceholder": false,
+              "reasons": [
+                "polyglot-structural: lowComplexityProxy",
+                "Low cyclomatic complexity (1)",
+                "Very short function (1 lines)",
+                "Safety cap applied: cheap heuristics only"
+              ],
+              "detectionMethods": {
+                "explicitMarkers": 0,
+                "namingPatterns": 0,
+                "astAnalysis": 18,
+                "commentAnalysis": 0,
+                "contextFilter": 0,
+                "unusedCodeAnalysis": 0,
+                "externalUnusedChecks": 0,
+                "enhancedContext": 0
+              }
+            }
+          },
+          {
+            "name": "Scale2",
+            "signature": "public static Vec2 Scale2(Vec2 v, double s) => new(v.X * s, v.Y * s);",
+            "parameters": [
+              {
+                "name": "v",
+                "type": "Vec2"
+              },
+              {
+                "name": "s",
+                "type": "double"
+              }
+            ],
+            "returnType": "Vec2",
+            "isAsync": false,
+            "calls": [],
+            "startLine": 17,
+            "endLine": 17,
+            "structuralSignals": {
+              "emptyOrTrivialBody": false,
+              "constantOrIdentityReturn": false,
+              "stubThrowOrPanic": false,
+              "hasThrowStatement": false,
+              "paramsLikelyUnused": false,
+              "lowComplexityProxy": true,
+              "reasons": [
+                "polyglot-structural: lowComplexityProxy"
+              ]
+            },
+            "placeholderAnalysis": {
+              "classification": "definite-legitimate",
+              "confidence": 18,
+              "isPlaceholder": false,
+              "reasons": [
+                "polyglot-structural: lowComplexityProxy",
+                "Low cyclomatic complexity (1)",
+                "Very short function (1 lines)",
+                "Safety cap applied: cheap heuristics only"
+              ],
+              "detectionMethods": {
+                "explicitMarkers": 0,
+                "namingPatterns": 0,
+                "astAnalysis": 18,
+                "commentAnalysis": 0,
+                "contextFilter": 0,
+                "unusedCodeAnalysis": 0,
+                "externalUnusedChecks": 0,
+                "enhancedContext": 0
+              }
+            }
+          },
+          {
+            "name": "UniformAcceleration2D",
+            "signature": "public UniformAcceleration2D(Vec2? a = null) => _a = a ?? new Vec2(0, 0);",
+            "parameters": [
+              {
+                "name": "a",
+                "type": "Vec2?"
+              }
+            ],
+            "returnType": "public",
+            "isAsync": false,
+            "calls": [],
+            "startLine": 24,
+            "endLine": 24,
+            "structuralSignals": {
+              "emptyOrTrivialBody": false,
+              "constantOrIdentityReturn": false,
+              "stubThrowOrPanic": false,
+              "hasThrowStatement": false,
+              "paramsLikelyUnused": false,
+              "lowComplexityProxy": true,
+              "reasons": [
+                "polyglot-structural: lowComplexityProxy"
+              ]
+            },
+            "placeholderAnalysis": {
+              "classification": "definite-legitimate",
+              "confidence": 18,
+              "isPlaceholder": false,
+              "reasons": [
+                "polyglot-structural: lowComplexityProxy",
+                "Low cyclomatic complexity (1)",
+                "Very short function (1 lines)",
+                "Safety cap applied: cheap heuristics only"
+              ],
+              "detectionMethods": {
+                "explicitMarkers": 0,
+                "namingPatterns": 0,
+                "astAnalysis": 18,
+                "commentAnalysis": 0,
+                "contextFilter": 0,
+                "unusedCodeAnalysis": 0,
+                "externalUnusedChecks": 0,
+                "enhancedContext": 0
+              }
+            }
+          },
+          {
+            "name": "Acceleration",
+            "signature": "public Vec2 Acceleration => _a;",
+            "parameters": [],
+            "returnType": "void",
+            "isAsync": false,
+            "calls": [],
+            "startLine": 26,
+            "endLine": 26,
+            "structuralSignals": {
+              "emptyOrTrivialBody": false,
+              "constantOrIdentityReturn": false,
+              "stubThrowOrPanic": false,
+              "hasThrowStatement": false,
+              "paramsLikelyUnused": false,
+              "lowComplexityProxy": true,
+              "reasons": [
+                "polyglot-structural: lowComplexityProxy"
+              ]
+            },
+            "placeholderAnalysis": {
+              "classification": "likely-legitimate",
+              "confidence": 22,
+              "isPlaceholder": false,
+              "reasons": [
+                "polyglot-structural: lowComplexityProxy",
+                "Low cyclomatic complexity (1)",
+                "Very short function (1 lines)",
+                "Function takes no parameters",
+                "Safety cap applied: cheap heuristics only"
+              ],
+              "detectionMethods": {
+                "explicitMarkers": 0,
+                "namingPatterns": 0,
+                "astAnalysis": 22,
+                "commentAnalysis": 0,
+                "contextFilter": 0,
+                "unusedCodeAnalysis": 0,
+                "externalUnusedChecks": 0,
+                "enhancedContext": 0
+              }
+            }
+          },
+          {
+            "name": "Position",
+            "signature": "public Vec2 Position(Vec2 r0, Vec2 v0, double t) =>",
+            "parameters": [
+              {
+                "name": "r0",
+                "type": "Vec2"
+              },
+              {
+                "name": "v0",
+                "type": "Vec2"
+              },
+              {
+                "name": "t",
+                "type": "double"
+              }
+            ],
+            "returnType": "Vec2",
+            "isAsync": false,
+            "calls": [],
+            "startLine": 28,
+            "endLine": 29,
+            "structuralSignals": {
+              "emptyOrTrivialBody": false,
+              "constantOrIdentityReturn": false,
+              "stubThrowOrPanic": false,
+              "hasThrowStatement": false,
+              "paramsLikelyUnused": false,
+              "lowComplexityProxy": true,
+              "reasons": [
+                "polyglot-structural: lowComplexityProxy"
+              ]
+            },
+            "placeholderAnalysis": {
+              "classification": "definite-legitimate",
+              "confidence": 0,
+              "isPlaceholder": false,
+              "reasons": [
+                "polyglot-structural: lowComplexityProxy",
+                "Low cyclomatic complexity (1)",
+                "Very short function (2 lines)",
+                "Intentionally unused parameter/variable (prefixed with _)",
+                "Safety cap applied: cheap heuristics only"
+              ],
+              "detectionMethods": {
+                "explicitMarkers": 0,
+                "namingPatterns": 0,
+                "astAnalysis": 18,
+                "commentAnalysis": 0,
+                "contextFilter": -25,
+                "unusedCodeAnalysis": 0,
+                "externalUnusedChecks": 0,
+                "enhancedContext": 0
+              }
+            }
+          },
+          {
+            "name": "Velocity",
+            "signature": "public Vec2 Velocity(Vec2 v0, double t) => new(v0.X + _a.X * t, v0.Y + _a.Y * t);",
+            "parameters": [
+              {
+                "name": "v0",
+                "type": "Vec2"
+              },
+              {
+                "name": "t",
+                "type": "double"
+              }
+            ],
+            "returnType": "Vec2",
+            "isAsync": false,
+            "calls": [],
+            "startLine": 31,
+            "endLine": 31,
+            "structuralSignals": {
+              "emptyOrTrivialBody": false,
+              "constantOrIdentityReturn": false,
+              "stubThrowOrPanic": false,
+              "hasThrowStatement": false,
+              "paramsLikelyUnused": false,
+              "lowComplexityProxy": true,
+              "reasons": [
+                "polyglot-structural: lowComplexityProxy"
+              ]
+            },
+            "placeholderAnalysis": {
+              "classification": "definite-legitimate",
+              "confidence": 0,
+              "isPlaceholder": false,
+              "reasons": [
+                "polyglot-structural: lowComplexityProxy",
+                "Low cyclomatic complexity (1)",
+                "Very short function (1 lines)",
+                "Intentionally unused parameter/variable (prefixed with _)",
+                "Safety cap applied: cheap heuristics only"
+              ],
+              "detectionMethods": {
+                "explicitMarkers": 0,
+                "namingPatterns": 0,
+                "astAnalysis": 18,
+                "commentAnalysis": 0,
+                "contextFilter": -25,
+                "unusedCodeAnalysis": 0,
+                "externalUnusedChecks": 0,
+                "enhancedContext": 0
+              }
+            }
+          },
+          {
+            "name": "TimeToVerticalPlane",
+            "signature": "public double TimeToVerticalPlane(Vec2 r0, Vec2 v0, double yPlane)",
+            "parameters": [
+              {
+                "name": "r0",
+                "type": "Vec2"
+              },
+              {
+                "name": "v0",
+                "type": "Vec2"
+              },
+              {
+                "name": "yPlane",
+                "type": "double"
+              }
+            ],
+            "returnType": "double",
+            "isAsync": false,
+            "calls": [
+              "System.Math.Abs",
+              "System.Math.Sqrt",
+              "new[] { t1, t2 }.Where",
+              "new[] { t1, t2 }.Where(t => t >= 0).OrderBy",
+              "new[] { t1, t2 }.Where(t => t >= 0).OrderBy(t => t).ToList"
+            ],
+            "startLine": 33,
+            "endLine": 58,
+            "structuralSignals": {
+              "emptyOrTrivialBody": false,
+              "constantOrIdentityReturn": false,
+              "stubThrowOrPanic": false,
+              "hasThrowStatement": true,
+              "paramsLikelyUnused": false,
+              "lowComplexityProxy": false,
+              "reasons": [
+                "polyglot-structural: hasThrowStatement"
+              ]
+            },
+            "placeholderAnalysis": {
+              "classification": "definite-legitimate",
+              "confidence": 2,
+              "isPlaceholder": false,
+              "reasons": [
+                "polyglot-structural: hasThrowStatement",
+                "Contains throw statement",
+                "Safety cap applied: cheap heuristics only"
+              ],
+              "detectionMethods": {
+                "explicitMarkers": 0,
+                "namingPatterns": 0,
+                "astAnalysis": 2,
+                "commentAnalysis": 0,
+                "contextFilter": 0,
+                "unusedCodeAnalysis": 0,
+                "externalUnusedChecks": 0,
+                "enhancedContext": 0
+              }
+            }
+          },
+          {
+            "name": "ParabolicBallistics",
+            "signature": "public ParabolicBallistics(double g = PhysicsConstants.GEarth) => _g = g;",
+            "parameters": [
+              {
+                "name": "g",
+                "type": "double"
+              }
+            ],
+            "returnType": "public",
+            "isAsync": false,
+            "calls": [],
+            "startLine": 65,
+            "endLine": 65,
+            "structuralSignals": {
+              "emptyOrTrivialBody": false,
+              "constantOrIdentityReturn": false,
+              "stubThrowOrPanic": false,
+              "hasThrowStatement": false,
+              "paramsLikelyUnused": false,
+              "lowComplexityProxy": true,
+              "reasons": [
+                "polyglot-structural: lowComplexityProxy"
+              ]
+            },
+            "placeholderAnalysis": {
+              "classification": "definite-legitimate",
+              "confidence": 18,
+              "isPlaceholder": false,
+              "reasons": [
+                "polyglot-structural: lowComplexityProxy",
+                "Low cyclomatic complexity (1)",
+                "Very short function (1 lines)",
+                "Safety cap applied: cheap heuristics only"
+              ],
+              "detectionMethods": {
+                "explicitMarkers": 0,
+                "namingPatterns": 0,
+                "astAnalysis": 18,
+                "commentAnalysis": 0,
+                "contextFilter": 0,
+                "unusedCodeAnalysis": 0,
+                "externalUnusedChecks": 0,
+                "enhancedContext": 0
+              }
+            }
+          },
+          {
+            "name": "RangeOnLevel",
+            "signature": "public double RangeOnLevel(double v0, double angleRad, double y0)",
+            "parameters": [
+              {
+                "name": "v0",
+                "type": "double"
+              },
+              {
+                "name": "angleRad",
+                "type": "double"
+              },
+              {
+                "name": "y0",
+                "type": "double"
+              }
+            ],
+            "returnType": "double",
+            "isAsync": false,
+            "calls": [
+              "System.Math.Cos",
+              "System.Math.Sin",
+              "System.Math.Sqrt",
+              "System.Math.Max"
+            ],
+            "startLine": 67,
+            "endLine": 86,
+            "structuralSignals": {
+              "emptyOrTrivialBody": false,
+              "constantOrIdentityReturn": false,
+              "stubThrowOrPanic": false,
+              "hasThrowStatement": true,
+              "paramsLikelyUnused": false,
+              "lowComplexityProxy": false,
+              "reasons": [
+                "polyglot-structural: hasThrowStatement"
+              ]
+            },
+            "placeholderAnalysis": {
+              "classification": "definite-legitimate",
+              "confidence": 0,
+              "isPlaceholder": false,
+              "reasons": [
+                "polyglot-structural: hasThrowStatement",
+                "Contains throw statement",
+                "Simple arithmetic helper",
+                "Safety cap applied: cheap heuristics only"
+              ],
+              "detectionMethods": {
+                "explicitMarkers": 0,
+                "namingPatterns": 0,
+                "astAnalysis": 2,
+                "commentAnalysis": 0,
+                "contextFilter": -15,
+                "unusedCodeAnalysis": 0,
+                "externalUnusedChecks": 0,
+                "enhancedContext": 0
+              }
+            }
+          },
+          {
+            "name": "Apex",
+            "signature": "public (double HMax, double TApex) Apex(double v0, double angleRad, double y0)",
+            "parameters": [
+              {
+                "name": "v0",
+                "type": "double"
+              },
+              {
+                "name": "angleRad",
+                "type": "double"
+              },
+              {
+                "name": "y0",
+                "type": "double"
+              }
+            ],
+            "returnType": "void",
+            "isAsync": false,
+            "calls": [
+              "System.Math.Sin"
+            ],
+            "startLine": 88,
+            "endLine": 94,
+            "structuralSignals": {
+              "emptyOrTrivialBody": false,
+              "constantOrIdentityReturn": false,
+              "stubThrowOrPanic": false,
+              "hasThrowStatement": false,
+              "paramsLikelyUnused": false,
+              "lowComplexityProxy": true,
+              "reasons": [
+                "polyglot-structural: lowComplexityProxy"
+              ]
+            },
+            "placeholderAnalysis": {
+              "classification": "definite-legitimate",
+              "confidence": 0,
+              "isPlaceholder": false,
+              "reasons": [
+                "polyglot-structural: lowComplexityProxy",
+                "Low cyclomatic complexity (1)",
+                "Intentionally unused parameter/variable (prefixed with _)",
+                "Safety cap applied: cheap heuristics only"
+              ],
+              "detectionMethods": {
+                "explicitMarkers": 0,
+                "namingPatterns": 0,
+                "astAnalysis": 12,
+                "commentAnalysis": 0,
+                "contextFilter": -25,
+                "unusedCodeAnalysis": 0,
+                "externalUnusedChecks": 0,
+                "enhancedContext": 0
+              }
+            }
+          },
+          {
+            "name": "SampleTrajectory",
+            "signature": "public List<(double T, Vec2 R, Vec2 V)> SampleTrajectory(double v0, double angleRad, double y0, double duration, int segments)",
+            "parameters": [
+              {
+                "name": "v0",
+                "type": "double"
+              },
+              {
+                "name": "angleRad",
+                "type": "double"
+              },
+              {
+                "name": "y0",
+                "type": "double"
+              },
+              {
+                "name": "duration",
+                "type": "double"
+              },
+              {
+                "name": "segments",
+                "type": "int"
+              }
+            ],
+            "returnType": "void",
+            "isAsync": false,
+            "calls": [
+              "System.Math.Cos",
+              "System.Math.Sin",
+              "list.Add",
+              "u.Position",
+              "u.Velocity"
+            ],
+            "startLine": 96,
+            "endLine": 109,
+            "structuralSignals": {
+              "emptyOrTrivialBody": false,
+              "constantOrIdentityReturn": false,
+              "stubThrowOrPanic": false,
+              "hasThrowStatement": false,
+              "paramsLikelyUnused": false,
+              "lowComplexityProxy": true,
+              "reasons": [
+                "polyglot-structural: mapLikeFor",
+                "polyglot-structural: lowComplexityProxy"
+              ]
+            },
+            "placeholderAnalysis": {
+              "classification": "definite-legitimate",
+              "confidence": 0,
+              "isPlaceholder": false,
+              "reasons": [
+                "polyglot-structural: mapLikeFor",
+                "polyglot-structural: lowComplexityProxy",
+                "Low cyclomatic complexity (1)",
+                "Intentionally unused parameter/variable (prefixed with _)",
+                "Safety cap applied: cheap heuristics only"
+              ],
+              "detectionMethods": {
+                "explicitMarkers": 0,
+                "namingPatterns": 0,
+                "astAnalysis": 12,
+                "commentAnalysis": 0,
+                "contextFilter": -25,
+                "unusedCodeAnalysis": 0,
+                "externalUnusedChecks": 0,
+                "enhancedContext": 0
+              }
+            }
+          },
+          {
+            "name": "M",
+            "signature": "public double M { get; }",
+            "parameters": [],
+            "returnType": "void",
+            "isAsync": false,
+            "calls": [],
+            "startLine": 114,
+            "endLine": 114,
+            "structuralSignals": {
+              "emptyOrTrivialBody": false,
+              "constantOrIdentityReturn": false,
+              "stubThrowOrPanic": false,
+              "hasThrowStatement": false,
+              "paramsLikelyUnused": false,
+              "lowComplexityProxy": true,
+              "reasons": [
+                "polyglot-structural: lowComplexityProxy"
+              ]
+            },
+            "placeholderAnalysis": {
+              "classification": "likely-legitimate",
+              "confidence": 22,
+              "isPlaceholder": false,
+              "reasons": [
+                "polyglot-structural: lowComplexityProxy",
+                "Low cyclomatic complexity (1)",
+                "Very short function (1 lines)",
+                "Function takes no parameters",
+                "Safety cap applied: cheap heuristics only"
+              ],
+              "detectionMethods": {
+                "explicitMarkers": 0,
+                "namingPatterns": 0,
+                "astAnalysis": 22,
+                "commentAnalysis": 0,
+                "contextFilter": 0,
+                "unusedCodeAnalysis": 0,
+                "externalUnusedChecks": 0,
+                "enhancedContext": 0
+              }
+            }
+          },
+          {
+            "name": "C",
+            "signature": "public double C { get; }",
+            "parameters": [],
+            "returnType": "void",
+            "isAsync": false,
+            "calls": [],
+            "startLine": 115,
+            "endLine": 115,
+            "structuralSignals": {
+              "emptyOrTrivialBody": false,
+              "constantOrIdentityReturn": false,
+              "stubThrowOrPanic": false,
+              "hasThrowStatement": false,
+              "paramsLikelyUnused": false,
+              "lowComplexityProxy": true,
+              "reasons": [
+                "polyglot-structural: lowComplexityProxy"
+              ]
+            },
+            "placeholderAnalysis": {
+              "classification": "likely-legitimate",
+              "confidence": 22,
+              "isPlaceholder": false,
+              "reasons": [
+                "polyglot-structural: lowComplexityProxy",
+                "Low cyclomatic complexity (1)",
+                "Very short function (1 lines)",
+                "Function takes no parameters",
+                "Safety cap applied: cheap heuristics only"
+              ],
+              "detectionMethods": {
+                "explicitMarkers": 0,
+                "namingPatterns": 0,
+                "astAnalysis": 22,
+                "commentAnalysis": 0,
+                "contextFilter": 0,
+                "unusedCodeAnalysis": 0,
+                "externalUnusedChecks": 0,
+                "enhancedContext": 0
+              }
+            }
+          },
+          {
+            "name": "K",
+            "signature": "public double K { get; }",
+            "parameters": [],
+            "returnType": "void",
+            "isAsync": false,
+            "calls": [],
+            "startLine": 116,
+            "endLine": 116,
+            "structuralSignals": {
+              "emptyOrTrivialBody": false,
+              "constantOrIdentityReturn": false,
+              "stubThrowOrPanic": false,
+              "hasThrowStatement": false,
+              "paramsLikelyUnused": false,
+              "lowComplexityProxy": true,
+              "reasons": [
+                "polyglot-structural: lowComplexityProxy"
+              ]
+            },
+            "placeholderAnalysis": {
+              "classification": "likely-legitimate",
+              "confidence": 22,
+              "isPlaceholder": false,
+              "reasons": [
+                "polyglot-structural: lowComplexityProxy",
+                "Low cyclomatic complexity (1)",
+                "Very short function (1 lines)",
+                "Function takes no parameters",
+                "Safety cap applied: cheap heuristics only"
+              ],
+              "detectionMethods": {
+                "explicitMarkers": 0,
+                "namingPatterns": 0,
+                "astAnalysis": 22,
+                "commentAnalysis": 0,
+                "contextFilter": 0,
+                "unusedCodeAnalysis": 0,
+                "externalUnusedChecks": 0,
+                "enhancedContext": 0
+              }
+            }
+          },
+          {
+            "name": "DampedHarmonic1D",
+            "signature": "public DampedHarmonic1D(double m, double c, double k)",
+            "parameters": [
+              {
+                "name": "m",
+                "type": "double"
+              },
+              {
+                "name": "c",
+                "type": "double"
+              },
+              {
+                "name": "k",
+                "type": "double"
+              }
+            ],
+            "returnType": "public",
+            "isAsync": false,
+            "calls": [],
+            "startLine": 118,
+            "endLine": 125,
+            "structuralSignals": {
+              "emptyOrTrivialBody": false,
+              "constantOrIdentityReturn": false,
+              "stubThrowOrPanic": false,
+              "hasThrowStatement": true,
+              "paramsLikelyUnused": false,
+              "lowComplexityProxy": false,
+              "reasons": [
+                "polyglot-structural: hasThrowStatement"
+              ]
+            },
+            "placeholderAnalysis": {
+              "classification": "definite-legitimate",
+              "confidence": 2,
+              "isPlaceholder": false,
+              "reasons": [
+                "polyglot-structural: hasThrowStatement",
+                "Contains throw statement",
+                "Safety cap applied: cheap heuristics only"
+              ],
+              "detectionMethods": {
+                "explicitMarkers": 0,
+                "namingPatterns": 0,
+                "astAnalysis": 2,
+                "commentAnalysis": 0,
+                "contextFilter": 0,
+                "unusedCodeAnalysis": 0,
+                "externalUnusedChecks": 0,
+                "enhancedContext": 0
+              }
+            }
+          },
+          {
+            "name": "NaturalOmega0",
+            "signature": "public double NaturalOmega0 => System.Math.Sqrt(K / M);",
+            "parameters": [
+              {
+                "name": "M",
+                "type": "K /"
+              }
+            ],
+            "returnType": "void",
+            "isAsync": false,
+            "calls": [
+              "System.Math.Sqrt"
+            ],
+            "startLine": 127,
+            "endLine": 127,
+            "structuralSignals": {
+              "emptyOrTrivialBody": false,
+              "constantOrIdentityReturn": false,
+              "stubThrowOrPanic": false,
+              "hasThrowStatement": false,
+              "paramsLikelyUnused": false,
+              "lowComplexityProxy": true,
+              "reasons": [
+                "polyglot-structural: lowComplexityProxy"
+              ]
+            },
+            "placeholderAnalysis": {
+              "classification": "likely-legitimate",
+              "confidence": 34,
+              "isPlaceholder": false,
+              "reasons": [
+                "polyglot-structural: lowComplexityProxy",
+                "Low cyclomatic complexity (1)",
+                "Very short function (1 lines)",
+                "[FALLBACK] 1 unused parameter(s)",
+                "Note: Using custom analysis - TS/ESLint would be more accurate"
+              ],
+              "detectionMethods": {
+                "explicitMarkers": 0,
+                "namingPatterns": 0,
+                "astAnalysis": 18,
+                "commentAnalysis": 0,
+                "contextFilter": 0,
+                "unusedCodeAnalysis": 8,
+                "externalUnusedChecks": 0,
+                "enhancedContext": 0
+              }
+            }
+          },
+          {
+            "name": "DampingRatioZeta",
+            "signature": "public double DampingRatioZeta",
+            "parameters": [],
+            "returnType": "void",
+            "isAsync": false,
+            "calls": [
+              "System.Math.Sqrt"
+            ],
+            "startLine": 129,
+            "endLine": 137,
+            "structuralSignals": {
+              "emptyOrTrivialBody": false,
+              "constantOrIdentityReturn": false,
+              "stubThrowOrPanic": false,
+              "hasThrowStatement": false,
+              "paramsLikelyUnused": false,
+              "lowComplexityProxy": false,
+              "reasons": []
+            },
+            "placeholderAnalysis": {
+              "classification": "definite-legitimate",
+              "confidence": 4,
+              "isPlaceholder": false,
+              "reasons": [
+                "Function takes no parameters",
+                "Safety cap applied: cheap heuristics only"
+              ],
+              "detectionMethods": {
+                "explicitMarkers": 0,
+                "namingPatterns": 0,
+                "astAnalysis": 4,
+                "commentAnalysis": 0,
+                "contextFilter": 0,
+                "unusedCodeAnalysis": 0,
+                "externalUnusedChecks": 0,
+                "enhancedContext": 0
+              }
+            }
+          },
+          {
+            "name": "QualityFactorQ",
+            "signature": "public double QualityFactorQ",
+            "parameters": [],
+            "returnType": "void",
+            "isAsync": false,
+            "calls": [
+              "double.IsFinite"
+            ],
+            "startLine": 139,
+            "endLine": 148,
+            "structuralSignals": {
+              "emptyOrTrivialBody": false,
+              "constantOrIdentityReturn": false,
+              "stubThrowOrPanic": false,
+              "hasThrowStatement": false,
+              "paramsLikelyUnused": false,
+              "lowComplexityProxy": false,
+              "reasons": []
+            },
+            "placeholderAnalysis": {
+              "classification": "definite-legitimate",
+              "confidence": 4,
+              "isPlaceholder": false,
+              "reasons": [
+                "Function takes no parameters",
+                "Safety cap applied: cheap heuristics only"
+              ],
+              "detectionMethods": {
+                "explicitMarkers": 0,
+                "namingPatterns": 0,
+                "astAnalysis": 4,
+                "commentAnalysis": 0,
+                "contextFilter": 0,
+                "unusedCodeAnalysis": 0,
+                "externalUnusedChecks": 0,
+                "enhancedContext": 0
+              }
+            }
+          },
+          {
+            "name": "Response",
+            "signature": "public (double X, double V) Response(double x0, double v0, double t)",
+            "parameters": [
+              {
+                "name": "x0",
+                "type": "double"
+              },
+              {
+                "name": "v0",
+                "type": "double"
+              },
+              {
+                "name": "t",
+                "type": "double"
+              }
+            ],
+            "returnType": "void",
+            "isAsync": false,
+            "calls": [
+              "System.Math.Exp",
+              "System.Math.Sqrt",
+              "System.Math.Cos",
+              "System.Math.Sin"
+            ],
+            "startLine": 150,
+            "endLine": 194,
+            "structuralSignals": {
+              "emptyOrTrivialBody": false,
+              "constantOrIdentityReturn": false,
+              "stubThrowOrPanic": false,
+              "hasThrowStatement": false,
+              "paramsLikelyUnused": false,
+              "lowComplexityProxy": false,
+              "reasons": []
+            },
+            "placeholderAnalysis": {
+              "classification": "definite-legitimate",
+              "confidence": 0,
+              "isPlaceholder": false,
+              "reasons": [
+                "Safety cap applied: cheap heuristics only"
+              ],
+              "detectionMethods": {
+                "explicitMarkers": 0,
+                "namingPatterns": 0,
+                "astAnalysis": 0,
+                "commentAnalysis": 0,
+                "contextFilter": 0,
+                "unusedCodeAnalysis": 0,
+                "externalUnusedChecks": 0,
+                "enhancedContext": 0
+              }
+            }
+          }
+        ],
+        "classes": [
+          {
+            "name": "PhysicsConstants",
+            "methods": []
+          },
+          {
+            "name": "Vec2Ops",
+            "methods": [
+              {
+                "name": "Mag",
+                "signature": "public static double Mag(Vec2 v) => System.Math.Sqrt(v.X * v.X + v.Y * v.Y);",
+                "parameters": [
+                  {
+                    "name": "v",
+                    "type": "Vec2"
+                  }
+                ],
+                "returnType": "double",
+                "isAsync": false,
+                "isGenerator": false,
+                "calls": [
+                  "System.Math.Sqrt"
+                ],
+                "startLine": 15,
+                "endLine": 15,
+                "structuralSignals": {
+                  "emptyOrTrivialBody": false,
+                  "constantOrIdentityReturn": false,
+                  "stubThrowOrPanic": false,
+                  "hasThrowStatement": false,
+                  "paramsLikelyUnused": false,
+                  "lowComplexityProxy": true,
+                  "reasons": [
+                    "polyglot-structural: lowComplexityProxy"
+                  ]
+                }
+              },
+              {
+                "name": "Add2",
+                "signature": "public static Vec2 Add2(Vec2 a, Vec2 b) => new(a.X + b.X, a.Y + b.Y);",
+                "parameters": [
+                  {
+                    "name": "a",
+                    "type": "Vec2"
+                  },
+                  {
+                    "name": "b",
+                    "type": "Vec2"
+                  }
+                ],
+                "returnType": "Vec2",
+                "isAsync": false,
+                "isGenerator": false,
+                "calls": [],
+                "startLine": 16,
+                "endLine": 16,
+                "structuralSignals": {
+                  "emptyOrTrivialBody": false,
+                  "constantOrIdentityReturn": false,
+                  "stubThrowOrPanic": false,
+                  "hasThrowStatement": false,
+                  "paramsLikelyUnused": false,
+                  "lowComplexityProxy": true,
+                  "reasons": [
+                    "polyglot-structural: lowComplexityProxy"
+                  ]
+                }
+              },
+              {
+                "name": "Scale2",
+                "signature": "public static Vec2 Scale2(Vec2 v, double s) => new(v.X * s, v.Y * s);",
+                "parameters": [
+                  {
+                    "name": "v",
+                    "type": "Vec2"
+                  },
+                  {
+                    "name": "s",
+                    "type": "double"
+                  }
+                ],
+                "returnType": "Vec2",
+                "isAsync": false,
+                "isGenerator": false,
+                "calls": [],
+                "startLine": 17,
+                "endLine": 17,
+                "structuralSignals": {
+                  "emptyOrTrivialBody": false,
+                  "constantOrIdentityReturn": false,
+                  "stubThrowOrPanic": false,
+                  "hasThrowStatement": false,
+                  "paramsLikelyUnused": false,
+                  "lowComplexityProxy": true,
+                  "reasons": [
+                    "polyglot-structural: lowComplexityProxy"
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "name": "UniformAcceleration2D",
+            "methods": [
+              {
+                "name": "UniformAcceleration2D",
+                "signature": "public UniformAcceleration2D(Vec2? a = null) => _a = a ?? new Vec2(0, 0);",
+                "parameters": [
+                  {
+                    "name": "a",
+                    "type": "Vec2?"
+                  }
+                ],
+                "returnType": "public",
+                "isAsync": false,
+                "isGenerator": false,
+                "calls": [],
+                "startLine": 24,
+                "endLine": 24,
+                "structuralSignals": {
+                  "emptyOrTrivialBody": false,
+                  "constantOrIdentityReturn": false,
+                  "stubThrowOrPanic": false,
+                  "hasThrowStatement": false,
+                  "paramsLikelyUnused": false,
+                  "lowComplexityProxy": true,
+                  "reasons": [
+                    "polyglot-structural: lowComplexityProxy"
+                  ]
+                }
+              },
+              {
+                "name": "Acceleration",
+                "signature": "public Vec2 Acceleration => _a;",
+                "parameters": [],
+                "returnType": "void",
+                "isAsync": false,
+                "isGenerator": false,
+                "calls": [],
+                "startLine": 26,
+                "endLine": 26,
+                "structuralSignals": {
+                  "emptyOrTrivialBody": false,
+                  "constantOrIdentityReturn": false,
+                  "stubThrowOrPanic": false,
+                  "hasThrowStatement": false,
+                  "paramsLikelyUnused": false,
+                  "lowComplexityProxy": true,
+                  "reasons": [
+                    "polyglot-structural: lowComplexityProxy"
+                  ]
+                }
+              },
+              {
+                "name": "Position",
+                "signature": "public Vec2 Position(Vec2 r0, Vec2 v0, double t) =>",
+                "parameters": [
+                  {
+                    "name": "r0",
+                    "type": "Vec2"
+                  },
+                  {
+                    "name": "v0",
+                    "type": "Vec2"
+                  },
+                  {
+                    "name": "t",
+                    "type": "double"
+                  }
+                ],
+                "returnType": "Vec2",
+                "isAsync": false,
+                "isGenerator": false,
+                "calls": [],
+                "startLine": 28,
+                "endLine": 29,
+                "structuralSignals": {
+                  "emptyOrTrivialBody": false,
+                  "constantOrIdentityReturn": false,
+                  "stubThrowOrPanic": false,
+                  "hasThrowStatement": false,
+                  "paramsLikelyUnused": false,
+                  "lowComplexityProxy": true,
+                  "reasons": [
+                    "polyglot-structural: lowComplexityProxy"
+                  ]
+                }
+              },
+              {
+                "name": "Velocity",
+                "signature": "public Vec2 Velocity(Vec2 v0, double t) => new(v0.X + _a.X * t, v0.Y + _a.Y * t);",
+                "parameters": [
+                  {
+                    "name": "v0",
+                    "type": "Vec2"
+                  },
+                  {
+                    "name": "t",
+                    "type": "double"
+                  }
+                ],
+                "returnType": "Vec2",
+                "isAsync": false,
+                "isGenerator": false,
+                "calls": [],
+                "startLine": 31,
+                "endLine": 31,
+                "structuralSignals": {
+                  "emptyOrTrivialBody": false,
+                  "constantOrIdentityReturn": false,
+                  "stubThrowOrPanic": false,
+                  "hasThrowStatement": false,
+                  "paramsLikelyUnused": false,
+                  "lowComplexityProxy": true,
+                  "reasons": [
+                    "polyglot-structural: lowComplexityProxy"
+                  ]
+                }
+              },
+              {
+                "name": "TimeToVerticalPlane",
+                "signature": "public double TimeToVerticalPlane(Vec2 r0, Vec2 v0, double yPlane)",
+                "parameters": [
+                  {
+                    "name": "r0",
+                    "type": "Vec2"
+                  },
+                  {
+                    "name": "v0",
+                    "type": "Vec2"
+                  },
+                  {
+                    "name": "yPlane",
+                    "type": "double"
+                  }
+                ],
+                "returnType": "double",
+                "isAsync": false,
+                "isGenerator": false,
+                "calls": [
+                  "System.Math.Abs",
+                  "System.Math.Sqrt",
+                  "new[] { t1, t2 }.Where",
+                  "new[] { t1, t2 }.Where(t => t >= 0).OrderBy",
+                  "new[] { t1, t2 }.Where(t => t >= 0).OrderBy(t => t).ToList"
+                ],
+                "startLine": 33,
+                "endLine": 58,
+                "structuralSignals": {
+                  "emptyOrTrivialBody": false,
+                  "constantOrIdentityReturn": false,
+                  "stubThrowOrPanic": false,
+                  "hasThrowStatement": true,
+                  "paramsLikelyUnused": false,
+                  "lowComplexityProxy": false,
+                  "reasons": [
+                    "polyglot-structural: hasThrowStatement"
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "name": "ParabolicBallistics",
+            "methods": [
+              {
+                "name": "ParabolicBallistics",
+                "signature": "public ParabolicBallistics(double g = PhysicsConstants.GEarth) => _g = g;",
+                "parameters": [
+                  {
+                    "name": "g",
+                    "type": "double"
+                  }
+                ],
+                "returnType": "public",
+                "isAsync": false,
+                "isGenerator": false,
+                "calls": [],
+                "startLine": 65,
+                "endLine": 65,
+                "structuralSignals": {
+                  "emptyOrTrivialBody": false,
+                  "constantOrIdentityReturn": false,
+                  "stubThrowOrPanic": false,
+                  "hasThrowStatement": false,
+                  "paramsLikelyUnused": false,
+                  "lowComplexityProxy": true,
+                  "reasons": [
+                    "polyglot-structural: lowComplexityProxy"
+                  ]
+                }
+              },
+              {
+                "name": "RangeOnLevel",
+                "signature": "public double RangeOnLevel(double v0, double angleRad, double y0)",
+                "parameters": [
+                  {
+                    "name": "v0",
+                    "type": "double"
+                  },
+                  {
+                    "name": "angleRad",
+                    "type": "double"
+                  },
+                  {
+                    "name": "y0",
+                    "type": "double"
+                  }
+                ],
+                "returnType": "double",
+                "isAsync": false,
+                "isGenerator": false,
+                "calls": [
+                  "System.Math.Cos",
+                  "System.Math.Sin",
+                  "System.Math.Sqrt",
+                  "System.Math.Max"
+                ],
+                "startLine": 67,
+                "endLine": 86,
+                "structuralSignals": {
+                  "emptyOrTrivialBody": false,
+                  "constantOrIdentityReturn": false,
+                  "stubThrowOrPanic": false,
+                  "hasThrowStatement": true,
+                  "paramsLikelyUnused": false,
+                  "lowComplexityProxy": false,
+                  "reasons": [
+                    "polyglot-structural: hasThrowStatement"
+                  ]
+                }
+              },
+              {
+                "name": "Apex",
+                "signature": "public (double HMax, double TApex) Apex(double v0, double angleRad, double y0)",
+                "parameters": [
+                  {
+                    "name": "v0",
+                    "type": "double"
+                  },
+                  {
+                    "name": "angleRad",
+                    "type": "double"
+                  },
+                  {
+                    "name": "y0",
+                    "type": "double"
+                  }
+                ],
+                "returnType": "void",
+                "isAsync": false,
+                "isGenerator": false,
+                "calls": [
+                  "System.Math.Sin"
+                ],
+                "startLine": 88,
+                "endLine": 94,
+                "structuralSignals": {
+                  "emptyOrTrivialBody": false,
+                  "constantOrIdentityReturn": false,
+                  "stubThrowOrPanic": false,
+                  "hasThrowStatement": false,
+                  "paramsLikelyUnused": false,
+                  "lowComplexityProxy": true,
+                  "reasons": [
+                    "polyglot-structural: lowComplexityProxy"
+                  ]
+                }
+              },
+              {
+                "name": "SampleTrajectory",
+                "signature": "public List<(double T, Vec2 R, Vec2 V)> SampleTrajectory(double v0, double angleRad, double y0, double duration, int segments)",
+                "parameters": [
+                  {
+                    "name": "v0",
+                    "type": "double"
+                  },
+                  {
+                    "name": "angleRad",
+                    "type": "double"
+                  },
+                  {
+                    "name": "y0",
+                    "type": "double"
+                  },
+                  {
+                    "name": "duration",
+                    "type": "double"
+                  },
+                  {
+                    "name": "segments",
+                    "type": "int"
+                  }
+                ],
+                "returnType": "void",
+                "isAsync": false,
+                "isGenerator": false,
+                "calls": [
+                  "System.Math.Cos",
+                  "System.Math.Sin",
+                  "list.Add",
+                  "u.Position",
+                  "u.Velocity"
+                ],
+                "startLine": 96,
+                "endLine": 109,
+                "structuralSignals": {
+                  "emptyOrTrivialBody": false,
+                  "constantOrIdentityReturn": false,
+                  "stubThrowOrPanic": false,
+                  "hasThrowStatement": false,
+                  "paramsLikelyUnused": false,
+                  "lowComplexityProxy": true,
+                  "reasons": [
+                    "polyglot-structural: mapLikeFor",
+                    "polyglot-structural: lowComplexityProxy"
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "name": "DampedHarmonic1D",
+            "methods": [
+              {
+                "name": "M",
+                "signature": "public double M { get; }",
+                "parameters": [],
+                "returnType": "void",
+                "isAsync": false,
+                "isGenerator": false,
+                "calls": [],
+                "startLine": 114,
+                "endLine": 114,
+                "structuralSignals": {
+                  "emptyOrTrivialBody": false,
+                  "constantOrIdentityReturn": false,
+                  "stubThrowOrPanic": false,
+                  "hasThrowStatement": false,
+                  "paramsLikelyUnused": false,
+                  "lowComplexityProxy": true,
+                  "reasons": [
+                    "polyglot-structural: lowComplexityProxy"
+                  ]
+                }
+              },
+              {
+                "name": "C",
+                "signature": "public double C { get; }",
+                "parameters": [],
+                "returnType": "void",
+                "isAsync": false,
+                "isGenerator": false,
+                "calls": [],
+                "startLine": 115,
+                "endLine": 115,
+                "structuralSignals": {
+                  "emptyOrTrivialBody": false,
+                  "constantOrIdentityReturn": false,
+                  "stubThrowOrPanic": false,
+                  "hasThrowStatement": false,
+                  "paramsLikelyUnused": false,
+                  "lowComplexityProxy": true,
+                  "reasons": [
+                    "polyglot-structural: lowComplexityProxy"
+                  ]
+                }
+              },
+              {
+                "name": "K",
+                "signature": "public double K { get; }",
+                "parameters": [],
+                "returnType": "void",
+                "isAsync": false,
+                "isGenerator": false,
+                "calls": [],
+                "startLine": 116,
+                "endLine": 116,
+                "structuralSignals": {
+                  "emptyOrTrivialBody": false,
+                  "constantOrIdentityReturn": false,
+                  "stubThrowOrPanic": false,
+                  "hasThrowStatement": false,
+                  "paramsLikelyUnused": false,
+                  "lowComplexityProxy": true,
+                  "reasons": [
+                    "polyglot-structural: lowComplexityProxy"
+                  ]
+                }
+              },
+              {
+                "name": "DampedHarmonic1D",
+                "signature": "public DampedHarmonic1D(double m, double c, double k)",
+                "parameters": [
+                  {
+                    "name": "m",
+                    "type": "double"
+                  },
+                  {
+                    "name": "c",
+                    "type": "double"
+                  },
+                  {
+                    "name": "k",
+                    "type": "double"
+                  }
+                ],
+                "returnType": "public",
+                "isAsync": false,
+                "isGenerator": false,
+                "calls": [],
+                "startLine": 118,
+                "endLine": 125,
+                "structuralSignals": {
+                  "emptyOrTrivialBody": false,
+                  "constantOrIdentityReturn": false,
+                  "stubThrowOrPanic": false,
+                  "hasThrowStatement": true,
+                  "paramsLikelyUnused": false,
+                  "lowComplexityProxy": false,
+                  "reasons": [
+                    "polyglot-structural: hasThrowStatement"
+                  ]
+                }
+              },
+              {
+                "name": "NaturalOmega0",
+                "signature": "public double NaturalOmega0 => System.Math.Sqrt(K / M);",
+                "parameters": [
+                  {
+                    "name": "M",
+                    "type": "K /"
+                  }
+                ],
+                "returnType": "void",
+                "isAsync": false,
+                "isGenerator": false,
+                "calls": [
+                  "System.Math.Sqrt"
+                ],
+                "startLine": 127,
+                "endLine": 127,
+                "structuralSignals": {
+                  "emptyOrTrivialBody": false,
+                  "constantOrIdentityReturn": false,
+                  "stubThrowOrPanic": false,
+                  "hasThrowStatement": false,
+                  "paramsLikelyUnused": false,
+                  "lowComplexityProxy": true,
+                  "reasons": [
+                    "polyglot-structural: lowComplexityProxy"
+                  ]
+                }
+              },
+              {
+                "name": "DampingRatioZeta",
+                "signature": "public double DampingRatioZeta",
+                "parameters": [],
+                "returnType": "void",
+                "isAsync": false,
+                "isGenerator": false,
+                "calls": [
+                  "System.Math.Sqrt"
+                ],
+                "startLine": 129,
+                "endLine": 137,
+                "structuralSignals": {
+                  "emptyOrTrivialBody": false,
+                  "constantOrIdentityReturn": false,
+                  "stubThrowOrPanic": false,
+                  "hasThrowStatement": false,
+                  "paramsLikelyUnused": false,
+                  "lowComplexityProxy": false,
+                  "reasons": []
+                }
+              },
+              {
+                "name": "QualityFactorQ",
+                "signature": "public double QualityFactorQ",
+                "parameters": [],
+                "returnType": "void",
+                "isAsync": false,
+                "isGenerator": false,
+                "calls": [
+                  "double.IsFinite"
+                ],
+                "startLine": 139,
+                "endLine": 148,
+                "structuralSignals": {
+                  "emptyOrTrivialBody": false,
+                  "constantOrIdentityReturn": false,
+                  "stubThrowOrPanic": false,
+                  "hasThrowStatement": false,
+                  "paramsLikelyUnused": false,
+                  "lowComplexityProxy": false,
+                  "reasons": []
+                }
+              },
+              {
+                "name": "Response",
+                "signature": "public (double X, double V) Response(double x0, double v0, double t)",
+                "parameters": [
+                  {
+                    "name": "x0",
+                    "type": "double"
+                  },
+                  {
+                    "name": "v0",
+                    "type": "double"
+                  },
+                  {
+                    "name": "t",
+                    "type": "double"
+                  }
+                ],
+                "returnType": "void",
+                "isAsync": false,
+                "isGenerator": false,
+                "calls": [
+                  "System.Math.Exp",
+                  "System.Math.Sqrt",
+                  "System.Math.Cos",
+                  "System.Math.Sin"
+                ],
+                "startLine": 150,
+                "endLine": 194,
+                "structuralSignals": {
+                  "emptyOrTrivialBody": false,
+                  "constantOrIdentityReturn": false,
+                  "stubThrowOrPanic": false,
+                  "hasThrowStatement": false,
+                  "paramsLikelyUnused": false,
+                  "lowComplexityProxy": false,
+                  "reasons": []
+                }
+              }
+            ]
+          },
+          {
+            "name": "UniformCircularKinematics",
+            "methods": [
+              {
+                "name": "Ac",
+                "signature": "public double Ac(double v, double r)",
+                "parameters": [
+                  {
+                    "name": "v",
+                    "type": "double"
+                  },
+                  {
+                    "name": "r",
+                    "type": "double"
+                  }
+                ],
+                "returnType": "double",
+                "isAsync": false,
+                "isGenerator": false,
+                "calls": [],
+                "startLine": 199,
+                "endLine": 204,
+                "structuralSignals": {
+                  "emptyOrTrivialBody": false,
+                  "constantOrIdentityReturn": false,
+                  "stubThrowOrPanic": false,
+                  "hasThrowStatement": true,
+                  "paramsLikelyUnused": false,
+                  "lowComplexityProxy": false,
+                  "reasons": [
+                    "polyglot-structural: hasThrowStatement"
+                  ]
+                }
+              },
+              {
+                "name": "PeriodT",
+                "signature": "public double PeriodT(double v, double r)",
+                "parameters": [
+                  {
+                    "name": "v",
+                    "type": "double"
+                  },
+                  {
+                    "name": "r",
+                    "type": "double"
+                  }
+                ],
+                "returnType": "double",
+                "isAsync": false,
+                "isGenerator": false,
+                "calls": [],
+                "startLine": 206,
+                "endLine": 211,
+                "structuralSignals": {
+                  "emptyOrTrivialBody": false,
+                  "constantOrIdentityReturn": false,
+                  "stubThrowOrPanic": false,
+                  "hasThrowStatement": true,
+                  "paramsLikelyUnused": false,
+                  "lowComplexityProxy": false,
+                  "reasons": [
+                    "polyglot-structural: hasThrowStatement"
+                  ]
+                }
+              },
+              {
+                "name": "SpecificAngularMomentum",
+                "signature": "public double SpecificAngularMomentum(double v, double r) => v * r;",
+                "parameters": [
+                  {
+                    "name": "v",
+                    "type": "double"
+                  },
+                  {
+                    "name": "r",
+                    "type": "double"
+                  }
+                ],
+                "returnType": "double",
+                "isAsync": false,
+                "isGenerator": false,
+                "calls": [],
+                "startLine": 213,
+                "endLine": 213,
+                "structuralSignals": {
+                  "emptyOrTrivialBody": false,
+                  "constantOrIdentityReturn": false,
+                  "stubThrowOrPanic": false,
+                  "hasThrowStatement": false,
+                  "paramsLikelyUnused": false,
+                  "lowComplexityProxy": true,
+                  "reasons": [
+                    "polyglot-structural: lowComplexityProxy"
+                  ]
+                }
+              },
+              {
+                "name": "KeplerianConsistencyCheck",
+                "signature": "public double KeplerianConsistencyCheck(double v, double r, double mu) =>",
+                "parameters": [
+                  {
+                    "name": "v",
+                    "type": "double"
+                  },
+                  {
+                    "name": "r",
+                    "type": "double"
+                  },
+                  {
+                    "name": "mu",
+                    "type": "double"
+                  }
+                ],
+                "returnType": "double",
+                "isAsync": false,
+                "isGenerator": false,
+                "calls": [
+                  "System.Math.Abs"
+                ],
+                "startLine": 215,
+                "endLine": 216,
+                "structuralSignals": {
+                  "emptyOrTrivialBody": false,
+                  "constantOrIdentityReturn": false,
+                  "stubThrowOrPanic": false,
+                  "hasThrowStatement": false,
+                  "paramsLikelyUnused": false,
+                  "lowComplexityProxy": true,
+                  "reasons": [
+                    "polyglot-structural: lowComplexityProxy"
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "name": "LinearDragProjectile2D",
+            "methods": [
+              {
+                "name": "LinearDragProjectile2D",
+                "signature": "public LinearDragProjectile2D(double m, double c, double g = PhysicsConstants.GEarth)",
+                "parameters": [
+                  {
+                    "name": "m",
+                    "type": "double"
+                  },
+                  {
+                    "name": "c",
+                    "type": "double"
+                  },
+                  {
+                    "name": "g",
+                    "type": "double"
+                  }
+                ],
+                "returnType": "public",
+                "isAsync": false,
+                "isGenerator": false,
+                "calls": [],
+                "startLine": 225,
+                "endLine": 232,
+                "structuralSignals": {
+                  "emptyOrTrivialBody": false,
+                  "constantOrIdentityReturn": false,
+                  "stubThrowOrPanic": false,
+                  "hasThrowStatement": true,
+                  "paramsLikelyUnused": false,
+                  "lowComplexityProxy": false,
+                  "reasons": [
+                    "polyglot-structural: hasThrowStatement"
+                  ]
+                }
+              },
+              {
+                "name": "Integrate",
+                "signature": "public List<(double T, Vec2 R, Vec2 V)> Integrate(Vec2 r0, Vec2 v0, double tMax, int steps)",
+                "parameters": [
+                  {
+                    "name": "r0",
+                    "type": "Vec2"
+                  },
+                  {
+                    "name": "v0",
+                    "type": "Vec2"
+                  },
+                  {
+                    "name": "tMax",
+                    "type": "double"
+                  },
+                  {
+                    "name": "steps",
+                    "type": "int"
+                  }
+                ],
+                "returnType": "void",
+                "isAsync": false,
+                "isGenerator": false,
+                "calls": [],
+                "startLine": 234,
+                "endLine": 254,
+                "structuralSignals": {
+                  "emptyOrTrivialBody": false,
+                  "constantOrIdentityReturn": false,
+                  "stubThrowOrPanic": false,
+                  "hasThrowStatement": true,
+                  "paramsLikelyUnused": false,
+                  "lowComplexityProxy": false,
+                  "reasons": [
+                    "polyglot-structural: hasThrowStatement"
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "name": "SpecialRelativisticKinematics",
+            "methods": [
+              {
+                "name": "CLight",
+                "signature": "public double CLight { get; }",
+                "parameters": [],
+                "returnType": "void",
+                "isAsync": false,
+                "isGenerator": false,
+                "calls": [],
+                "startLine": 259,
+                "endLine": 259,
+                "structuralSignals": {
+                  "emptyOrTrivialBody": false,
+                  "constantOrIdentityReturn": false,
+                  "stubThrowOrPanic": false,
+                  "hasThrowStatement": false,
+                  "paramsLikelyUnused": false,
+                  "lowComplexityProxy": true,
+                  "reasons": [
+                    "polyglot-structural: lowComplexityProxy"
+                  ]
+                }
+              },
+              {
+                "name": "SpecialRelativisticKinematics",
+                "signature": "public SpecialRelativisticKinematics(double cLight = 299_792_458) => CLight = cLight;",
+                "parameters": [
+                  {
+                    "name": "cLight",
+                    "type": "double"
+                  }
+                ],
+                "returnType": "public",
+                "isAsync": false,
+                "isGenerator": false,
+                "calls": [],
+                "startLine": 261,
+                "endLine": 261,
+                "structuralSignals": {
+                  "emptyOrTrivialBody": false,
+                  "constantOrIdentityReturn": false,
+                  "stubThrowOrPanic": false,
+                  "hasThrowStatement": false,
+                  "paramsLikelyUnused": false,
+                  "lowComplexityProxy": true,
+                  "reasons": [
+                    "polyglot-structural: lowComplexityProxy"
+                  ]
+                }
+              },
+              {
+                "name": "Beta",
+                "signature": "public double Beta(double v) => v / CLight;",
+                "parameters": [
+                  {
+                    "name": "v",
+                    "type": "double"
+                  }
+                ],
+                "returnType": "double",
+                "isAsync": false,
+                "isGenerator": false,
+                "calls": [],
+                "startLine": 263,
+                "endLine": 263,
+                "structuralSignals": {
+                  "emptyOrTrivialBody": false,
+                  "constantOrIdentityReturn": false,
+                  "stubThrowOrPanic": false,
+                  "hasThrowStatement": false,
+                  "paramsLikelyUnused": false,
+                  "lowComplexityProxy": true,
+                  "reasons": [
+                    "polyglot-structural: lowComplexityProxy"
+                  ]
+                }
+              },
+              {
+                "name": "Gamma",
+                "signature": "public double Gamma(double v)",
+                "parameters": [
+                  {
+                    "name": "v",
+                    "type": "double"
+                  }
+                ],
+                "returnType": "double",
+                "isAsync": false,
+                "isGenerator": false,
+                "calls": [
+                  "Beta",
+                  "System.Math.Abs",
+                  "System.Math.Sqrt"
+                ],
+                "startLine": 265,
+                "endLine": 271,
+                "structuralSignals": {
+                  "emptyOrTrivialBody": false,
+                  "constantOrIdentityReturn": false,
+                  "stubThrowOrPanic": false,
+                  "hasThrowStatement": true,
+                  "paramsLikelyUnused": false,
+                  "lowComplexityProxy": false,
+                  "reasons": [
+                    "polyglot-structural: hasThrowStatement"
+                  ]
+                }
+              },
+              {
+                "name": "KineticEnergy",
+                "signature": "public double KineticEnergy(double mRest, double v)",
+                "parameters": [
+                  {
+                    "name": "mRest",
+                    "type": "double"
+                  },
+                  {
+                    "name": "v",
+                    "type": "double"
+                  }
+                ],
+                "returnType": "double",
+                "isAsync": false,
+                "isGenerator": false,
+                "calls": [
+                  "Gamma"
+                ],
+                "startLine": 273,
+                "endLine": 279,
+                "structuralSignals": {
+                  "emptyOrTrivialBody": false,
+                  "constantOrIdentityReturn": false,
+                  "stubThrowOrPanic": false,
+                  "hasThrowStatement": true,
+                  "paramsLikelyUnused": false,
+                  "lowComplexityProxy": false,
+                  "reasons": [
+                    "polyglot-structural: hasThrowStatement"
+                  ]
+                }
+              },
+              {
+                "name": "RelativisticExcessFraction",
+                "signature": "public double RelativisticExcessFraction(double mRest, double v)",
+                "parameters": [
+                  {
+                    "name": "mRest",
+                    "type": "double"
+                  },
+                  {
+                    "name": "v",
+                    "type": "double"
+                  }
+                ],
+                "returnType": "double",
+                "isAsync": false,
+                "isGenerator": false,
+                "calls": [
+                  "KineticEnergy"
+                ],
+                "startLine": 281,
+                "endLine": 288,
+                "structuralSignals": {
+                  "emptyOrTrivialBody": false,
+                  "constantOrIdentityReturn": false,
+                  "stubThrowOrPanic": false,
+                  "hasThrowStatement": false,
+                  "paramsLikelyUnused": false,
+                  "lowComplexityProxy": false,
+                  "reasons": []
+                }
+              }
+            ]
+          },
+          {
+            "name": "AnalyticalPhysicsEngine",
+            "methods": [
+              {
+                "name": "UniformAccel",
+                "signature": "public UniformAcceleration2D UniformAccel { get; }",
+                "parameters": [],
+                "returnType": "void",
+                "isAsync": false,
+                "isGenerator": false,
+                "calls": [],
+                "startLine": 293,
+                "endLine": 293,
+                "structuralSignals": {
+                  "emptyOrTrivialBody": false,
+                  "constantOrIdentityReturn": false,
+                  "stubThrowOrPanic": false,
+                  "hasThrowStatement": false,
+                  "paramsLikelyUnused": false,
+                  "lowComplexityProxy": true,
+                  "reasons": [
+                    "polyglot-structural: lowComplexityProxy"
+                  ]
+                }
+              },
+              {
+                "name": "VacuumBallistics",
+                "signature": "public ParabolicBallistics VacuumBallistics { get; }",
+                "parameters": [],
+                "returnType": "void",
+                "isAsync": false,
+                "isGenerator": false,
+                "calls": [],
+                "startLine": 294,
+                "endLine": 294,
+                "structuralSignals": {
+                  "emptyOrTrivialBody": false,
+                  "constantOrIdentityReturn": false,
+                  "stubThrowOrPanic": false,
+                  "hasThrowStatement": false,
+                  "paramsLikelyUnused": false,
+                  "lowComplexityProxy": true,
+                  "reasons": [
+                    "polyglot-structural: lowComplexityProxy"
+                  ]
+                }
+              },
+              {
+                "name": "UniformCircle",
+                "signature": "public UniformCircularKinematics UniformCircle { get; }",
+                "parameters": [],
+                "returnType": "void",
+                "isAsync": false,
+                "isGenerator": false,
+                "calls": [],
+                "startLine": 295,
+                "endLine": 295,
+                "structuralSignals": {
+                  "emptyOrTrivialBody": false,
+                  "constantOrIdentityReturn": false,
+                  "stubThrowOrPanic": false,
+                  "hasThrowStatement": false,
+                  "paramsLikelyUnused": false,
+                  "lowComplexityProxy": true,
+                  "reasons": [
+                    "polyglot-structural: lowComplexityProxy"
+                  ]
+                }
+              },
+              {
+                "name": "Relativity",
+                "signature": "public SpecialRelativisticKinematics Relativity { get; }",
+                "parameters": [],
+                "returnType": "void",
+                "isAsync": false,
+                "isGenerator": false,
+                "calls": [],
+                "startLine": 296,
+                "endLine": 296,
+                "structuralSignals": {
+                  "emptyOrTrivialBody": false,
+                  "constantOrIdentityReturn": false,
+                  "stubThrowOrPanic": false,
+                  "hasThrowStatement": false,
+                  "paramsLikelyUnused": false,
+                  "lowComplexityProxy": true,
+                  "reasons": [
+                    "polyglot-structural: lowComplexityProxy"
+                  ]
+                }
+              },
+              {
+                "name": "EarthG",
+                "signature": "public double EarthG { get; }",
+                "parameters": [],
+                "returnType": "void",
+                "isAsync": false,
+                "isGenerator": false,
+                "calls": [],
+                "startLine": 297,
+                "endLine": 297,
+                "structuralSignals": {
+                  "emptyOrTrivialBody": false,
+                  "constantOrIdentityReturn": false,
+                  "stubThrowOrPanic": false,
+                  "hasThrowStatement": false,
+                  "paramsLikelyUnused": false,
+                  "lowComplexityProxy": true,
+                  "reasons": [
+                    "polyglot-structural: lowComplexityProxy"
+                  ]
+                }
+              },
+              {
+                "name": "AnalyticalPhysicsEngine",
+                "signature": "public AnalyticalPhysicsEngine(double? g = null, double? cLight = null)",
+                "parameters": [
+                  {
+                    "name": "g",
+                    "type": "double?"
+                  },
+                  {
+                    "name": "cLight",
+                    "type": "double?"
+                  }
+                ],
+                "returnType": "public",
+                "isAsync": false,
+                "isGenerator": false,
+                "calls": [],
+                "startLine": 299,
+                "endLine": 306,
+                "structuralSignals": {
+                  "emptyOrTrivialBody": false,
+                  "constantOrIdentityReturn": false,
+                  "stubThrowOrPanic": false,
+                  "hasThrowStatement": false,
+                  "paramsLikelyUnused": false,
+                  "lowComplexityProxy": true,
+                  "reasons": [
+                    "polyglot-structural: lowComplexityProxy"
+                  ]
+                }
+              },
+              {
+                "name": "EscapeSpeedUniformG",
+                "signature": "public double EscapeSpeedUniformG(double R)",
+                "parameters": [
+                  {
+                    "name": "R",
+                    "type": "double"
+                  }
+                ],
+                "returnType": "double",
+                "isAsync": false,
+                "isGenerator": false,
+                "calls": [
+                  "System.Math.Sqrt"
+                ],
+                "startLine": 308,
+                "endLine": 313,
+                "structuralSignals": {
+                  "emptyOrTrivialBody": false,
+                  "constantOrIdentityReturn": false,
+                  "stubThrowOrPanic": false,
+                  "hasThrowStatement": true,
+                  "paramsLikelyUnused": false,
+                  "lowComplexityProxy": false,
+                  "reasons": [
+                    "polyglot-structural: hasThrowStatement"
+                  ]
+                }
+              },
+              {
+                "name": "RmsSpeedFrom1DEquipartition",
+                "signature": "public double RmsSpeedFrom1DEquipartition(double kB, double T, double m)",
+                "parameters": [
+                  {
+                    "name": "kB",
+                    "type": "double"
+                  },
+                  {
+                    "name": "T",
+                    "type": "double"
+                  },
+                  {
+                    "name": "m",
+                    "type": "double"
+                  }
+                ],
+                "returnType": "double",
+                "isAsync": false,
+                "isGenerator": false,
+                "calls": [
+                  "System.Math.Sqrt"
+                ],
+                "startLine": 315,
+                "endLine": 320,
+                "structuralSignals": {
+                  "emptyOrTrivialBody": false,
+                  "constantOrIdentityReturn": false,
+                  "stubThrowOrPanic": false,
+                  "hasThrowStatement": true,
+                  "paramsLikelyUnused": false,
+                  "lowComplexityProxy": false,
+                  "reasons": [
+                    "polyglot-structural: hasThrowStatement"
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "name": "IsaAtmosphere",
+            "methods": [
+              {
+                "name": "IsaStandardDryAirDensityAtAltitude",
+                "signature": "public static double IsaStandardDryAirDensityAtAltitude(double altitudeM)",
+                "parameters": [
+                  {
+                    "name": "altitudeM",
+                    "type": "double"
+                  }
+                ],
+                "returnType": "double",
+                "isAsync": false,
+                "isGenerator": false,
+                "calls": [],
+                "startLine": 330,
+                "endLine": 334,
+                "structuralSignals": {
+                  "emptyOrTrivialBody": false,
+                  "constantOrIdentityReturn": false,
+                  "stubThrowOrPanic": false,
+                  "hasThrowStatement": false,
+                  "paramsLikelyUnused": false,
+                  "lowComplexityProxy": true,
+                  "reasons": [
+                    "polyglot-structural: lowComplexityProxy"
+                  ]
+                }
+              }
+            ]
+          }
+        ],
+        "keyElementsInFile": [
+          {
+            "name": "Mag",
+            "type": "function",
+            "signature": "public static double Mag(Vec2 v) => System.Math.Sqrt(v.X * v.X + v.Y * v.Y);"
+          },
+          {
+            "name": "Add2",
+            "type": "function",
+            "signature": "public static Vec2 Add2(Vec2 a, Vec2 b) => new(a.X + b.X, a.Y + b.Y);"
+          },
+          {
+            "name": "Scale2",
+            "type": "function",
+            "signature": "public static Vec2 Scale2(Vec2 v, double s) => new(v.X * s, v.Y * s);"
+          },
+          {
+            "name": "UniformAcceleration2D",
+            "type": "function",
+            "signature": "public UniformAcceleration2D(Vec2? a = null) => _a = a ?? new Vec2(0, 0);"
+          },
+          {
+            "name": "Acceleration",
+            "type": "function",
+            "signature": "public Vec2 Acceleration => _a;"
+          },
+          {
+            "name": "Position",
+            "type": "function",
+            "signature": "public Vec2 Position(Vec2 r0, Vec2 v0, double t) =>"
+          },
+          {
+            "name": "Velocity",
+            "type": "function",
+            "signature": "public Vec2 Velocity(Vec2 v0, double t) => new(v0.X + _a.X * t, v0.Y + _a.Y * t);"
+          },
+          {
+            "name": "TimeToVerticalPlane",
+            "type": "function",
+            "signature": "public double TimeToVerticalPlane(Vec2 r0, Vec2 v0, double yPlane)"
+          },
+          {
+            "name": "ParabolicBallistics",
+            "type": "function",
+            "signature": "public ParabolicBallistics(double g = PhysicsConstants.GEarth) => _g = g;"
+          },
+          {
+            "name": "RangeOnLevel",
+            "type": "function",
+            "signature": "public double RangeOnLevel(double v0, double angleRad, double y0)"
+          },
+          {
+            "name": "Apex",
+            "type": "function",
+            "signature": "public (double HMax, double TApex) Apex(double v0, double angleRad, double y0)"
+          },
+          {
+            "name": "SampleTrajectory",
+            "type": "function",
+            "signature": "public List<(double T, Vec2 R, Vec2 V)> SampleTrajectory(double v0, double angleRad, double y0, double duration, int segments)"
+          },
+          {
+            "name": "M",
+            "type": "function",
+            "signature": "public double M { get; }"
+          },
+          {
+            "name": "C",
+            "type": "function",
+            "signature": "public double C { get; }"
+          },
+          {
+            "name": "K",
+            "type": "function",
+            "signature": "public double K { get; }"
+          },
+          {
+            "name": "DampedHarmonic1D",
+            "type": "function",
+            "signature": "public DampedHarmonic1D(double m, double c, double k)"
+          },
+          {
+            "name": "NaturalOmega0",
+            "type": "function",
+            "signature": "public double NaturalOmega0 => System.Math.Sqrt(K / M);"
+          },
+          {
+            "name": "DampingRatioZeta",
+            "type": "function",
+            "signature": "public double DampingRatioZeta"
+          },
+          {
+            "name": "QualityFactorQ",
+            "type": "function",
+            "signature": "public double QualityFactorQ"
+          },
+          {
+            "name": "Response",
+            "type": "function",
+            "signature": "public (double X, double V) Response(double x0, double v0, double t)"
+          },
+          {
+            "name": "Ac",
+            "type": "function",
+            "signature": "public double Ac(double v, double r)"
+          },
+          {
+            "name": "PeriodT",
+            "type": "function",
+            "signature": "public double PeriodT(double v, double r)"
+          },
+          {
+            "name": "SpecificAngularMomentum",
+            "type": "function",
+            "signature": "public double SpecificAngularMomentum(double v, double r) => v * r;"
+          },
+          {
+            "name": "KeplerianConsistencyCheck",
+            "type": "function",
+            "signature": "public double KeplerianConsistencyCheck(double v, double r, double mu) =>"
+          },
+          {
+            "name": "LinearDragProjectile2D",
+            "type": "function",
+            "signature": "public LinearDragProjectile2D(double m, double c, double g = PhysicsConstants.GEarth)"
+          },
+          {
+            "name": "Integrate",
+            "type": "function",
+            "signature": "public List<(double T, Vec2 R, Vec2 V)> Integrate(Vec2 r0, Vec2 v0, double tMax, int steps)"
+          },
+          {
+            "name": "CLight",
+            "type": "function",
+            "signature": "public double CLight { get; }"
+          },
+          {
+            "name": "SpecialRelativisticKinematics",
+            "type": "function",
+            "signature": "public SpecialRelativisticKinematics(double cLight = 299_792_458) => CLight = cLight;"
+          },
+          {
+            "name": "Beta",
+            "type": "function",
+            "signature": "public double Beta(double v) => v / CLight;"
+          },
+          {
+            "name": "Gamma",
+            "type": "function",
+            "signature": "public double Gamma(double v)"
+          },
+          {
+            "name": "KineticEnergy",
+            "type": "function",
+            "signature": "public double KineticEnergy(double mRest, double v)"
+          },
+          {
+            "name": "RelativisticExcessFraction",
+            "type": "function",
+            "signature": "public double RelativisticExcessFraction(double mRest, double v)"
+          },
+          {
+            "name": "UniformAccel",
+            "type": "function",
+            "signature": "public UniformAcceleration2D UniformAccel { get; }"
+          },
+          {
+            "name": "VacuumBallistics",
+            "type": "function",
+            "signature": "public ParabolicBallistics VacuumBallistics { get; }"
+          },
+          {
+            "name": "UniformCircle",
+            "type": "function",
+            "signature": "public UniformCircularKinematics UniformCircle { get; }"
+          },
+          {
+            "name": "Relativity",
+            "type": "function",
+            "signature": "public SpecialRelativisticKinematics Relativity { get; }"
+          },
+          {
+            "name": "EarthG",
+            "type": "function",
+            "signature": "public double EarthG { get; }"
+          },
+          {
+            "name": "AnalyticalPhysicsEngine",
+            "type": "function",
+            "signature": "public AnalyticalPhysicsEngine(double? g = null, double? cLight = null)"
+          },
+          {
+            "name": "EscapeSpeedUniformG",
+            "type": "function",
+            "signature": "public double EscapeSpeedUniformG(double R)"
+          },
+          {
+            "name": "RmsSpeedFrom1DEquipartition",
+            "type": "function",
+            "signature": "public double RmsSpeedFrom1DEquipartition(double kB, double T, double m)"
+          },
+          {
+            "name": "IsaStandardDryAirDensityAtAltitude",
+            "type": "function",
+            "signature": "public static double IsaStandardDryAirDensityAtAltitude(double altitudeM)"
+          },
+          {
+            "name": "PhysicsConstants",
+            "type": "class",
+            "signature": "class PhysicsConstants"
+          },
+          {
+            "name": "Vec2Ops",
+            "type": "class",
+            "signature": "class Vec2Ops"
+          },
+          {
+            "name": "UniformCircularKinematics",
+            "type": "class",
+            "signature": "class UniformCircularKinematics"
+          },
+          {
+            "name": "IsaAtmosphere",
+            "type": "class",
+            "signature": "class IsaAtmosphere"
+          },
+          {
+            "name": "GEarth",
+            "type": "const",
+            "signature": "const GEarth"
+          },
+          {
+            "name": "_a",
+            "type": "const",
+            "signature": "const _a"
+          },
+          {
+            "name": "_g",
+            "type": "const",
+            "signature": "const _g"
+          },
+          {
+            "name": "_m",
+            "type": "const",
+            "signature": "const _m"
+          },
+          {
+            "name": "_c",
+            "type": "const",
+            "signature": "const _c"
+          }
+        ]
+      }
+    ]
+  }
+}
