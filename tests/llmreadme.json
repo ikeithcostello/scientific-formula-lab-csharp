@@ -1,0 +1,38 @@
+{
+  "$schema": "https://json.schemastore.org/llm-metadata-1.4.json",
+  "version": "2.3.0",
+  "generatedAt": "2026-08-05T04:08:48.890Z",
+  "grade": "analysis-grade",
+  "configuration": {
+    "detectPlaceholders": true,
+    "placeholderConfidence": 40,
+    "placeholderAnalysisLevel": "enhanced",
+    "detailLevel": "standard",
+    "includeComplexity": false,
+    "maxFiles": 2000
+  },
+  "verificationSummary": null,
+  "metadata": {
+    "directory": {
+      "name": "tests",
+      "path": "tests",
+      "purpose": "Enhanced directory analysis of tests",
+      "ownKeyElements": []
+    },
+    "subdirectories": [
+      {
+        "name": "ScientificFormulaLab.Tests",
+        "relativePath": "ScientificFormulaLab.Tests",
+        "purpose": "Enhanced directory analysis of ScientificFormulaLab.Tests",
+        "sourcedPurposeFromChild": "Enhanced directory analysis of ScientificFormulaLab.Tests",
+        "keyElementsFromChild": []
+      }
+    ],
+    "dependencyGraph": {
+      "edges": [],
+      "circularDependencies": []
+    },
+    "files": [
+    ]
+  }
+}

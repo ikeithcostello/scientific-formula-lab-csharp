@@ -1,0 +1,1 @@
+public static class MolesHelper { public static string FormatMoles(double amount) { var rounded = System.Math.Round(amount * 1000d) / 1000d; return string.Format(System.Globalization.CultureInfo.InvariantCulture, "{0:0.000} mol", rounded); } }

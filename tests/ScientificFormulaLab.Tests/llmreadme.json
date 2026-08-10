@@ -1,0 +1,3574 @@
+{
+  "$schema": "https://json.schemastore.org/llm-metadata-1.4.json",
+  "version": "2.3.0",
+  "generatedAt": "2026-08-05T04:08:48.887Z",
+  "grade": "analysis-grade",
+  "configuration": {
+    "detectPlaceholders": true,
+    "placeholderConfidence": 40,
+    "placeholderAnalysisLevel": "enhanced",
+    "detailLevel": "standard",
+    "includeComplexity": false,
+    "maxFiles": 2000
+  },
+  "verificationSummary": null,
+  "metadata": {
+    "directory": {
+      "name": "ScientificFormulaLab.Tests",
+      "path": "tests/ScientificFormulaLab.Tests",
+      "purpose": "Enhanced directory analysis of ScientificFormulaLab.Tests",
+      "ownKeyElements": []
+    },
+    "subdirectories": [
+      {
+        "name": "bin",
+        "relativePath": "bin",
+        "purpose": "Enhanced directory analysis of bin",
+        "sourcedPurposeFromChild": "Enhanced directory analysis of bin",
+        "keyElementsFromChild": []
+      },
+      {
+        "name": "obj",
+        "relativePath": "obj",
+        "purpose": "Enhanced directory analysis of obj",
+        "sourcedPurposeFromChild": "Enhanced directory analysis of obj",
+        "keyElementsFromChild": []
+      }
+    ],
+    "dependencyGraph": {
+      "edges": [
+        {
+          "from": "tests/ScientificFormulaLab.Tests/VerifyTests.cs",
+          "to": "ScientificFormulaLab",
+          "type": "imports"
+        },
+        {
+          "from": "tests/ScientificFormulaLab.Tests/VerifyTests.cs",
+          "to": "ScientificFormulaLab.Chemistry",
+          "type": "imports"
+        },
+        {
+          "from": "tests/ScientificFormulaLab.Tests/VerifyTests.cs",
+          "to": "ScientificFormulaLab.LabMath",
+          "type": "imports"
+        },
+        {
+          "from": "tests/ScientificFormulaLab.Tests/VerifyTests.cs",
+          "to": "ScientificFormulaLab.Physics",
+          "type": "imports"
+        }
+      ],
+      "circularDependencies": []
+    },
+    "files": [
+      {
+        "name": "VerifyTests.cs",
+        "path": "tests/ScientificFormulaLab.Tests/VerifyTests.cs",
+        "filePath": "tests/ScientificFormulaLab.Tests/VerifyTests.cs",
+        "filePurpose": "Test file for verifying functionality",
+        "languageDetail": "C#",
+        "lineCount": 289,
+        "contentHash": "1484b15000625a8aec83bfa7cc2c0345a77094f78cfd1b79abb1d82f45a35856",
+        "placeholderDetection": [
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/tests/ScientificFormulaLab.Tests/VerifyTests.cs",
+            "functionName": "Bisection_Cubic",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: lowComplexityProxy",
+              "Low cyclomatic complexity (1)",
+              "Function takes no parameters",
+              "Test file - simple test helpers expected",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 30,
+              "endLine": 36
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 16,
+              "commentAnalysis": 0,
+              "contextFilter": -20,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/tests/ScientificFormulaLab.Tests/VerifyTests.cs",
+            "functionName": "Cardano_X3MinusX",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: lowComplexityProxy",
+              "Low cyclomatic complexity (1)",
+              "Function takes no parameters",
+              "Test file - simple test helpers expected",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 56,
+              "endLine": 65
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 16,
+              "commentAnalysis": 0,
+              "contextFilter": -20,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/tests/ScientificFormulaLab.Tests/VerifyTests.cs",
+            "functionName": "Centripetal",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: lowComplexityProxy",
+              "Low cyclomatic complexity (1)",
+              "Function takes no parameters",
+              "Test file - simple test helpers expected",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 164,
+              "endLine": 170
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 16,
+              "commentAnalysis": 0,
+              "contextFilter": -20,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/tests/ScientificFormulaLab.Tests/VerifyTests.cs",
+            "functionName": "ClenshawChebyshev",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: lowComplexityProxy",
+              "Low cyclomatic complexity (1)",
+              "Function takes no parameters",
+              "Test file - simple test helpers expected",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 91,
+              "endLine": 104
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 16,
+              "commentAnalysis": 0,
+              "contextFilter": -20,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/tests/ScientificFormulaLab.Tests/VerifyTests.cs",
+            "functionName": "CrossDomainLab_LogNonEmpty",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: lowComplexityProxy",
+              "Low cyclomatic complexity (1)",
+              "Function takes no parameters",
+              "Test file - simple test helpers expected",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 281,
+              "endLine": 287
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 16,
+              "commentAnalysis": 0,
+              "contextFilter": -20,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/tests/ScientificFormulaLab.Tests/VerifyTests.cs",
+            "functionName": "CrossDomainLab_RunAll_Completes",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: lowComplexityProxy",
+              "Low cyclomatic complexity (1)",
+              "Function takes no parameters",
+              "Test file - simple test helpers expected",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 273,
+              "endLine": 279
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 16,
+              "commentAnalysis": 0,
+              "contextFilter": -20,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/tests/ScientificFormulaLab.Tests/VerifyTests.cs",
+            "functionName": "DHONoDamping",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: lowComplexityProxy",
+              "Low cyclomatic complexity (1)",
+              "Function takes no parameters",
+              "Test file - simple test helpers expected",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 156,
+              "endLine": 162
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 16,
+              "commentAnalysis": 0,
+              "contextFilter": -20,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/tests/ScientificFormulaLab.Tests/VerifyTests.cs",
+            "functionName": "Erf0ApproxZero",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: lowComplexityProxy",
+              "Low cyclomatic complexity (1)",
+              "Function takes no parameters",
+              "Test file - simple test helpers expected",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 77,
+              "endLine": 82
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 16,
+              "commentAnalysis": 0,
+              "contextFilter": -20,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/tests/ScientificFormulaLab.Tests/VerifyTests.cs",
+            "functionName": "Erf1Approx",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: lowComplexityProxy",
+              "Low cyclomatic complexity (1)",
+              "Function takes no parameters",
+              "Test file - simple test helpers expected",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 84,
+              "endLine": 89
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 16,
+              "commentAnalysis": 0,
+              "contextFilter": -20,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/tests/ScientificFormulaLab.Tests/VerifyTests.cs",
+            "functionName": "GEarthConstant",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: lowComplexityProxy",
+              "Low cyclomatic complexity (1)",
+              "Function takes no parameters",
+              "Test file - simple test helpers expected",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 150,
+              "endLine": 154
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 16,
+              "commentAnalysis": 0,
+              "contextFilter": -20,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/tests/ScientificFormulaLab.Tests/VerifyTests.cs",
+            "functionName": "IdealGasNApprox1",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: lowComplexityProxy",
+              "Low cyclomatic complexity (1)",
+              "Function takes no parameters",
+              "Test file - simple test helpers expected",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 218,
+              "endLine": 224
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 16,
+              "commentAnalysis": 0,
+              "contextFilter": -20,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/tests/ScientificFormulaLab.Tests/VerifyTests.cs",
+            "functionName": "LimitingReagent",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: lowComplexityProxy",
+              "Low cyclomatic complexity (1)",
+              "Function takes no parameters",
+              "Test file - simple test helpers expected",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 254,
+              "endLine": 263
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 16,
+              "commentAnalysis": 0,
+              "contextFilter": -20,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/tests/ScientificFormulaLab.Tests/VerifyTests.cs",
+            "functionName": "LinearDragIntegratorRuns",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: lowComplexityProxy",
+              "Low cyclomatic complexity (1)",
+              "Function takes no parameters",
+              "Test file - simple test helpers expected",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 183,
+              "endLine": 190
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 16,
+              "commentAnalysis": 0,
+              "contextFilter": -20,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/tests/ScientificFormulaLab.Tests/VerifyTests.cs",
+            "functionName": "LogGamma55",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: lowComplexityProxy",
+              "Low cyclomatic complexity (1)",
+              "Function takes no parameters",
+              "Test file - simple test helpers expected",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 130,
+              "endLine": 137
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 16,
+              "commentAnalysis": 0,
+              "contextFilter": -20,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/tests/ScientificFormulaLab.Tests/VerifyTests.cs",
+            "functionName": "MolarMassCaOH2",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: lowComplexityProxy",
+              "Low cyclomatic complexity (1)",
+              "Function takes no parameters",
+              "Test file - simple test helpers expected",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 210,
+              "endLine": 216
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 16,
+              "commentAnalysis": 0,
+              "contextFilter": -20,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/tests/ScientificFormulaLab.Tests/VerifyTests.cs",
+            "functionName": "MolarMassH2O",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: lowComplexityProxy",
+              "Low cyclomatic complexity (1)",
+              "Function takes no parameters",
+              "Test file - simple test helpers expected",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 202,
+              "endLine": 208
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 16,
+              "commentAnalysis": 0,
+              "contextFilter": -20,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/tests/ScientificFormulaLab.Tests/VerifyTests.cs",
+            "functionName": "MonoproticTitration",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: lowComplexityProxy",
+              "Low cyclomatic complexity (1)",
+              "Function takes no parameters",
+              "Test file - simple test helpers expected",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 246,
+              "endLine": 252
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 16,
+              "commentAnalysis": 0,
+              "contextFilter": -20,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/tests/ScientificFormulaLab.Tests/VerifyTests.cs",
+            "functionName": "ParabolicLevelRange45",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: lowComplexityProxy",
+              "Low cyclomatic complexity (1)",
+              "Function takes no parameters",
+              "Test file - simple test helpers expected",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 139,
+              "endLine": 148
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 16,
+              "commentAnalysis": 0,
+              "contextFilter": -20,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/tests/ScientificFormulaLab.Tests/VerifyTests.cs",
+            "functionName": "PolyDerivative_DegDrops",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: lowComplexityProxy",
+              "Low cyclomatic complexity (1)",
+              "Function takes no parameters",
+              "Test file - simple test helpers expected",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 38,
+              "endLine": 44
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 16,
+              "commentAnalysis": 0,
+              "contextFilter": -20,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/tests/ScientificFormulaLab.Tests/VerifyTests.cs",
+            "functionName": "PolyMultiply",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: lowComplexityProxy",
+              "Low cyclomatic complexity (1)",
+              "Function takes no parameters",
+              "Test file - simple test helpers expected",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 46,
+              "endLine": 54
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 16,
+              "commentAnalysis": 0,
+              "contextFilter": -20,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/tests/ScientificFormulaLab.Tests/VerifyTests.cs",
+            "functionName": "QuarticScanRoots",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: lowComplexityProxy",
+              "Low cyclomatic complexity (1)",
+              "Function takes no parameters",
+              "Test file - simple test helpers expected",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 67,
+              "endLine": 75
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 16,
+              "commentAnalysis": 0,
+              "contextFilter": -20,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/tests/ScientificFormulaLab.Tests/VerifyTests.cs",
+            "functionName": "RealPolynomial_X2Minus1_At1",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: lowComplexityProxy",
+              "Low cyclomatic complexity (1)",
+              "Function takes no parameters",
+              "Test file - simple test helpers expected",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 15,
+              "endLine": 20
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 16,
+              "commentAnalysis": 0,
+              "contextFilter": -20,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/tests/ScientificFormulaLab.Tests/VerifyTests.cs",
+            "functionName": "RelativisticKAndGamma",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: lowComplexityProxy",
+              "Low cyclomatic complexity (1)",
+              "Function takes no parameters",
+              "Test file - simple test helpers expected",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 172,
+              "endLine": 181
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 16,
+              "commentAnalysis": 0,
+              "contextFilter": -20,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/tests/ScientificFormulaLab.Tests/VerifyTests.cs",
+            "functionName": "RK4Exp",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: lowComplexityProxy",
+              "Low cyclomatic complexity (1)",
+              "Function takes no parameters",
+              "Test file - simple test helpers expected",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 122,
+              "endLine": 128
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 16,
+              "commentAnalysis": 0,
+              "contextFilter": -20,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/tests/ScientificFormulaLab.Tests/VerifyTests.cs",
+            "functionName": "Rms1DEquipartition",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: lowComplexityProxy",
+              "Low cyclomatic complexity (1)",
+              "Function takes no parameters",
+              "Test file - simple test helpers expected",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 192,
+              "endLine": 200
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 16,
+              "commentAnalysis": 0,
+              "contextFilter": -20,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/tests/ScientificFormulaLab.Tests/VerifyTests.cs",
+            "functionName": "Rms1DMatchesSqrtRTOverM",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: lowComplexityProxy",
+              "Low cyclomatic complexity (1)",
+              "Function takes no parameters",
+              "Test file - simple test helpers expected",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 226,
+              "endLine": 235
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 16,
+              "commentAnalysis": 0,
+              "contextFilter": -20,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/tests/ScientificFormulaLab.Tests/VerifyTests.cs",
+            "functionName": "Simpson_Integral_0_2_XSquared",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: lowComplexityProxy",
+              "Low cyclomatic complexity (1)",
+              "Function takes no parameters",
+              "Test file - simple test helpers expected",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 22,
+              "endLine": 28
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 16,
+              "commentAnalysis": 0,
+              "contextFilter": -20,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/tests/ScientificFormulaLab.Tests/VerifyTests.cs",
+            "functionName": "Solve3x3Diagonal",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: lowComplexityProxy",
+              "Low cyclomatic complexity (1)",
+              "Function takes no parameters",
+              "Test file - simple test helpers expected",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 106,
+              "endLine": 120
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 16,
+              "commentAnalysis": 0,
+              "contextFilter": -20,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/tests/ScientificFormulaLab.Tests/VerifyTests.cs",
+            "functionName": "VanDerWaalsP",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: lowComplexityProxy",
+              "Low cyclomatic complexity (1)",
+              "Function takes no parameters",
+              "Test file - simple test helpers expected",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 265,
+              "endLine": 271
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 16,
+              "commentAnalysis": 0,
+              "contextFilter": -20,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/tests/ScientificFormulaLab.Tests/VerifyTests.cs",
+            "functionName": "WeakAcidPH",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: lowComplexityProxy",
+              "Low cyclomatic complexity (1)",
+              "Function takes no parameters",
+              "Test file - simple test helpers expected",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 237,
+              "endLine": 244
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 16,
+              "commentAnalysis": 0,
+              "contextFilter": -20,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "findings": [
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/tests/ScientificFormulaLab.Tests/VerifyTests.cs",
+            "line": 15,
+            "endLine": 20,
+            "kind": "function",
+            "type": "explicit_marker",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: lowComplexityProxy",
+              "Low cyclomatic complexity (1)",
+              "Function takes no parameters",
+              "Test file - simple test helpers expected",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "functionName": "RealPolynomial_X2Minus1_At1",
+            "id": "_Users_keithcostello_Projects_cursorai_aitooling_dd-test-fixtures_scientific-formula-lab-csharp_tests_ScientificFormulaLab_Tests_VerifyTests_cs:function:15:0"
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/tests/ScientificFormulaLab.Tests/VerifyTests.cs",
+            "line": 22,
+            "endLine": 28,
+            "kind": "function",
+            "type": "explicit_marker",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: lowComplexityProxy",
+              "Low cyclomatic complexity (1)",
+              "Function takes no parameters",
+              "Test file - simple test helpers expected",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "functionName": "Simpson_Integral_0_2_XSquared",
+            "id": "_Users_keithcostello_Projects_cursorai_aitooling_dd-test-fixtures_scientific-formula-lab-csharp_tests_ScientificFormulaLab_Tests_VerifyTests_cs:function:22:1"
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/tests/ScientificFormulaLab.Tests/VerifyTests.cs",
+            "line": 30,
+            "endLine": 36,
+            "kind": "function",
+            "type": "explicit_marker",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: lowComplexityProxy",
+              "Low cyclomatic complexity (1)",
+              "Function takes no parameters",
+              "Test file - simple test helpers expected",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "functionName": "Bisection_Cubic",
+            "id": "_Users_keithcostello_Projects_cursorai_aitooling_dd-test-fixtures_scientific-formula-lab-csharp_tests_ScientificFormulaLab_Tests_VerifyTests_cs:function:30:2"
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/tests/ScientificFormulaLab.Tests/VerifyTests.cs",
+            "line": 38,
+            "endLine": 44,
+            "kind": "function",
+            "type": "explicit_marker",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: lowComplexityProxy",
+              "Low cyclomatic complexity (1)",
+              "Function takes no parameters",
+              "Test file - simple test helpers expected",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "functionName": "PolyDerivative_DegDrops",
+            "id": "_Users_keithcostello_Projects_cursorai_aitooling_dd-test-fixtures_scientific-formula-lab-csharp_tests_ScientificFormulaLab_Tests_VerifyTests_cs:function:38:3"
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/tests/ScientificFormulaLab.Tests/VerifyTests.cs",
+            "line": 46,
+            "endLine": 54,
+            "kind": "function",
+            "type": "explicit_marker",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: lowComplexityProxy",
+              "Low cyclomatic complexity (1)",
+              "Function takes no parameters",
+              "Test file - simple test helpers expected",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "functionName": "PolyMultiply",
+            "id": "_Users_keithcostello_Projects_cursorai_aitooling_dd-test-fixtures_scientific-formula-lab-csharp_tests_ScientificFormulaLab_Tests_VerifyTests_cs:function:46:4"
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/tests/ScientificFormulaLab.Tests/VerifyTests.cs",
+            "line": 56,
+            "endLine": 65,
+            "kind": "function",
+            "type": "explicit_marker",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: lowComplexityProxy",
+              "Low cyclomatic complexity (1)",
+              "Function takes no parameters",
+              "Test file - simple test helpers expected",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "functionName": "Cardano_X3MinusX",
+            "id": "_Users_keithcostello_Projects_cursorai_aitooling_dd-test-fixtures_scientific-formula-lab-csharp_tests_ScientificFormulaLab_Tests_VerifyTests_cs:function:56:5"
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/tests/ScientificFormulaLab.Tests/VerifyTests.cs",
+            "line": 67,
+            "endLine": 75,
+            "kind": "function",
+            "type": "explicit_marker",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: lowComplexityProxy",
+              "Low cyclomatic complexity (1)",
+              "Function takes no parameters",
+              "Test file - simple test helpers expected",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "functionName": "QuarticScanRoots",
+            "id": "_Users_keithcostello_Projects_cursorai_aitooling_dd-test-fixtures_scientific-formula-lab-csharp_tests_ScientificFormulaLab_Tests_VerifyTests_cs:function:67:6"
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/tests/ScientificFormulaLab.Tests/VerifyTests.cs",
+            "line": 77,
+            "endLine": 82,
+            "kind": "function",
+            "type": "explicit_marker",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: lowComplexityProxy",
+              "Low cyclomatic complexity (1)",
+              "Function takes no parameters",
+              "Test file - simple test helpers expected",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "functionName": "Erf0ApproxZero",
+            "id": "_Users_keithcostello_Projects_cursorai_aitooling_dd-test-fixtures_scientific-formula-lab-csharp_tests_ScientificFormulaLab_Tests_VerifyTests_cs:function:77:7"
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/tests/ScientificFormulaLab.Tests/VerifyTests.cs",
+            "line": 84,
+            "endLine": 89,
+            "kind": "function",
+            "type": "explicit_marker",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: lowComplexityProxy",
+              "Low cyclomatic complexity (1)",
+              "Function takes no parameters",
+              "Test file - simple test helpers expected",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "functionName": "Erf1Approx",
+            "id": "_Users_keithcostello_Projects_cursorai_aitooling_dd-test-fixtures_scientific-formula-lab-csharp_tests_ScientificFormulaLab_Tests_VerifyTests_cs:function:84:8"
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/tests/ScientificFormulaLab.Tests/VerifyTests.cs",
+            "line": 91,
+            "endLine": 104,
+            "kind": "function",
+            "type": "explicit_marker",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: lowComplexityProxy",
+              "Low cyclomatic complexity (1)",
+              "Function takes no parameters",
+              "Test file - simple test helpers expected",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "functionName": "ClenshawChebyshev",
+            "id": "_Users_keithcostello_Projects_cursorai_aitooling_dd-test-fixtures_scientific-formula-lab-csharp_tests_ScientificFormulaLab_Tests_VerifyTests_cs:function:91:9"
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/tests/ScientificFormulaLab.Tests/VerifyTests.cs",
+            "line": 106,
+            "endLine": 120,
+            "kind": "function",
+            "type": "explicit_marker",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: lowComplexityProxy",
+              "Low cyclomatic complexity (1)",
+              "Function takes no parameters",
+              "Test file - simple test helpers expected",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "functionName": "Solve3x3Diagonal",
+            "id": "_Users_keithcostello_Projects_cursorai_aitooling_dd-test-fixtures_scientific-formula-lab-csharp_tests_ScientificFormulaLab_Tests_VerifyTests_cs:function:106:10"
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/tests/ScientificFormulaLab.Tests/VerifyTests.cs",
+            "line": 122,
+            "endLine": 128,
+            "kind": "function",
+            "type": "explicit_marker",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: lowComplexityProxy",
+              "Low cyclomatic complexity (1)",
+              "Function takes no parameters",
+              "Test file - simple test helpers expected",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "functionName": "RK4Exp",
+            "id": "_Users_keithcostello_Projects_cursorai_aitooling_dd-test-fixtures_scientific-formula-lab-csharp_tests_ScientificFormulaLab_Tests_VerifyTests_cs:function:122:11"
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/tests/ScientificFormulaLab.Tests/VerifyTests.cs",
+            "line": 130,
+            "endLine": 137,
+            "kind": "function",
+            "type": "explicit_marker",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: lowComplexityProxy",
+              "Low cyclomatic complexity (1)",
+              "Function takes no parameters",
+              "Test file - simple test helpers expected",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "functionName": "LogGamma55",
+            "id": "_Users_keithcostello_Projects_cursorai_aitooling_dd-test-fixtures_scientific-formula-lab-csharp_tests_ScientificFormulaLab_Tests_VerifyTests_cs:function:130:12"
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/tests/ScientificFormulaLab.Tests/VerifyTests.cs",
+            "line": 139,
+            "endLine": 148,
+            "kind": "function",
+            "type": "explicit_marker",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: lowComplexityProxy",
+              "Low cyclomatic complexity (1)",
+              "Function takes no parameters",
+              "Test file - simple test helpers expected",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "functionName": "ParabolicLevelRange45",
+            "id": "_Users_keithcostello_Projects_cursorai_aitooling_dd-test-fixtures_scientific-formula-lab-csharp_tests_ScientificFormulaLab_Tests_VerifyTests_cs:function:139:13"
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/tests/ScientificFormulaLab.Tests/VerifyTests.cs",
+            "line": 150,
+            "endLine": 154,
+            "kind": "function",
+            "type": "explicit_marker",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: lowComplexityProxy",
+              "Low cyclomatic complexity (1)",
+              "Function takes no parameters",
+              "Test file - simple test helpers expected",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "functionName": "GEarthConstant",
+            "id": "_Users_keithcostello_Projects_cursorai_aitooling_dd-test-fixtures_scientific-formula-lab-csharp_tests_ScientificFormulaLab_Tests_VerifyTests_cs:function:150:14"
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/tests/ScientificFormulaLab.Tests/VerifyTests.cs",
+            "line": 156,
+            "endLine": 162,
+            "kind": "function",
+            "type": "explicit_marker",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: lowComplexityProxy",
+              "Low cyclomatic complexity (1)",
+              "Function takes no parameters",
+              "Test file - simple test helpers expected",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "functionName": "DHONoDamping",
+            "id": "_Users_keithcostello_Projects_cursorai_aitooling_dd-test-fixtures_scientific-formula-lab-csharp_tests_ScientificFormulaLab_Tests_VerifyTests_cs:function:156:15"
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/tests/ScientificFormulaLab.Tests/VerifyTests.cs",
+            "line": 164,
+            "endLine": 170,
+            "kind": "function",
+            "type": "explicit_marker",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: lowComplexityProxy",
+              "Low cyclomatic complexity (1)",
+              "Function takes no parameters",
+              "Test file - simple test helpers expected",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "functionName": "Centripetal",
+            "id": "_Users_keithcostello_Projects_cursorai_aitooling_dd-test-fixtures_scientific-formula-lab-csharp_tests_ScientificFormulaLab_Tests_VerifyTests_cs:function:164:16"
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/tests/ScientificFormulaLab.Tests/VerifyTests.cs",
+            "line": 172,
+            "endLine": 181,
+            "kind": "function",
+            "type": "explicit_marker",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: lowComplexityProxy",
+              "Low cyclomatic complexity (1)",
+              "Function takes no parameters",
+              "Test file - simple test helpers expected",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "functionName": "RelativisticKAndGamma",
+            "id": "_Users_keithcostello_Projects_cursorai_aitooling_dd-test-fixtures_scientific-formula-lab-csharp_tests_ScientificFormulaLab_Tests_VerifyTests_cs:function:172:17"
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/tests/ScientificFormulaLab.Tests/VerifyTests.cs",
+            "line": 183,
+            "endLine": 190,
+            "kind": "function",
+            "type": "explicit_marker",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: lowComplexityProxy",
+              "Low cyclomatic complexity (1)",
+              "Function takes no parameters",
+              "Test file - simple test helpers expected",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "functionName": "LinearDragIntegratorRuns",
+            "id": "_Users_keithcostello_Projects_cursorai_aitooling_dd-test-fixtures_scientific-formula-lab-csharp_tests_ScientificFormulaLab_Tests_VerifyTests_cs:function:183:18"
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/tests/ScientificFormulaLab.Tests/VerifyTests.cs",
+            "line": 192,
+            "endLine": 200,
+            "kind": "function",
+            "type": "explicit_marker",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: lowComplexityProxy",
+              "Low cyclomatic complexity (1)",
+              "Function takes no parameters",
+              "Test file - simple test helpers expected",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "functionName": "Rms1DEquipartition",
+            "id": "_Users_keithcostello_Projects_cursorai_aitooling_dd-test-fixtures_scientific-formula-lab-csharp_tests_ScientificFormulaLab_Tests_VerifyTests_cs:function:192:19"
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/tests/ScientificFormulaLab.Tests/VerifyTests.cs",
+            "line": 202,
+            "endLine": 208,
+            "kind": "function",
+            "type": "explicit_marker",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: lowComplexityProxy",
+              "Low cyclomatic complexity (1)",
+              "Function takes no parameters",
+              "Test file - simple test helpers expected",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "functionName": "MolarMassH2O",
+            "id": "_Users_keithcostello_Projects_cursorai_aitooling_dd-test-fixtures_scientific-formula-lab-csharp_tests_ScientificFormulaLab_Tests_VerifyTests_cs:function:202:20"
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/tests/ScientificFormulaLab.Tests/VerifyTests.cs",
+            "line": 210,
+            "endLine": 216,
+            "kind": "function",
+            "type": "explicit_marker",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: lowComplexityProxy",
+              "Low cyclomatic complexity (1)",
+              "Function takes no parameters",
+              "Test file - simple test helpers expected",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "functionName": "MolarMassCaOH2",
+            "id": "_Users_keithcostello_Projects_cursorai_aitooling_dd-test-fixtures_scientific-formula-lab-csharp_tests_ScientificFormulaLab_Tests_VerifyTests_cs:function:210:21"
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/tests/ScientificFormulaLab.Tests/VerifyTests.cs",
+            "line": 218,
+            "endLine": 224,
+            "kind": "function",
+            "type": "explicit_marker",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: lowComplexityProxy",
+              "Low cyclomatic complexity (1)",
+              "Function takes no parameters",
+              "Test file - simple test helpers expected",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "functionName": "IdealGasNApprox1",
+            "id": "_Users_keithcostello_Projects_cursorai_aitooling_dd-test-fixtures_scientific-formula-lab-csharp_tests_ScientificFormulaLab_Tests_VerifyTests_cs:function:218:22"
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/tests/ScientificFormulaLab.Tests/VerifyTests.cs",
+            "line": 226,
+            "endLine": 235,
+            "kind": "function",
+            "type": "explicit_marker",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: lowComplexityProxy",
+              "Low cyclomatic complexity (1)",
+              "Function takes no parameters",
+              "Test file - simple test helpers expected",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "functionName": "Rms1DMatchesSqrtRTOverM",
+            "id": "_Users_keithcostello_Projects_cursorai_aitooling_dd-test-fixtures_scientific-formula-lab-csharp_tests_ScientificFormulaLab_Tests_VerifyTests_cs:function:226:23"
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/tests/ScientificFormulaLab.Tests/VerifyTests.cs",
+            "line": 237,
+            "endLine": 244,
+            "kind": "function",
+            "type": "explicit_marker",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: lowComplexityProxy",
+              "Low cyclomatic complexity (1)",
+              "Function takes no parameters",
+              "Test file - simple test helpers expected",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "functionName": "WeakAcidPH",
+            "id": "_Users_keithcostello_Projects_cursorai_aitooling_dd-test-fixtures_scientific-formula-lab-csharp_tests_ScientificFormulaLab_Tests_VerifyTests_cs:function:237:24"
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/tests/ScientificFormulaLab.Tests/VerifyTests.cs",
+            "line": 246,
+            "endLine": 252,
+            "kind": "function",
+            "type": "explicit_marker",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: lowComplexityProxy",
+              "Low cyclomatic complexity (1)",
+              "Function takes no parameters",
+              "Test file - simple test helpers expected",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "functionName": "MonoproticTitration",
+            "id": "_Users_keithcostello_Projects_cursorai_aitooling_dd-test-fixtures_scientific-formula-lab-csharp_tests_ScientificFormulaLab_Tests_VerifyTests_cs:function:246:25"
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/tests/ScientificFormulaLab.Tests/VerifyTests.cs",
+            "line": 254,
+            "endLine": 263,
+            "kind": "function",
+            "type": "explicit_marker",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: lowComplexityProxy",
+              "Low cyclomatic complexity (1)",
+              "Function takes no parameters",
+              "Test file - simple test helpers expected",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "functionName": "LimitingReagent",
+            "id": "_Users_keithcostello_Projects_cursorai_aitooling_dd-test-fixtures_scientific-formula-lab-csharp_tests_ScientificFormulaLab_Tests_VerifyTests_cs:function:254:26"
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/tests/ScientificFormulaLab.Tests/VerifyTests.cs",
+            "line": 265,
+            "endLine": 271,
+            "kind": "function",
+            "type": "explicit_marker",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: lowComplexityProxy",
+              "Low cyclomatic complexity (1)",
+              "Function takes no parameters",
+              "Test file - simple test helpers expected",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "functionName": "VanDerWaalsP",
+            "id": "_Users_keithcostello_Projects_cursorai_aitooling_dd-test-fixtures_scientific-formula-lab-csharp_tests_ScientificFormulaLab_Tests_VerifyTests_cs:function:265:27"
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/tests/ScientificFormulaLab.Tests/VerifyTests.cs",
+            "line": 273,
+            "endLine": 279,
+            "kind": "function",
+            "type": "explicit_marker",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: lowComplexityProxy",
+              "Low cyclomatic complexity (1)",
+              "Function takes no parameters",
+              "Test file - simple test helpers expected",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "functionName": "CrossDomainLab_RunAll_Completes",
+            "id": "_Users_keithcostello_Projects_cursorai_aitooling_dd-test-fixtures_scientific-formula-lab-csharp_tests_ScientificFormulaLab_Tests_VerifyTests_cs:function:273:28"
+          },
+          {
+            "filePath": "/Users/keithcostello/Projects/cursorai/aitooling/dd-test-fixtures/scientific-formula-lab-csharp/tests/ScientificFormulaLab.Tests/VerifyTests.cs",
+            "line": 281,
+            "endLine": 287,
+            "kind": "function",
+            "type": "explicit_marker",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "polyglot-structural: lowComplexityProxy",
+              "Low cyclomatic complexity (1)",
+              "Function takes no parameters",
+              "Test file - simple test helpers expected",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "functionName": "CrossDomainLab_LogNonEmpty",
+            "id": "_Users_keithcostello_Projects_cursorai_aitooling_dd-test-fixtures_scientific-formula-lab-csharp_tests_ScientificFormulaLab_Tests_VerifyTests_cs:function:281:29"
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "ScientificFormulaLab",
+            "sourceModule": "ScientificFormulaLab"
+          },
+          {
+            "name": "Chemistry",
+            "sourceModule": "ScientificFormulaLab.Chemistry"
+          },
+          {
+            "name": "LabMath",
+            "sourceModule": "ScientificFormulaLab.LabMath"
+          },
+          {
+            "name": "Physics",
+            "sourceModule": "ScientificFormulaLab.Physics"
+          }
+        ],
+        "exportedElements": [],
+        "functions": [
+          {
+            "name": "RealPolynomial_X2Minus1_At1",
+            "signature": "[Fact]",
+            "parameters": [],
+            "returnType": "void",
+            "isAsync": false,
+            "calls": [
+              "Assert.True",
+              "System.Math.Abs",
+              "p1.Evaluate"
+            ],
+            "startLine": 15,
+            "endLine": 20,
+            "structuralSignals": {
+              "emptyOrTrivialBody": false,
+              "constantOrIdentityReturn": false,
+              "stubThrowOrPanic": false,
+              "hasThrowStatement": false,
+              "paramsLikelyUnused": false,
+              "lowComplexityProxy": true,
+              "reasons": [
+                "polyglot-structural: lowComplexityProxy"
+              ]
+            },
+            "placeholderAnalysis": {
+              "classification": "definite-legitimate",
+              "confidence": 0,
+              "isPlaceholder": false,
+              "reasons": [
+                "polyglot-structural: lowComplexityProxy",
+                "Low cyclomatic complexity (1)",
+                "Function takes no parameters",
+                "Test file - simple test helpers expected",
+                "Safety cap applied: cheap heuristics only"
+              ],
+              "detectionMethods": {
+                "explicitMarkers": 0,
+                "namingPatterns": 0,
+                "astAnalysis": 16,
+                "commentAnalysis": 0,
+                "contextFilter": -20,
+                "unusedCodeAnalysis": 0,
+                "externalUnusedChecks": 0,
+                "enhancedContext": 0
+              }
+            }
+          },
+          {
+            "name": "Simpson_Integral_0_2_XSquared",
+            "signature": "[Fact]",
+            "parameters": [],
+            "returnType": "void",
+            "isAsync": false,
+            "calls": [
+              "eng.SimpsonDefinite",
+              "Assert.True",
+              "System.Math.Abs"
+            ],
+            "startLine": 22,
+            "endLine": 28,
+            "structuralSignals": {
+              "emptyOrTrivialBody": false,
+              "constantOrIdentityReturn": false,
+              "stubThrowOrPanic": false,
+              "hasThrowStatement": false,
+              "paramsLikelyUnused": false,
+              "lowComplexityProxy": true,
+              "reasons": [
+                "polyglot-structural: lowComplexityProxy"
+              ]
+            },
+            "placeholderAnalysis": {
+              "classification": "definite-legitimate",
+              "confidence": 0,
+              "isPlaceholder": false,
+              "reasons": [
+                "polyglot-structural: lowComplexityProxy",
+                "Low cyclomatic complexity (1)",
+                "Function takes no parameters",
+                "Test file - simple test helpers expected",
+                "Safety cap applied: cheap heuristics only"
+              ],
+              "detectionMethods": {
+                "explicitMarkers": 0,
+                "namingPatterns": 0,
+                "astAnalysis": 16,
+                "commentAnalysis": 0,
+                "contextFilter": -20,
+                "unusedCodeAnalysis": 0,
+                "externalUnusedChecks": 0,
+                "enhancedContext": 0
+              }
+            }
+          },
+          {
+            "name": "Bisection_Cubic",
+            "signature": "[Fact]",
+            "parameters": [],
+            "returnType": "void",
+            "isAsync": false,
+            "calls": [
+              "eng.Bisection",
+              "Assert.True",
+              "System.Math.Abs"
+            ],
+            "startLine": 30,
+            "endLine": 36,
+            "structuralSignals": {
+              "emptyOrTrivialBody": false,
+              "constantOrIdentityReturn": false,
+              "stubThrowOrPanic": false,
+              "hasThrowStatement": false,
+              "paramsLikelyUnused": false,
+              "lowComplexityProxy": true,
+              "reasons": [
+                "polyglot-structural: lowComplexityProxy"
+              ]
+            },
+            "placeholderAnalysis": {
+              "classification": "definite-legitimate",
+              "confidence": 0,
+              "isPlaceholder": false,
+              "reasons": [
+                "polyglot-structural: lowComplexityProxy",
+                "Low cyclomatic complexity (1)",
+                "Function takes no parameters",
+                "Test file - simple test helpers expected",
+                "Safety cap applied: cheap heuristics only"
+              ],
+              "detectionMethods": {
+                "explicitMarkers": 0,
+                "namingPatterns": 0,
+                "astAnalysis": 16,
+                "commentAnalysis": 0,
+                "contextFilter": -20,
+                "unusedCodeAnalysis": 0,
+                "externalUnusedChecks": 0,
+                "enhancedContext": 0
+              }
+            }
+          },
+          {
+            "name": "PolyDerivative_DegDrops",
+            "signature": "[Fact]",
+            "parameters": [],
+            "returnType": "void",
+            "isAsync": false,
+            "calls": [
+              "p.Derivative",
+              "Assert.Equal"
+            ],
+            "startLine": 38,
+            "endLine": 44,
+            "structuralSignals": {
+              "emptyOrTrivialBody": false,
+              "constantOrIdentityReturn": false,
+              "stubThrowOrPanic": false,
+              "hasThrowStatement": false,
+              "paramsLikelyUnused": false,
+              "lowComplexityProxy": true,
+              "reasons": [
+                "polyglot-structural: lowComplexityProxy"
+              ]
+            },
+            "placeholderAnalysis": {
+              "classification": "definite-legitimate",
+              "confidence": 0,
+              "isPlaceholder": false,
+              "reasons": [
+                "polyglot-structural: lowComplexityProxy",
+                "Low cyclomatic complexity (1)",
+                "Function takes no parameters",
+                "Test file - simple test helpers expected",
+                "Safety cap applied: cheap heuristics only"
+              ],
+              "detectionMethods": {
+                "explicitMarkers": 0,
+                "namingPatterns": 0,
+                "astAnalysis": 16,
+                "commentAnalysis": 0,
+                "contextFilter": -20,
+                "unusedCodeAnalysis": 0,
+                "externalUnusedChecks": 0,
+                "enhancedContext": 0
+              }
+            }
+          },
+          {
+            "name": "PolyMultiply",
+            "signature": "[Fact]",
+            "parameters": [],
+            "returnType": "void",
+            "isAsync": false,
+            "calls": [
+              "a.Multiply",
+              "Assert.Equal",
+              "Assert.True",
+              "System.Math.Abs",
+              "p.Evaluate"
+            ],
+            "startLine": 46,
+            "endLine": 54,
+            "structuralSignals": {
+              "emptyOrTrivialBody": false,
+              "constantOrIdentityReturn": false,
+              "stubThrowOrPanic": false,
+              "hasThrowStatement": false,
+              "paramsLikelyUnused": false,
+              "lowComplexityProxy": true,
+              "reasons": [
+                "polyglot-structural: lowComplexityProxy"
+              ]
+            },
+            "placeholderAnalysis": {
+              "classification": "definite-legitimate",
+              "confidence": 0,
+              "isPlaceholder": false,
+              "reasons": [
+                "polyglot-structural: lowComplexityProxy",
+                "Low cyclomatic complexity (1)",
+                "Function takes no parameters",
+                "Test file - simple test helpers expected",
+                "Safety cap applied: cheap heuristics only"
+              ],
+              "detectionMethods": {
+                "explicitMarkers": 0,
+                "namingPatterns": 0,
+                "astAnalysis": 16,
+                "commentAnalysis": 0,
+                "contextFilter": -20,
+                "unusedCodeAnalysis": 0,
+                "externalUnusedChecks": 0,
+                "enhancedContext": 0
+              }
+            }
+          },
+          {
+            "name": "Cardano_X3MinusX",
+            "signature": "[Fact]",
+            "parameters": [],
+            "returnType": "void",
+            "isAsync": false,
+            "calls": [
+              "eng.RealRootsCubic",
+              "Assert.Equal",
+              "Assert.Contains",
+              "System.Math.Abs"
+            ],
+            "startLine": 56,
+            "endLine": 65,
+            "structuralSignals": {
+              "emptyOrTrivialBody": false,
+              "constantOrIdentityReturn": false,
+              "stubThrowOrPanic": false,
+              "hasThrowStatement": false,
+              "paramsLikelyUnused": false,
+              "lowComplexityProxy": true,
+              "reasons": [
+                "polyglot-structural: lowComplexityProxy"
+              ]
+            },
+            "placeholderAnalysis": {
+              "classification": "definite-legitimate",
+              "confidence": 0,
+              "isPlaceholder": false,
+              "reasons": [
+                "polyglot-structural: lowComplexityProxy",
+                "Low cyclomatic complexity (1)",
+                "Function takes no parameters",
+                "Test file - simple test helpers expected",
+                "Safety cap applied: cheap heuristics only"
+              ],
+              "detectionMethods": {
+                "explicitMarkers": 0,
+                "namingPatterns": 0,
+                "astAnalysis": 16,
+                "commentAnalysis": 0,
+                "contextFilter": -20,
+                "unusedCodeAnalysis": 0,
+                "externalUnusedChecks": 0,
+                "enhancedContext": 0
+              }
+            }
+          },
+          {
+            "name": "QuarticScanRoots",
+            "signature": "[Fact]",
+            "parameters": [],
+            "returnType": "void",
+            "isAsync": false,
+            "calls": [
+              "DemoPolynomials.MakeDemoQuarticForRoots",
+              "eng.ScanRealRootsOnInterval",
+              "Assert.True",
+              "targets.All",
+              "roots.Any",
+              "System.Math.Abs"
+            ],
+            "startLine": 67,
+            "endLine": 75,
+            "structuralSignals": {
+              "emptyOrTrivialBody": false,
+              "constantOrIdentityReturn": false,
+              "stubThrowOrPanic": false,
+              "hasThrowStatement": false,
+              "paramsLikelyUnused": false,
+              "lowComplexityProxy": true,
+              "reasons": [
+                "polyglot-structural: lowComplexityProxy"
+              ]
+            },
+            "placeholderAnalysis": {
+              "classification": "definite-legitimate",
+              "confidence": 0,
+              "isPlaceholder": false,
+              "reasons": [
+                "polyglot-structural: lowComplexityProxy",
+                "Low cyclomatic complexity (1)",
+                "Function takes no parameters",
+                "Test file - simple test helpers expected",
+                "Safety cap applied: cheap heuristics only"
+              ],
+              "detectionMethods": {
+                "explicitMarkers": 0,
+                "namingPatterns": 0,
+                "astAnalysis": 16,
+                "commentAnalysis": 0,
+                "contextFilter": -20,
+                "unusedCodeAnalysis": 0,
+                "externalUnusedChecks": 0,
+                "enhancedContext": 0
+              }
+            }
+          },
+          {
+            "name": "Erf0ApproxZero",
+            "signature": "[Fact]",
+            "parameters": [],
+            "returnType": "void",
+            "isAsync": false,
+            "calls": [
+              "Assert.True",
+              "System.Math.Abs",
+              "eng.Erf"
+            ],
+            "startLine": 77,
+            "endLine": 82,
+            "structuralSignals": {
+              "emptyOrTrivialBody": false,
+              "constantOrIdentityReturn": false,
+              "stubThrowOrPanic": false,
+              "hasThrowStatement": false,
+              "paramsLikelyUnused": false,
+              "lowComplexityProxy": true,
+              "reasons": [
+                "polyglot-structural: lowComplexityProxy"
+              ]
+            },
+            "placeholderAnalysis": {
+              "classification": "definite-legitimate",
+              "confidence": 0,
+              "isPlaceholder": false,
+              "reasons": [
+                "polyglot-structural: lowComplexityProxy",
+                "Low cyclomatic complexity (1)",
+                "Function takes no parameters",
+                "Test file - simple test helpers expected",
+                "Safety cap applied: cheap heuristics only"
+              ],
+              "detectionMethods": {
+                "explicitMarkers": 0,
+                "namingPatterns": 0,
+                "astAnalysis": 16,
+                "commentAnalysis": 0,
+                "contextFilter": -20,
+                "unusedCodeAnalysis": 0,
+                "externalUnusedChecks": 0,
+                "enhancedContext": 0
+              }
+            }
+          },
+          {
+            "name": "Erf1Approx",
+            "signature": "[Fact]",
+            "parameters": [],
+            "returnType": "void",
+            "isAsync": false,
+            "calls": [
+              "Assert.True",
+              "System.Math.Abs",
+              "eng.Erf"
+            ],
+            "startLine": 84,
+            "endLine": 89,
+            "structuralSignals": {
+              "emptyOrTrivialBody": false,
+              "constantOrIdentityReturn": false,
+              "stubThrowOrPanic": false,
+              "hasThrowStatement": false,
+              "paramsLikelyUnused": false,
+              "lowComplexityProxy": true,
+              "reasons": [
+                "polyglot-structural: lowComplexityProxy"
+              ]
+            },
+            "placeholderAnalysis": {
+              "classification": "definite-legitimate",
+              "confidence": 0,
+              "isPlaceholder": false,
+              "reasons": [
+                "polyglot-structural: lowComplexityProxy",
+                "Low cyclomatic complexity (1)",
+                "Function takes no parameters",
+                "Test file - simple test helpers expected",
+                "Safety cap applied: cheap heuristics only"
+              ],
+              "detectionMethods": {
+                "explicitMarkers": 0,
+                "namingPatterns": 0,
+                "astAnalysis": 16,
+                "commentAnalysis": 0,
+                "contextFilter": -20,
+                "unusedCodeAnalysis": 0,
+                "externalUnusedChecks": 0,
+                "enhancedContext": 0
+              }
+            }
+          },
+          {
+            "name": "ClenshawChebyshev",
+            "signature": "[Fact]",
+            "parameters": [],
+            "returnType": "void",
+            "isAsync": false,
+            "calls": [
+              "eng.ClenshawChebyshevT",
+              "Assert.True",
+              "System.Math.Abs"
+            ],
+            "startLine": 91,
+            "endLine": 104,
+            "structuralSignals": {
+              "emptyOrTrivialBody": false,
+              "constantOrIdentityReturn": false,
+              "stubThrowOrPanic": false,
+              "hasThrowStatement": false,
+              "paramsLikelyUnused": false,
+              "lowComplexityProxy": true,
+              "reasons": [
+                "polyglot-structural: lowComplexityProxy"
+              ]
+            },
+            "placeholderAnalysis": {
+              "classification": "definite-legitimate",
+              "confidence": 0,
+              "isPlaceholder": false,
+              "reasons": [
+                "polyglot-structural: lowComplexityProxy",
+                "Low cyclomatic complexity (1)",
+                "Function takes no parameters",
+                "Test file - simple test helpers expected",
+                "Safety cap applied: cheap heuristics only"
+              ],
+              "detectionMethods": {
+                "explicitMarkers": 0,
+                "namingPatterns": 0,
+                "astAnalysis": 16,
+                "commentAnalysis": 0,
+                "contextFilter": -20,
+                "unusedCodeAnalysis": 0,
+                "externalUnusedChecks": 0,
+                "enhancedContext": 0
+              }
+            }
+          },
+          {
+            "name": "Solve3x3Diagonal",
+            "signature": "[Fact]",
+            "parameters": [],
+            "returnType": "void",
+            "isAsync": false,
+            "calls": [
+              "eng.Solve3x3",
+              "Assert.True",
+              "System.Math.Abs"
+            ],
+            "startLine": 106,
+            "endLine": 120,
+            "structuralSignals": {
+              "emptyOrTrivialBody": false,
+              "constantOrIdentityReturn": false,
+              "stubThrowOrPanic": false,
+              "hasThrowStatement": false,
+              "paramsLikelyUnused": false,
+              "lowComplexityProxy": true,
+              "reasons": [
+                "polyglot-structural: lowComplexityProxy"
+              ]
+            },
+            "placeholderAnalysis": {
+              "classification": "definite-legitimate",
+              "confidence": 0,
+              "isPlaceholder": false,
+              "reasons": [
+                "polyglot-structural: lowComplexityProxy",
+                "Low cyclomatic complexity (1)",
+                "Function takes no parameters",
+                "Test file - simple test helpers expected",
+                "Safety cap applied: cheap heuristics only"
+              ],
+              "detectionMethods": {
+                "explicitMarkers": 0,
+                "namingPatterns": 0,
+                "astAnalysis": 16,
+                "commentAnalysis": 0,
+                "contextFilter": -20,
+                "unusedCodeAnalysis": 0,
+                "externalUnusedChecks": 0,
+                "enhancedContext": 0
+              }
+            }
+          },
+          {
+            "name": "RK4Exp",
+            "signature": "[Fact]",
+            "parameters": [],
+            "returnType": "void",
+            "isAsync": false,
+            "calls": [
+              "eng.RungeKutta4",
+              "Assert.True",
+              "System.Math.Abs",
+              "System.Math.Exp"
+            ],
+            "startLine": 122,
+            "endLine": 128,
+            "structuralSignals": {
+              "emptyOrTrivialBody": false,
+              "constantOrIdentityReturn": false,
+              "stubThrowOrPanic": false,
+              "hasThrowStatement": false,
+              "paramsLikelyUnused": false,
+              "lowComplexityProxy": true,
+              "reasons": [
+                "polyglot-structural: lowComplexityProxy"
+              ]
+            },
+            "placeholderAnalysis": {
+              "classification": "definite-legitimate",
+              "confidence": 0,
+              "isPlaceholder": false,
+              "reasons": [
+                "polyglot-structural: lowComplexityProxy",
+                "Low cyclomatic complexity (1)",
+                "Function takes no parameters",
+                "Test file - simple test helpers expected",
+                "Safety cap applied: cheap heuristics only"
+              ],
+              "detectionMethods": {
+                "explicitMarkers": 0,
+                "namingPatterns": 0,
+                "astAnalysis": 16,
+                "commentAnalysis": 0,
+                "contextFilter": -20,
+                "unusedCodeAnalysis": 0,
+                "externalUnusedChecks": 0,
+                "enhancedContext": 0
+              }
+            }
+          },
+          {
+            "name": "LogGamma55",
+            "signature": "[Fact]",
+            "parameters": [],
+            "returnType": "void",
+            "isAsync": false,
+            "calls": [
+              "System.Math.Sqrt",
+              "eng.LogGamma",
+              "Assert.True",
+              "System.Math.Abs",
+              "System.Math.Log"
+            ],
+            "startLine": 130,
+            "endLine": 137,
+            "structuralSignals": {
+              "emptyOrTrivialBody": false,
+              "constantOrIdentityReturn": false,
+              "stubThrowOrPanic": false,
+              "hasThrowStatement": false,
+              "paramsLikelyUnused": false,
+              "lowComplexityProxy": true,
+              "reasons": [
+                "polyglot-structural: lowComplexityProxy"
+              ]
+            },
+            "placeholderAnalysis": {
+              "classification": "definite-legitimate",
+              "confidence": 0,
+              "isPlaceholder": false,
+              "reasons": [
+                "polyglot-structural: lowComplexityProxy",
+                "Low cyclomatic complexity (1)",
+                "Function takes no parameters",
+                "Test file - simple test helpers expected",
+                "Safety cap applied: cheap heuristics only"
+              ],
+              "detectionMethods": {
+                "explicitMarkers": 0,
+                "namingPatterns": 0,
+                "astAnalysis": 16,
+                "commentAnalysis": 0,
+                "contextFilter": -20,
+                "unusedCodeAnalysis": 0,
+                "externalUnusedChecks": 0,
+                "enhancedContext": 0
+              }
+            }
+          },
+          {
+            "name": "ParabolicLevelRange45",
+            "signature": "[Fact]",
+            "parameters": [],
+            "returnType": "void",
+            "isAsync": false,
+            "calls": [
+              "pEng.VacuumBallistics.RangeOnLevel",
+              "System.Math.Sin",
+              "Assert.True",
+              "System.Math.Abs"
+            ],
+            "startLine": 139,
+            "endLine": 148,
+            "structuralSignals": {
+              "emptyOrTrivialBody": false,
+              "constantOrIdentityReturn": false,
+              "stubThrowOrPanic": false,
+              "hasThrowStatement": false,
+              "paramsLikelyUnused": false,
+              "lowComplexityProxy": true,
+              "reasons": [
+                "polyglot-structural: lowComplexityProxy"
+              ]
+            },
+            "placeholderAnalysis": {
+              "classification": "definite-legitimate",
+              "confidence": 0,
+              "isPlaceholder": false,
+              "reasons": [
+                "polyglot-structural: lowComplexityProxy",
+                "Low cyclomatic complexity (1)",
+                "Function takes no parameters",
+                "Test file - simple test helpers expected",
+                "Safety cap applied: cheap heuristics only"
+              ],
+              "detectionMethods": {
+                "explicitMarkers": 0,
+                "namingPatterns": 0,
+                "astAnalysis": 16,
+                "commentAnalysis": 0,
+                "contextFilter": -20,
+                "unusedCodeAnalysis": 0,
+                "externalUnusedChecks": 0,
+                "enhancedContext": 0
+              }
+            }
+          },
+          {
+            "name": "GEarthConstant",
+            "signature": "[Fact]",
+            "parameters": [],
+            "returnType": "void",
+            "isAsync": false,
+            "calls": [
+              "Assert.True",
+              "System.Math.Abs"
+            ],
+            "startLine": 150,
+            "endLine": 154,
+            "structuralSignals": {
+              "emptyOrTrivialBody": false,
+              "constantOrIdentityReturn": false,
+              "stubThrowOrPanic": false,
+              "hasThrowStatement": false,
+              "paramsLikelyUnused": false,
+              "lowComplexityProxy": true,
+              "reasons": [
+                "polyglot-structural: lowComplexityProxy"
+              ]
+            },
+            "placeholderAnalysis": {
+              "classification": "definite-legitimate",
+              "confidence": 0,
+              "isPlaceholder": false,
+              "reasons": [
+                "polyglot-structural: lowComplexityProxy",
+                "Low cyclomatic complexity (1)",
+                "Function takes no parameters",
+                "Test file - simple test helpers expected",
+                "Safety cap applied: cheap heuristics only"
+              ],
+              "detectionMethods": {
+                "explicitMarkers": 0,
+                "namingPatterns": 0,
+                "astAnalysis": 16,
+                "commentAnalysis": 0,
+                "contextFilter": -20,
+                "unusedCodeAnalysis": 0,
+                "externalUnusedChecks": 0,
+                "enhancedContext": 0
+              }
+            }
+          },
+          {
+            "name": "DHONoDamping",
+            "signature": "[Fact]",
+            "parameters": [],
+            "returnType": "void",
+            "isAsync": false,
+            "calls": [
+              "d.Response",
+              "Assert.True",
+              "System.Math.Abs",
+              "System.Math.Cos"
+            ],
+            "startLine": 156,
+            "endLine": 162,
+            "structuralSignals": {
+              "emptyOrTrivialBody": false,
+              "constantOrIdentityReturn": false,
+              "stubThrowOrPanic": false,
+              "hasThrowStatement": false,
+              "paramsLikelyUnused": false,
+              "lowComplexityProxy": true,
+              "reasons": [
+                "polyglot-structural: lowComplexityProxy"
+              ]
+            },
+            "placeholderAnalysis": {
+              "classification": "definite-legitimate",
+              "confidence": 0,
+              "isPlaceholder": false,
+              "reasons": [
+                "polyglot-structural: lowComplexityProxy",
+                "Low cyclomatic complexity (1)",
+                "Function takes no parameters",
+                "Test file - simple test helpers expected",
+                "Safety cap applied: cheap heuristics only"
+              ],
+              "detectionMethods": {
+                "explicitMarkers": 0,
+                "namingPatterns": 0,
+                "astAnalysis": 16,
+                "commentAnalysis": 0,
+                "contextFilter": -20,
+                "unusedCodeAnalysis": 0,
+                "externalUnusedChecks": 0,
+                "enhancedContext": 0
+              }
+            }
+          },
+          {
+            "name": "Centripetal",
+            "signature": "[Fact]",
+            "parameters": [],
+            "returnType": "void",
+            "isAsync": false,
+            "calls": [
+              "pEng.UniformCircle.Ac",
+              "Assert.True",
+              "System.Math.Abs"
+            ],
+            "startLine": 164,
+            "endLine": 170,
+            "structuralSignals": {
+              "emptyOrTrivialBody": false,
+              "constantOrIdentityReturn": false,
+              "stubThrowOrPanic": false,
+              "hasThrowStatement": false,
+              "paramsLikelyUnused": false,
+              "lowComplexityProxy": true,
+              "reasons": [
+                "polyglot-structural: lowComplexityProxy"
+              ]
+            },
+            "placeholderAnalysis": {
+              "classification": "definite-legitimate",
+              "confidence": 0,
+              "isPlaceholder": false,
+              "reasons": [
+                "polyglot-structural: lowComplexityProxy",
+                "Low cyclomatic complexity (1)",
+                "Function takes no parameters",
+                "Test file - simple test helpers expected",
+                "Safety cap applied: cheap heuristics only"
+              ],
+              "detectionMethods": {
+                "explicitMarkers": 0,
+                "namingPatterns": 0,
+                "astAnalysis": 16,
+                "commentAnalysis": 0,
+                "contextFilter": -20,
+                "unusedCodeAnalysis": 0,
+                "externalUnusedChecks": 0,
+                "enhancedContext": 0
+              }
+            }
+          },
+          {
+            "name": "RelativisticKAndGamma",
+            "signature": "[Fact]",
+            "parameters": [],
+            "returnType": "void",
+            "isAsync": false,
+            "calls": [
+              "pEng.Relativity.KineticEnergy",
+              "pEng.Relativity.Gamma",
+              "Assert.True"
+            ],
+            "startLine": 172,
+            "endLine": 181,
+            "structuralSignals": {
+              "emptyOrTrivialBody": false,
+              "constantOrIdentityReturn": false,
+              "stubThrowOrPanic": false,
+              "hasThrowStatement": false,
+              "paramsLikelyUnused": false,
+              "lowComplexityProxy": true,
+              "reasons": [
+                "polyglot-structural: lowComplexityProxy"
+              ]
+            },
+            "placeholderAnalysis": {
+              "classification": "definite-legitimate",
+              "confidence": 0,
+              "isPlaceholder": false,
+              "reasons": [
+                "polyglot-structural: lowComplexityProxy",
+                "Low cyclomatic complexity (1)",
+                "Function takes no parameters",
+                "Test file - simple test helpers expected",
+                "Safety cap applied: cheap heuristics only"
+              ],
+              "detectionMethods": {
+                "explicitMarkers": 0,
+                "namingPatterns": 0,
+                "astAnalysis": 16,
+                "commentAnalysis": 0,
+                "contextFilter": -20,
+                "unusedCodeAnalysis": 0,
+                "externalUnusedChecks": 0,
+                "enhancedContext": 0
+              }
+            }
+          },
+          {
+            "name": "LinearDragIntegratorRuns",
+            "signature": "[Fact]",
+            "parameters": [],
+            "returnType": "void",
+            "isAsync": false,
+            "calls": [
+              "d.Integrate",
+              "Assert.True"
+            ],
+            "startLine": 183,
+            "endLine": 190,
+            "structuralSignals": {
+              "emptyOrTrivialBody": false,
+              "constantOrIdentityReturn": false,
+              "stubThrowOrPanic": false,
+              "hasThrowStatement": false,
+              "paramsLikelyUnused": false,
+              "lowComplexityProxy": true,
+              "reasons": [
+                "polyglot-structural: lowComplexityProxy"
+              ]
+            },
+            "placeholderAnalysis": {
+              "classification": "definite-legitimate",
+              "confidence": 0,
+              "isPlaceholder": false,
+              "reasons": [
+                "polyglot-structural: lowComplexityProxy",
+                "Low cyclomatic complexity (1)",
+                "Function takes no parameters",
+                "Test file - simple test helpers expected",
+                "Safety cap applied: cheap heuristics only"
+              ],
+              "detectionMethods": {
+                "explicitMarkers": 0,
+                "namingPatterns": 0,
+                "astAnalysis": 16,
+                "commentAnalysis": 0,
+                "contextFilter": -20,
+                "unusedCodeAnalysis": 0,
+                "externalUnusedChecks": 0,
+                "enhancedContext": 0
+              }
+            }
+          },
+          {
+            "name": "Rms1DEquipartition",
+            "signature": "[Fact]",
+            "parameters": [],
+            "returnType": "void",
+            "isAsync": false,
+            "calls": [
+              "pEng.RmsSpeedFrom1DEquipartition",
+              "System.Math.Sqrt",
+              "Assert.True",
+              "System.Math.Abs"
+            ],
+            "startLine": 192,
+            "endLine": 200,
+            "structuralSignals": {
+              "emptyOrTrivialBody": false,
+              "constantOrIdentityReturn": false,
+              "stubThrowOrPanic": false,
+              "hasThrowStatement": false,
+              "paramsLikelyUnused": false,
+              "lowComplexityProxy": true,
+              "reasons": [
+                "polyglot-structural: lowComplexityProxy"
+              ]
+            },
+            "placeholderAnalysis": {
+              "classification": "definite-legitimate",
+              "confidence": 0,
+              "isPlaceholder": false,
+              "reasons": [
+                "polyglot-structural: lowComplexityProxy",
+                "Low cyclomatic complexity (1)",
+                "Function takes no parameters",
+                "Test file - simple test helpers expected",
+                "Safety cap applied: cheap heuristics only"
+              ],
+              "detectionMethods": {
+                "explicitMarkers": 0,
+                "namingPatterns": 0,
+                "astAnalysis": 16,
+                "commentAnalysis": 0,
+                "contextFilter": -20,
+                "unusedCodeAnalysis": 0,
+                "externalUnusedChecks": 0,
+                "enhancedContext": 0
+              }
+            }
+          }
+        ],
+        "classes": [
+          {
+            "name": "VerifyTests",
+            "methods": [
+              {
+                "name": "RealPolynomial_X2Minus1_At1",
+                "signature": "[Fact]",
+                "parameters": [],
+                "returnType": "void",
+                "isAsync": false,
+                "isGenerator": false,
+                "calls": [
+                  "Assert.True",
+                  "System.Math.Abs",
+                  "p1.Evaluate"
+                ],
+                "startLine": 15,
+                "endLine": 20,
+                "structuralSignals": {
+                  "emptyOrTrivialBody": false,
+                  "constantOrIdentityReturn": false,
+                  "stubThrowOrPanic": false,
+                  "hasThrowStatement": false,
+                  "paramsLikelyUnused": false,
+                  "lowComplexityProxy": true,
+                  "reasons": [
+                    "polyglot-structural: lowComplexityProxy"
+                  ]
+                }
+              },
+              {
+                "name": "Simpson_Integral_0_2_XSquared",
+                "signature": "[Fact]",
+                "parameters": [],
+                "returnType": "void",
+                "isAsync": false,
+                "isGenerator": false,
+                "calls": [
+                  "eng.SimpsonDefinite",
+                  "Assert.True",
+                  "System.Math.Abs"
+                ],
+                "startLine": 22,
+                "endLine": 28,
+                "structuralSignals": {
+                  "emptyOrTrivialBody": false,
+                  "constantOrIdentityReturn": false,
+                  "stubThrowOrPanic": false,
+                  "hasThrowStatement": false,
+                  "paramsLikelyUnused": false,
+                  "lowComplexityProxy": true,
+                  "reasons": [
+                    "polyglot-structural: lowComplexityProxy"
+                  ]
+                }
+              },
+              {
+                "name": "Bisection_Cubic",
+                "signature": "[Fact]",
+                "parameters": [],
+                "returnType": "void",
+                "isAsync": false,
+                "isGenerator": false,
+                "calls": [
+                  "eng.Bisection",
+                  "Assert.True",
+                  "System.Math.Abs"
+                ],
+                "startLine": 30,
+                "endLine": 36,
+                "structuralSignals": {
+                  "emptyOrTrivialBody": false,
+                  "constantOrIdentityReturn": false,
+                  "stubThrowOrPanic": false,
+                  "hasThrowStatement": false,
+                  "paramsLikelyUnused": false,
+                  "lowComplexityProxy": true,
+                  "reasons": [
+                    "polyglot-structural: lowComplexityProxy"
+                  ]
+                }
+              },
+              {
+                "name": "PolyDerivative_DegDrops",
+                "signature": "[Fact]",
+                "parameters": [],
+                "returnType": "void",
+                "isAsync": false,
+                "isGenerator": false,
+                "calls": [
+                  "p.Derivative",
+                  "Assert.Equal"
+                ],
+                "startLine": 38,
+                "endLine": 44,
+                "structuralSignals": {
+                  "emptyOrTrivialBody": false,
+                  "constantOrIdentityReturn": false,
+                  "stubThrowOrPanic": false,
+                  "hasThrowStatement": false,
+                  "paramsLikelyUnused": false,
+                  "lowComplexityProxy": true,
+                  "reasons": [
+                    "polyglot-structural: lowComplexityProxy"
+                  ]
+                }
+              },
+              {
+                "name": "PolyMultiply",
+                "signature": "[Fact]",
+                "parameters": [],
+                "returnType": "void",
+                "isAsync": false,
+                "isGenerator": false,
+                "calls": [
+                  "a.Multiply",
+                  "Assert.Equal",
+                  "Assert.True",
+                  "System.Math.Abs",
+                  "p.Evaluate"
+                ],
+                "startLine": 46,
+                "endLine": 54,
+                "structuralSignals": {
+                  "emptyOrTrivialBody": false,
+                  "constantOrIdentityReturn": false,
+                  "stubThrowOrPanic": false,
+                  "hasThrowStatement": false,
+                  "paramsLikelyUnused": false,
+                  "lowComplexityProxy": true,
+                  "reasons": [
+                    "polyglot-structural: lowComplexityProxy"
+                  ]
+                }
+              },
+              {
+                "name": "Cardano_X3MinusX",
+                "signature": "[Fact]",
+                "parameters": [],
+                "returnType": "void",
+                "isAsync": false,
+                "isGenerator": false,
+                "calls": [
+                  "eng.RealRootsCubic",
+                  "Assert.Equal",
+                  "Assert.Contains",
+                  "System.Math.Abs"
+                ],
+                "startLine": 56,
+                "endLine": 65,
+                "structuralSignals": {
+                  "emptyOrTrivialBody": false,
+                  "constantOrIdentityReturn": false,
+                  "stubThrowOrPanic": false,
+                  "hasThrowStatement": false,
+                  "paramsLikelyUnused": false,
+                  "lowComplexityProxy": true,
+                  "reasons": [
+                    "polyglot-structural: lowComplexityProxy"
+                  ]
+                }
+              },
+              {
+                "name": "QuarticScanRoots",
+                "signature": "[Fact]",
+                "parameters": [],
+                "returnType": "void",
+                "isAsync": false,
+                "isGenerator": false,
+                "calls": [
+                  "DemoPolynomials.MakeDemoQuarticForRoots",
+                  "eng.ScanRealRootsOnInterval",
+                  "Assert.True",
+                  "targets.All",
+                  "roots.Any",
+                  "System.Math.Abs"
+                ],
+                "startLine": 67,
+                "endLine": 75,
+                "structuralSignals": {
+                  "emptyOrTrivialBody": false,
+                  "constantOrIdentityReturn": false,
+                  "stubThrowOrPanic": false,
+                  "hasThrowStatement": false,
+                  "paramsLikelyUnused": false,
+                  "lowComplexityProxy": true,
+                  "reasons": [
+                    "polyglot-structural: lowComplexityProxy"
+                  ]
+                }
+              },
+              {
+                "name": "Erf0ApproxZero",
+                "signature": "[Fact]",
+                "parameters": [],
+                "returnType": "void",
+                "isAsync": false,
+                "isGenerator": false,
+                "calls": [
+                  "Assert.True",
+                  "System.Math.Abs",
+                  "eng.Erf"
+                ],
+                "startLine": 77,
+                "endLine": 82,
+                "structuralSignals": {
+                  "emptyOrTrivialBody": false,
+                  "constantOrIdentityReturn": false,
+                  "stubThrowOrPanic": false,
+                  "hasThrowStatement": false,
+                  "paramsLikelyUnused": false,
+                  "lowComplexityProxy": true,
+                  "reasons": [
+                    "polyglot-structural: lowComplexityProxy"
+                  ]
+                }
+              },
+              {
+                "name": "Erf1Approx",
+                "signature": "[Fact]",
+                "parameters": [],
+                "returnType": "void",
+                "isAsync": false,
+                "isGenerator": false,
+                "calls": [
+                  "Assert.True",
+                  "System.Math.Abs",
+                  "eng.Erf"
+                ],
+                "startLine": 84,
+                "endLine": 89,
+                "structuralSignals": {
+                  "emptyOrTrivialBody": false,
+                  "constantOrIdentityReturn": false,
+                  "stubThrowOrPanic": false,
+                  "hasThrowStatement": false,
+                  "paramsLikelyUnused": false,
+                  "lowComplexityProxy": true,
+                  "reasons": [
+                    "polyglot-structural: lowComplexityProxy"
+                  ]
+                }
+              },
+              {
+                "name": "ClenshawChebyshev",
+                "signature": "[Fact]",
+                "parameters": [],
+                "returnType": "void",
+                "isAsync": false,
+                "isGenerator": false,
+                "calls": [
+                  "eng.ClenshawChebyshevT",
+                  "Assert.True",
+                  "System.Math.Abs"
+                ],
+                "startLine": 91,
+                "endLine": 104,
+                "structuralSignals": {
+                  "emptyOrTrivialBody": false,
+                  "constantOrIdentityReturn": false,
+                  "stubThrowOrPanic": false,
+                  "hasThrowStatement": false,
+                  "paramsLikelyUnused": false,
+                  "lowComplexityProxy": true,
+                  "reasons": [
+                    "polyglot-structural: lowComplexityProxy"
+                  ]
+                }
+              },
+              {
+                "name": "Solve3x3Diagonal",
+                "signature": "[Fact]",
+                "parameters": [],
+                "returnType": "void",
+                "isAsync": false,
+                "isGenerator": false,
+                "calls": [
+                  "eng.Solve3x3",
+                  "Assert.True",
+                  "System.Math.Abs"
+                ],
+                "startLine": 106,
+                "endLine": 120,
+                "structuralSignals": {
+                  "emptyOrTrivialBody": false,
+                  "constantOrIdentityReturn": false,
+                  "stubThrowOrPanic": false,
+                  "hasThrowStatement": false,
+                  "paramsLikelyUnused": false,
+                  "lowComplexityProxy": true,
+                  "reasons": [
+                    "polyglot-structural: lowComplexityProxy"
+                  ]
+                }
+              },
+              {
+                "name": "RK4Exp",
+                "signature": "[Fact]",
+                "parameters": [],
+                "returnType": "void",
+                "isAsync": false,
+                "isGenerator": false,
+                "calls": [
+                  "eng.RungeKutta4",
+                  "Assert.True",
+                  "System.Math.Abs",
+                  "System.Math.Exp"
+                ],
+                "startLine": 122,
+                "endLine": 128,
+                "structuralSignals": {
+                  "emptyOrTrivialBody": false,
+                  "constantOrIdentityReturn": false,
+                  "stubThrowOrPanic": false,
+                  "hasThrowStatement": false,
+                  "paramsLikelyUnused": false,
+                  "lowComplexityProxy": true,
+                  "reasons": [
+                    "polyglot-structural: lowComplexityProxy"
+                  ]
+                }
+              },
+              {
+                "name": "LogGamma55",
+                "signature": "[Fact]",
+                "parameters": [],
+                "returnType": "void",
+                "isAsync": false,
+                "isGenerator": false,
+                "calls": [
+                  "System.Math.Sqrt",
+                  "eng.LogGamma",
+                  "Assert.True",
+                  "System.Math.Abs",
+                  "System.Math.Log"
+                ],
+                "startLine": 130,
+                "endLine": 137,
+                "structuralSignals": {
+                  "emptyOrTrivialBody": false,
+                  "constantOrIdentityReturn": false,
+                  "stubThrowOrPanic": false,
+                  "hasThrowStatement": false,
+                  "paramsLikelyUnused": false,
+                  "lowComplexityProxy": true,
+                  "reasons": [
+                    "polyglot-structural: lowComplexityProxy"
+                  ]
+                }
+              },
+              {
+                "name": "ParabolicLevelRange45",
+                "signature": "[Fact]",
+                "parameters": [],
+                "returnType": "void",
+                "isAsync": false,
+                "isGenerator": false,
+                "calls": [
+                  "pEng.VacuumBallistics.RangeOnLevel",
+                  "System.Math.Sin",
+                  "Assert.True",
+                  "System.Math.Abs"
+                ],
+                "startLine": 139,
+                "endLine": 148,
+                "structuralSignals": {
+                  "emptyOrTrivialBody": false,
+                  "constantOrIdentityReturn": false,
+                  "stubThrowOrPanic": false,
+                  "hasThrowStatement": false,
+                  "paramsLikelyUnused": false,
+                  "lowComplexityProxy": true,
+                  "reasons": [
+                    "polyglot-structural: lowComplexityProxy"
+                  ]
+                }
+              },
+              {
+                "name": "GEarthConstant",
+                "signature": "[Fact]",
+                "parameters": [],
+                "returnType": "void",
+                "isAsync": false,
+                "isGenerator": false,
+                "calls": [
+                  "Assert.True",
+                  "System.Math.Abs"
+                ],
+                "startLine": 150,
+                "endLine": 154,
+                "structuralSignals": {
+                  "emptyOrTrivialBody": false,
+                  "constantOrIdentityReturn": false,
+                  "stubThrowOrPanic": false,
+                  "hasThrowStatement": false,
+                  "paramsLikelyUnused": false,
+                  "lowComplexityProxy": true,
+                  "reasons": [
+                    "polyglot-structural: lowComplexityProxy"
+                  ]
+                }
+              },
+              {
+                "name": "DHONoDamping",
+                "signature": "[Fact]",
+                "parameters": [],
+                "returnType": "void",
+                "isAsync": false,
+                "isGenerator": false,
+                "calls": [
+                  "d.Response",
+                  "Assert.True",
+                  "System.Math.Abs",
+                  "System.Math.Cos"
+                ],
+                "startLine": 156,
+                "endLine": 162,
+                "structuralSignals": {
+                  "emptyOrTrivialBody": false,
+                  "constantOrIdentityReturn": false,
+                  "stubThrowOrPanic": false,
+                  "hasThrowStatement": false,
+                  "paramsLikelyUnused": false,
+                  "lowComplexityProxy": true,
+                  "reasons": [
+                    "polyglot-structural: lowComplexityProxy"
+                  ]
+                }
+              },
+              {
+                "name": "Centripetal",
+                "signature": "[Fact]",
+                "parameters": [],
+                "returnType": "void",
+                "isAsync": false,
+                "isGenerator": false,
+                "calls": [
+                  "pEng.UniformCircle.Ac",
+                  "Assert.True",
+                  "System.Math.Abs"
+                ],
+                "startLine": 164,
+                "endLine": 170,
+                "structuralSignals": {
+                  "emptyOrTrivialBody": false,
+                  "constantOrIdentityReturn": false,
+                  "stubThrowOrPanic": false,
+                  "hasThrowStatement": false,
+                  "paramsLikelyUnused": false,
+                  "lowComplexityProxy": true,
+                  "reasons": [
+                    "polyglot-structural: lowComplexityProxy"
+                  ]
+                }
+              },
+              {
+                "name": "RelativisticKAndGamma",
+                "signature": "[Fact]",
+                "parameters": [],
+                "returnType": "void",
+                "isAsync": false,
+                "isGenerator": false,
+                "calls": [
+                  "pEng.Relativity.KineticEnergy",
+                  "pEng.Relativity.Gamma",
+                  "Assert.True"
+                ],
+                "startLine": 172,
+                "endLine": 181,
+                "structuralSignals": {
+                  "emptyOrTrivialBody": false,
+                  "constantOrIdentityReturn": false,
+                  "stubThrowOrPanic": false,
+                  "hasThrowStatement": false,
+                  "paramsLikelyUnused": false,
+                  "lowComplexityProxy": true,
+                  "reasons": [
+                    "polyglot-structural: lowComplexityProxy"
+                  ]
+                }
+              },
+              {
+                "name": "LinearDragIntegratorRuns",
+                "signature": "[Fact]",
+                "parameters": [],
+                "returnType": "void",
+                "isAsync": false,
+                "isGenerator": false,
+                "calls": [
+                  "d.Integrate",
+                  "Assert.True"
+                ],
+                "startLine": 183,
+                "endLine": 190,
+                "structuralSignals": {
+                  "emptyOrTrivialBody": false,
+                  "constantOrIdentityReturn": false,
+                  "stubThrowOrPanic": false,
+                  "hasThrowStatement": false,
+                  "paramsLikelyUnused": false,
+                  "lowComplexityProxy": true,
+                  "reasons": [
+                    "polyglot-structural: lowComplexityProxy"
+                  ]
+                }
+              },
+              {
+                "name": "Rms1DEquipartition",
+                "signature": "[Fact]",
+                "parameters": [],
+                "returnType": "void",
+                "isAsync": false,
+                "isGenerator": false,
+                "calls": [
+                  "pEng.RmsSpeedFrom1DEquipartition",
+                  "System.Math.Sqrt",
+                  "Assert.True",
+                  "System.Math.Abs"
+                ],
+                "startLine": 192,
+                "endLine": 200,
+                "structuralSignals": {
+                  "emptyOrTrivialBody": false,
+                  "constantOrIdentityReturn": false,
+                  "stubThrowOrPanic": false,
+                  "hasThrowStatement": false,
+                  "paramsLikelyUnused": false,
+                  "lowComplexityProxy": true,
+                  "reasons": [
+                    "polyglot-structural: lowComplexityProxy"
+                  ]
+                }
+              },
+              {
+                "name": "MolarMassH2O",
+                "signature": "[Fact]",
+                "parameters": [],
+                "returnType": "void",
+                "isAsync": false,
+                "isGenerator": false,
+                "calls": [
+                  "chemEng.MolarMass",
+                  "Assert.True",
+                  "System.Math.Abs"
+                ],
+                "startLine": 202,
+                "endLine": 208,
+                "structuralSignals": {
+                  "emptyOrTrivialBody": false,
+                  "constantOrIdentityReturn": false,
+                  "stubThrowOrPanic": false,
+                  "hasThrowStatement": false,
+                  "paramsLikelyUnused": false,
+                  "lowComplexityProxy": true,
+                  "reasons": [
+                    "polyglot-structural: lowComplexityProxy"
+                  ]
+                }
+              },
+              {
+                "name": "MolarMassCaOH2",
+                "signature": "[Fact]",
+                "parameters": [],
+                "returnType": "void",
+                "isAsync": false,
+                "isGenerator": false,
+                "calls": [
+                  "chemEng.MolarMass",
+                  "Assert.True"
+                ],
+                "startLine": 210,
+                "endLine": 216,
+                "structuralSignals": {
+                  "emptyOrTrivialBody": false,
+                  "constantOrIdentityReturn": false,
+                  "stubThrowOrPanic": false,
+                  "hasThrowStatement": false,
+                  "paramsLikelyUnused": false,
+                  "lowComplexityProxy": true,
+                  "reasons": [
+                    "polyglot-structural: lowComplexityProxy"
+                  ]
+                }
+              },
+              {
+                "name": "IdealGasNApprox1",
+                "signature": "[Fact]",
+                "parameters": [],
+                "returnType": "void",
+                "isAsync": false,
+                "isGenerator": false,
+                "calls": [
+                  "chemEng.Gas.IdealMoles",
+                  "Assert.True"
+                ],
+                "startLine": 218,
+                "endLine": 224,
+                "structuralSignals": {
+                  "emptyOrTrivialBody": false,
+                  "constantOrIdentityReturn": false,
+                  "stubThrowOrPanic": false,
+                  "hasThrowStatement": false,
+                  "paramsLikelyUnused": false,
+                  "lowComplexityProxy": true,
+                  "reasons": [
+                    "polyglot-structural: lowComplexityProxy"
+                  ]
+                }
+              },
+              {
+                "name": "Rms1DMatchesSqrtRTOverM",
+                "signature": "[Fact]",
+                "parameters": [],
+                "returnType": "void",
+                "isAsync": false,
+                "isGenerator": false,
+                "calls": [
+                  "chemEng.Gas.Rms1D",
+                  "System.Math.Sqrt",
+                  "Assert.True",
+                  "System.Math.Abs"
+                ],
+                "startLine": 226,
+                "endLine": 235,
+                "structuralSignals": {
+                  "emptyOrTrivialBody": false,
+                  "constantOrIdentityReturn": false,
+                  "stubThrowOrPanic": false,
+                  "hasThrowStatement": false,
+                  "paramsLikelyUnused": false,
+                  "lowComplexityProxy": true,
+                  "reasons": [
+                    "polyglot-structural: lowComplexityProxy"
+                  ]
+                }
+              },
+              {
+                "name": "WeakAcidPH",
+                "signature": "[Fact]",
+                "parameters": [],
+                "returnType": "void",
+                "isAsync": false,
+                "isGenerator": false,
+                "calls": [
+                  "chemEng.Solution.WeakAcidHPlusApprox",
+                  "chemEng.Solution.PHFromH3OPlusMolarity",
+                  "Assert.True"
+                ],
+                "startLine": 237,
+                "endLine": 244,
+                "structuralSignals": {
+                  "emptyOrTrivialBody": false,
+                  "constantOrIdentityReturn": false,
+                  "stubThrowOrPanic": false,
+                  "hasThrowStatement": false,
+                  "paramsLikelyUnused": false,
+                  "lowComplexityProxy": true,
+                  "reasons": [
+                    "polyglot-structural: lowComplexityProxy"
+                  ]
+                }
+              },
+              {
+                "name": "MonoproticTitration",
+                "signature": "[Fact]",
+                "parameters": [],
+                "returnType": "void",
+                "isAsync": false,
+                "isGenerator": false,
+                "calls": [
+                  "chemEng.Solution.MonoproticTitrationScalar",
+                  "Assert.True",
+                  "System.Math.Abs"
+                ],
+                "startLine": 246,
+                "endLine": 252,
+                "structuralSignals": {
+                  "emptyOrTrivialBody": false,
+                  "constantOrIdentityReturn": false,
+                  "stubThrowOrPanic": false,
+                  "hasThrowStatement": false,
+                  "paramsLikelyUnused": false,
+                  "lowComplexityProxy": true,
+                  "reasons": [
+                    "polyglot-structural: lowComplexityProxy"
+                  ]
+                }
+              },
+              {
+                "name": "LimitingReagent",
+                "signature": "[Fact]",
+                "parameters": [],
+                "returnType": "void",
+                "isAsync": false,
+                "isGenerator": false,
+                "calls": [
+                  "rx.LimitReactantMoles",
+                  "Assert.Equal",
+                  "Assert.True",
+                  "System.Math.Abs"
+                ],
+                "startLine": 254,
+                "endLine": 263,
+                "structuralSignals": {
+                  "emptyOrTrivialBody": false,
+                  "constantOrIdentityReturn": false,
+                  "stubThrowOrPanic": false,
+                  "hasThrowStatement": false,
+                  "paramsLikelyUnused": false,
+                  "lowComplexityProxy": true,
+                  "reasons": [
+                    "polyglot-structural: lowComplexityProxy"
+                  ]
+                }
+              },
+              {
+                "name": "VanDerWaalsP",
+                "signature": "[Fact]",
+                "parameters": [],
+                "returnType": "void",
+                "isAsync": false,
+                "isGenerator": false,
+                "calls": [
+                  "chemEng.Gas.VanDerWaalsPressure1mol",
+                  "Assert.True"
+                ],
+                "startLine": 265,
+                "endLine": 271,
+                "structuralSignals": {
+                  "emptyOrTrivialBody": false,
+                  "constantOrIdentityReturn": false,
+                  "stubThrowOrPanic": false,
+                  "hasThrowStatement": false,
+                  "paramsLikelyUnused": false,
+                  "lowComplexityProxy": true,
+                  "reasons": [
+                    "polyglot-structural: lowComplexityProxy"
+                  ]
+                }
+              },
+              {
+                "name": "CrossDomainLab_RunAll_Completes",
+                "signature": "[Fact]",
+                "parameters": [],
+                "returnType": "void",
+                "isAsync": false,
+                "isGenerator": false,
+                "calls": [
+                  "lab.RunAll",
+                  "Assert.Equal"
+                ],
+                "startLine": 273,
+                "endLine": 279,
+                "structuralSignals": {
+                  "emptyOrTrivialBody": false,
+                  "constantOrIdentityReturn": false,
+                  "stubThrowOrPanic": false,
+                  "hasThrowStatement": false,
+                  "paramsLikelyUnused": false,
+                  "lowComplexityProxy": true,
+                  "reasons": [
+                    "polyglot-structural: lowComplexityProxy"
+                  ]
+                }
+              },
+              {
+                "name": "CrossDomainLab_LogNonEmpty",
+                "signature": "[Fact]",
+                "parameters": [],
+                "returnType": "void",
+                "isAsync": false,
+                "isGenerator": false,
+                "calls": [
+                  "lab.RunAll",
+                  "Assert.True"
+                ],
+                "startLine": 281,
+                "endLine": 287,
+                "structuralSignals": {
+                  "emptyOrTrivialBody": false,
+                  "constantOrIdentityReturn": false,
+                  "stubThrowOrPanic": false,
+                  "hasThrowStatement": false,
+                  "paramsLikelyUnused": false,
+                  "lowComplexityProxy": true,
+                  "reasons": [
+                    "polyglot-structural: lowComplexityProxy"
+                  ]
+                }
+              }
+            ]
+          }
+        ],
+        "keyElementsInFile": [
+          {
+            "name": "RealPolynomial_X2Minus1_At1",
+            "type": "function",
+            "signature": "[Fact]"
+          },
+          {
+            "name": "Simpson_Integral_0_2_XSquared",
+            "type": "function",
+            "signature": "[Fact]"
+          },
+          {
+            "name": "Bisection_Cubic",
+            "type": "function",
+            "signature": "[Fact]"
+          },
+          {
+            "name": "PolyDerivative_DegDrops",
+            "type": "function",
+            "signature": "[Fact]"
+          },
+          {
+            "name": "PolyMultiply",
+            "type": "function",
+            "signature": "[Fact]"
+          },
+          {
+            "name": "Cardano_X3MinusX",
+            "type": "function",
+            "signature": "[Fact]"
+          },
+          {
+            "name": "QuarticScanRoots",
+            "type": "function",
+            "signature": "[Fact]"
+          },
+          {
+            "name": "Erf0ApproxZero",
+            "type": "function",
+            "signature": "[Fact]"
+          },
+          {
+            "name": "Erf1Approx",
+            "type": "function",
+            "signature": "[Fact]"
+          },
+          {
+            "name": "ClenshawChebyshev",
+            "type": "function",
+            "signature": "[Fact]"
+          },
+          {
+            "name": "Solve3x3Diagonal",
+            "type": "function",
+            "signature": "[Fact]"
+          },
+          {
+            "name": "RK4Exp",
+            "type": "function",
+            "signature": "[Fact]"
+          },
+          {
+            "name": "LogGamma55",
+            "type": "function",
+            "signature": "[Fact]"
+          },
+          {
+            "name": "ParabolicLevelRange45",
+            "type": "function",
+            "signature": "[Fact]"
+          },
+          {
+            "name": "GEarthConstant",
+            "type": "function",
+            "signature": "[Fact]"
+          },
+          {
+            "name": "DHONoDamping",
+            "type": "function",
+            "signature": "[Fact]"
+          },
+          {
+            "name": "Centripetal",
+            "type": "function",
+            "signature": "[Fact]"
+          },
+          {
+            "name": "RelativisticKAndGamma",
+            "type": "function",
+            "signature": "[Fact]"
+          },
+          {
+            "name": "LinearDragIntegratorRuns",
+            "type": "function",
+            "signature": "[Fact]"
+          },
+          {
+            "name": "Rms1DEquipartition",
+            "type": "function",
+            "signature": "[Fact]"
+          },
+          {
+            "name": "MolarMassH2O",
+            "type": "function",
+            "signature": "[Fact]"
+          },
+          {
+            "name": "MolarMassCaOH2",
+            "type": "function",
+            "signature": "[Fact]"
+          },
+          {
+            "name": "IdealGasNApprox1",
+            "type": "function",
+            "signature": "[Fact]"
+          },
+          {
+            "name": "Rms1DMatchesSqrtRTOverM",
+            "type": "function",
+            "signature": "[Fact]"
+          },
+          {
+            "name": "WeakAcidPH",
+            "type": "function",
+            "signature": "[Fact]"
+          },
+          {
+            "name": "MonoproticTitration",
+            "type": "function",
+            "signature": "[Fact]"
+          },
+          {
+            "name": "LimitingReagent",
+            "type": "function",
+            "signature": "[Fact]"
+          },
+          {
+            "name": "VanDerWaalsP",
+            "type": "function",
+            "signature": "[Fact]"
+          },
+          {
+            "name": "CrossDomainLab_RunAll_Completes",
+            "type": "function",
+            "signature": "[Fact]"
+          },
+          {
+            "name": "CrossDomainLab_LogNonEmpty",
+            "type": "function",
+            "signature": "[Fact]"
+          },
+          {
+            "name": "VerifyTests",
+            "type": "class",
+            "signature": "class VerifyTests"
+          },
+          {
+            "name": "Avo",
+            "type": "const",
+            "signature": "const Avo"
+          },
+          {
+            "name": "T",
+            "type": "const",
+            "signature": "const T"
+          },
+          {
+            "name": "M",
+            "type": "const",
+            "signature": "const M"
+          }
+        ]
+      }
+    ]
+  }
+}

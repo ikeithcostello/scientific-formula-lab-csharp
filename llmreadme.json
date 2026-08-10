@@ -1,0 +1,69 @@
+{
+  "$metadata": {
+    "generator": {
+      "name": "LLM README Generator",
+      "version": "0.9.8",
+      "description": "Revolutionary hybrid analysis tool delivering intelligent codebase documentation through enhanced AST parsing, complexity metrics, and executive business insights"
+    },
+    "branding": {
+      "creator": "Keith Costello",
+      "company": "Deduplicode Services, Inc.",
+      "website": "https://deduplicode.ai"
+    },
+    "generatedAt": "2026-08-05T04:08:48.919Z",
+    "support": {
+      "email": "support@deduplicode.ai",
+      "contact": "Contact: keith@deduplicode.ai | Support: support@deduplicode.ai"
+    }
+  },
+  "analysisType": "llm-targeted",
+  "version": "2.3.0",
+  "metadata": {
+    "directory": {
+      "name": "scientific-formula-lab-csharp",
+      "path": ".",
+      "purpose": "Enhanced directory analysis of scientific-formula-lab-csharp",
+      "ownKeyElements": []
+    },
+    "subdirectories": [
+      {
+        "name": "src",
+        "relativePath": "src",
+        "purpose": "Enhanced directory analysis of src",
+        "sourcedPurposeFromChild": "Enhanced directory analysis of src",
+        "keyElementsFromChild": []
+      },
+      {
+        "name": "tests",
+        "relativePath": "tests",
+        "purpose": "Enhanced directory analysis of tests",
+        "sourcedPurposeFromChild": "Enhanced directory analysis of tests",
+        "keyElementsFromChild": []
+      }
+    ],
+    "dependencyGraph": {
+      "edges": [],
+      "circularDependencies": []
+    },
+    "files": [],
+    "calls": [],
+    "resolvedProjectDisplayName": "scientific-formula-lab-csharp"
+  },
+  "configuration": {
+    "detectPlaceholders": true,
+    "placeholderConfidence": 40,
+    "placeholderAnalysisLevel": "enhanced",
+    "detailLevel": "standard",
+    "includeComplexity": false,
+    "maxFiles": 2000
+  },
+  "analysisScopeNote": "File counts and statistics reflect files included in this analysis run (after excludes), not necessarily the entire repository.",
+  "readmeSubsetNote": "This analysis aggregates one or more subdirectories; scope is narrower than a full single-root tree run.",
+  "packageFacts": {
+    "packageName": "scientific-formula-lab-csharp",
+    "scripts": {}
+  },
+  "structuredElements": [],
+  "relationships": [],
+  "patterns": []
+}
